@@ -1,0 +1,410 @@
+/* RESET BÁSICO E PADRÕES DO SITE */
+:root {
+    --text-color: #333;
+    --dark-gray: #4a4a4a;
+    --light-gray: #b0b0b0;
+    --background-color: #fff;
+    --brand-red: #FF4E50;
+    --panel-background: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+img,
+video {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--light-gray);
+}
+
+.active-link {
+    color: var(--brand-red) !important;
+}
+
+.menu-link {
+    font-size: 0.96rem;
+    /* 80% do tamanho do logo (1.2rem) */
+}
+
+/* CABEÇALHO SIMPLES */
+.site-header {
+    text-align: center;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.site-header a {
+    margin: 0 0.5rem;
+}
+
+/* A GRADE DE PROJETOS */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 0;
+}
+
+/* CADA ITEM NA GRADE */
+.project-item {
+    display: block;
+    position: relative;
+    /* Necessário para o posicionamento absoluto do texto */
+}
+
+/* CLASSE PARA CONTER A IMAGEM */
+.project-image-wrapper {
+    overflow: hidden;
+    margin-bottom: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* AJUSTE ESPECÍFICO PARA PÁGINA DE PRODUTOS */
+.product-page .project-image-wrapper {
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* BLOCO DE INFORMAÇÕES DO PROJETO */
+.project-info {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    /* Garante que o texto não toque as bordas */
+    opacity: 0;
+    /* Invisível por padrão */
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    /* Permite clicar na imagem através do texto se necessário, mas como está dentro do <a>, o clique funciona no bloco todo */
+    z-index: 2;
+}
+
+.project-title {
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.project-details {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+}
+
+
+/* INTERAÇÃO NO DESKTOP */
+@media (hover: hover) {
+    .project-item:hover .project-image-wrapper {
+        opacity: 0;
+        /* Imagem desaparece no hover */
+    }
+
+    .project-item:hover .project-info {
+        opacity: 1;
+        /* Texto aparece no hover */
+    }
+}
+
+/* DESIGN RESPONSIVO PARA TELAS MENORES */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        /* AJUSTE: Aumentado o espaçamento vertical no mobile */
+        row-gap: 3rem;
+        column-gap: 0rem;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+
+    .project-details {
+        font-size: 0.85rem;
+    }
+
+    /* REVERTER EFEITO DE HOVER NO MOBILE */
+    .project-info {
+        position: static;
+        transform: none;
+        opacity: 1;
+        width: auto;
+        pointer-events: auto;
+        padding-top: 0.2rem;
+    }
+
+    .project-image-wrapper {
+        margin-bottom: 0.2rem;
+        opacity: 1;
+    }
+}
+
+/* CÓDIGO DO RODAPÉ */
+.site-footer {
+    text-align: center;
+    padding: 4rem 5% 4rem 5%;
+    /* Margem branca ao final para respiro */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 0.8rem;
+    /* Reduzido 80% (de 1rem para 0.8rem) */
+    line-height: 1.6;
+}
+
+.site-footer p {
+    margin: 0.5rem 0;
+}
+
+.site-footer a {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.site-footer a:hover {
+    color: var(--brand-red);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.back-to-top-btn {
+    background: none;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+    margin-top: 1rem;
+
+    /* Usability improvements */
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: color 0.3s ease;
+}
+
+.back-to-top-btn:hover {
+    color: var(--brand-red);
+}
+
+
+/* ======================================================
+   ESTILOS ESPECÍFICOS DE PROJETOS (DETALHES)
+   ====================================================== */
+
+.toggle-info-btn {
+    display: none;
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 50px;
+    height: 50px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 50px;
+    cursor: pointer;
+    z-index: 1001;
+    transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.toggle-info-btn.is-open {
+    transform: rotate(45deg);
+}
+
+/* LAYOUT PRINCIPAL (GRID) */
+.project-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+/* PAINEL DE INFORMAÇÕES (COLUNA ESQUERDA) */
+.project-info-panel {
+    grid-column: 1 / 2;
+    /* AJUSTE: Removido 'position: sticky' e 'height: 100vh' para um scroll unificado */
+
+    display: flex;
+    flex-direction: column;
+
+    /* AJUSTE: Aumentada a margem interna da coluna de texto */
+    padding: 5rem;
+}
+
+/* Logo dentro do painel de projetos */
+.project-info-panel .logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+}
+
+.info-content {
+    /* AJUSTE: Removido 'flex-grow: 1' e 'overflow-y: auto'. O conteúdo agora flui naturalmente. */
+}
+
+.project-title-detail {
+    /* AJUSTE: Tamanho da fonte do título reduzido */
+    font-size: 1.2rem;
+    margin-top: 0;
+    line-height: 1.2;
+    /* Melhora a legibilidade de títulos longos */
+}
+
+.project-nav {
+    margin-top: 3rem;
+    /* Aumenta o espaço entre o fim do texto e os links */
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+/* LANGUAGE SWITCHER */
+.lang-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    /* Increased spacing below buttons */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Default state: Unselected buttons are fully opaque / normal color */
+/* Active state: 50% gray as per user request ("botão já vai estar 'apertado' (cinza 50%)") */
+
+.lang-btn.active {
+    color: var(--text-color);
+    opacity: 0.5;
+}
+
+.lang-btn:hover:not(.active) {
+    opacity: 0.5;
+}
+
+/* GALERIA DE IMAGENS (COLUNA DIREITA) */
+.project-gallery {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+
+    /* AJUSTE: Aumentado o padding para um efeito "paspatur" mais pronunciado */
+
+}
+
+.project-gallery-2 {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+
+    /* AJUSTE: Aumentado o padding para um efeito "paspatur" mais pronunciado */
+
+
+}
+
+
+/* ======================================================
+   DESIGN RESPONSIVO PARA TELAS MENORES (PROJETOS)
+   ====================================================== */
+@media (max-width: 900px) {
+
+    .toggle-info-btn {
+        display: none;
+    }
+
+    .project-detail-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .project-info-panel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-width: none;
+        transform: none;
+        box-shadow: none;
+        background-color: var(--background-color);
+        order: -1;
+        /* Garante que o texto fique acima das imagens */
+
+        /* AJUSTE COM 10vw NAS LATERAIS */
+        /* Topo: 4rem | Laterais: 10% da tela | Base: 2rem */
+        padding: 4rem 2rem;
+
+        box-sizing: border-box;
+    }
+
+    .project-gallery,
+    .project-gallery-2 {
+        grid-column: 1 / 2;
+
+        /* Alinhando a galeria com a mesma margem do texto */
+        padding: 0 0vw 3rem 0vw;
+    }
+
+    .info-content {
+        overflow-y: visible;
+    }
+}
