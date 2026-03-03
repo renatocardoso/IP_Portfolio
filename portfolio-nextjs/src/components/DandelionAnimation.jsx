@@ -49,7 +49,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
         mainFontSize: 40,
         menuFontSize: 22,
         desktopLayout: true,
-        transitionDurationFrames: 180,
+        transitionDurationFrames: 140, // Sped up the dandelion animation slightly
         puffStartTime: 0,
         textBoundingBoxes: [],
         mouseIsOverMenuItem: false // Used for cursor targeting
@@ -142,9 +142,58 @@ export default function DandelionAnimation({ onAnimationStart }) {
         p5.resizeCanvas(p5.windowWidth, p5.windowHeight);
         vars.current.dandelionCenter.set(p5.width / 2, p5.height / 2);
         setResponsiveVariables(p5);
-        vars.current.animationState = "initial";
-        vars.current.letters = [];
-        p5.cursor(p5.ARROW);
+
+        // If it's already running, don't reset. Just dynamically transition positions!
+        if (vars.current.animationState === "puffing") {
+            const newPositions = getResponsivePositions(p5, vars);
+            let menuIdx = 0;
+            for (let letter of vars.current.letters) {
+                if (letter.isMenuItem) {
+                    letter.targetPos = newPositions[menuIdx];
+                    if (letter.hasArrived) {
+                        letter.pos.set(letter.targetPos);
+                    }
+                    menuIdx++;
+                }
+            }
+        }
+    };
+
+    const getResponsivePositions = (p5, vars) => {
+        const center = vars.current.dandelionCenter;
+
+        // 0.0 (Mobile 320px) to 1.0 (Desktop 1200px)
+        const layoutFactor = p5.constrain(p5.map(p5.width, 320, 1200, 0, 1), 0, 1);
+
+        // === DESKTOP POSITIONS (Horizontal Spread) ===
+        const deskSpacing = p5.height * 0.2;
+        const deskHorizOffset = p5.width * 0.12;
+        const deskPos = [
+            p5.createVector(center.x - deskHorizOffset - 50, center.y - deskSpacing),
+            p5.createVector(center.x + deskHorizOffset + 50, center.y),
+            // Moved '* Design de Produto' (index 2) more to the left to separate from '* Design Gráfico'
+            p5.createVector(center.x - p5.width * 0.02, center.y + deskSpacing)
+        ];
+
+        // === MOBILE POSITIONS (Vertical Cascade) ===
+        // Move anchors to the far left (15% width) to allow long text like "Design Gráfico" to easily fit inside 320px
+        const mobSpacing = p5.height * 0.15;
+        const mobAnchorX = p5.width * 0.15;
+        const mobPos = [
+            p5.createVector(mobAnchorX, center.y - mobSpacing * 1.5),
+            p5.createVector(mobAnchorX + p5.width * 0.05, center.y), // Just a tiny 5% stagger
+            p5.createVector(mobAnchorX, center.y + mobSpacing * 1.5)
+        ];
+
+        const finalPositions = [];
+        for (let i = 0; i < 3; i++) {
+            finalPositions.push(p5.createVector(
+                p5.lerp(mobPos[i].x, deskPos[i].x, layoutFactor),
+                p5.lerp(mobPos[i].y, deskPos[i].y, layoutFactor)
+            ));
+        }
+
+        return finalPositions;
     };
 
     const mousePressed = (p5) => {
@@ -158,7 +207,9 @@ export default function DandelionAnimation({ onAnimationStart }) {
 
             // If we click anywhere else, or click the root asterisk, reset the animation
             if (p5.mouseX > p5.width / 2 - 100 && p5.mouseX < p5.width / 2 + 100 && p5.mouseY > p5.height / 2 - 100 && p5.mouseY < p5.height / 2 + 100) {
-                windowResized(p5);
+                vars.current.animationState = "initial";
+                vars.current.letters = [];
+                p5.cursor(p5.ARROW);
                 if (onAnimationStart) onAnimationStart(false); // Signal parent to reset
             }
         }
@@ -173,7 +224,8 @@ export default function DandelionAnimation({ onAnimationStart }) {
             vars.current.menuFontSize = vars.current.mainFontSize * 0.5; // 50% of main
         } else {
             vars.current.desktopLayout = false;
-            vars.current.mainFontSize = (p5.width / 320) * 36; // text-4xl (~36px)
+            // Provide a better dynamic clamp for mobile, ensuring it doesn't get infinitely small on tiny phones or too big on landscape
+            vars.current.mainFontSize = p5.constrain((p5.width / 320) * 36, 24, 40);
             vars.current.menuFontSize = vars.current.mainFontSize * 0.5;
         }
     };
@@ -192,60 +244,15 @@ export default function DandelionAnimation({ onAnimationStart }) {
             );
         }
 
-        if (vars.current.desktopLayout) {
-            const spacing = p5.height * 0.2;
-            const textOffset = p5.width * 0.22;
-            const horizontalOffset = p5.width * 0.08;
-            for (let i = 0; i < vars.current.menuItemsData.length; i++) {
-                const data = vars.current.menuItemsData[i];
-                const menuItem = new Letter(p5, vars, "*", vars.current.animationOrigin.x, vars.current.animationOrigin.y, true, data.label, data.url);
+        const menuPositions = getResponsivePositions(p5, vars);
 
-                if (i === 0) {
-                    menuItem.targetPos = p5.createVector(
-                        vars.current.dandelionCenter.x - horizontalOffset,
-                        vars.current.dandelionCenter.y - spacing
-                    );
-                } else if (i === 1) {
-                    menuItem.targetPos = p5.createVector(
-                        vars.current.dandelionCenter.x + textOffset,
-                        vars.current.dandelionCenter.y
-                    );
-                } else {
-                    menuItem.targetPos = p5.createVector(
-                        vars.current.dandelionCenter.x + horizontalOffset,
-                        vars.current.dandelionCenter.y + spacing
-                    );
-                }
-                vars.current.letters.push(menuItem);
-            }
-        } else {
-            const vOffset1 = p5.height * 0.25;
-            const hOffset1 = p5.width * 0.2;
-            const vOffset2 = p5.height * 0.12;
-            const hOffset2 = p5.width * 0.25;
-            const vOffset3 = p5.height * 0.2;
-            const hOffset3 = p5.width * 0.15;
+        for (let i = 0; i < vars.current.menuItemsData.length; i++) {
+            const data = vars.current.menuItemsData[i];
+            // Pass `i` to create synchronized staggering among menu items
+            const menuItem = new Letter(p5, vars, "*", vars.current.animationOrigin.x, vars.current.animationOrigin.y, true, data.label, data.url, i);
 
-            const positions = [
-                p5.createVector(
-                    vars.current.dandelionCenter.x - hOffset1,
-                    vars.current.dandelionCenter.y - vOffset1
-                ),
-                p5.createVector(
-                    vars.current.dandelionCenter.x + hOffset2,
-                    vars.current.dandelionCenter.y - vOffset2
-                ),
-                p5.createVector(
-                    vars.current.dandelionCenter.x - hOffset3,
-                    vars.current.dandelionCenter.y + vOffset3
-                ),
-            ];
-            for (let i = 0; i < vars.current.menuItemsData.length; i++) {
-                const data = vars.current.menuItemsData[i];
-                const menuItem = new Letter(p5, vars, "*", vars.current.animationOrigin.x, vars.current.animationOrigin.y, true, data.label, data.url);
-                menuItem.targetPos = positions[i];
-                vars.current.letters.push(menuItem);
-            }
+            menuItem.targetPos = menuPositions[i];
+            vars.current.letters.push(menuItem);
         }
 
         for (const letter of vars.current.letters) {
@@ -267,12 +274,13 @@ export default function DandelionAnimation({ onAnimationStart }) {
 
 // Rewritten class Letter adopting the p5 instance wrapper context
 class Letter {
-    constructor(p5, varsRef, char, originX, originY, isMenuItem = false, label = "", url = "") {
+    constructor(p5, varsRef, char, originX, originY, isMenuItem = false, label = "", url = "", menuIndex = 0) {
         this.char = char;
         this.center = p5.createVector(originX, originY);
         this.isMenuItem = isMenuItem;
         this.label = label;
         this.url = url;
+        this.menuIndex = menuIndex;
         this.targetPos = null;
         this.hasArrived = false;
         this.labelAlpha = 255;
@@ -294,7 +302,18 @@ class Letter {
         this.angularVelocity = 0;
         this.size = this.vars.current.mainFontSize; // Asterisk keeps original size initially
         this.noiseOffset = p5.random(1000);
-        this.typewriterIndex = 0; // State for individual submenu typing speed 
+
+        // Typewriter state machine variables
+        this.typewriterIndex = 0;
+        this.typeState = 'typing';
+        this.isFirstWait = true;
+
+        if (this.isMenuItem) {
+            // Start typing immediately together initially
+            this.pauseTimer = 0;
+        } else {
+            this.pauseTimer = p5.random(60, 180);
+        }
     }
 
     applyForce(p5, force) {
@@ -304,10 +323,17 @@ class Letter {
     seek(p5) {
         let desired = window.p5.Vector.sub(this.targetPos, this.pos);
         let d = desired.mag();
+
+        // Dynamically shrink asterisk size as it approaches the target
+        // Smooth scale: We begin shrinking from a much wider radius so the transition is imperceptibly smooth
+        const startDist = p5.width / 1.5;
+        this.size = p5.map(d, startDist, 0, this.vars.current.mainFontSize, this.vars.current.menuFontSize, true);
+
         if (d < 5) {
             this.hasArrived = true;
             this.vel.mult(0.1);
             this.pos.set(this.targetPos);
+            this.size = this.vars.current.menuFontSize; // Snap to exact size when docked
             return;
         }
         desired.setMag(p5.map(d, 0, 150, 0, 4, true));
@@ -362,17 +388,51 @@ class Letter {
             this.alpha = 255;
             this.labelAlpha = 255;
 
-            // Wait to reach target before shrinking size
+            // Wait to reach target before starting typing effects
             if (!this.hasArrived) {
-                this.size = this.vars.current.mainFontSize;
-                this.seek(p5);
+                this.seek(p5); // seek() now handles size shrinking dynamically
             } else {
-                // Shrink to 50% quickly smoothly or immediately
+                // Ensure it's exactly 50% size
                 this.size = this.vars.current.menuFontSize;
                 this.vel.mult(0.9);
-                // When arrived, execute typewriter effect over frames (frame rate is 60fps)
-                if (p5.frameCount % 5 === 0 && this.typewriterIndex < this.label.length - 2) {
-                    this.typewriterIndex++;
+
+                // When arrived, execute synchronized looping typewriter effect (approx 60fps)
+                if (p5.frameCount % 8 === 0) {
+                    if (this.typeState === 'typing') {
+                        if (this.pauseTimer > 0) {
+                            this.pauseTimer -= 8;
+                        } else if (this.typewriterIndex < this.label.length - 2) {
+                            this.typewriterIndex++;
+                        } else {
+                            this.typeState = 'waiting';
+                            // Initial full-menu wait before staggering begins
+                            if (this.isFirstWait) {
+                                this.pauseTimer = 480 + (this.menuIndex * 480);
+                                this.isFirstWait = false;
+                            } else {
+                                this.pauseTimer = 480;
+                            }
+                        }
+                    } else if (this.typeState === 'waiting') {
+                        this.pauseTimer -= 8;
+                        if (this.pauseTimer <= 0) {
+                            this.typeState = 'deleting';
+                        }
+                    } else if (this.typeState === 'deleting') {
+                        if (this.typewriterIndex > 0) {
+                            this.typewriterIndex--;
+                        } else {
+                            this.typeState = 'waiting_to_type';
+                            // Wait for the other two items to do their 8-second cycles before springing back to life.
+                            // 2 items * 8s hold = 16 seconds (960 frames)
+                            this.pauseTimer = 960;
+                        }
+                    } else if (this.typeState === 'waiting_to_type') {
+                        this.pauseTimer -= 8;
+                        if (this.pauseTimer <= 0) {
+                            this.typeState = 'typing';
+                        }
+                    }
                 }
             }
         }
@@ -440,12 +500,26 @@ class Letter {
     }
 
     isMouseOver(p5) {
-        if (this.labelAlpha < 240) return false;
+        if (!this.hasArrived) return false;
         const hitboxPadding = this.vars.current.desktopLayout ? 0 : 10;
         const textWidthValue = p5.textWidth(this.label);
+
+        let minX, maxX;
+        // The display() function renders menu items with p5.textAlign(p5.LEFT) starting slightly left of center
+        if (this.isMenuItem) {
+            const spaceWidth = p5.textWidth("* ");
+            const startX = this.pos.x - spaceWidth / 2;
+            minX = startX - hitboxPadding;
+            // The asterisk is drawn to the right of startX, so the full width extends right
+            maxX = startX + textWidthValue + hitboxPadding;
+        } else {
+            minX = this.pos.x - textWidthValue / 2 - hitboxPadding;
+            maxX = this.pos.x + textWidthValue / 2 + hitboxPadding;
+        }
+
         return (
-            p5.mouseX > this.pos.x - textWidthValue / 2 - hitboxPadding &&
-            p5.mouseX < this.pos.x + textWidthValue / 2 + hitboxPadding &&
+            p5.mouseX > minX &&
+            p5.mouseX < maxX &&
             p5.mouseY >
             this.pos.y - this.vars.current.menuFontSize / 2 - hitboxPadding &&
             p5.mouseY <

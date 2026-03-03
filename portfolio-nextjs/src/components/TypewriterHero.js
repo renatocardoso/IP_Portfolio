@@ -6,7 +6,8 @@ const WORDS = [
     "infinita poesia",
     "design de marcas",
     "design de produtos",
-    "criatividade"
+    "criatividade",
+    "ideia"
 ];
 
 export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
