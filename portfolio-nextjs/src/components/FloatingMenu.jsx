@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 export default function FloatingMenu() {
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname();
-    const constraintsRef = useRef(null);
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -19,100 +18,77 @@ export default function FloatingMenu() {
 
     const toggleMenu = () => setIsOpen(!isOpen);
 
-    // Positions based on the user's radial sketch
-    // Asterisk is very large (approx 150-200px bounding box). 
-    // We radiate items outwards from the core.
     const menuItems = [
-        {
-            label: "* Sobre",
-            href: "/sobre",
-            // Pointing straight up
-            rotate: -90,
-            x: 0,
-            y: -140
-        },
-        {
-            label: "* Design Gráfico",
-            href: "/grafico",
-            // Pointing Top-Right
-            rotate: -20,
-            x: 160,
-            y: -60
-        },
-        {
-            label: "* Design de Produto",
-            href: "/produto",
-            // Pointing Bottom-Right
-            rotate: 55,
-            x: 140,
-            y: 120
-        },
+        { label: "Sobre", href: "/sobre" },
+        { label: "Design Gráfico", href: "/grafico" },
+        { label: "Design de Produto", href: "/produto" },
     ];
 
-    return (
-        <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden" ref={constraintsRef}>
-            {/* The draggable container */}
-            <motion.div
-                className="absolute top-1/3 left-1/3 pointer-events-auto"
-                drag
-                dragConstraints={constraintsRef}
-                dragElastic={0.1}
-                dragMomentum={false} // Disable momentum so it stays exactly where dropped
-                style={{ touchAction: "none" }} // Important for mobile dropping
-            >
-                <div className="relative flex items-center justify-center w-32 h-32">
+    // Determine current section name for breadcrumbs
+    const currentSection = menuItems.find(item => pathname === item.href || pathname.startsWith(item.href + "/"))?.label;
 
-                    {/* The Expanding Menu Options */}
-                    <AnimatePresence>
-                        {isOpen && menuItems.map((item, i) => {
-                            const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
-                            return (
-                                <motion.div
-                                    key={i}
-                                    initial={{ opacity: 0, scale: 0, x: 0, y: 0, rotate: item.rotate }}
-                                    animate={{ opacity: 1, scale: 1, x: item.x, y: item.y, rotate: item.rotate }}
-                                    exit={{ opacity: 0, scale: 0, x: 0, y: 0, rotate: item.rotate }}
-                                    transition={{
-                                        type: "spring",
-                                        stiffness: 260,
-                                        damping: 20,
-                                        delay: i * 0.05
-                                    }}
-                                    className="absolute whitespace-nowrap"
-                                    style={{
-                                        // Transforms happen from the left center of the text outward
-                                        transformOrigin: "left center"
-                                    }}
-                                >
+    return (
+        <div className="fixed top-8 left-8 z-50 pointer-events-auto">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+
+                {/* Logo / Breadcrumb Button */}
+                <button
+                    onClick={toggleMenu}
+                    className="flex items-center text-xl sm:text-2xl font-fira font-normal text-[#333] transition-colors hover:text-[#b0b0b0]"
+                >
+                    <span className="text-[#333] mr-1">/</span>
+                    <span className="text-[#FF4E50] mr-2">*</span>
+
+                    {/* Desktop Text */}
+                    <span className="hidden md:inline mr-2 tracking-wide whitespace-nowrap">
+                        infinita poesia
+                    </span>
+
+                    {/* Active Section Breadcrumb */}
+                    {currentSection && (
+                        <span className="hidden md:inline font-light tracking-wide whitespace-nowrap">
+                            <span className="mx-2 text-[#b0b0b0]">/</span>
+                            {currentSection}
+                        </span>
+                    )}
+
+                    {/* Mobile: Only display breadcrumb if active, without "infinita poesia" */}
+                    {currentSection && (
+                        <span className="inline md:hidden font-light tracking-wide whitespace-nowrap">
+                            {currentSection}
+                        </span>
+                    )}
+                </button>
+
+                {/* Expanding Menu Options */}
+                <AnimatePresence>
+                    {isOpen && (
+                        <motion.div
+                            initial={{ opacity: 0, x: -20, y: -10 }}
+                            animate={{ opacity: 1, x: 0, y: 0 }}
+                            exit={{ opacity: 0, x: -20, y: -10 }}
+                            transition={{ duration: 0.2 }}
+                            className="flex flex-col md:flex-row gap-4 mt-2 md:mt-0 md:ml-4 bg-white/80 backdrop-blur-sm p-4 md:p-0 rounded-lg md:bg-transparent md:backdrop-blur-none"
+                        >
+                            {menuItems.map((item, i) => {
+                                const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
+                                return (
                                     <Link
+                                        key={i}
                                         href={item.href}
-                                        /* Removed pointer-events-none on drag container, so children links are clickable */
-                                        className={`text-2xl md:text-3xl font-medium tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] ${isActive ? "text-[#FF4E50]" : "text-[#333]"}`}
-                                        onClick={(e) => {
-                                            // Optional: Stop propagation ensures drag doesnt trigger, 
-                                            // but next/link handles routing cleanly anyway.
-                                            setIsOpen(false);
-                                        }}
+                                        className={`text-lg md:text-xl font-normal tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap flex items-center ${isActive ? "text-[#FF4E50]" : "text-[#333]"}`}
+                                        onClick={() => setIsOpen(false)}
                                     >
+                                        <span className="text-[#FF4E50] mr-2 text-base">*</span>
                                         {item.label}
                                     </Link>
-                                </motion.div>
-                            );
-                        })}
-                    </AnimatePresence>
+                                );
+                            })}
+                        </motion.div>
+                    )}
+                </AnimatePresence>
 
-                    {/* The Core Asterisk Button */}
-                    <motion.button
-                        onClick={toggleMenu}
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="text-[180px] leading-none font-bold text-black flex items-center justify-center cursor-grab active:cursor-grabbing z-10 select-none"
-                        style={{ fontFamily: "var(--font-fira)" }}
-                    >
-                        *
-                    </motion.button>
-                </div>
-            </motion.div>
+            </div>
         </div>
     );
 }
