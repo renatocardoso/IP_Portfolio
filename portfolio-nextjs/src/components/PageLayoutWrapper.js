@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import FloatingMenu from "@/components/FloatingMenu";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function PageLayoutWrapper({ children }) {
@@ -10,7 +10,7 @@ export default function PageLayoutWrapper({ children }) {
 
     return (
         <>
-            {!isHome && <FloatingMenu />}
+            {!isHome && <Header />}
             <main className="flex-grow">{children}</main>
             {!isHome && <Footer />}
         </>
