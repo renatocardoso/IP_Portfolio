@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata = {
     title: "Infinita Poesia | Design Produto",
@@ -16,35 +17,31 @@ const projetosProduto = [
 
 export default function Produto() {
     return (
-        <>
-            <section className="flex-grow flex items-center justify-center w-full min-h-[60vh]">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-y-0 w-full relative">
-                    {projetosProduto.map((projeto) => (
-                        <Link
-                            key={projeto.slug}
-                            href={`/produto/${projeto.slug}`}
-                            className="group block relative"
-                        >
-                            <div className="overflow-hidden transition-opacity duration-500 ease-in md:group-hover:opacity-0 w-full aspect-square md:aspect-auto">
-                                <Image
-                                    src={projeto.img}
-                                    alt={projeto.title}
-                                    width={800}
-                                    height={800}
-                                    unoptimized
-                                    className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
-                                />
-                            </div>
-
-                            <div className="text-center w-[90%] md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 
-                              md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 ease-in
-                              pointer-events-none md:z-10 mt-2 md:mt-0 mx-auto">
-                                <h2 className="m-0 text-base font-normal">{projeto.title}</h2>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </section>
-        </>
+        <section className="flex-grow flex items-center justify-center w-full min-h-[60vh] py-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1400px] px-8 relative mx-auto">
+                {projetosProduto.map((projeto) => (
+                    <Link key={projeto.slug} href={`/produto/${projeto.slug}`}>
+                        <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
+                            <CardContent className="p-0 relative aspect-square">
+                                {/* Imagem de topo que desaparece no hover (Desktop) */}
+                                <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
+                                    <Image
+                                        src={projeto.img}
+                                        alt={projeto.title}
+                                        fill
+                                        unoptimized
+                                        className="object-cover"
+                                    />
+                                </div>
+                                {/* O texto da obra que fica sempre atrás esperando a imagem sumir */}
+                                <div className="absolute inset-0 flex items-center justify-center z-10 bg-white/50">
+                                    <h2 className="m-0 text-lg sm:text-xl font-normal text-[#333] text-center px-4 font-fira tracking-wide uppercase">{projeto.title}</h2>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </Link>
+                ))}
+            </div>
+        </section>
     );
 }

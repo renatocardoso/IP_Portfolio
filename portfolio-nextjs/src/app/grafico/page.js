@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata = {
     title: "Infinita Poesia | Design Gráfico",
@@ -40,37 +41,29 @@ const projetosGrafico = [
 
 export default function Grafico() {
     return (
-        <>
-            <section className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-y-0 relative">
+        <section className="flex-grow flex items-center justify-center w-full min-h-[60vh] py-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1400px] px-8 relative mx-auto">
                 {projetosGrafico.map((projeto) => (
-                    <Link
-                        key={projeto.slug}
-                        href={`/grafico/${projeto.slug}`}
-                        className="group block relative"
-                    >
-                        <div className="overflow-hidden transition-opacity duration-500 ease-in md:group-hover:opacity-0 w-full aspect-square md:aspect-auto">
-                            {/* O `unoptimized` aqui é usado temporariamente para facilitar
-                  o uso das imagens exportadas diretamente do legado, 
-                  evitando os limites e complexidades do Next.js Image Optimization locais */}
-                            <Image
-                                src={projeto.img}
-                                alt={projeto.title}
-                                width={800}
-                                height={800}
-                                unoptimized
-                                className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
-                            />
-                        </div>
-
-                        {/* Texto hover effect. Positioned absolute em telas grandes, static no mobile */}
-                        <div className="text-center w-[90%] md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 
-                            md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 ease-in
-                            pointer-events-none md:z-10 mt-2 md:mt-0 mx-auto">
-                            <h2 className="m-0 text-base font-normal">{projeto.title}</h2>
-                        </div>
+                    <Link key={projeto.slug} href={`/grafico/${projeto.slug}`}>
+                        <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
+                            <CardContent className="p-0 relative aspect-square">
+                                <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
+                                    <Image
+                                        src={projeto.img}
+                                        alt={projeto.title}
+                                        fill
+                                        unoptimized
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <div className="absolute inset-0 flex items-center justify-center z-10 bg-white/50 p-6">
+                                    <h2 className="m-0 text-base sm:text-lg font-normal text-[#333] text-center font-fira tracking-wide uppercase leading-tight">{projeto.title}</h2>
+                                </div>
+                            </CardContent>
+                        </Card>
                     </Link>
                 ))}
-            </section>
-        </>
+            </div>
+        </section>
     );
 }
