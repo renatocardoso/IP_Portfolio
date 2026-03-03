@@ -1,5 +1,6 @@
 import { Noto_Sans, Fira_Sans } from "next/font/google";
 import "./globals.css";
+import "@uploadthing/react/styles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageLayoutWrapper from "@/components/PageLayoutWrapper";
