@@ -5,42 +5,37 @@ import { usePathname } from "next/navigation";
 export default function Header() {
     const pathname = usePathname();
 
+    const getLinkClass = (path) => {
+        const isActive = pathname === path || pathname.startsWith(path + "/");
+        return `text-[0.75rem] sm:text-[0.85rem] font-normal tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap flex items-center ${isActive ? "text-[#FF4E50]" : "text-[#555]"
+            }`;
+    };
+
     return (
-        <header className="w-full fixed top-0 left-0 bg-white/90 backdrop-blur-sm z-50">
+        // Changed from fixed to static block so it naturally pushes the content down.
+        // Added pt-12 to ensure it breathes at the top of the page.
+        <header className="w-full bg-white z-50 pt-12 pb-8 md:pb-12">
             {/* Desktop and Mobile Container */}
-            <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
 
                 {/* Logo Area */}
-                <Link href="/" className="flex items-center text-xl sm:text-2xl font-fira font-normal text-[#333] transition-colors hover:text-[#b0b0b0]">
-                    <span className="text-[#333] mr-1">/</span>
-                    <span className="text-[#FF4E50] mr-2">*</span>
-                    <span className="tracking-wide whitespace-nowrap">
-                        infinita poesia
-                    </span>
+                <Link href="/" className="flex items-center text-xl sm:text-2xl font-fira font-bold text-[#333] transition-colors hover:text-[#b0b0b0] whitespace-nowrap md:mr-6 mb-6 md:mb-0">
+                    <span className="text-[#333] mr-1 md:hidden">/</span>
+                    <span className="text-[#FF4E50] mr-2 md:hidden">*</span>
+                    infinita poesia
+                    <span className="ml-2 hidden md:inline">/</span>
                 </Link>
 
                 {/* Navigation Links */}
-                <nav className="flex flex-col md:flex-row items-center gap-3 md:gap-6">
-                    <Link
-                        href="/grafico"
-                        className={`text-sm sm:text-base font-normal tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap flex items-center ${pathname === "/grafico" || pathname.startsWith("/grafico/") ? "text-[#FF4E50]" : "text-[#333]"}`}
-                    >
-                        <span className="text-[#FF4E50] mr-2 text-sm">*</span>
-                        DESIGN GRÁFICO
+                <nav className="flex flex-col md:flex-row items-center gap-4 md:gap-6 mt-1 md:mt-0 font-sans">
+                    <Link href="/grafico" className={getLinkClass("/grafico")}>
+                        * DESIGN GRÁFICO
                     </Link>
-                    <Link
-                        href="/produto"
-                        className={`text-sm sm:text-base font-normal tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap flex items-center ${pathname === "/produto" || pathname.startsWith("/produto/") ? "text-[#FF4E50]" : "text-[#333]"}`}
-                    >
-                        <span className="text-[#FF4E50] mr-2 text-sm">*</span>
-                        DESIGN PRODUTO
+                    <Link href="/produto" className={getLinkClass("/produto")}>
+                        * DESIGN PRODUTO
                     </Link>
-                    <Link
-                        href="/sobre"
-                        className={`text-sm sm:text-base font-normal tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap flex items-center ${pathname === "/sobre" || pathname.startsWith("/sobre/") ? "text-[#FF4E50]" : "text-[#333]"}`}
-                    >
-                        <span className="text-[#FF4E50] mr-2 text-sm">*</span>
-                        SOBRE
+                    <Link href="/sobre" className={getLinkClass("/sobre")}>
+                        * SOBRE
                     </Link>
                 </nav>
 
