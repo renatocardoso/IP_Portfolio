@@ -19,7 +19,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
 
                 {/* Logo Area */}
-                <Link href="/" className="flex items-center text-xl sm:text-2xl font-fira font-bold text-[#333] transition-colors hover:text-[#b0b0b0] whitespace-nowrap md:mr-6 mb-6 md:mb-0">
+                <Link href="/" className="flex items-center text-xl sm:text-lg lg:text-xl font-bold text-[#333] transition-colors hover:text-[#b0b0b0] whitespace-nowrap md:mr-6 mb-4 md:mb-0">
                     <span className="text-[#333] mr-1 md:hidden">/</span>
                     <span className="text-[#FF4E50] mr-2 md:hidden">*</span>
                     infinita poesia
@@ -27,7 +27,7 @@ export default function Header() {
                 </Link>
 
                 {/* Navigation Links */}
-                <nav className="flex flex-col md:flex-row items-center gap-4 md:gap-6 mt-1 md:mt-0 font-sans">
+                <nav className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 font-sans">
                     <Link href="/grafico" className={getLinkClass("/grafico")}>
                         * DESIGN GRÁFICO
                     </Link>
