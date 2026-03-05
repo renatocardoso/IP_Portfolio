@@ -49,7 +49,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
         mainFontSize: 40,
         menuFontSize: 22,
         desktopLayout: true,
-        transitionDurationFrames: 112, // Sped up the dandelion animation by 20%
+        transitionDurationFrames: 70, // Drastically increased dandelion explosion speed
         puffStartTime: 0,
         textBoundingBoxes: [],
         mouseIsOverMenuItem: false // Used for cursor targeting
@@ -396,25 +396,25 @@ class Letter {
                 this.size = this.vars.current.menuFontSize;
                 this.vel.mult(0.9);
 
-                // When arrived, execute synchronized looping typewriter effect (approx 60fps)
-                if (p5.frameCount % 8 === 0) {
+                // When arrived, execute fast synchronized looping typewriter effect
+                if (p5.frameCount % 4 === 0) {
                     if (this.typeState === 'typing') {
                         if (this.pauseTimer > 0) {
-                            this.pauseTimer -= 8;
+                            this.pauseTimer -= 4;
                         } else if (this.typewriterIndex < this.label.length - 2) {
                             this.typewriterIndex++;
                         } else {
                             this.typeState = 'waiting';
-                            // Initial full-menu wait before staggering begins
+                            // Keep the fully typed word visible for a long time (~5 seconds)
                             if (this.isFirstWait) {
-                                this.pauseTimer = 480 + (this.menuIndex * 480);
+                                this.pauseTimer = 300 + (this.menuIndex * 60); // Stagger initial waits
                                 this.isFirstWait = false;
                             } else {
-                                this.pauseTimer = 480;
+                                this.pauseTimer = 300;
                             }
                         }
                     } else if (this.typeState === 'waiting') {
-                        this.pauseTimer -= 8;
+                        this.pauseTimer -= 4;
                         if (this.pauseTimer <= 0) {
                             this.typeState = 'deleting';
                         }
@@ -423,12 +423,11 @@ class Letter {
                             this.typewriterIndex--;
                         } else {
                             this.typeState = 'waiting_to_type';
-                            // Wait for the other two items to do their 8-second cycles before springing back to life.
-                            // 2 items * 8s hold = 16 seconds (960 frames)
-                            this.pauseTimer = 960;
+                            // Immediately start typing again with almost zero delay (0.5s)
+                            this.pauseTimer = 30;
                         }
                     } else if (this.typeState === 'waiting_to_type') {
-                        this.pauseTimer -= 8;
+                        this.pauseTimer -= 4;
                         if (this.pauseTimer <= 0) {
                             this.typeState = 'typing';
                         }
@@ -501,13 +500,21 @@ class Letter {
 
     isMouseOver(p5) {
         if (!this.hasArrived) return false;
-        const hitboxPadding = this.vars.current.desktopLayout ? 0 : 10;
+
+        // Push styles to accurately measure text width regardless of current sketch state
+        p5.push();
+        p5.textSize(this.vars.current.menuFontSize);
+        p5.textFont("Fira Sans, sans-serif");
+
+        const hitboxPadding = this.vars.current.desktopLayout ? 15 : 25;
+        // Measure the FULL label so the hitbox covers the whole word, even if it's currently only halfway typed
         const textWidthValue = p5.textWidth(this.label);
+        const spaceWidth = p5.textWidth("* ");
+        p5.pop();
 
         let minX, maxX;
         // The display() function renders menu items with p5.textAlign(p5.LEFT) starting slightly left of center
         if (this.isMenuItem) {
-            const spaceWidth = p5.textWidth("* ");
             const startX = this.pos.x - spaceWidth / 2;
             minX = startX - hitboxPadding;
             // The asterisk is drawn to the right of startX, so the full width extends right
