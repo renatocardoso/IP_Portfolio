@@ -50,7 +50,7 @@ export default function HomeMenu({ isVisible }) {
                         {menuItems.map((item, i) => (
                             <motion.div
                                 key={i}
-                                className="absolute"
+                                className="absolute z-30"
                                 initial={{ opacity: 0, x: 0, y: 0 }}
                                 animate={{ opacity: 1, x: item.x, y: item.y }}
                                 transition={{
@@ -62,7 +62,7 @@ export default function HomeMenu({ isVisible }) {
                             >
                                 <Link
                                     href={item.href}
-                                    className="text-2xl md:text-3xl font-medium tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap text-[#333] flex items-center"
+                                    className="text-2xl md:text-3xl font-medium tracking-wide transition-colors duration-300 hover:text-[#b0b0b0] whitespace-nowrap text-[#333] flex items-center p-4 -m-4 cursor-pointer"
                                 >
                                     <span className="text-[#FF4E50] mr-2 text-xl md:text-2xl">*</span>
                                     {item.label}
