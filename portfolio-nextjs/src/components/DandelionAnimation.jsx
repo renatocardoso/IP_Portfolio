@@ -49,7 +49,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
         mainFontSize: 40,
         menuFontSize: 22,
         desktopLayout: true,
-        transitionDurationFrames: 140, // Sped up the dandelion animation slightly
+        transitionDurationFrames: 112, // Sped up the dandelion animation by 20%
         puffStartTime: 0,
         textBoundingBoxes: [],
         mouseIsOverMenuItem: false // Used for cursor targeting

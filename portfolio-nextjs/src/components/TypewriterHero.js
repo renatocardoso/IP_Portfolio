@@ -38,13 +38,13 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
         }
     }, [isAnimationActive]);
 
-    // 2. Initial wait of 3 seconds only showing /*
+    // 2. Initial wait of 800ms only showing /*
     useEffect(() => {
         if (isAnimationActive) return;
 
         const startTimer = setTimeout(() => {
             setIsStarted(true);
-        }, 3000);
+        }, 800);
         return () => clearTimeout(startTimer);
     }, [isAnimationActive]);
 
@@ -52,17 +52,17 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
     useEffect(() => {
         if (!isStarted || isAnimationActive) return;
 
-        const typingSpeed = 120; // Slower typing 
-        const deletingSpeed = 60; // Slower deleting
-        const pauseDuration = 3000; // 3. Keep word visible for 3 seconds to be readable
+        const typingSpeed = 50; // Much faster typing
+        const deletingSpeed = 25; // Much faster deleting
+        const pauseDuration = 2000; // Keep word visible for 2 seconds
 
-        // Reached the end of the word, pause 3s then start deleting
+        // Reached the end of the word, pause then start deleting
         if (subIndex === WORDS[index].length && !isDeleting) {
             const pauseTimer = setTimeout(() => setIsDeleting(true), pauseDuration);
             return () => clearTimeout(pauseTimer);
         }
 
-        // Finished deleting, go to next word
+        // Finished deleting, go to next word IMMEDIATELY without waiting.
         if (subIndex === 0 && isDeleting) {
             setIsDeleting(false);
             setIndex((prev) => (prev + 1) % WORDS.length);

@@ -16,17 +16,17 @@ export default function Header() {
         // Added pt-12 to ensure it breathes at the top of the page.
         <header className="w-full bg-white z-50 pt-12 pb-8 md:pb-12">
             {/* Desktop and Mobile Container */}
-            <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center md:gap-8">
+            <div className="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-6">
 
                 {/* Logo Area */}
-                <Link href="/" className="flex items-center text-2xl font-fira font-normal text-[#333] transition-colors hover:text-[#b0b0b0] whitespace-nowrap mb-6 md:mb-0">
+                <Link href="/" className="flex items-center text-2xl font-fira font-normal text-[#333] transition-colors hover:text-[#b0b0b0] whitespace-nowrap">
                     <span className="text-[#333] mr-1">/</span>
                     <span className="text-[#FF4E50] mr-2">*</span>
                     infinita poesia
                 </Link>
 
                 {/* Navigation Links */}
-                <nav className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 font-sans">
+                <nav className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 font-sans">
                     <Link href="/grafico" className={getLinkClass("/grafico")}>
                         <span className="text-[#FF4E50] mr-2 text-sm">*</span>
                         DESIGN GRÁFICO

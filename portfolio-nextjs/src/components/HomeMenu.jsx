@@ -8,9 +8,9 @@ export default function HomeMenu({ isVisible }) {
     const [shouldRender, setShouldRender] = useState(false);
 
     useEffect(() => {
-        // Let Dandelion finish, wait maybe 1s, then show this
+        // Let Dandelion finish, wait maybe 400ms, then show this
         if (isVisible) {
-            const timer = setTimeout(() => setShouldRender(true), 800);
+            const timer = setTimeout(() => setShouldRender(true), 400);
             return () => clearTimeout(timer);
         } else {
             setShouldRender(false);
@@ -57,7 +57,7 @@ export default function HomeMenu({ isVisible }) {
                                     type: "spring",
                                     stiffness: 80,
                                     damping: 15,
-                                    delay: 0.5 + (i * 0.2)
+                                    delay: 0.2 + (i * 0.1)
                                 }}
                             >
                                 <Link
