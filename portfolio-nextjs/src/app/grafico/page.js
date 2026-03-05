@@ -42,11 +42,11 @@ const projetosGrafico = [
 export default function Grafico() {
     return (
         <section className="flex-grow flex items-center justify-center w-full min-h-[60vh] py-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1400px] px-8 relative mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 w-full max-w-[1400px] px-8 relative mx-auto">
                 {projetosGrafico.map((projeto) => (
                     <Link key={projeto.slug} href={`/grafico/${projeto.slug}`}>
                         <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
-                            <CardContent className="p-0 relative aspect-square">
+                            <CardContent className="p-0 relative aspect-video">
                                 <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
                                     <Image
                                         src={projeto.img}

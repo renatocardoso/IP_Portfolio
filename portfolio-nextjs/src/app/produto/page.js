@@ -18,11 +18,11 @@ const projetosProduto = [
 export default function Produto() {
     return (
         <section className="flex-grow flex items-center justify-center w-full min-h-[60vh] py-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1400px] px-8 relative mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 w-full max-w-[1400px] px-8 relative mx-auto">
                 {projetosProduto.map((projeto) => (
                     <Link key={projeto.slug} href={`/produto/${projeto.slug}`}>
                         <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
-                            <CardContent className="p-0 relative aspect-square">
+                            <CardContent className="p-0 relative aspect-video">
                                 {/* Imagem de topo que desaparece no hover (Desktop) */}
                                 <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
                                     <Image
