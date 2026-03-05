@@ -132,9 +132,47 @@ export default function DandelionAnimation({ onAnimationStart }) {
                 (letter) => !letter.isDead()
             );
 
-            let isHoveringCenter = p5.mouseX > p5.width / 2 - 100 && p5.mouseX < p5.width / 2 + 100 && p5.mouseY > p5.height / 2 - 100 && p5.mouseY < p5.height / 2 + 100;
+            // Draw central reset button '/*' after explosion finishes (opacity fade in)
+            let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
+            let centerHovered = false;
 
-            p5.cursor(vars.current.mouseIsOverMenuItem || isHoveringCenter ? p5.HAND : p5.ARROW);
+            if (progress > 1.2) { // Show slightly after explosion ends
+                p5.push();
+                p5.textAlign(p5.CENTER, p5.CENTER);
+                p5.textSize(vars.current.mainFontSize);
+                p5.textFont("Fira Sans, sans-serif");
+
+                const spaceWidth = p5.textWidth("* ");
+
+                // Hitbox for central reset button
+                const hitPadding = 20;
+                centerHovered = (
+                    p5.mouseX > p5.width / 2 - spaceWidth - hitPadding &&
+                    p5.mouseX < p5.width / 2 + spaceWidth + hitPadding &&
+                    p5.mouseY > p5.height / 2 - vars.current.mainFontSize / 2 - hitPadding &&
+                    p5.mouseY < p5.height / 2 + vars.current.mainFontSize / 2 + hitPadding
+                );
+
+                // Fade in alpha
+                const centerAlpha = p5.constrain(p5.map(progress, 1.2, 1.5, 0, 255), 0, 255);
+
+                const slashColor = p5.color("#333");
+                slashColor.setAlpha(centerAlpha);
+
+                const asteriskColor = p5.color("#FF4E50");
+                asteriskColor.setAlpha(centerAlpha);
+
+                p5.fill(slashColor);
+                p5.textAlign(p5.RIGHT, p5.CENTER);
+                p5.text("/", p5.width / 2 - spaceWidth / 2, p5.height / 2);
+
+                p5.fill(asteriskColor);
+                p5.textAlign(p5.LEFT, p5.CENTER);
+                p5.text("*", p5.width / 2 - spaceWidth / 2, p5.height / 2);
+                p5.pop();
+            }
+
+            p5.cursor(vars.current.mouseIsOverMenuItem || centerHovered ? p5.HAND : p5.ARROW);
         }
     };
 
@@ -198,19 +236,39 @@ export default function DandelionAnimation({ onAnimationStart }) {
 
     const mousePressed = (p5) => {
         if (vars.current.animationState === "puffing") {
+            let clickedMenuItem = false;
             for (const letter of vars.current.letters) {
                 if (letter.isMenuItem && letter.isMouseOver(p5)) {
                     router.push(letter.url);
+                    clickedMenuItem = true;
                     break;
                 }
             }
 
-            // If we click anywhere else, or click the root asterisk, reset the animation
-            if (p5.mouseX > p5.width / 2 - 100 && p5.mouseX < p5.width / 2 + 100 && p5.mouseY > p5.height / 2 - 100 && p5.mouseY < p5.height / 2 + 100) {
-                vars.current.animationState = "initial";
-                vars.current.letters = [];
-                p5.cursor(p5.ARROW);
-                if (onAnimationStart) onAnimationStart(false); // Signal parent to reset
+            // Central Hitbox Reset - only if progress is complete so user doesn't accidentally reset mid-animation
+            let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
+
+            if (!clickedMenuItem && progress > 1.2) {
+                p5.push();
+                p5.textSize(vars.current.mainFontSize);
+                p5.textFont("Fira Sans, sans-serif");
+                const spaceWidth = p5.textWidth("* ");
+                p5.pop();
+
+                const hitPadding = 20;
+                let isHoveringCenter = (
+                    p5.mouseX > p5.width / 2 - spaceWidth - hitPadding &&
+                    p5.mouseX < p5.width / 2 + spaceWidth + hitPadding &&
+                    p5.mouseY > p5.height / 2 - vars.current.mainFontSize / 2 - hitPadding &&
+                    p5.mouseY < p5.height / 2 + vars.current.mainFontSize / 2 + hitPadding
+                );
+
+                if (isHoveringCenter) {
+                    vars.current.animationState = "initial";
+                    vars.current.letters = [];
+                    p5.cursor(p5.ARROW);
+                    if (onAnimationStart) onAnimationStart(false); // Signal parent to reset Typewriter
+                }
             }
         }
     };
