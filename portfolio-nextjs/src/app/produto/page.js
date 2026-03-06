@@ -17,7 +17,7 @@ const projetosProduto = [
 
 export default function Produto() {
     return (
-        <section className="flex-grow flex items-center justify-center w-full min-h-[60vh] py-12">
+        <section className="flex-grow flex items-start w-full min-h-[60vh] py-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0 w-full max-w-[1400px] px-8 relative mx-auto">
                 {projetosProduto.map((projeto) => (
                     <Link key={projeto.slug} href={`/produto/${projeto.slug}`}>

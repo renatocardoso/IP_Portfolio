@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function Sobre() {
     return (
-        <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center mb-12 md:mb-24">
+        <section className="flex-grow flex items-start w-full min-h-[60vh] py-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center w-full max-w-[1400px] px-8 relative mx-auto mb-12 md:mb-24">
                 {/* Texto principal - ordem 2 no mobile, 1 no desktop */}
                 <div className="md:pr-8 order-2 md:order-1 flex flex-col gap-6">
                     <p className="text-[#4a4a4a] text-lg leading-relaxed">
@@ -30,7 +30,7 @@ export default function Sobre() {
                         unoptimized
                     />
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
     );
 }
