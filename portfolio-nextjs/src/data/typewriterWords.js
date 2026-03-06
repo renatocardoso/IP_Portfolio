@@ -6,5 +6,5 @@ export const typewriterWords = [
     "design de marcas",
     "design de produtos",
     "criatividade",
-    "ideia"
+    "ideias"
 ];

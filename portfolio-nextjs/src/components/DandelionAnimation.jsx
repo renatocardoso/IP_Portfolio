@@ -131,7 +131,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
             let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
             let centerHovered = false;
 
-            if (progress > 1.2) { // Show slightly after explosion ends
+            if (progress > 1.0) { // Show simultaneously with menu text
                 p5.push();
                 p5.textAlign(p5.CENTER, p5.CENTER);
                 p5.textSize(vars.current.mainFontSize);
@@ -149,7 +149,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
                 );
 
                 // Fade in alpha
-                const centerAlpha = p5.constrain(p5.map(progress, 1.2, 1.5, 0, 255), 0, 255);
+                const centerAlpha = p5.constrain(p5.map(progress, 1.0, 1.2, 0, 255), 0, 255);
 
                 const slashColor = p5.color("#333");
                 slashColor.setAlpha(centerAlpha);
@@ -253,7 +253,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
             // Central Hitbox Reset - only if progress is complete so user doesn't accidentally reset mid-animation
             let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
 
-            if (!clickedMenuItem && progress > 1.2) {
+            if (!clickedMenuItem && progress > 1.0) {
                 p5.push();
                 p5.textSize(vars.current.mainFontSize);
                 p5.textFont("Fira Sans, sans-serif");
