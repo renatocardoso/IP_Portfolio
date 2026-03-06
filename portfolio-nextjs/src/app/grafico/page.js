@@ -46,14 +46,14 @@ export default function Grafico() {
                 {projetosGrafico.map((projeto) => (
                     <Link key={projeto.slug} href={`/grafico/${projeto.slug}`}>
                         <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
-                            <CardContent className="p-0 relative aspect-video">
+                            <CardContent className="p-0 relative aspect-video bg-white">
                                 <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
                                     <Image
                                         src={projeto.img}
                                         alt={projeto.title}
                                         fill
                                         unoptimized
-                                        className="object-cover"
+                                        className="object-contain bg-white"
                                     />
                                 </div>
                                 <div className="absolute inset-0 flex items-center justify-center z-10 bg-white/50 p-6">
