@@ -22,7 +22,7 @@ export default function Produto() {
                 {projetosProduto.map((projeto) => (
                     <Link key={projeto.slug} href={`/produto/${projeto.slug}`}>
                         <Card className="group overflow-hidden border-none shadow-none bg-transparent cursor-pointer rounded-none h-full">
-                            <CardContent className="p-0 relative aspect-video bg-white">
+                            <CardContent className="p-0 relative aspect-video">
                                 {/* Imagem de topo que desaparece no hover (Desktop) */}
                                 <div className="absolute inset-0 transition-opacity duration-500 ease-in md:group-hover:opacity-0 z-20">
                                     <Image
@@ -30,7 +30,7 @@ export default function Produto() {
                                         alt={projeto.title}
                                         fill
                                         unoptimized
-                                        className="object-contain bg-white"
+                                        className="object-cover"
                                     />
                                 </div>
                                 {/* O texto da obra que fica sempre atrás esperando a imagem sumir */}
