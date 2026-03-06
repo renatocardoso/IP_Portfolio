@@ -90,20 +90,15 @@ export default function DandelionAnimation({ onAnimationStart }) {
         }
 
         if (vars.current.animationState === "initial") {
-            // Trigger animation if hovering the React component bounds
+            // Only handle cursor styling here, clicking is handled in mousePressed
             let isHovering = false;
             if (typewriterEl) {
                 const rect = typewriterEl.getBoundingClientRect();
                 isHovering = p5.mouseX >= rect.left && p5.mouseX <= rect.right && p5.mouseY >= rect.top && p5.mouseY <= rect.bottom;
             }
 
-            if (isHovering) {
-                p5.cursor(p5.HAND);
-                startAnimation(p5);
-                if (onAnimationStart) onAnimationStart(true);
-            } else {
-                p5.cursor(p5.ARROW);
-            }
+            p5.cursor(isHovering ? p5.HAND : p5.ARROW);
+
         } else if (vars.current.animationState === "puffing") {
             vars.current.mouseIsOverMenuItem = false;
 
@@ -235,7 +230,17 @@ export default function DandelionAnimation({ onAnimationStart }) {
     };
 
     const mousePressed = (p5) => {
-        if (vars.current.animationState === "puffing") {
+        if (vars.current.animationState === "initial") {
+            const typewriterEl = document.getElementById("hero-typewriter");
+            if (typewriterEl) {
+                const rect = typewriterEl.getBoundingClientRect();
+                const isHovering = p5.mouseX >= rect.left && p5.mouseX <= rect.right && p5.mouseY >= rect.top && p5.mouseY <= rect.bottom;
+                if (isHovering) {
+                    startAnimation(p5);
+                    if (onAnimationStart) onAnimationStart(true);
+                }
+            }
+        } else if (vars.current.animationState === "puffing") {
             let clickedMenuItem = false;
             for (const letter of vars.current.letters) {
                 if (letter.isMenuItem && letter.isMouseOver(p5)) {

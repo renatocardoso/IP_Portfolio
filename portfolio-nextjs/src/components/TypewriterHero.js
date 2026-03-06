@@ -2,13 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const WORDS = [
-    "infinita poesia",
-    "design de marcas",
-    "design de produtos",
-    "criatividade",
-    "ideia"
-];
+import { typewriterWords } from "../data/typewriterWords";
 
 export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
     const [index, setIndex] = useState(0);
@@ -57,7 +51,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
         const pauseDuration = 2000; // Keep word visible for 2 seconds
 
         // Reached the end of the word, pause then start deleting
-        if (subIndex === WORDS[index].length && !isDeleting) {
+        if (subIndex === typewriterWords[index].length && !isDeleting) {
             const pauseTimer = setTimeout(() => setIsDeleting(true), pauseDuration);
             return () => clearTimeout(pauseTimer);
         }
@@ -65,7 +59,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
         // Finished deleting, go to next word IMMEDIATELY without waiting.
         if (subIndex === 0 && isDeleting) {
             setIsDeleting(false);
-            setIndex((prev) => (prev + 1) % WORDS.length);
+            setIndex((prev) => (prev + 1) % typewriterWords.length);
             return;
         }
 
@@ -94,7 +88,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
                 *
             </span>
             <span className="whitespace-nowrap flex items-center">
-                {!isAnimationActive && isStarted ? WORDS[index].substring(0, subIndex) : ""}
+                {!isAnimationActive && isStarted ? typewriterWords[index].substring(0, subIndex) : ""}
                 {!isAnimationActive && (
                     <span className={`${blink ? "opacity-100" : "opacity-0"} text-[#333] ml-[2px] mb-1 transition-opacity duration-100 font-light`}>
                         |
