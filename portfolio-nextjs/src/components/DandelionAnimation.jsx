@@ -1,28 +1,46 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
-
-// Import react-p5 dynamically to avoid SSR issues
-const Sketch = dynamic(() => import("react-p5").then((mod) => mod.default), {
-    ssr: false,
-});
 
 export default function DandelionAnimation({ onAnimationStart }) {
     const router = useRouter();
     const [isClient, setIsClient] = useState(false);
     const p5Ref = useRef(null); // Guard reference to p5 instance for cleanup
+    const containerRef = useRef(null);
 
     // Wait for client to render canvas
     useEffect(() => {
         setIsClient(true);
+        let p5Instance = null;
+
+        const initP5 = async () => {
+            const p5Module = await import("p5");
+            const p5 = p5Module.default;
+
+            const sketch = (p) => {
+                p.setup = () => setup(p, containerRef.current);
+                p.draw = () => draw(p);
+                p.windowResized = () => windowResized(p);
+                p.mousePressed = () => mousePressed(p);
+            };
+
+            if (containerRef.current) {
+                p5Instance = new p5(sketch, containerRef.current);
+            }
+        };
+
+        initP5();
+
         return () => {
-            // Cleanup p5 instance on unmount to prevent duplicated canvases or memory leaks
+            if (p5Instance) {
+                p5Instance.remove();
+            }
             if (p5Ref.current && typeof p5Ref.current.remove === "function") {
                 p5Ref.current.remove();
             }
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // Use refs in place of global variables to prevent scope collisions
@@ -324,13 +342,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
     };
 
     return (
-        <div className="fixed inset-0 z-0">
-            <Sketch
-                setup={setup}
-                draw={draw}
-                windowResized={windowResized}
-                mousePressed={mousePressed}
-            />
+        <div ref={containerRef} className="fixed inset-0 z-0">
         </div>
     );
 }

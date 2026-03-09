@@ -1,6 +1,7 @@
 import { Noto_Sans, Fira_Sans } from "next/font/google";
 import "./globals.css";
 import "@uploadthing/react/styles.css";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageLayoutWrapper from "@/components/PageLayoutWrapper";
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
             {children}
           </PageLayoutWrapper>
         </div>
+        <Analytics />
       </body>
     </html>
   );
