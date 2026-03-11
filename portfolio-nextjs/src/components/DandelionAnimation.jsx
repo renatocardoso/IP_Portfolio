@@ -23,6 +23,7 @@ export default function DandelionAnimation({ onAnimationStart }) {
                 p.draw = () => draw(p);
                 p.windowResized = () => windowResized(p);
                 p.mousePressed = () => mousePressed(p);
+                p.touchStarted = () => { mousePressed(p); return false; };
             };
 
             if (containerRef.current) {
