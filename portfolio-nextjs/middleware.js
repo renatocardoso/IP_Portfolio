@@ -8,10 +8,18 @@ export function middleware(request) {
   const pathnameHasLocale = pathname.startsWith('/en') || pathname.startsWith('/pt');
   if (pathnameHasLocale) return NextResponse.next();
 
+  // Só redireciona para /en se o browser indicar inglês explicitamente.
+  // Caso contrário, reescreve internamente para /pt sem redirect HTTP — sem tela em branco.
   const acceptLanguage = request.headers.get('accept-language') || '';
-  const isPortuguese = acceptLanguage.toLowerCase().includes('pt');
-  const locale = isPortuguese ? 'pt' : 'en';
+  const isEnglish = acceptLanguage.toLowerCase().startsWith('en') ||
+                    (acceptLanguage.includes('en') && !acceptLanguage.toLowerCase().includes('pt'));
 
-  request.nextUrl.pathname = `/${locale}${pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  if (isEnglish) {
+    request.nextUrl.pathname = `/en${pathname}`;
+    return NextResponse.redirect(request.nextUrl);
+  }
+
+  // Português: rewrite silencioso (sem redirect, sem tela em branco)
+  request.nextUrl.pathname = `/pt${pathname}`;
+  return NextResponse.rewrite(request.nextUrl);
 }
