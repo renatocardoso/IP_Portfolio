@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "words": ["infinita poesia", "marcas", "produtos", "design", "criatividade", "arte", "identidade", "marcas", "cultura", "design", "produtos", "ideias"]
+  },
+  "nav": {
+    "projetos": "PROJETOS",
+    "sobre": "SOBRE",
+    "menu_sobre": "* Sobre",
+    "menu_projetos": "* Projetos"
+  },
+  "sobre": {
+    "body": "Nossa prática integra estratégia criativa, pesquisa e prototipagem para moldar marcas e produtos culturalmente relevantes. Com um olhar multidisciplinar, buscamos soluções que unam relevância ética e estética, despertando o desejo pelo consumo consciente e gerando impacto duradouro. Nossos projetos transitam entre identidade visual, design editorial, web, embalagens, sinalização e design de produto."
+  },
+  "projetos": {
+    "filter_all": "Todos",
+    "filter_grafico": "Gráfico",
+    "filter_produto": "Produto"
+  }
+}

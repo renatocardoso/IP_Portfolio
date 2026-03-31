@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 
-import { typewriterWords } from "../data/typewriterWords";
+import { typewriterWords } from "../data/siteData";
 
-export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
+export default function TypewriterHero({ onMouseEnter, isAnimationActive, words: wordsProp }) {
+    const wordList = wordsProp || typewriterWords;
     const [index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -46,12 +47,14 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
     useEffect(() => {
         if (!isStarted || isAnimationActive) return;
 
-        const typingSpeed = 50; // Much faster typing
-        const deletingSpeed = 25; // Much faster deleting
-        const pauseDuration = 2000; // Keep word visible for 2 seconds
+        // ── TIMING CONSTANTS — ajuste aqui para regular a velocidade ──────────
+        const typingSpeed   = 60;   // ms por caractere digitado  (↑ = mais lento)
+        const deletingSpeed = 30;   // ms por caractere apagado   (↑ = mais lento)
+        const pauseDuration = 2000; // ms a palavra fica visível antes de apagar
+        // ──────────────────────────────────────────────────────────────────────
 
         // Reached the end of the word, pause then start deleting
-        if (subIndex === typewriterWords[index].length && !isDeleting) {
+        if (subIndex === wordList[index].length && !isDeleting) {
             const pauseTimer = setTimeout(() => setIsDeleting(true), pauseDuration);
             return () => clearTimeout(pauseTimer);
         }
@@ -59,7 +62,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
         // Finished deleting, go to next word IMMEDIATELY without waiting.
         if (subIndex === 0 && isDeleting) {
             setIsDeleting(false);
-            setIndex((prev) => (prev + 1) % typewriterWords.length);
+            setIndex((prev) => (prev + 1) % wordList.length);
             return;
         }
 
@@ -80,7 +83,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
     return (
         <div
             id="hero-typewriter"
-            className={`inline-flex items-center justify-center cursor-pointer font-fira text-4xl md:text-6xl text-[#333] selection:bg-[#FF4E50] selection:text-white ${!isAnimationActive ? 'transition-opacity duration-1000 opacity-100' : 'opacity-0'}`}
+            className={`inline-flex items-center justify-center cursor-pointer font-sans font-normal text-4xl md:text-6xl text-[#333] selection:bg-[#FF4E50] selection:text-white ${!isAnimationActive ? 'transition-opacity duration-1000 opacity-100' : 'opacity-0'}`}
             onMouseEnter={onMouseEnter}
         >
             <span className={`text-[#333]`}>/</span>
@@ -88,7 +91,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive }) {
                 *
             </span>
             <span className="whitespace-nowrap flex items-center">
-                {!isAnimationActive && isStarted ? typewriterWords[index].substring(0, subIndex) : ""}
+                {!isAnimationActive && isStarted ? wordList[index].substring(0, subIndex) : ""}
                 {!isAnimationActive && (
                     <span className={`${blink ? "opacity-100" : "opacity-0"} text-[#333] ml-[2px] mb-1 transition-opacity duration-100 font-light`}>
                         |

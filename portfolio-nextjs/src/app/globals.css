@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-noto-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-fira: var(--font-fira), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-fira), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), ui-serif, Georgia, serif;
 
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
@@ -10,11 +10,24 @@
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
-  --color-brand: #FF4E50;
-  --color-text-dark: #333333;
-  --color-text-gray: #4a4a4a;
-  --color-text-light: #b0b0b0;
-  --color-panel: #ffffff;
+  /* --- Brand Tokens (fonte: Figma ip-design-system › Semantic) --- */
+  --color-brand:                #e23b1b;  /* brand         → red/500    */
+  --color-text-dark:            #333333;  /* text-dark     → neutral/900 */
+  --color-text-gray:            #4a4a4a;  /* text-gray     → neutral/700 */
+  --color-text-light:           #b0b0b0;  /* text-light    → neutral/400 */
+  --color-panel:                #ffffff;  /* light-panel   → white       */
+  --color-panel-dark:           #031417;  /* dark-panel    → blue/900    */
+
+  /* Icon colors */
+  --color-icon-red:             #c1233a;  /* icon-red              → red/900    */
+  --color-icon-yellow-bg-light: #f6931c;  /* icon-yellow-bg-light  → yellow/900 */
+  --color-icon-yellow-bg-dark:  #fee735;  /* icon-yellow-bg-dark   → yellow/500 */
+  --color-icon-blue-bg-light:   #3f3dc2;  /* icon-blue-bg-light    → blue/700   */
+  --color-icon-blue-bg-dark:    #1b5bc7;  /* icon-blue-bg-dark     → blue/400   */
+
+  /* Text highlight */
+  --color-highlight-bg-light:   #633cbd;  /* text-highlight-bg-light → purple/900 */
+  --color-highlight-bg-dark:    #c645a2;  /* text-highlight-bg-dark  → purple/500 */
 }
 
 @layer base {

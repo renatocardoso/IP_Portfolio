@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# memory de projeto (notas de desenvolvimento, não versionado)
+/memory/
+
+# Claude Code local settings
+/.claude/

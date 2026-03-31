@@ -3,8 +3,15 @@
 
 export const typewriterWords = [
     "infinita poesia",
-    "design de marcas",
-    "design de produtos",
+    "marcas",
+    "produtos",
+    "design",
     "criatividade",
+    "arte",
+    "identidade",
+    "marcas",
+    "cultura",
+    "design",
+    "produtos",
     "ideias"
 ];

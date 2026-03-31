@@ -1,9 +1,19 @@
 "use client";
 
+// ── TUNING CONSTANTS — ajuste aqui para regular as velocidades ────────────────
+const DANDELION_DURATION_FRAMES = 84;   // duração da explosão em frames (↑ = mais lento)
+const DANDELION_FORCE_MIN       = 1.25; // força mínima de lançamento   (↑ = mais rápido)
+const DANDELION_FORCE_MAX       = 2.9;  // força máxima de lançamento   (↑ = mais rápido)
+const MENU_SEEK_SPEED           = 3.33; // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
+const MENU_SEEK_STEER           = 0.167;// responsividade de curva dos asteriscos-menu
+const MENU_TYPE_INTERVAL        = 5;    // frames por caractere digitado no menu (↑ = mais lento)
+const MENU_DELETE_INTERVAL      = 2;    // frames por caractere apagado no menu  (↑ = mais lento)
+// ─────────────────────────────────────────────────────────────────────────────
+
 import { useRouter } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
 
-export default function DandelionAnimation({ onAnimationStart }) {
+export default function DandelionAnimation({ onAnimationStart, menuItems }) {
     const router = useRouter();
     const [isClient, setIsClient] = useState(false);
     const p5Ref = useRef(null); // Guard reference to p5 instance for cleanup
@@ -17,6 +27,8 @@ export default function DandelionAnimation({ onAnimationStart }) {
         const initP5 = async () => {
             const p5Module = await import("p5");
             const p5 = p5Module.default;
+            // Expose p5 class globally so Letter class can access static Vector methods
+            window.p5 = p5;
 
             const sketch = (p) => {
                 p.setup = () => setup(p, containerRef.current);
@@ -56,10 +68,9 @@ export default function DandelionAnimation({ onAnimationStart }) {
             "#4E89AE",
             "#3D5A80",
         ],
-        menuItemsData: [
+        menuItemsData: menuItems || [
             { label: "* Sobre", url: "/sobre" },
-            { label: "* Design Gráfico", url: "/grafico" },
-            { label: "* Design Produto", url: "/produto" },
+            { label: "* Projetos", url: "/projetos" },
         ],
         letters: [],
         dandelionCenter: null,
@@ -68,15 +79,14 @@ export default function DandelionAnimation({ onAnimationStart }) {
         mainFontSize: 40,
         menuFontSize: 22,
         desktopLayout: true,
-        transitionDurationFrames: 70, // Drastically increased dandelion explosion speed
+        transitionDurationFrames: DANDELION_DURATION_FRAMES,
         puffStartTime: 0,
         textBoundingBoxes: [],
         mouseIsOverMenuItem: false // Used for cursor targeting
     });
 
-    if (!isClient) return null;
-
     // Define P5.js setup and draw functions
+    // IMPORTANT: these must be declared before the early return to avoid TDZ errors in useEffect
     const setup = (p5, canvasParentRef) => {
         p5Ref.current = p5;
         p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef);
@@ -87,8 +97,9 @@ export default function DandelionAnimation({ onAnimationStart }) {
         vars.current.animationOrigin = p5.createVector(0, 0);
         p5.textAlign(p5.CENTER, p5.CENTER);
 
-        // Match Hero typography
+        // Match Hero typography — weight 400 explicit to match HTML font-normal
         p5.textFont("Fira Sans, sans-serif");
+        p5.textStyle(p5.NORMAL);
 
         setResponsiveVariables(p5);
     };
@@ -217,35 +228,23 @@ export default function DandelionAnimation({ onAnimationStart }) {
         // 0.0 (Mobile 320px) to 1.0 (Desktop 1200px)
         const layoutFactor = p5.constrain(p5.map(p5.width, 320, 1200, 0, 1), 0, 1);
 
-        // === DESKTOP POSITIONS (Horizontal Spread) ===
-        const deskSpacing = p5.height * 0.2;
-        const deskHorizOffset = p5.width * 0.12;
+        // === DESKTOP POSITIONS ===
+        // "Sobre" upper-left, "Projetos" lower-right — diagonal offset
         const deskPos = [
-            p5.createVector(center.x - deskHorizOffset - 50, center.y - deskSpacing),
-            p5.createVector(center.x + deskHorizOffset + 50, center.y),
-            // Moved '* Design de Produto' (index 2) more to the left to separate from '* Design Gráfico'
-            p5.createVector(center.x - p5.width * 0.02, center.y + deskSpacing)
+            p5.createVector(center.x - p5.width * 0.2,  center.y - p5.height * 0.22),
+            p5.createVector(center.x + p5.width * 0.08, center.y + p5.height * 0.22),
         ];
 
-        // === MOBILE POSITIONS (Vertical Cascade) ===
-        // Move anchors to the far left (15% width) to allow long text like "Design Gráfico" to easily fit inside 320px
-        const mobSpacing = p5.height * 0.15;
-        const mobAnchorX = p5.width * 0.15;
+        // === MOBILE POSITIONS ===
         const mobPos = [
-            p5.createVector(mobAnchorX, center.y - mobSpacing * 1.5),
-            p5.createVector(mobAnchorX + p5.width * 0.05, center.y), // Just a tiny 5% stagger
-            p5.createVector(mobAnchorX, center.y + mobSpacing * 1.5)
+            p5.createVector(center.x - p5.width * 0.12, center.y - p5.height * 0.18),
+            p5.createVector(center.x + p5.width * 0.06, center.y + p5.height * 0.18),
         ];
 
-        const finalPositions = [];
-        for (let i = 0; i < 3; i++) {
-            finalPositions.push(p5.createVector(
-                p5.lerp(mobPos[i].x, deskPos[i].x, layoutFactor),
-                p5.lerp(mobPos[i].y, deskPos[i].y, layoutFactor)
-            ));
-        }
-
-        return finalPositions;
+        return [0, 1].map((i) => p5.createVector(
+            p5.lerp(mobPos[i].x, deskPos[i].x, layoutFactor),
+            p5.lerp(mobPos[i].y, deskPos[i].y, layoutFactor)
+        ));
     };
 
     const mousePressed = (p5) => {
@@ -342,6 +341,8 @@ export default function DandelionAnimation({ onAnimationStart }) {
         }
     };
 
+    if (!isClient) return null;
+
     return (
         <div ref={containerRef} className="fixed inset-0 z-0">
         </div>
@@ -412,9 +413,9 @@ class Letter {
             this.size = this.vars.current.menuFontSize; // Snap to exact size when docked
             return;
         }
-        desired.setMag(p5.map(d, 0, 150, 0, 4, true));
+        desired.setMag(p5.map(d, 0, 150, 0, MENU_SEEK_SPEED, true));
         let steer = window.p5.Vector.sub(desired, this.vel);
-        steer.limit(0.2);
+        steer.limit(MENU_SEEK_STEER);
         this.applyForce(p5, steer);
     }
 
@@ -437,7 +438,7 @@ class Letter {
         }
 
         const force = window.p5.Vector.fromAngle(releaseAngle);
-        force.mult(p5.random(1.5, 3.5));
+        force.mult(p5.random(DANDELION_FORCE_MIN, DANDELION_FORCE_MAX));
         this.applyForce(p5, force);
 
         if (this.isMenuItem) {
@@ -472,41 +473,38 @@ class Letter {
                 this.size = this.vars.current.menuFontSize;
                 this.vel.mult(0.9);
 
-                // When arrived, execute fast synchronized looping typewriter effect
-                if (p5.frameCount % 4 === 0) {
+                // Typewriter loop — typing/waiting at normal speed, deletion 2x faster
+                if (p5.frameCount % MENU_TYPE_INTERVAL === 0) {
                     if (this.typeState === 'typing') {
                         if (this.pauseTimer > 0) {
-                            this.pauseTimer -= 4;
+                            this.pauseTimer -= MENU_TYPE_INTERVAL;
                         } else if (this.typewriterIndex < this.label.length - 2) {
                             this.typewriterIndex++;
                         } else {
                             this.typeState = 'waiting';
-                            // Keep the fully typed word visible for a long time (~5 seconds)
-                            if (this.isFirstWait) {
-                                this.pauseTimer = 300 + (this.menuIndex * 60); // Stagger initial waits
-                                this.isFirstWait = false;
-                            } else {
-                                this.pauseTimer = 300;
-                            }
+                            // Stagger always maintained: index 0 waits less than index 1
+                            // so they never delete at the same time across loops
+                            this.pauseTimer = 480 + (this.menuIndex * 120);
                         }
                     } else if (this.typeState === 'waiting') {
                         this.pauseTimer -= 4;
                         if (this.pauseTimer <= 0) {
                             this.typeState = 'deleting';
                         }
-                    } else if (this.typeState === 'deleting') {
-                        if (this.typewriterIndex > 0) {
-                            this.typewriterIndex--;
-                        } else {
-                            this.typeState = 'waiting_to_type';
-                            // Immediately start typing again with almost zero delay (0.5s)
-                            this.pauseTimer = 30;
-                        }
                     } else if (this.typeState === 'waiting_to_type') {
                         this.pauseTimer -= 4;
                         if (this.pauseTimer <= 0) {
                             this.typeState = 'typing';
                         }
+                    }
+                }
+                // Deletion runs at MENU_DELETE_INTERVAL — faster than typing
+                if (this.typeState === 'deleting' && p5.frameCount % MENU_DELETE_INTERVAL === 0) {
+                    if (this.typewriterIndex > 0) {
+                        this.typewriterIndex--;
+                    } else {
+                        this.typeState = 'waiting_to_type';
+                        this.pauseTimer = 30;
                     }
                 }
             }

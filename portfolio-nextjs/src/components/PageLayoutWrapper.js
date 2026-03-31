@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export default function PageLayoutWrapper({ children }) {
     const pathname = usePathname();
-    const isHome = pathname === "/";
+    const isHome = /^\/(pt|en)$/.test(pathname);
 
     return (
         <>

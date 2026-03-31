@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "words": ["infinite poetry", "brands", "products", "design", "creativity", "art", "identity", "brands", "culture", "design", "products", "ideas"]
+  },
+  "nav": {
+    "projetos": "PROJECTS",
+    "sobre": "ABOUT",
+    "menu_sobre": "* About",
+    "menu_projetos": "* Projects"
+  },
+  "sobre": {
+    "body": "Our practice integrates creative strategy, research, and prototyping to shape culturally relevant brands and products. With a multidisciplinary approach, we develop solutions that bridge ethical and aesthetic relevance, inspiring conscious consumption and generating a lasting impact. Our work spans visual identity, editorial design, web, packaging, wayfinding, and product design."
+  },
+  "projetos": {
+    "filter_all": "All",
+    "filter_grafico": "Graphic",
+    "filter_produto": "Product"
+  }
+}
