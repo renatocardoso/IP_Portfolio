@@ -4,10 +4,12 @@
 const DANDELION_DURATION_FRAMES = 84;   // duração da explosão em frames (↑ = mais lento)
 const DANDELION_FORCE_MIN       = 1.25; // força mínima de lançamento   (↑ = mais rápido)
 const DANDELION_FORCE_MAX       = 2.9;  // força máxima de lançamento   (↑ = mais rápido)
-const MENU_SEEK_SPEED           = 3.33; // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
-const MENU_SEEK_STEER           = 0.167;// responsividade de curva dos asteriscos-menu
+const MENU_SEEK_SPEED           = 5.5;  // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
+const MENU_SEEK_STEER           = 0.28; // responsividade de curva dos asteriscos-menu
 const MENU_TYPE_INTERVAL        = 5;    // frames por caractere digitado no menu (↑ = mais lento)
 const MENU_DELETE_INTERVAL      = 2;    // frames por caractere apagado no menu  (↑ = mais lento)
+const REVEAL_MS                 = 5000; // ms após o clique para revelar /* e iniciar a digitação
+const REVEAL_FADE_MS            = 500;  // duração do fade-in do /* central (ms)
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useRouter } from "next/navigation";
@@ -82,7 +84,8 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
         transitionDurationFrames: DANDELION_DURATION_FRAMES,
         puffStartTime: 0,
         textBoundingBoxes: [],
-        mouseIsOverMenuItem: false // Used for cursor targeting
+        mouseIsOverMenuItem: false, // Used for cursor targeting
+        puffStartMs: 0,            // Timestamp (millis) when animation was triggered
     });
 
     // Define P5.js setup and draw functions
@@ -157,11 +160,11 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
                 (letter) => !letter.isDead()
             );
 
-            // Draw central reset button '/*' after explosion finishes (opacity fade in)
-            let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
+            // Draw central reset button '/*' after REVEAL_MS — time-based, independent of FPS
+            const msElapsed = p5.millis() - vars.current.puffStartMs;
             let centerHovered = false;
 
-            if (progress > 1.0) { // Show simultaneously with menu text
+            if (msElapsed >= REVEAL_MS) {
                 p5.push();
                 p5.textAlign(p5.CENTER, p5.CENTER);
                 p5.textSize(vars.current.mainFontSize);
@@ -178,8 +181,8 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
                     p5.mouseY < p5.height / 2 + vars.current.mainFontSize / 2 + hitPadding
                 );
 
-                // Fade in alpha
-                const centerAlpha = p5.constrain(p5.map(progress, 1.0, 1.2, 0, 255), 0, 255);
+                // Ease-in fade over REVEAL_FADE_MS
+                const centerAlpha = p5.constrain(p5.map(msElapsed, REVEAL_MS, REVEAL_MS + REVEAL_FADE_MS, 0, 255), 0, 255);
 
                 const slashColor = p5.color("#333");
                 slashColor.setAlpha(centerAlpha);
@@ -231,14 +234,14 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
         // === DESKTOP POSITIONS ===
         // "Sobre" upper-left, "Projetos" lower-right — diagonal offset
         const deskPos = [
-            p5.createVector(center.x - p5.width * 0.2,  center.y - p5.height * 0.22),
-            p5.createVector(center.x + p5.width * 0.08, center.y + p5.height * 0.22),
+            p5.createVector(center.x - p5.width * 0.11, center.y - p5.height * 0.14),
+            p5.createVector(center.x + p5.width * 0.05, center.y + p5.height * 0.14),
         ];
 
         // === MOBILE POSITIONS ===
         const mobPos = [
-            p5.createVector(center.x - p5.width * 0.12, center.y - p5.height * 0.18),
-            p5.createVector(center.x + p5.width * 0.06, center.y + p5.height * 0.18),
+            p5.createVector(center.x - p5.width * 0.08, center.y - p5.height * 0.11),
+            p5.createVector(center.x + p5.width * 0.03, center.y + p5.height * 0.11),
         ];
 
         return [0, 1].map((i) => p5.createVector(
@@ -268,10 +271,10 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
                 }
             }
 
-            // Central Hitbox Reset - only if progress is complete so user doesn't accidentally reset mid-animation
-            let progress = (p5.frameCount - vars.current.puffStartTime) / vars.current.transitionDurationFrames;
+            // Central Hitbox Reset — only available after REVEAL_MS
+            const msElapsed = p5.millis() - vars.current.puffStartMs;
 
-            if (!clickedMenuItem && progress > 1.0) {
+            if (!clickedMenuItem && msElapsed >= REVEAL_MS) {
                 p5.push();
                 p5.textSize(vars.current.mainFontSize);
                 p5.textFont("Fira Sans, sans-serif");
@@ -317,6 +320,7 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
         if (vars.current.animationState !== "initial") return;
         vars.current.animationState = "puffing";
         vars.current.puffStartTime = p5.frameCount;
+        vars.current.puffStartMs = p5.millis();
         vars.current.letters = [];
 
         for (let i = 0; i < 24; i++) {
@@ -472,6 +476,9 @@ class Letter {
                 // Ensure it's exactly 50% size
                 this.size = this.vars.current.menuFontSize;
                 this.vel.mult(0.9);
+
+                // Gate: don't start typing until REVEAL_MS has elapsed
+                if ((p5.millis() - this.vars.current.puffStartMs) < REVEAL_MS) return;
 
                 // Typewriter loop — typing/waiting at normal speed, deletion 2x faster
                 if (p5.frameCount % MENU_TYPE_INTERVAL === 0) {
