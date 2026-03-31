@@ -33,13 +33,13 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
         }
     }, [isAnimationActive]);
 
-    // 2. Initial wait of 800ms only showing /*
+    // 2. Initial wait of 100ms only showing /*
     useEffect(() => {
         if (isAnimationActive) return;
 
         const startTimer = setTimeout(() => {
             setIsStarted(true);
-        }, 800);
+        }, 100);
         return () => clearTimeout(startTimer);
     }, [isAnimationActive]);
 
