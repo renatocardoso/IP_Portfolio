@@ -2,7 +2,7 @@
 
 /**
  * TagFilter — Design System Component
- * Mobile: horizontal scroll | md+: flex-wrap
+ * Todos os breakpoints: flex-wrap (quebra em múltiplas linhas)
  *
  * Props:
  *   tags    — [{ value: string, label: string }]
