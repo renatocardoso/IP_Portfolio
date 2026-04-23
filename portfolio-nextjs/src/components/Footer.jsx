@@ -32,7 +32,7 @@ export default function Footer() {
 
     return (
         // Figma: flex flex-col gap-2.5 items-center — estrutura fiel ao design system
-        <footer className="flex flex-col items-center gap-2.5 bg-white text-text-dark">
+        <footer className="flex flex-col items-center gap-2.5 bg-white text-text-dark mt-[100px]">
 
             {/* LinksFooter — Figma: h-[72px] p-5, Heading/Logo Small: 24px leading-8 */}
             <div className="flex flex-col items-center justify-center p-5">

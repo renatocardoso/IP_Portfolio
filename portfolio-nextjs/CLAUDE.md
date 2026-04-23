@@ -1,20 +1,15 @@
-# Infinita Poesia — Portfolio Next.js
+# Infinita Poesia
+**Papel principal:** Unir design estratégico e código, traduzindo abstrações Figma em interfaces componentizadas e DRY.
+**Regras de Código:** Código conciso, priorize Flexbox/Grid nativos (conforme Auto Layout), sugira otimizações sempre.
 
 ## Stack
-
 | Camada | Tecnologia |
 |---|---|
-| Framework | Next.js 16, App Router, RSC |
-| React | 19 |
-| Styling | Tailwind CSS v4 (`@import "tailwindcss"` em globals.css) |
-| Language | JavaScript — ❌ nunca `.ts`/`.tsx` |
-| Components | shadcn/ui (new-york), Radix UI primitives |
-| Animation | Framer Motion, p5 vanilla (❌ não react-p5) |
-| i18n | Middleware + `[lang]` route segment (pt / en) |
-| Carousel | embla-carousel-react (base shadcn Carousel) |
-| Upload | uploadthing + @uploadthing/react |
-| Analytics | @vercel/analytics |
-| Deploy | Vercel — auto deploy via push em `main` |
+| Core | Next.js 16 (App Router), React 19, JavaScript (❌ sem `.ts`) |
+| Styling | Tailwind CSS v4 (`@import "tailwindcss"`) |
+| UI/Comp | shadcn/ui (new-york), Radix, embla-carousel |
+| Anim | Framer Motion, p5 vanilla (❌ não react-p5) |
+| Infra | i18n (`/pt`, `/en`), Vercel Analytics, UploadThing, Deploy Vercel automático |
 
 ---
 
@@ -181,15 +176,9 @@ middleware.js            → Redirect de locale na raiz
 
 **Assets:** URL `localhost` do Figma MCP → usar diretamente. ❌ Não criar placeholders. ❌ Não instalar pacotes de ícones.
 
----
 
-## Design System — Hierarquia de tokens (Figma Variables)
 
-```
-Primitives → color/red/500: #FF4E50
-Semantic   → brand/primary → color/red/500
-             text/default  → color/neutral/800
-Component  → nav/link/active → brand/primary
-```
-
-Ao receber `get_variable_defs`: mapear tokens Figma → custom properties CSS em `globals.css`.
+<!-- SPECKIT START -->
+For additional context about technologies to be used, project structure,
+shell commands, and other important information, read the current plan
+<!-- SPECKIT END -->

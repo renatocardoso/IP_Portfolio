@@ -1,0 +1,8 @@
+Tarefa Figma via MCP: Corrigir sobreposição no "HeaderCompact"
+
+Contexto: Na última sessão, o Header foi desmembrado em dois itens lógicos: "Menu/nav" e "Nuvem de Tags".
+Problema: Após este desmembramento, no frame "mediumScreen" (dentro da hierarquia de "Tags"), o componente "HeaderCompact" está carregando com erro na altura/posicionamento. A nuvem de tags está transbordando e se sobrepondo ao conteúdo dos pacotes/pastas logo abaixo ("Linha Cards").
+Ação:
+1. Analise o frame "mediumScreen" e inspecione as camadas "HeaderCompact" e "Linha Cards".
+2. Corrija o Auto Layout (ajustando regras como 'Hug contents'/'Fill container' ou paddings/gaps) e as Constraints do "HeaderCompact".
+3. O objetivo é que a nuvem de tags não se sobreponha ao resto do layout, e o design volte a ser responsivo sem vazar sobre a área de conteúdo.

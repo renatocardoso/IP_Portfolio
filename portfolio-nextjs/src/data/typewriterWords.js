@@ -2,15 +2,16 @@
 // basta adicionar, remover ou editar as palavras nas aspas para alterar a animação
 
 export const typewriterWords = [
-    "infinita poesia",
+    "Infinita Poesia",
     "marcas",
     "produtos",
     "design",
     "criatividade",
     "arte",
     "identidade",
-    "marcas",
     "cultura",
+    "Infinita Poesia",
+    "marcas",
     "design",
     "produtos",
     "ideias"

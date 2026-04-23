@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 import { filterTags } from "@/data/siteData";
 import ProjectCard from "@/components/ui/ProjectCard";
+import TagFilter from "@/components/ui/TagFilter";
 
 const todosOsProjetos = [
     // Gráfico
@@ -60,30 +61,10 @@ export default function Projetos() {
     return (
         <section className="grow flex flex-col w-full min-h-[60vh]">
 
-            {/* Filter Tags */}
-            <div className="w-full overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pt-0 pb-10">
-                <div className="flex gap-x-10 px-8 lg:px-30 whitespace-nowrap w-full">
-                    {tags.map((tag) => (
-                        <button
-                            key={tag.value}
-                            onClick={() => setFiltro(tag.value)}
-                            className="relative text-base font-sans cursor-pointer"
-                        >
-                            {/* Hidden bold text reserves the wider width — prevents layout shift on hover */}
-                            <span aria-hidden="true" className="block invisible font-semibold leading-none">{tag.label}</span>
-                            {/* Visible text sits on top */}
-                            <span className={`absolute inset-0 flex items-center transition-all duration-150 ${
-                                filtro === tag.value
-                                    ? "text-brand font-semibold"
-                                    : "text-text-gray hover:font-semibold"
-                            }`}>{tag.label}</span>
-                        </button>
-                    ))}
-                </div>
-            </div>
+            <TagFilter tags={tags} value={filtro} onChange={setFiltro} />
 
             {/* Project Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 w-full px-8 lg:px-30">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 w-full lg:px-30">
                 {projetosFiltrados.map((projeto) => (
                     <ProjectCard
                         key={`${projeto.category}-${projeto.slug}`}
