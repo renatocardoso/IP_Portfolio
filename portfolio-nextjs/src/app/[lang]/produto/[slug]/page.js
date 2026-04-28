@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { projetosData } from "../../../produto/data";
+import { projetosData } from "../../../../data/produtoData";
 
 export default function ProjetoDetalheProduto() {
     const { lang, slug } = useParams();

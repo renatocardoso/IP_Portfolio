@@ -1,0 +1,32 @@
+export const projetosData = [
+    {
+        slug: "pan",
+        title: "Identidade Visual do Plano de Ação Nacional para conservação de espécies ameaçadas de extinção, PAN e SISPAN.",
+        title_en: "Visual Identity for the National Action Plan for the Conservation of Endangered Species, PAN and SISPAN.",
+        desc_pt: `**Contexto:** Os Planos de Ação Nacional (PAN) são instrumentos de políticas públicas desenhados para conservar espécies ameaçadas. Eles identificam ameaças à fauna, flora e ambientes naturais, estabelecendo ações estratégicas de conservação para espécies e habitats.\n\n**Conceito:** Um sistema de marca dinâmico foi desenvolvido para fornecer uma identidade única para cada Plano de Ação, mantendo, ao mesmo tempo, um senso de unidade e colaboração institucional.\n\n**Solução de Design:** O design explora o espaço negativo dentro da tipografia. As formas de encaixe preenchem as contraformas, criando a sigla "PAN" através da união entre cheio e vazio. A estrutura do sistema combina o logotipo PAN com ilustrações temáticas que representam espécies ameaçadas específicas e seus habitats.\n\n**Processo e Expansão:** O projeto envolveu extensa colaboração com pesquisadores do ICMBio para definir temas e espécies representativas. O sistema se estende ao SISPAN (a ferramenta de gestão de dados), reforçando a consistência desta iniciativa de conservação.`,
+        desc_en: `**Context:** The National Action Plans (PAN) are public policy instruments designed to conserve endangered species. They identify threats to fauna, flora, and natural environments, establishing strategic conservation actions for species and habitats.\n\n**Concept:** A dynamic brand system was developed to provide a unique identity for each Action Plan, maintaining, at the same time, a sense of unity and institutional collaboration.\n\n**Design Solution:** The design explores negative space within the typography. Interlocking shapes fill the counters, creating the acronym "PAN" through the union of solid and void. The system structure combines the PAN logo with thematic illustrations representing specific endangered species and their habitats.\n\n**Process and Expansion:** The project involved extensive collaboration with ICMBio researchers to define themes and representative species. The system extends to SISPAN (the data management tool), reinforcing the consistency of this conservation initiative.`,
+        client: "WWF - ICMBio",
+        year: "2024",
+        gallery: [
+            { type: "image", src: "/panF.jpg" },
+            { type: "image", src: "/panQ.jpg" },
+            { type: "image", src: "/panH.jpg" },
+            { type: "image", src: "/panV.jpg" },
+            { type: "image", src: "/panU.jpg" },
+            { type: "image", src: "/panI.jpg" },
+            { type: "image", src: "/panJ.jpg" },
+            { type: "image", src: "/panL.jpg" },
+            { type: "image", src: "/detalhePanA.jpg" },
+            { type: "image", src: "/panK.jpg" },
+            { type: "image", src: "/panM.jpg" },
+            { type: "image", src: "/panP.jpg" },
+            { type: "image", src: "/panN.jpg" },
+            { type: "image", src: "/panS.jpg" },
+            { type: "image", src: "/panO.jpg" },
+            { type: "image", src: "/panT.jpg" },
+            { type: "image", src: "/panY.jpg" },
+            { type: "image", src: "/panX.jpg" },
+        ],
+    },
+    // TODO: Add more projects based on legacy HTML files
+];
