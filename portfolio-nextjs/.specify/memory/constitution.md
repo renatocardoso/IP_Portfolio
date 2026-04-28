@@ -27,6 +27,31 @@ under the `@theme` block. Tailwind v4 generates native utility classes from `--c
 use them directly (`text-brand`, `bg-panel`, etc.). Using `text-[--color-brand]` without `var()`
 is a CSS error and will silently produce the wrong color. Hardcoded hex values are forbidden.
 
+#### IIa. Semantic Typography Classes (NON-NEGOTIABLE)
+Typography is defined in `@layer components` inside `globals.css` as semantic classes sourced
+from Figma ip-design-system node `1:2`. Use ONLY these classes for text elements — never raw
+Tailwind size utilities (`text-xl`, `text-4xl`, etc.) for headings or body copy:
+
+| Class | Style | Specs |
+|---|---|---|
+| `.type-h1` | Heading/H1 | Fira Sans Light, 3rem, leading 3.25rem, tracking -0.125rem |
+| `.type-h2` | Heading/H2 | Fira Sans Light, 2.25rem, leading 2.5rem, tracking -0.0625rem |
+| `.type-h3` | Heading/H3 | Fira Sans Regular, 1.25rem, leading 2rem |
+| `.type-h3-up` | Heading/H3 UP | same + uppercase |
+| `.type-body` | Body/Texto | Fira Sans Regular, 1rem, leading 1.25rem |
+| `.type-body-up` | Body/Texto UP | same + uppercase |
+| `.type-label` | Body/Label | Fira Sans SemiBold, 0.875rem, leading 1.125rem, tracking 0.053rem |
+| `.type-label-up` | Body/Label UP | same + uppercase |
+
+**Implementation rule**: Classes use `font-family: var(--font-fira), sans-serif` + `@apply` with
+hardcoded Tailwind values (NOT CSS variable references like `var(--text-h1)`) due to a Tailwind v4
+scoping limitation with `@theme` variables inside `@layer components`. The `@apply` approach is the
+canonical and validated pattern.
+
+**Tag alignment rule**: When changing a text element's HTML tag (e.g. `<p>` → `<h2>`), always
+update the semantic class to match (e.g. `type-body` → `type-h2`). Mismatched tag+class pairs
+break accessibility and visual hierarchy.
+
 ### III. Component Reuse Before Creation
 Before building any UI element, check shadcn/ui, Radix, and the existing `src/components/` tree.
 Only create a new component when nothing suitable exists. New components go in `src/components/ui/`
@@ -93,4 +118,4 @@ or redefinition) increment MAJOR. New principles increment MINOR. Clarifications
 All implementation plans MUST include a "Token & Design Compliance" checklist item verifying that
 no hardcoded colors, inline fonts, or missing i18n strings are introduced.
 
-**Version**: 1.0.0 | **Ratified**: 2026-04-23 | **Last Amended**: 2026-04-23
+**Version**: 1.1.0 | **Ratified**: 2026-04-23 | **Last Amended**: 2026-04-27

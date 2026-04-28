@@ -40,12 +40,32 @@ Variáveis `--color-*` definidas em `@theme` geram automaticamente classes utili
 
 ⚠️ `text-[--color-brand]` sem `var()` gera CSS inválido (`color: --color-brand`) — o navegador ignora e aplica a cor padrão. ❌ Nunca hardcodar hex.
 
-### Tipografia
+### Tipografia — Classes Semânticas (NON-NEGOTIABLE)
 
-| Classe | Fonte | Uso |
+Toda tipografia de conteúdo usa as classes semânticas definidas em `globals.css > @layer components`.
+**Nunca** usar utilitários Tailwind avulsos (`text-xl`, `text-4xl`, `font-light`) em headings ou body copy.
+
+| Classe | Estilo Figma | Especificação |
 |---|---|---|
-| `font-sans` | Fira Sans | UI, navegação, títulos |
-| `font-serif` | Source Serif 4 | Textos longos, descrições |
+| `type-h1` | Heading/H1 | Fira Sans Light, 3rem, leading 3.25rem, tracking −0.125rem |
+| `type-h2` | Heading/H2 | Fira Sans Light, 2.25rem, leading 2.5rem, tracking −0.0625rem |
+| `type-h3` | Heading/H3 | Fira Sans Regular, 1.25rem, leading 2rem |
+| `type-h3-up` | Heading/H3 UP | igual + uppercase |
+| `type-body` | Body/Texto | Fira Sans Regular, 1rem, leading 1.25rem |
+| `type-body-up` | Body/Texto UP | igual + uppercase |
+| `type-label` | Body/Label | Fira Sans SemiBold, 0.875rem, leading 1.125rem, tracking 0.053rem |
+| `type-label-up` | Body/Label UP | igual + uppercase |
+
+**Regra de tag:** ao mudar a tag HTML (ex: `<p>` → `<h2>`), atualizar o className semântico correspondente.
+
+⚠️ Implementação: as classes usam `@apply` com valores hardcoded (não `var(--text-h1)`) — limitação validada do Tailwind v4.
+
+| Classe antiga (❌ proibida) | Substituto correto |
+|---|---|
+| `text-5xl font-light tracking-tight` | `type-h1` |
+| `text-4xl font-light tracking-tight` | `type-h2` |
+| `text-xl font-medium` | `type-h3` |
+| `text-base leading-relaxed` | `type-body` |
 
 ❌ Nunca usar `font-fira` diretamente ou `font-family` inline.
 

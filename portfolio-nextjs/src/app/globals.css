@@ -1,41 +1,72 @@
 @import "tailwindcss";
 
 @theme {
+  /* ── Fontes ─────────────────────────────────────────────────────────────── */
   --font-sans: var(--font-fira), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-serif), ui-serif, Georgia, serif;
 
-  --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
-  --color-ring: hsl(var(--ring));
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
+  /* ── Cores — shadcn/ui (não alterar) ────────────────────────────────────── */
+  --color-border:      hsl(var(--border));
+  --color-input:       hsl(var(--input));
+  --color-ring:        hsl(var(--ring));
+  --color-background:  hsl(var(--background));
+  --color-foreground:  hsl(var(--foreground));
 
-  /* --- Brand Tokens (fonte: Figma ip-design-system › Semantic) --- */
-  --color-brand:                #e23b1b;  /* brand         → red/500    */
+  /* ── Cores — Brand Tokens                                                   */
+  /*    Fonte: Figma ip-design-system › Brand Tokens (node 1:2)               */
+  /*    Primitivos → Semânticos                                                */
+
+  /* Semânticos principais */
+  --color-brand:                #e23b1b;  /* brand         → red/500     */
   --color-text-dark:            #333333;  /* text-dark     → neutral/900 */
   --color-text-gray:            #4a4a4a;  /* text-gray     → neutral/700 */
   --color-text-light:           #b0b0b0;  /* text-light    → neutral/400 */
   --color-panel:                #ffffff;  /* light-panel   → white       */
   --color-panel-dark:           #031417;  /* dark-panel    → blue/900    */
 
-  /* Icon colors */
+  /* Ícones */
   --color-icon-red:             #c1233a;  /* icon-red              → red/900    */
   --color-icon-yellow-bg-light: #f6931c;  /* icon-yellow-bg-light  → yellow/900 */
   --color-icon-yellow-bg-dark:  #fee735;  /* icon-yellow-bg-dark   → yellow/500 */
   --color-icon-blue-bg-light:   #3f3dc2;  /* icon-blue-bg-light    → blue/700   */
   --color-icon-blue-bg-dark:    #1b5bc7;  /* icon-blue-bg-dark     → blue/400   */
 
-  /* Text highlight */
+  /* Highlight de texto */
   --color-highlight-bg-light:   #633cbd;  /* text-highlight-bg-light → purple/900 */
   --color-highlight-bg-dark:    #c645a2;  /* text-highlight-bg-dark  → purple/500 */
+
+  /* ── Tipografia — Escala                                                    */
+  /*    Fonte: Figma ip-design-system › Brand Tokens › Typography (node 1:2)  */
+  /*    Família única: Fira Sans (font-sans)                                   */
+  /*    Pesos carregados: 300 (light), 400 (regular), 500, 600 (semibold), 700 */
+  /*    Nota: Figma especifica weight 200 para H1/H2 (Fira Sans Extra Light),  */
+  /*    mas Google Fonts só disponibiliza a partir de 300 — usando font-light. */
+
+  /* Tamanhos */
+  --text-h1:    3rem;        /*  48px — Heading/H1          */
+  --text-h2:    2.25rem;     /*  36px — Heading/H2          */
+  --text-h3:    1.25rem;     /*  20px — Heading/H3          */
+  --text-body:  1rem;        /*  16px — Body/Texto          */
+  --text-label: 0.875rem;    /*  14px — Body/Label          */
+
+  /* Line heights */
+  --leading-h1:    3.25rem;  /*  52px */
+  --leading-h2:    2.5rem;   /*  40px */
+  --leading-h3:    2rem;     /*  32px */
+  --leading-body:  1.25rem;  /*  20px */
+  --leading-label: 1.125rem; /*  18px */
+
+  /* Letter spacing */
+  --tracking-h1:    -0.125rem;   /* -2px  */
+  --tracking-h2:    -0.0625rem;  /* -1px  */
+  --tracking-label:  0.053125rem;/*  0.85px */
 }
 
+/* ── Base ─────────────────────────────────────────────────────────────────── */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    /* #ffffff */
-    --foreground: 0 0% 20%;
-    /* #333333 */
+    --background: 0 0% 100%; /* #ffffff */
+    --foreground: 0 0% 20%;  /* #333333 */
   }
 
   * {
@@ -53,6 +84,61 @@
   }
 }
 
+/* ── Tipografia — Classes semânticas ─────────────────────────────────────── */
+/*    Use estas classes nos componentes em vez de utilitários avulsos.        */
+/*    Assim, uma alteração no Figma = uma alteração aqui = todo o site muda.  */
+@layer components {
+
+  /* H1 — Heading/H1 — Fira Sans Light 48px */
+  .type-h1 {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-light text-[3rem] leading-[3.25rem] tracking-[-0.125rem];
+  }
+
+  /* H2 — Heading/H2 — Fira Sans Light 36px */
+  .type-h2 {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-light text-[2.25rem] leading-[2.5rem] tracking-[-0.0625rem];
+  }
+
+  /* H3 — Heading/H3 — Fira Sans Regular 20px */
+  .type-h3 {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-normal text-[1.25rem] leading-[2rem] tracking-normal;
+  }
+
+  /* H3 Uppercase — Heading/H3 UP */
+  .type-h3-up {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-normal text-[1.25rem] leading-[2rem] tracking-normal uppercase;
+  }
+
+  /* Body — Body/Texto — Fira Sans Regular 16px */
+  .type-body {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-normal text-[1rem] leading-[1.25rem] tracking-normal;
+  }
+
+  /* Body Uppercase — Body/Texto UP */
+  .type-body-up {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-normal text-[1rem] leading-[1.25rem] tracking-normal uppercase;
+  }
+
+  /* Label — Body/Label/Default — Fira Sans SemiBold 14px */
+  .type-label {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-semibold text-[0.875rem] leading-[1.125rem] tracking-[0.053125rem];
+  }
+
+  /* Label Uppercase — Body/Label/Uppercase */
+  .type-label-up {
+    font-family: var(--font-fira), sans-serif;
+    @apply font-semibold text-[0.875rem] leading-[1rem] tracking-[0.053125rem] uppercase;
+  }
+}
+
+/* ── Utilitários ─────────────────────────────────────────────────────────── */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
