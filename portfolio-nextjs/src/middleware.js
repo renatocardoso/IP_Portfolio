@@ -19,7 +19,7 @@ export function middleware(request) {
     return NextResponse.redirect(request.nextUrl);
   }
 
-  // Português: rewrite silencioso (sem redirect, sem tela em branco)
+  // Português: redirect para a rota correta
   request.nextUrl.pathname = `/pt${pathname}`;
-  return NextResponse.rewrite(request.nextUrl);
+  return NextResponse.redirect(request.nextUrl);
 }

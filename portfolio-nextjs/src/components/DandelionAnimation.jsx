@@ -1,7 +1,7 @@
 "use client";
 
 // ── TUNING CONSTANTS — ajuste aqui para regular as velocidades ────────────────
-const DANDELION_DURATION_FRAMES = 84;   // duração da explosão em frames (↑ = mais lento)
+const DANDELION_DURATION_FRAMES = 144;   // duração da explosão em frames (↑ = mais lento)
 const DANDELION_FORCE_MIN       = 1.25; // força mínima de lançamento   (↑ = mais rápido)
 const DANDELION_FORCE_MAX       = 2.9;  // força máxima de lançamento   (↑ = mais rápido)
 const MENU_SEEK_SPEED           = 5.5;  // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
@@ -169,6 +169,7 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
                 p5.textAlign(p5.CENTER, p5.CENTER);
                 p5.textSize(vars.current.mainFontSize);
                 p5.textFont("Fira Sans, sans-serif");
+                p5.drawingContext.font = `400 ${vars.current.mainFontSize}px "Fira Sans", sans-serif`;
 
                 const spaceWidth = p5.textWidth("* ");
 
@@ -278,6 +279,7 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
                 p5.push();
                 p5.textSize(vars.current.mainFontSize);
                 p5.textFont("Fira Sans, sans-serif");
+                p5.drawingContext.font = `400 ${vars.current.mainFontSize}px "Fira Sans", sans-serif`;
                 const spaceWidth = p5.textWidth("* ");
                 p5.pop();
 
@@ -376,10 +378,12 @@ class Letter {
         const radius = p5.random(1, 15) * (1 - p5.pow(p5.random(), 2));
         const offset = window.p5.Vector.fromAngle(angle).mult(radius);
         this.pos = window.p5.Vector.add(this.center, offset);
+        this.initialPos = this.pos.copy();
         this.vel = p5.createVector(0, 0);
         this.acc = p5.createVector(0, 0);
         this.isReleased = false;
         this.angle = p5.random(p5.TWO_PI);
+        this.initialAngle = this.angle;
         this.angularVelocity = 0;
         this.size = this.vars.current.mainFontSize; // Asterisk keeps original size initially
         this.noiseOffset = p5.random(1000);
@@ -401,53 +405,21 @@ class Letter {
         this.acc.add(force);
     }
 
-    seek(p5) {
-        let desired = window.p5.Vector.sub(this.targetPos, this.pos);
-        let d = desired.mag();
-
-        // Dynamically shrink asterisk size as it approaches the target
-        // Smooth scale: We begin shrinking from a much wider radius so the transition is imperceptibly smooth
-        const startDist = p5.width / 1.5;
-        this.size = p5.map(d, startDist, 0, this.vars.current.mainFontSize, this.vars.current.menuFontSize, true);
-
-        if (d < 5) {
-            this.hasArrived = true;
-            this.vel.mult(0.1);
-            this.pos.set(this.targetPos);
-            this.size = this.vars.current.menuFontSize; // Snap to exact size when docked
-            return;
-        }
-        desired.setMag(p5.map(d, 0, 150, 0, MENU_SEEK_SPEED, true));
-        let steer = window.p5.Vector.sub(desired, this.vel);
-        steer.limit(MENU_SEEK_STEER);
-        this.applyForce(p5, steer);
-    }
-
     release(p5) {
         if (this.isReleased) return;
         this.isReleased = true;
         let releaseAngle;
 
-        if (this.isMenuItem && this.targetPos) {
-            const angleToTarget = p5.atan2(
-                this.targetPos.y - this.center.y,
-                this.targetPos.x - this.center.x
-            );
-            releaseAngle = angleToTarget + p5.random(-0.4, 0.4);
+        if (this.isMenuItem) {
+            // Movement is handled mathematically by lerp in update() to perfectly match physics
         } else {
             releaseAngle = p5.atan2(
                 this.pos.y - this.center.y,
                 this.pos.x - this.center.x
             );
-        }
-
-        const force = window.p5.Vector.fromAngle(releaseAngle);
-        force.mult(p5.random(DANDELION_FORCE_MIN, DANDELION_FORCE_MAX));
-        this.applyForce(p5, force);
-
-        if (this.isMenuItem) {
-            this.angularVelocity = 0;
-        } else {
+            const force = window.p5.Vector.fromAngle(releaseAngle);
+            force.mult(p5.random(DANDELION_FORCE_MIN, DANDELION_FORCE_MAX));
+            this.applyForce(p5, force);
             this.angularVelocity = p5.random(-0.05, 0.05);
         }
     }
@@ -455,8 +427,9 @@ class Letter {
     update(p5) {
         if (!this.isReleased) return;
 
+        let progressFrames = p5.frameCount - this.vars.current.puffStartTime;
         let progress =
-            (p5.frameCount - this.vars.current.puffStartTime) /
+            progressFrames /
             this.vars.current.transitionDurationFrames;
         let t = p5.constrain(progress, 0, 1);
 
@@ -471,7 +444,20 @@ class Letter {
 
             // Wait to reach target before starting typing effects
             if (!this.hasArrived) {
-                this.seek(p5); // seek() now handles size shrinking dynamically
+                let frameConstrained = p5.constrain(progressFrames, 0, 144);
+                let curve = (1 - p5.pow(0.98, frameConstrained)) / (1 - p5.pow(0.98, 144));
+                
+                this.pos.x = p5.lerp(this.initialPos.x, this.targetPos.x, curve);
+                this.pos.y = p5.lerp(this.initialPos.y, this.targetPos.y, curve);
+                this.size = p5.lerp(this.vars.current.mainFontSize, this.vars.current.menuFontSize, curve);
+                this.angle = p5.lerp(this.initialAngle, 0, curve);
+
+                if (progressFrames >= 144) {
+                    this.hasArrived = true;
+                    this.pos.set(this.targetPos);
+                    this.angle = 0;
+                    this.size = this.vars.current.menuFontSize;
+                }
             } else {
                 // Ensure it's exactly 50% size
                 this.size = this.vars.current.menuFontSize;
@@ -515,13 +501,13 @@ class Letter {
                     }
                 }
             }
+        } else {
+            this.vel.add(this.acc);
+            this.pos.add(this.vel);
+            this.angle += this.angularVelocity;
+            this.vel.mult(0.98);
+            this.acc.mult(0);
         }
-
-        this.vel.add(this.acc);
-        this.pos.add(this.vel);
-        this.angle += this.angularVelocity;
-        this.vel.mult(0.98);
-        this.acc.mult(0);
     }
 
     display(p5) {
@@ -538,6 +524,7 @@ class Letter {
 
             p5.textAlign(p5.CENTER, p5.CENTER);
             p5.textSize(this.size);
+            p5.drawingContext.font = `400 ${this.size}px "Fira Sans", sans-serif`;
 
             // Interaction colors state
             let hoverColor = p5.color("#FF4E50");
@@ -568,6 +555,7 @@ class Letter {
             this.color.setAlpha(this.alpha);
             p5.fill(this.color);
             p5.textSize(this.size);
+            p5.drawingContext.font = `400 ${this.size}px "Fira Sans", sans-serif`;
             p5.textAlign(p5.CENTER, p5.CENTER);
             p5.text(this.char, 0, 0);
         }
@@ -586,6 +574,7 @@ class Letter {
         p5.push();
         p5.textSize(this.vars.current.menuFontSize);
         p5.textFont("Fira Sans, sans-serif");
+        p5.drawingContext.font = `400 ${this.vars.current.menuFontSize}px "Fira Sans", sans-serif`;
 
         const hitboxPadding = this.vars.current.desktopLayout ? 15 : 25;
         // Measure the FULL label so the hitbox covers the whole word, even if it's currently only halfway typed

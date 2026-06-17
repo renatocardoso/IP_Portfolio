@@ -134,7 +134,7 @@
   /* Label Uppercase — Body/Label/Uppercase */
   .type-label-up {
     font-family: var(--font-fira), sans-serif;
-    @apply font-semibold text-[0.875rem] leading-[1rem] tracking-[0.053125rem] uppercase;
+    @apply font-semibold text-[0.875rem] leading-[1.125rem] tracking-[0.053125rem] uppercase;
   }
 }
 
