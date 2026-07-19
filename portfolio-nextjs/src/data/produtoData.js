@@ -12,11 +12,11 @@ The Sereno Line expands its concept to the freedom of spatial composition, revea
         client: "Saccaro",
         year: "2026",
         category: "produto",
-        thumbnail: "/saccaroG.jpeg",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qc2qfrpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7yLbEs6PSdrLogis8aAHvYnZDPQcqThXIeERK" },
-            { type: "image", src: "/saccaroF.jpeg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74W6tKtYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
         ]
     },
     {
@@ -208,12 +208,12 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         client: "Saccaro",
         year: "2026",
         category: "produto",
-        thumbnail: "/saccaroB.jpeg",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LSOAX1Dgh0JcvT2ZsNp1b36lCDWRe8fMwGH5",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7TWlYI79dtnLquOkbmvAj8x05U1VPwZrK6lBy" },
-            { type: "image", src: "/saccaroB.jpeg" },
-            { type: "image", src: "/saccaroC.jpeg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LSOAX1Dgh0JcvT2ZsNp1b36lCDWRe8fMwGH5" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kMfqpZisJHhATSZ3pqtc6PFENXw5mzef9sBa" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pq5gRYexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
         ]
     },
@@ -233,7 +233,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kMWUSowsJHhATSZ3pqtc6PFENXw5mzef9sBa",
         tags: [],
         gallery: [
-            { type: "image", src: "/moon.png" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uGRSGriwjF7GOsuvIRypc2TdB3EY5M0PAf8g" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KeeG2Bnqeiax41Jgf9kWy5wsLXTcmG7zvF8B" },
         ]
     },

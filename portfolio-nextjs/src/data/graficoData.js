@@ -735,10 +735,10 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         tags: ["identidade-visual"],
         gallery: [
             { type: "image", src: "/detalheBreak2.jpg" },
-            { type: "image", src: "/detalheBreak1.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73UI69niCc7ykYGxUR6KMEBg0odwbe5zNIj8p" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Ci5FrjSvMrayNJYT9CV7UzBnWgt0RkFZp1P4" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7uGR4FXZwjF7GOsuvIRypc2TdB3EY5M0PAf8g" },
-            { type: "image", src: "/detalheBreak6.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75De9bwQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7GCarVCf6E7jguTdaA8N54cKypx1XYCVoR93l" },
             { type: "image", src: "/detalheBreak5.jpg" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7iGbcuU7pDgjAfRIF0JvmZqXteduGo2Kyh81P" },
@@ -778,7 +778,7 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         thumbnail: "https://utfs.io/f/047OTbUFRaz7PTu1GO8jjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
         tags: [],
         gallery: [
-            { type: "image", src: "/panthera1.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73HJ8UMMiCc7ykYGxUR6KMEBg0odwbe5zNIj8" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KeeYVcKqeiax41Jgf9kWy5wsLXTcmG7zvF8B" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Sc2IPmBxLagkEYQucWCXVx3fwGml1MitZB9q" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ggomMq0RIf9yMJhTVPzX86FevaE7UrlA1oqd" },
@@ -817,15 +817,15 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         thumbnail: "https://utfs.io/f/047OTbUFRaz7vX7nsFknUgH4xqT9Sjck6t1pKRso7aeWhJfi",
         tags: [],
         gallery: [
-            { type: "image", src: "/detalheAragua6.jpg" },
-            { type: "image", src: "/detalheAragua5.jpg" },
-            { type: "image", src: "/detalheAragua1.jpg" },
-            { type: "image", src: "/detalheAragua2.jpg" },
-            { type: "image", src: "/detalheAragua3.jpg" },
-            { type: "image", src: "/detalheAragua4.jpg" },
-            { type: "image", src: "/detalheAragua9.jpg" },
-            { type: "image", src: "/detalheAragua7.jpg" },
-            { type: "image", src: "/detalheAragua8.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DDumZK3a9mVHGFRd76bOLIoyZgtWQxJMfzeq" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jbYA4jEkoUPXq74KDfxlYy23B0TVeW5ciJ8S" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mJqC1kWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Hvav0DKVloQp02I6KTBYUJxEknvdFibcR4ta" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Z7xRTwu0W5PBHYFcEzubtUCfS18V76QjDAp9" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IJ29R64YpNL4JA5UKuWlkS2rsiy61njEM0bt" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eDQEY95bSlRH2oJsrVNA31q5kjEYMZe0BXhc" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz729tiuLgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75YRHIMQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb" },
         ]
     },
     {
@@ -840,8 +840,8 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         thumbnail: "https://utfs.io/f/047OTbUFRaz7R8H4zmKGFgOZuP5fARs492Nj8WtL1XCc7MkH",
         tags: [],
         gallery: [
-            { type: "image", src: "/detalheBosque2.jpg" },
-            { type: "image", src: "/detalheBosque.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wUdfYVRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1xIJF35bSlRH2oJsrVNA31q5kjEYMZe0BXh" },
         ]
     },
     {
