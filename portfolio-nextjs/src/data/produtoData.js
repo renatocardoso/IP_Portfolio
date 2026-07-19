@@ -135,11 +135,11 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         client: "saccaro",
         year: "2026",
         category: "produto",
-        thumbnail: "/zazemB.png",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
         tags: [],
         gallery: [
             { type: "image", src: "/zazenA.png" },
-            { type: "image", src: "/zazemB.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
             { type: "image", src: "/zazemC.jpeg" },
             { type: "image", src: "/zazemG.jpg" },
             { type: "image", src: "/zazemD.jpeg" },
