@@ -71,7 +71,6 @@ This fantasy, linked to our search for comfort and a desire to feel protected, a
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7soWR7Art68MwRc5lNvYTkem1GV0hDSbsdAFE" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7UCTa7EoxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7LipX4YfDgh0JcvT2ZsNp1b36lCDWRe8fMwGH" },
-            { type: "video", src: "/detalheNuage1.mp4" },
         ]
     },
     {

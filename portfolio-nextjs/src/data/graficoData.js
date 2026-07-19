@@ -27,16 +27,16 @@ Typography Selected to evoke the region's cultural heritage, referencing the aes
         thumbnail: "https://utfs.io/f/047OTbUFRaz7PTRPZzJjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
         tags: ["identidade-visual"],
         gallery: [
-            { type: "image", src: "/patTropas1.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nQEoZu2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ruhgNRqMsISKEpcja2DCQOu7gTn16z50XNdM" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7sa1ydqrt68MwRc5lNvYTkem1GV0hDSbsdAFE" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7d8Z8nMCVDmHaL07yhbZKojBuAC2Gce59kTpt" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7CJxQ3Q0SvMrayNJYT9CV7UzBnWgt0RkFZp1P" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz77bfiTdHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ihxMlY7pDgjAfRIF0JvmZqXteduGo2Kyh81P" },
-            { type: "image", src: "/patTropas12.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73jHuWbiCc7ykYGxUR6KMEBg0odwbe5zNIj8p" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7RmdFxGFgOZuP5fARs492Nj8WtL1XCc7MkHYo" },
-            { type: "image", src: "/patTropas13.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72F8RMwgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2" },
         ]
     },
     {
