@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export function middleware(request) {
   const { pathname } = request.nextUrl;
-  if (pathname.startsWith('/_next') || pathname.includes('.') || pathname.startsWith('/api')) {
+  if (pathname.startsWith('/_next') || pathname.includes('.') || pathname.startsWith('/api') || pathname.startsWith('/admin')) {
     return NextResponse.next();
   }
   const pathnameHasLocale = pathname.startsWith('/en') || pathname.startsWith('/pt');
