@@ -15,7 +15,7 @@ The Sereno Line expands its concept to the freedom of spatial composition, revea
         thumbnail: "/saccaroG.jpeg",
         tags: [],
         gallery: [
-            { type: "image", src: "/saccaroE.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7yLbEs6PSdrLogis8aAHvYnZDPQcqThXIeERK" },
             { type: "image", src: "/saccaroF.jpeg" },
         ]
     },
@@ -39,13 +39,13 @@ In some contexts, “OKO” can be interpreted as the “all-seeing eye,” a sy
         thumbnail: "https://utfs.io/f/047OTbUFRaz700w6vEUFRaz7ojmHIOPSXUkt8QMrec156su3",
         tags: ["identidade-visual"],
         gallery: [
-            { type: "image", src: "/detalheOko4.jpg" },
-            { type: "image", src: "/detalheOko2.jpg" },
-            { type: "image", src: "/detalheOko3.jpg" },
-            { type: "image", src: "/detalheOko5.jpg" },
-            { type: "image", src: "/detalheOko6.jpg" },
-            { type: "image", src: "/detalheOko7.jpg" },
-            { type: "image", src: "/detalheOko8.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7iox3i27pDgjAfRIF0JvmZqXteduGo2Kyh81P" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7riRIF9MsISKEpcja2DCQOu7gTn16z50XNdMh" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7mg20rdWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz74ifwfwYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz78J83WuhEIviel1sxuONM9wmg5tJAShW0HKdZ" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7p8JHvSexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz70NKL4MUFRaz7ojmHIOPSXUkt8QMrec156su3" },
         ]
     },
     {
@@ -68,9 +68,9 @@ This fantasy, linked to our search for comfort and a desire to feel protected, a
         thumbnail: "https://utfs.io/f/047OTbUFRaz7UCTa7EoxL96kWlPOEZnVivRFpuo4mhNGcTYb",
         tags: ["digital"],
         gallery: [
-            { type: "image", src: "/detalheNuage2.png" },
-            { type: "image", src: "/detalheNuage3.jpg" },
-            { type: "image", src: "/detalheNuage4.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7soWR7Art68MwRc5lNvYTkem1GV0hDSbsdAFE" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7UCTa7EoxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7LipX4YfDgh0JcvT2ZsNp1b36lCDWRe8fMwGH" },
             { type: "video", src: "/detalheNuage1.mp4" },
         ]
     },
@@ -102,11 +102,11 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         thumbnail: "https://utfs.io/f/047OTbUFRaz7MN4IB7ZFZf0VqWm8jut9gQBr5nkscDIzP4NY",
         tags: ["identidade-visual", "digital"],
         gallery: [
-            { type: "image", src: "/jamA.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Hc97OGKVloQp02I6KTBYUJxEknvdFibcR4ta" },
             { type: "image", src: "/jamB.jpeg" },
-            { type: "image", src: "/detalheJam1.jpg" },
-            { type: "image", src: "/detalheJam2.jpg" },
-            { type: "image", src: "/detalheJam4.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7c7D6fjnWJGwS0cYtZbunvaj3TUQ1srzDCMOL" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7xB4zFqJlf3e05zRUFVknwH92JabiDYWxT8Zu" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz75dN6F3jQHPs2FRjySlnmwEXMTJcuNQp1D8Kq" },
         ]
     },
     {
@@ -121,9 +121,9 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         thumbnail: "https://utfs.io/f/047OTbUFRaz7pQbbKFmexRPd3X9qjgWuUm4tBsCDa0kJ7ylM",
         tags: [],
         gallery: [
-            { type: "image", src: "/mandarimA.jpeg" },
-            { type: "image", src: "/detalheMandarin1.png" },
-            { type: "image", src: "/detalheMandarim2.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ZxXP5zu0W5PBHYFcEzubtUCfS18V76QjDAp9" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7j9MIS0XEkoUPXq74KDfxlYy23B0TVeW5ciJ8" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7I0FFxg4YpNL4JA5UKuWlkS2rsiy61njEM0bt" },
         ]
     },
     {
@@ -138,12 +138,14 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         thumbnail: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
         tags: [],
         gallery: [
-            { type: "image", src: "/zazenA.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz75gj8XsQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
-            { type: "image", src: "/zazemC.jpeg" },
-            { type: "image", src: "/zazemG.jpg" },
-            { type: "image", src: "/zazemD.jpeg" },
-            { type: "image", src: "/zazemE.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7PypBCDjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Qilhl81c6gedqP1zGVAfm5p4aShYIjUxZb7O" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7qGq6yQpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7wbMJduRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7jIHpUyEkoUPXq74KDfxlYy23B0TVeW5ciJ8S" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7wfWfnidRf3QFA4WlxqVMDU7pCN9ctPZTR0Ko" },
         ]
     },
     {
@@ -162,10 +164,10 @@ With lines adjusted in proportions that enhance clean aesthetics and minimalist 
         thumbnail: "https://utfs.io/f/047OTbUFRaz7qSjsVypQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
         tags: [],
         gallery: [
-            { type: "image", src: "/kraftA.png" },
-            { type: "image", src: "/detalheKraft1.jpeg" },
-            { type: "image", src: "/detalheKraft2.jpeg" },
-            { type: "image", src: "/detalheKraft3.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz78WiMGgPhEIviel1sxuONM9wmg5tJAShW0HKd" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz79hX0rg6XMQDN0kvost7AlPaejC9rI28b6Kh3" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz78WLzPBhEIviel1sxuONM9wmg5tJAShW0HKdZ" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz70GpWKsUFRaz7ojmHIOPSXUkt8QMrec156su3" },
         ]
     },
     {
@@ -189,11 +191,11 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "/iconic.png",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7ipBDb17pDgjAfRIF0JvmZqXteduGo2Kyh81P",
         tags: ["digital"],
         gallery: [
-            { type: "image", src: "/detalheIconic.png" },
-            { type: "image", src: "/iconicC.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7zU93eAyKdXREJNpA3WjVnluH1LtImegYTq8h" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz76JXTHOv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ" },
             { type: "image", src: "/iconicD.png" },
         ]
     },
@@ -209,10 +211,10 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         thumbnail: "/saccaroB.jpeg",
         tags: [],
         gallery: [
-            { type: "image", src: "/saccaroA.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7TWlYI79dtnLquOkbmvAj8x05U1VPwZrK6lBy" },
             { type: "image", src: "/saccaroB.jpeg" },
             { type: "image", src: "/saccaroC.jpeg" },
-            { type: "image", src: "/saccaroD.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pq5gRYexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
         ]
     },
     {
@@ -228,11 +230,11 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Saccaro",
         year: "2026",
         category: "produto",
-        thumbnail: "/moon2.png",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7kMWUSowsJHhATSZ3pqtc6PFENXw5mzef9sBa",
         tags: [],
         gallery: [
             { type: "image", src: "/moon.png" },
-            { type: "image", src: "/moon3.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KeeG2Bnqeiax41Jgf9kWy5wsLXTcmG7zvF8B" },
         ]
     },
     {
@@ -244,14 +246,14 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "/spaceE.jpg",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7pACCH2exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
         tags: [],
         gallery: [
-            { type: "image", src: "/spaceA.jpg" },
-            { type: "image", src: "/spaceB.jpg" },
-            { type: "image", src: "/spaceF.jpg" },
-            { type: "image", src: "/spaceC.jpg" },
-            { type: "image", src: "/spaceE.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7q5xqVlGpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7DEVnLi3a9mVHGFRd76bOLIoyZgtWQxJMfzeq" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Ke5u0wZqeiax41Jgf9kWy5wsLXTcmG7zvF8B" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz70jRqBZUFRaz7ojmHIOPSXUkt8QMrec156su3" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pACCH2exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
         ]
     },
     {
@@ -263,12 +265,12 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "/cineB.jpeg",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
         tags: [],
         gallery: [
-            { type: "image", src: "/cineA.jpeg" },
-            { type: "image", src: "/cineB.jpeg" },
-            { type: "image", src: "/cineC.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fWftND8YCHlcTWUoy1v0ghdpkMVqetXRO2mr" },
         ]
     },
     {
@@ -280,18 +282,18 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "/detalheAvantime1.png",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
         tags: [],
         gallery: [
-            { type: "image", src: "/detalheAvantime1.png" },
-            { type: "image", src: "/detalheAvantime2.png" },
-            { type: "image", src: "/detalheAvantime3.png" },
-            { type: "image", src: "/detalheAvantime4.png" },
-            { type: "image", src: "/detalheAvantime5.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7nh8tGU2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz71St63DKddMwjLVHNxPflFCZrvQyRu2XJETBe" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ph637iexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fsR5028YCHlcTWUoy1v0ghdpkMVqetXRO2mr" },
             { type: "image", src: "/detalheAvantime6.png" },
-            { type: "image", src: "/detalheAvantime7.png" },
-            { type: "image", src: "/detalheAvantime8.png" },
-            { type: "image", src: "/detalheAvantime9.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pV4EipexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7JXZZC3c8Fsb0nrqLpUX79lda4Hwf1cuZyzG2" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Q9XfSC1c6gedqP1zGVAfm5p4aShYIjUxZb7O" },
             { type: "image", src: "/detalheAvantime10.png" },
         ]
     },
@@ -304,12 +306,12 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "/acquaT.png",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7x3kCrfJlf3e05zRUFVknwH92JabiDYWxT8Zu",
         tags: [],
         gallery: [
-            { type: "image", src: "/aquaA.jpeg" },
-            { type: "image", src: "/acquaB.jpeg" },
-            { type: "image", src: "/aquaC.png" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz71SJmZ8PddMwjLVHNxPflFCZrvQyRu2XJETBe" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz74mPF9uYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7tNE0weTbmIavPzqHtrsRbjonNd24xXTh5CA9" },
         ]
     },
     {
@@ -321,13 +323,13 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "/mandalaC.jpeg",
+        thumbnail: "https://utfs.io/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm",
         tags: [],
         gallery: [
-            { type: "image", src: "mandalaA.jpeg" },
-            { type: "image", src: "mandalaB.jpeg" },
-            { type: "image", src: "mandalaC.jpeg" },
-            { type: "image", src: "mandalaD.jpeg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7rNlqVeMsISKEpcja2DCQOu7gTn16z50XNdMh" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz73HxwSOjiCc7ykYGxUR6KMEBg0odwbe5zNIj8" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7dpm9Q6CVDmHaL07yhbZKojBuAC2Gce59kTpt" },
         ]
     },
     {
@@ -354,16 +356,16 @@ The Design Solution: A highly versatile modular furniture system composed of cir
         thumbnail: "https://utfs.io/f/047OTbUFRaz7Ked01Xmqeiax41Jgf9kWy5wsLXTcmG7zvF8B",
         tags: ["identidade-visual", "digital"],
         gallery: [
-            { type: "image", src: "/detalheOlimpik1.jpg" },
-            { type: "image", src: "/detalheOlimpik2.jpg" },
-            { type: "image", src: "/detalheOlimpik4.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7wlpcowRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fml0nLp8YCHlcTWUoy1v0ghdpkMVqetXRO2m" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hIAVslimkoEjxnf3Q0rWCs2wKOdvh9HUM8P6" },
             { type: "image", src: "/detalheOlimpik5.jpg" },
-            { type: "image", src: "/detalheOlimpik6.jpg" },
-            { type: "image", src: "/detalheOlimpik7.jpg" },
-            { type: "image", src: "/detalheOlimpik8.jpg" },
-            { type: "image", src: "/detalheOlimpik9.jpg" },
-            { type: "image", src: "/detalheOlimpik10.jpg" },
-            { type: "image", src: "/detalheOlimpik11.jpg" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7EzAl7RTYdhvLqiRcn4ostubf2jQwJKOSr7AC" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7LYPG0vDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7efoFXT5bSlRH2oJsrVNA31q5kjEYMZe0BXhc" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7iKJJ4Jv7pDgjAfRIF0JvmZqXteduGo2Kyh81" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7xnzBet4Jlf3e05zRUFVknwH92JabiDYWxT8Z" },
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7WylN4PIBGVeIToJiAt53FCzgjmQnybO0UqRH" },
         ]
     },
 ];
