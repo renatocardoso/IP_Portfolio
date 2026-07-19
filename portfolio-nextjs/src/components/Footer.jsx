@@ -48,7 +48,7 @@ export default function Footer() {
             <div className="flex flex-col items-center gap-2.5">
                 <div className="flex items-start gap-2.5">
                     <a
-                        href="https://www.instagram.com/infinita_poesia_design"
+                        href="https://www.instagram.com/renato_lc"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
