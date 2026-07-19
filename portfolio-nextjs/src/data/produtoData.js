@@ -102,7 +102,7 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         tags: ["identidade-visual", "digital"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Hc97OGKVloQp02I6KTBYUJxEknvdFibcR4ta" },
-            { type: "image", src: "/jamB.jpeg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nBGcGf2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7c7D6fjnWJGwS0cYtZbunvaj3TUQ1srzDCMOL" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7xB4zFqJlf3e05zRUFVknwH92JabiDYWxT8Zu" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz75dN6F3jQHPs2FRjySlnmwEXMTJcuNQp1D8Kq" },
@@ -114,7 +114,7 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         title_en: "Mandarim Armchair",
         desc_pt: ``,
         desc_en: ``,
-        client: "Clami",
+        client: "Independente",
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7pQbbKFmexRPd3X9qjgWuUm4tBsCDa0kJ7ylM",
@@ -157,7 +157,7 @@ Com linhas ajustadas em proporções que realçam a estética limpa e a marcenar
         desc_en: `KRAFT finds its place in the environment. Inspired by the creative potential of kraft paper folded before its final form, this armchair is the result of a study on folds and the possibilities they hold.
 
 With lines adjusted in proportions that enhance clean aesthetics and minimalist joinery, KRAFT invites use. Its simple design provides comfort, made to mold to the body and with details designed to create an armchair that balances visual minimalism and ergonomics.`,
-        client: "saccaro",
+        client: "Independente",
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7qSjsVypQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
@@ -195,7 +195,7 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7zU93eAyKdXREJNpA3WjVnluH1LtImegYTq8h" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz76JXTHOv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ" },
-            { type: "image", src: "/iconicD.png" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7U0ea3loxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
         ]
     },
     {
@@ -289,11 +289,11 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz71St63DKddMwjLVHNxPflFCZrvQyRu2XJETBe" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ph637iexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fsR5028YCHlcTWUoy1v0ghdpkMVqetXRO2mr" },
-            { type: "image", src: "/detalheAvantime6.png" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HpeUscQKVloQp02I6KTBYUJxEknvdFibcR4t" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pV4EipexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7JXZZC3c8Fsb0nrqLpUX79lda4Hwf1cuZyzG2" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Q9XfSC1c6gedqP1zGVAfm5p4aShYIjUxZb7O" },
-            { type: "image", src: "/detalheAvantime10.png" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz707EMyFUFRaz7ojmHIOPSXUkt8QMrec156su3" },
         ]
     },
     {
@@ -358,7 +358,7 @@ The Design Solution: A highly versatile modular furniture system composed of cir
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7wlpcowRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fml0nLp8YCHlcTWUoy1v0ghdpkMVqetXRO2m" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hIAVslimkoEjxnf3Q0rWCs2wKOdvh9HUM8P6" },
-            { type: "image", src: "/detalheOlimpik5.jpg" },
+            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eJZ3kS5bSlRH2oJsrVNA31q5kjEYMZe0BXhc" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7EzAl7RTYdhvLqiRcn4ostubf2jQwJKOSr7AC" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7LYPG0vDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7efoFXT5bSlRH2oJsrVNA31q5kjEYMZe0BXhc" },
