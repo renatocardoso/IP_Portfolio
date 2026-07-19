@@ -191,7 +191,7 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7ipBDb17pDgjAfRIF0JvmZqXteduGo2Kyh81P",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ipBDb17pDgjAfRIF0JvmZqXteduGo2Kyh81P",
         tags: ["digital"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7zU93eAyKdXREJNpA3WjVnluH1LtImegYTq8h" },
@@ -230,7 +230,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Saccaro",
         year: "2026",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7kMWUSowsJHhATSZ3pqtc6PFENXw5mzef9sBa",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kMWUSowsJHhATSZ3pqtc6PFENXw5mzef9sBa",
         tags: [],
         gallery: [
             { type: "image", src: "/moon.png" },
@@ -246,7 +246,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7pACCH2exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pACCH2exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7q5xqVlGpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5" },
@@ -265,7 +265,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
@@ -282,7 +282,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z" },
@@ -306,7 +306,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2025",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7x3kCrfJlf3e05zRUFVknwH92JabiDYWxT8Zu",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7x3kCrfJlf3e05zRUFVknwH92JabiDYWxT8Zu",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz71SJmZ8PddMwjLVHNxPflFCZrvQyRu2XJETBe" },
@@ -323,7 +323,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         client: "Conceito",
         year: "2026",
         category: "produto",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm",
+        thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm",
         tags: [],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7rNlqVeMsISKEpcja2DCQOu7gTn16z50XNdMh" },
