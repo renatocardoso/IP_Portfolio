@@ -23,7 +23,7 @@ export const metadata = {
   title: 'Infinita Poesia /*',
   description: 'Criação de marcas e produtos',
   icons: {
-    icon: '/favicon.svg',
+    icon: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KlwOFcqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl',
   },
   openGraph: {
     title: 'Infinita Poesia',
@@ -32,13 +32,14 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://infinitapoesia.com.br/imagem-card.jpg',
+        url: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Wn9vmdIBGVeIToJiAt53FCzgjmQnybO0UqRH',
         width: 1200,
         height: 630,
       },
     ],
   },
 };
+
 
 
 
