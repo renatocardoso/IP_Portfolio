@@ -22,6 +22,9 @@ const sourceSerif = Source_Serif_4({
 export const metadata = {
   title: 'Infinita Poesia /*',
   description: 'Criação de marcas e produtos',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Infinita Poesia',
     description: 'Desenhos e ideias',
@@ -36,6 +39,7 @@ export const metadata = {
     ],
   },
 };
+
 
 
 
