@@ -20,9 +20,23 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata = {
-  title: "Infinita Poesia | Design Portfolio",
-  description: "Portfólio de Design Gráfico e Produto por Renato Cardoso",
+  title: 'Infinita Poesia /*',
+  description: 'Criação de marcas e produtos',
+  openGraph: {
+    title: 'Infinita Poesia',
+    description: 'Desenhos e ideias',
+    url: 'https://infinitapoesia.com.br',
+    type: 'website',
+    images: [
+      {
+        url: 'https://infinitapoesia.com.br/imagem-card.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
+
 
 
 export default function RootLayout({ children }) {
