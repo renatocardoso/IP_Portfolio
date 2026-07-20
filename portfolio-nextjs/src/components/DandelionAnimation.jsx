@@ -1,7 +1,7 @@
 "use client";
 
 // ── TUNING CONSTANTS — ajuste aqui para regular as velocidades ────────────────
-const DANDELION_DURATION_FRAMES = 144;   // duração da explosão em frames (↑ = mais lento)
+const DANDELION_DURATION_FRAMES = 300;   // duração da explosão em frames (300 frames = 5 segundos a 60fps)
 const DANDELION_FORCE_MIN       = 1.25; // força mínima de lançamento   (↑ = mais rápido)
 const DANDELION_FORCE_MAX       = 2.9;  // força máxima de lançamento   (↑ = mais rápido)
 const MENU_SEEK_SPEED           = 5.5;  // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
@@ -436,7 +436,7 @@ class Letter {
         let easeIn_t = t * t * t;
         let easeOut_t = 1 - p5.pow(1 - t, 4);
 
-        this.alpha = p5.map(easeOut_t, 0, 1, 255, 0);
+        this.alpha = p5.map(easeIn_t, 0, 1, 255, 0);
 
         if (this.isMenuItem) {
             this.alpha = 255;
@@ -444,15 +444,15 @@ class Letter {
 
             // Wait to reach target before starting typing effects
             if (!this.hasArrived) {
-                let frameConstrained = p5.constrain(progressFrames, 0, 144);
-                let curve = (1 - p5.pow(0.98, frameConstrained)) / (1 - p5.pow(0.98, 144));
+                let frameConstrained = p5.constrain(progressFrames, 0, this.vars.current.transitionDurationFrames);
+                let curve = (1 - p5.pow(0.98, frameConstrained)) / (1 - p5.pow(0.98, this.vars.current.transitionDurationFrames));
                 
                 this.pos.x = p5.lerp(this.initialPos.x, this.targetPos.x, curve);
                 this.pos.y = p5.lerp(this.initialPos.y, this.targetPos.y, curve);
                 this.size = p5.lerp(this.vars.current.mainFontSize, this.vars.current.menuFontSize, curve);
                 this.angle = p5.lerp(this.initialAngle, 0, curve);
 
-                if (progressFrames >= 144) {
+                if (progressFrames >= this.vars.current.transitionDurationFrames) {
                     this.hasArrived = true;
                     this.pos.set(this.targetPos);
                     this.angle = 0;
