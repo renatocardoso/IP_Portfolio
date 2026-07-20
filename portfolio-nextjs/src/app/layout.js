@@ -5,6 +5,9 @@ import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageLayoutWrapper from "@/components/PageLayoutWrapper";
+import { PHProvider } from "./providers";
+import PostHogPageView from "@/components/PostHogPageView";
+
 
 const firaSans = Fira_Sans({
   variable: "--font-fira",
@@ -50,12 +53,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${firaSans.variable} ${sourceSerif.variable} font-sans antialiased bg-white text-[#333]`}
       >
-        <div className="min-h-screen flex flex-col">
-          <PageLayoutWrapper>
-            {children}
-          </PageLayoutWrapper>
-        </div>
-        <Analytics />
+        <PHProvider>
+          <PostHogPageView />
+          <div className="min-h-screen flex flex-col">
+            <PageLayoutWrapper>
+              {children}
+            </PageLayoutWrapper>
+          </div>
+          <Analytics />
+        </PHProvider>
       </body>
     </html>
   );
