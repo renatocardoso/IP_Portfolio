@@ -26,7 +26,7 @@ export const metadata = {
   title: 'Infinita Poesia /*',
   description: 'Criação de marcas e produtos',
   icons: {
-    icon: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KlwOFcqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl',
+    icon: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QE7OGw1c6gedqP1zGVAfm5p4aShYIjUxZb7O',
   },
   openGraph: {
     title: 'Infinita Poesia',
