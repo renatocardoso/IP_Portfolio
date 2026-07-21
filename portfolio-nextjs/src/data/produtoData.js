@@ -13,7 +13,7 @@ The Sereno Line expands its concept to the freedom of spatial composition, revea
         year: "2026",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qc2qfrpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7yLbEs6PSdrLogis8aAHvYnZDPQcqThXIeERK" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74W6tKtYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
@@ -37,7 +37,7 @@ In some contexts, “OKO” can be interpreted as the “all-seeing eye,” a sy
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz700w6vEUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        tags: ["identidade-visual"],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7iox3i27pDgjAfRIF0JvmZqXteduGo2Kyh81P" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7riRIF9MsISKEpcja2DCQOu7gTn16z50XNdMh" },
@@ -66,7 +66,7 @@ This fantasy, linked to our search for comfort and a desire to feel protected, a
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7UCTa7EoxL96kWlPOEZnVivRFpuo4mhNGcTYb",
-        tags: ["digital"],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7soWR7Art68MwRc5lNvYTkem1GV0hDSbsdAFE" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7UCTa7EoxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
@@ -99,7 +99,7 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7MN4IB7ZFZf0VqWm8jut9gQBr5nkscDIzP4NY",
-        tags: ["identidade-visual", "digital"],
+        tags: ["produto", "identidade-visual"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7Hc97OGKVloQp02I6KTBYUJxEknvdFibcR4ta" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nBGcGf2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
@@ -118,7 +118,7 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7pQbbKFmexRPd3X9qjgWuUm4tBsCDa0kJ7ylM",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ZxXP5zu0W5PBHYFcEzubtUCfS18V76QjDAp9" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7j9MIS0XEkoUPXq74KDfxlYy23B0TVeW5ciJ8" },
@@ -135,7 +135,7 @@ Connect to your rhythm , whether you're relaxing to your playlist, practicing yo
         year: "2026",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz75gj8XsQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KuLL4mqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
@@ -161,7 +161,7 @@ With lines adjusted in proportions that enhance clean aesthetics and minimalist 
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7qSjsVypQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz78WiMGgPhEIviel1sxuONM9wmg5tJAShW0HKd" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz79hX0rg6XMQDN0kvost7AlPaejC9rI28b6Kh3" },
@@ -191,7 +191,7 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         year: "2025",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ipBDb17pDgjAfRIF0JvmZqXteduGo2Kyh81P",
-        tags: ["digital"],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7zU93eAyKdXREJNpA3WjVnluH1LtImegYTq8h" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz76JXTHOv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ" },
@@ -208,7 +208,7 @@ The Design Solution: To overcome the physical build-volume limitations of commer
         year: "2026",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LSOAX1Dgh0JcvT2ZsNp1b36lCDWRe8fMwGH5",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7TWlYI79dtnLquOkbmvAj8x05U1VPwZrK6lBy" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LSOAX1Dgh0JcvT2ZsNp1b36lCDWRe8fMwGH5" },
@@ -230,7 +230,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         year: "2026",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kMWUSowsJHhATSZ3pqtc6PFENXw5mzef9sBa",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uGRSGriwjF7GOsuvIRypc2TdB3EY5M0PAf8g" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KeeG2Bnqeiax41Jgf9kWy5wsLXTcmG7zvF8B" },
@@ -246,7 +246,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         year: "2026",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pACCH2exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7q5xqVlGpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7DEVnLi3a9mVHGFRd76bOLIoyZgtWQxJMfzeq" },
@@ -265,7 +265,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         year: "2026",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B" },
@@ -282,7 +282,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         year: "2025",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7nh8tGU2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
@@ -306,7 +306,7 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         year: "2025",
         category: "produto",
         thumbnail: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7x3kCrfJlf3e05zRUFVknwH92JabiDYWxT8Zu",
-        tags: [],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz71SJmZ8PddMwjLVHNxPflFCZrvQyRu2XJETBe" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz74mPF9uYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
@@ -353,7 +353,7 @@ The Design Solution: A highly versatile modular furniture system composed of cir
         year: "2025",
         category: "produto",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7Ked01Xmqeiax41Jgf9kWy5wsLXTcmG7zvF8B",
-        tags: ["identidade-visual", "digital"],
+        tags: ["produto"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7wlpcowRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7fml0nLp8YCHlcTWUoy1v0ghdpkMVqetXRO2m" },

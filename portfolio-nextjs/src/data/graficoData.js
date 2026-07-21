@@ -25,7 +25,7 @@ Typography Selected to evoke the region's cultural heritage, referencing the aes
         year: "2023",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7PTRPZzJjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico", "editorial"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nQEoZu2EsfXp4APkDSxeUbni7ajqIHY92cCm" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ruhgNRqMsISKEpcja2DCQOu7gTn16z50XNdM" },
@@ -61,7 +61,7 @@ Process and Expansion: The project involved extensive collaboration with ICMBio 
         year: "2024",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7qFRzkhpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        tags: ["identidade-visual", "digital"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7uUvFnuwjF7GOsuvIRypc2TdB3EY5M0PAf8gz" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz70tyBH9vUFRaz7ojmHIOPSXUkt8QMrec156su" },
@@ -117,7 +117,7 @@ Motion: Video presentations for stakeholder engagement.`,
         year: "2025",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7COwze5SvMrayNJYT9CV7UzBnWgt0RkFZp1P4",
-        tags: ["identidade-visual", "editorial"],
+        tags: ["identidade-visual", "grafico", "editorial"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Lii15MdDgh0JcvT2ZsNp1b36lCDWRe8fMwGH" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7quoeT7pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56" },
@@ -148,7 +148,7 @@ Color Palette: The chromatic system was derived directly from the natural landsc
         year: "2023",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7uGYK1mzwjF7GOsuvIRypc2TdB3EY5M0PAf8g",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7m4qoI2jWcr2FUXsKCg4Aux1IBzo3d0mVwpE5" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zHQIGTyKdXREJNpA3WjVnluH1LtImegYTq8h" },
@@ -178,7 +178,7 @@ Art Direction The color palette and product photography were completely overhaul
         year: "2025",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7WPYUfOIBGVeIToJiAt53FCzgjmQnybO0UqRH",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico", "digital"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yzon3rPSdrLogis8aAHvYnZDPQcqThXIeERK" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7sqWi6jrt68MwRc5lNvYTkem1GV0hDSbsdAFE" },
@@ -224,7 +224,7 @@ Textile Art The letters were physically crafted by the artisans of Casarão das 
         year: "2015",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz72UVYvNRgM4dpfw5cuxBLqQtEyP7zkFv0GgHa",
-        tags: ["identidade-visual"],
+        tags: ["grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz71SgziQSddMwjLVHNxPflFCZrvQyRu2XJETBe" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74Fkon3Yd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
@@ -243,67 +243,6 @@ Textile Art The letters were physically crafted by the artisans of Casarão das 
         ]
     },
     {
-        slug: "zimbros",
-        title: "Zimbros",
-        title_en: "",
-        desc_pt: ``,
-        desc_en: ``,
-        client: "SEMA",
-        year: "2022",
-        category: "grafico",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz75dbyYinQHPs2FRjySlnmwEXMTJcuNQp1D8Kq",
-        tags: [],
-        gallery: [
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7rdbx3xMsISKEpcja2DCQOu7gTn16z50XNdMh" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz73EsUrCiCc7ykYGxUR6KMEBg0odwbe5zNIj8p" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7frJAy58YCHlcTWUoy1v0ghdpkMVqetXRO2mr" },
-        ]
-    },
-    {
-        slug: "dra-char",
-        title: "Identidade visual",
-        title_en: "Visual Identity",
-        desc_pt: `O Símbolo O logo apresenta um traço fluido e caligráfico. Suas curvas orgânicas formam uma elegante abstração da anatomia feminina, celebrando-a como fonte de prazer e vitalidade.
-
-Posicionamento de Marca A identidade visual foi projetada para transmitir autonomia e bem-estar. Ela posiciona a marca como uma aliada confiável na jornada rumo a um relacionamento saudável com a sexualidade feminina.
-
-Abordagem de Design
-
-Simbolismo Um desenho gestual que usa linhas caligráficas para representar abstratamente formas femininas como fonte de prazer.
-
-Mood A estética promove independência e saúde sexual.
-
-Aplicação Estendida para web design, ativos de comunicação e apresentações de conteúdo.`,
-        desc_en: `The Symbol The logo features a fluid, calligraphic stroke. Its organic curves form an elegant abstraction of the female anatomy, celebrating it as a source of pleasure and vitality.
-
-Brand Positioning The visual identity is designed to convey autonomy and well-being. It positions the brand as a trusted ally in the journey toward a healthy relationship with female sexuality.
-
-Design Approach
-
-Symbolism A gestural drawing that uses calligraphic lines to abstractly represent female forms as a source of pleasure.
-
-Mood The aesthetic promotes sexual independence and health.
-
-Application Extended to web design, communication assets, and content presentations.`,
-        client: "Dra. Char",
-        year: "2024",
-        category: "grafico",
-        thumbnail: "https://utfs.io/f/047OTbUFRaz7fuaxeq8YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
-        tags: ["identidade-visual", "digital"],
-        gallery: [
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7F8InkCz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz" },
-            { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7K1Tshcqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7kMr9apSsJHhATSZ3pqtc6PFENXw5mzef9sBa" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz72UF2bYhgM4dpfw5cuxBLqQtEyP7zkFv0GgHa" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz73VGr3NiCc7ykYGxUR6KMEBg0odwbe5zNIj8p" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7FP6P6vZz9pxOXcuV7PoIw2tiUWMHCykTmh5S" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7hIL7QD1mkoEjxnf3Q0rWCs2wKOdvh9HUM8P6" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pTG2yhexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7xNcvOUJlf3e05zRUFVknwH92JabiDYWxT8Zu" },
-            { type: "image", src: "https://utfs.io/f/047OTbUFRaz7g6kpmA0RIf9yMJhTVPzX86FevaE7UrlA1oqd" },
-        ]
-    },
-    {
         slug: "ilc",
         title: "Identidade Visual Il Campanario Jurerê Internacional",
         title_en: "Il Campanario Jurerê Internacional Visual Identity",
@@ -317,7 +256,7 @@ Art Direction The project included comprehensive Art Direction for photography a
         year: "2014",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7S7RUs9xLagkEYQucWCXVx3fwGml1MitZB9qO",
-        tags: ["identidade-visual"],
+        tags: ["grafico", "digital"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz76cuZIOv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rWetpxMsISKEpcja2DCQOu7gTn16z50XNdMh" },
@@ -354,7 +293,7 @@ Restaurant Integration The project includes the identity for Doutrora Restaurant
         year: "2015",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz72F3ceWgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "sinalizacao"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ZjE9Xju0W5PBHYFcEzubtUCfS18V76QjDAp9" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7U3nShAoxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
@@ -382,7 +321,7 @@ Restaurant Integration The project includes the identity for Doutrora Restaurant
         year: "2022",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7EV1NgTYdhvLqiRcn4ostubf2jQwJKOSr7ACF",
-        tags: [],
+        tags: ["identidade-visual", "grafico", "digital"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7w4WSJFRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71p1v5VddMwjLVHNxPflFCZrvQyRu2XJETBe6" },
@@ -420,7 +359,7 @@ Deliverables Visual Identity System and Editorial Design for educational and res
         year: "2017",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7sZw7SFRrt68MwRc5lNvYTkem1GV0hDSbsdAF",
-        tags: ["identidade-visual", "editorial"],
+        tags: ["identidade-visual", "grafico", "editorial"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7UmasCroxL96kWlPOEZnVivRFpuo4mhNGcTYb" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ImmLVI4YpNL4JA5UKuWlkS2rsiy61njEM0bt" },
@@ -450,7 +389,7 @@ Color & Application: The chromatic palette mirrors the natural tones of the muss
         year: "2018",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7K7nGJbqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        tags: ["identidade-visual", "digital", "editorial"],
+        tags: ["identidade-visual", "editorial", "grafico", "digital"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7R87EsZOGFgOZuP5fARs492Nj8WtL1XCc7MkH" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7ySTWmBPSdrLogis8aAHvYnZDPQcqThXIeERK" },
@@ -479,7 +418,7 @@ Packaging and System Designed for maximum shelf impact, the packaging combines a
         year: "2025",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7e11T6zN5bSlRH2oJsrVNA31q5kjEYMZe0BXh",
-        tags: ["identidade-visual", "embalagem"],
+        tags: ["identidade-visual", "grafico", "embalagem"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KcgrVFqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IeARtW4YpNL4JA5UKuWlkS2rsiy61njEM0bt" },
@@ -507,7 +446,7 @@ Visual System The typography and color palette were drawn directly from the natu
         year: "2023",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7pNBKPYexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7eSpSnH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz71TbiYyddMwjLVHNxPflFCZrvQyRu2XJETBe6" },
@@ -543,7 +482,7 @@ Dynamic System The graphic language unfolds into a dynamic visual identity. Usin
         year: "2022",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7t6DIEzbmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz70fNXReUFRaz7ojmHIOPSXUkt8QMrec156su3" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KbxgX6qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
@@ -579,7 +518,7 @@ Palette and Images A soft coastal palette, combined with organic illustrations, 
         year: "2012",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7DII7mc3a9mVHGFRd76bOLIoyZgtWQxJMfzeq",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico", "sinalizacao"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7SLBqs6xLagkEYQucWCXVx3fwGml1MitZB9qO" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7MfQYltZFZf0VqWm8jut9gQBr5nkscDIzP4NY" },
@@ -623,7 +562,7 @@ Art Direction Led the Art Direction for the launch campaign, managing location s
         year: "2015",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7reYo62MsISKEpcja2DCQOu7gTn16z50XNdMh",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7pCjN3UexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7o7ohhnt93OViWZf5SLMoQRUKDaGXEHzAqwyI" },
@@ -663,7 +602,7 @@ Experience Design Beyond navigation, the project features interpretive signage t
         year: "2020",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7pyUTPLexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        tags: [],
+        tags: ["sinalizacao", "grafico"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7J8G2Wwc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7j9skPSGEkoUPXq74KDfxlYy23B0TVeW5ciJ8" },
@@ -693,7 +632,7 @@ Packaging Design The packaging system was designed to signal quality and the car
         year: "2012 / 2024",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz77q2LgayHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6",
-        tags: ["identidade-visual", "embalagem"],
+        tags: ["identidade-visual", "embalagem", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7HCyzr8KVloQp02I6KTBYUJxEknvdFibcR4ta" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7WXUA7sIBGVeIToJiAt53FCzgjmQnybO0UqRH" },
@@ -732,7 +671,7 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         year: "2018",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz7ruwWjyUMsISKEpcja2DCQOu7gTn16z50XNdM",
-        tags: ["identidade-visual"],
+        tags: ["identidade-visual", "grafico"],
         gallery: [
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jzzdxQEkoUPXq74KDfxlYy23B0TVeW5ciJ8S" },
             { type: "image", src: "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73UI69niCc7ykYGxUR6KMEBg0odwbe5zNIj8p" },
@@ -756,7 +695,7 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         year: "2014",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz77Wx6ImHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        tags: [],
+        tags: ["identidade-visual", "editorial", "grafico"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz70aOWVcUFRaz7ojmHIOPSXUkt8QMrec156su3" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7gsQtAJ0RIf9yMJhTVPzX86FevaE7UrlA1oqd" },
@@ -796,7 +735,7 @@ Atmosphere The identity mirrors the sophistication of the physical space, balanc
         year: "2012",
         category: "grafico",
         thumbnail: "https://utfs.io/f/047OTbUFRaz76sW2ynHv1JwbRAfjau8DHoFCMlSz4dVnTLKU",
-        tags: [],
+        tags: ["identidade-visual", "grafico", "digital"],
         gallery: [
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7KCFz87qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7SAEWFfxLagkEYQucWCXVx3fwGml1MitZB9qO" },
