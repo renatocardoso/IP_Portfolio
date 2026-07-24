@@ -584,20 +584,20 @@ Art Direction Led the Art Direction for the launch campaign, managing location s
         slug: "guapi",
         title: "Projeto de Sinalização de trilha ecológica APA Guapimirim",
         title_en: "Ecological Trail Signage Project APA Guapimirim",
-        desc_pt: `Normas e Conformidade O sistema foi projetado em estrita conformidade com o Manual de Sinalização de Unidades de Conservação Federais (ICMBio), garantindo adequação regulatória enquanto se adapta às necessidades específicas da trilha.
+        desc_pt: `**Normas e Conformidade** O sistema foi projetado em estrita conformidade com o Manual de Sinalização de Unidades de Conservação Federais (ICMBio), garantindo adequação regulatória enquanto se adapta às necessidades específicas da trilha.
 
-Arquitetura do Sistema Navegação Ancorada por um mapa diretório central, que definiu a distribuição estratégica dos nós de orientação e categorias ao longo da rota.
+**Arquitetura do Sistema de Navegação** Ancorada por um mapa diretório central, que definiu a distribuição estratégica dos nós de orientação e categorias ao longo da rota.
 
-Detalhamento Desenvolvi um manual técnico abrangente detalhando especificações construtivas, dimensões, materiais e protocolos de instalação para garantir durabilidade.
+**Detalhamento** Desenvolvi um manual técnico abrangente detalhando especificações construtivas, dimensões, materiais e protocolos de instalação para garantir durabilidade.
 
-Design de Experiência Além da navegação, o projeto apresenta sinalização interpretativa que educa os visitantes sobre a história e cultura local. As estruturas foram customizadas para garantir integração com a paisagem, minimizando o impacto visual no ambiente natural.`,
-        desc_en: `Standards and Compliance The system was designed in strict compliance with the Federal Conservation Units Signage Manual (ICMBio), ensuring regulatory adequacy while adapting to the specific needs of the trail.
+**Design de Experiência** Além da navegação, o projeto apresenta sinalização interpretativa que educa os visitantes sobre a história e cultura local. As estruturas foram customizadas para garantir integração com a paisagem, minimizando o impacto visual no ambiente natural.`,
+        desc_en: `**Standards and Compliance** The system was designed in strict compliance with the Federal Conservation Units Signage Manual (ICMBio), ensuring regulatory adequacy while adapting to the specific needs of the trail.
 
-System Architecture Anchored Navigation by a central directory map, which defined the strategic distribution of orientation nodes and categories along the route.
+**System Architecture and Navigation** Anchored by a central directory map, which defined the strategic distribution of orientation nodes and categories along the route.
 
-Detailing I developed a comprehensive technical manual detailing constructive specifications, dimensions, materials, and installation protocols to ensure durability.
+**Detailing** I developed a comprehensive technical manual detailing constructive specifications, dimensions, materials, and installation protocols to ensure durability.
 
-Experience Design Beyond navigation, the project features interpretive signage that educates visitors about local history and culture. Structures were customized to ensure integration with the landscape, minimizing visual impact on the natural environment.`,
+**Experience Design** Beyond navigation, the project features interpretive signage that educates visitors about local history and culture. Structures were customized to ensure integration with the landscape, minimizing visual impact on the natural environment.`,
         client: "ICMBio",
         year: "2020",
         category: "grafico",
