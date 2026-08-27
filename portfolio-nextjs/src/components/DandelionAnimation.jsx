@@ -72,7 +72,8 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
         ],
         menuItemsData: menuItems || [
             { label: "* Sobre", url: "/sobre" },
-            { label: "* Projetos", url: "/projetos" },
+            { label: "* Gráfico", url: "/grafico" },
+            { label: "* Produto", url: "/produto" },
         ],
         letters: [],
         dandelionCenter: null,
@@ -226,20 +227,45 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
         }
     };
 
+    useEffect(() => {
+        if (menuItems) {
+            vars.current.menuItemsData = menuItems;
+        }
+    }, [menuItems]);
+
     const getResponsivePositions = (p5, vars) => {
         const center = vars.current.dandelionCenter;
+        const items = vars.current.menuItemsData || [];
+        const count = items.length;
 
         // 0.0 (Mobile 320px) to 1.0 (Desktop 1200px)
         const layoutFactor = p5.constrain(p5.map(p5.width, 320, 1200, 0, 1), 0, 1);
 
-        // === DESKTOP POSITIONS ===
-        // "Sobre" upper-left, "Projetos" lower-right — diagonal offset
+        if (count === 3) {
+            const deskPos = [
+                p5.createVector(center.x - p5.width * 0.16, center.y - p5.height * 0.14),
+                p5.createVector(center.x + p5.width * 0.06, center.y - p5.height * 0.14),
+                p5.createVector(center.x - p5.width * 0.05, center.y + p5.height * 0.14),
+            ];
+
+            const mobPos = [
+                p5.createVector(center.x - p5.width * 0.12, center.y - p5.height * 0.12),
+                p5.createVector(center.x + p5.width * 0.04, center.y - p5.height * 0.12),
+                p5.createVector(center.x - p5.width * 0.04, center.y + p5.height * 0.12),
+            ];
+
+            return [0, 1, 2].map((i) => p5.createVector(
+                p5.lerp(mobPos[i].x, deskPos[i].x, layoutFactor),
+                p5.lerp(mobPos[i].y, deskPos[i].y, layoutFactor)
+            ));
+        }
+
+        // Fallback for 2 items
         const deskPos = [
             p5.createVector(center.x - p5.width * 0.11, center.y - p5.height * 0.14),
             p5.createVector(center.x + p5.width * 0.05, center.y + p5.height * 0.14),
         ];
 
-        // === MOBILE POSITIONS ===
         const mobPos = [
             p5.createVector(center.x - p5.width * 0.08, center.y - p5.height * 0.11),
             p5.createVector(center.x + p5.width * 0.03, center.y + p5.height * 0.11),
