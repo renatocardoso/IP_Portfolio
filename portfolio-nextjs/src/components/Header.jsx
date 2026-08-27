@@ -44,7 +44,6 @@ export default function Header() {
                 onClick={onClick}
                 className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
             >
-                {/* Asterisk: red on active page, dark+hover-red on inactive */}
                 <span
                     style={{ color: isActive(`/${lang}/sobre`) ? 'var(--color-brand)' : undefined }}
                     className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/sobre`) ? '' : 'text-text-dark group-hover:text-brand'}`}
@@ -54,16 +53,29 @@ export default function Header() {
                 </span>
             </Link>
             <Link
-                href={`/${lang}/projetos`}
+                href={`/${lang}/grafico`}
                 onClick={onClick}
                 className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
             >
                 <span
-                    style={{ color: isActive(`/${lang}/projetos`) ? 'var(--color-brand)' : undefined }}
-                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/projetos`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                    style={{ color: isActive(`/${lang}/grafico`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/grafico`) ? '' : 'text-text-dark group-hover:text-brand'}`}
                 >*</span>
                 <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
-                    {lang === "en" ? "PROJECTS" : "PROJETOS"}
+                    {lang === "en" ? "GRAPHIC" : "GRÁFICO"}
+                </span>
+            </Link>
+            <Link
+                href={`/${lang}/produto`}
+                onClick={onClick}
+                className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
+            >
+                <span
+                    style={{ color: isActive(`/${lang}/produto`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/produto`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                >*</span>
+                <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
+                    {lang === "en" ? "PRODUCT" : "PRODUTO"}
                 </span>
             </Link>
             <LanguageToggle />
@@ -84,12 +96,12 @@ export default function Header() {
                     <span className="text-text-dark group-hover:text-text-light transition-colors duration-300">/<span className="text-brand">*</span>{" Infinita Poesia"}</span>
                 </Link>
 
-                {/* Desktop nav — max-lg:hidden lg:flex usa ranges exclusivos, sem conflito de CSS order */}
+                {/* Desktop nav */}
                 <nav className="max-lg:hidden lg:flex items-center gap-8 font-sans">
                     <NavLinks />
                 </nav>
 
-                {/* Burger — abaixo de lg */}
+                {/* Burger — below lg */}
                 <button
                     onClick={() => setMobileOpen((v) => !v)}
                     className="lg:hidden p-2 text-text-dark hover:text-brand transition-colors duration-300"
@@ -98,7 +110,7 @@ export default function Header() {
                     {mobileOpen ? <IconClose /> : <IconBurger />}
                 </button>
 
-                {/* Mobile dropdown — right-aligned, animated */}
+                {/* Mobile dropdown */}
                 <nav
                     className={`lg:hidden absolute top-full right-8 mt-2 flex flex-col gap-6 px-6 py-6 bg-white border border-[--color-text-light]/30 font-sans z-50 transition-[opacity,transform] duration-200 ease-out ${
                         mobileOpen

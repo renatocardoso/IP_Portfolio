@@ -6,13 +6,13 @@ import DandelionAnimation from "@/components/DandelionAnimation";
 import TypewriterHero from "@/components/TypewriterHero";
 
 const heroWords = {
-    pt: ["infinita poesia", "marcas", "produtos", "design", "criatividade", "arte", "identidade", "marcas", "cultura", "design", "produtos", "ideias"],
-    en: ["infinite poetry", "brands", "products", "design", "creativity", "art", "identity", "brands", "culture", "design", "products", "ideas"],
+    pt: ["apaguem as luzes", "que as ideias", "estão acesas"],
+    en: ["apaguem as luzes", "que as ideias", "estão acesas"],
 };
 
 const menuLabels = {
-    pt: { sobre: "* Sobre", projetos: "* Projetos" },
-    en: { sobre: "* About", projetos: "* Projects" },
+    pt: { sobre: "* Sobre", grafico: "* Gráfico", produto: "* Produto" },
+    en: { sobre: "* About", grafico: "* Graphic", produto: "* Product" },
 };
 
 export default function Home() {
@@ -27,7 +27,8 @@ export default function Home() {
 
     const menuItems = [
         { label: labels.sobre, url: `/${locale}/sobre` },
-        { label: labels.projetos, url: `/${locale}/projetos` },
+        { label: labels.grafico, url: `/${locale}/grafico` },
+        { label: labels.produto, url: `/${locale}/produto` },
     ];
 
     return (

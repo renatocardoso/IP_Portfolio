@@ -1,8 +1,21 @@
-export const filterTags = {
+export const productFilterTags = {
     pt: [
         { label: "Todos", value: "todos" },
-        { label: "Gráfico", value: "grafico" },
-        { label: "Produto", value: "produto" },
+        { label: "Estofado", value: "estofado" },
+        { label: "Madeira", value: "madeira" },
+        { label: "Impressão 3D", value: "impressao-3d" },
+    ],
+    en: [
+        { label: "All", value: "todos" },
+        { label: "Upholstered", value: "estofado" },
+        { label: "Wood", value: "madeira" },
+        { label: "3D Printing", value: "impressao-3d" },
+    ],
+};
+
+export const graphicFilterTags = {
+    pt: [
+        { label: "Todos", value: "todos" },
         { label: "Identidade Visual", value: "identidade-visual" },
         { label: "Sinalização", value: "sinalizacao" },
         { label: "Digital", value: "digital" },
@@ -11,8 +24,6 @@ export const filterTags = {
     ],
     en: [
         { label: "All", value: "todos" },
-        { label: "Graphic", value: "grafico" },
-        { label: "Product", value: "produto" },
         { label: "Visual Identity", value: "identidade-visual" },
         { label: "Signage", value: "sinalizacao" },
         { label: "Digital", value: "digital" },
@@ -21,3 +32,4 @@ export const filterTags = {
     ],
 };
 
+export const filterTags = graphicFilterTags;

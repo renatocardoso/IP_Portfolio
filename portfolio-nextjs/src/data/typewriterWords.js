@@ -1,18 +1,6 @@
-// arquivo de dados contendo as palavras que serão digitadas na tela inicial
-// basta adicionar, remover ou editar as palavras nas aspas para alterar a animação
-
+// Arquivo de dados contendo o poema haiku que será digitado na tela inicial
 export const typewriterWords = [
-    "Infinita Poesia",
-    "marcas",
-    "produtos",
-    "design",
-    "criatividade",
-    "arte",
-    "identidade",
-    "cultura",
-    "Infinita Poesia",
-    "marcas",
-    "design",
-    "produtos",
-    "ideias"
+    "apaguem as luzes",
+    "que as ideias",
+    "estão acesas"
 ];
