@@ -6,8 +6,8 @@ import DandelionAnimation from "@/components/DandelionAnimation";
 import TypewriterHero from "@/components/TypewriterHero";
 
 const heroWords = {
-    pt: ["apaguem as luzes", "que as ideias", "estão acesas"],
-    en: ["apaguem as luzes", "que as ideias", "estão acesas"],
+    pt: ["apaguem as luzes", "que as ideias", "estão acesas."],
+    en: ["apaguem as luzes", "que as ideias", "estão acesas."],
 };
 
 const menuLabels = {

@@ -111,7 +111,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
                     setActiveLineIndex(2);
                 }
             } else if (activeLineIndex === 2) {
-                const target = wordList[2] || "estão acesas";
+                const target = wordList[2] || "estão acesas.";
                 if (line3Text.length < target.length) {
                     setLine3Text(target.substring(0, line3Text.length + 1));
                 } else {
@@ -137,13 +137,13 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
     return (
         <div
             id="hero-typewriter"
-            className={`inline-flex flex-col items-start justify-center cursor-pointer font-sans font-normal text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
+            className={`inline-flex flex-col items-center justify-center text-center cursor-pointer font-sans font-normal text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
                 !isAnimationActive ? "transition-opacity duration-1000 opacity-100" : "opacity-0 pointer-events-none"
             }`}
             onMouseEnter={onMouseEnter}
         >
             {/* Line 1 */}
-            <div className="flex items-center whitespace-pre">
+            <div className="flex items-center justify-center whitespace-pre">
                 <span className="text-[#333]">/</span>
                 {showAsterisk ? (
                     <span id="hero-asterisk" className="text-[#FF4E50] ml-1">
@@ -165,7 +165,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
 
             {/* Line 2 */}
             {(activeLineIndex >= 1 || line2Text.length > 0) && (
-                <div className="flex items-center whitespace-pre mt-1">
+                <div className="flex items-center justify-center whitespace-pre mt-1">
                     <span className="text-[#333]">{line2Text}</span>
                     {!isAnimationActive && activeLineIndex === 1 && !isHolding && (
                         <span
@@ -181,7 +181,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
 
             {/* Line 3 */}
             {(activeLineIndex >= 2 || line3Text.length > 0) && (
-                <div className="flex items-center whitespace-pre mt-1">
+                <div className="flex items-center justify-center whitespace-pre mt-1">
                     <span className="text-[#333]">{line3Text}</span>
                     {!isAnimationActive && (activeLineIndex === 2 || isHolding) && (
                         <span
