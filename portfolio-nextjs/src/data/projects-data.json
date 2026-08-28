@@ -1,1321 +1,3090 @@
 [
   {
-    "projectId": "acqua",
-    "images": [
+    "slug": "sereno",
+    "title": "Sereno",
+    "title_en": "Sereno",
+    "desc_pt": "Silêncio Visual, o conceito da linha Sereno baseia-se na desaceleração e na busca pela paz essencial na vida contemporânea. A peça elimina os excessos para destacar a pureza da madeira natural exposta ao sol e o acolhimento dos tecidos de alta performance. Sua estrutura baixa e estendida evoca a linha do horizonte, enquanto a mesa de apoio convida ao ritual de pausa, um café pela manhã ou um drink ao entardecer. É uma homenagem à calmaria dos espaços abertos e ao design acolhedor.\n\nA Linha Sereno expande seu conceito para a liberdade de composição espacial, revelando um sistema arquitetônico modular para áreas externas. Os módulos de estofados, as poltronas individuais e as mesas ripadas de madeira compartilham a mesma base geométrica baixa, permitindo infinitas configurações, de layouts em \"L\" integrados a ilhas independentes. As superfícies ripadas atuam como mesas de centro, ou se transformam em extensões que conectam os sofás. A Linha Sereno celebra um design dinâmico, que se molda aos ambientes de socialização ao ar livre.",
+    "desc_en": "Visual Silence, the concept of the Sereno line is based on deceleration and the search for essential peace in contemporary life. The piece eliminates excesses to highlight the purity of natural wood exposed to the sun and the warmth of high-performance fabrics. Its low, extended structure evokes the horizon line, while the side table invites the pause ritual, a morning coffee or a drink at dusk. It is a tribute to the calm of open spaces and cozy design.\n\nThe Sereno Line expands its concept to the freedom of spatial composition, revealing an architectural modular system for outdoor areas. The upholstery modules, individual armchairs, and slatted wooden tables share the same low geometric base, allowing infinite configurations, from integrated 'L' layouts to independent islands. The slatted surfaces act as coffee tables, or transform into extensions that connect the sofas. The Sereno Line celebrates a dynamic design, which shapes itself to outdoor socialization environments.",
+    "client": "Saccaro",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SwPRSfxLagkEYQucWCXVx3fwGml1MitZB9qO",
+    "gallery": [
       {
-        "name": "AcquaA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76L0edcv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
-        "key": "047OTbUFRaz76L0edcv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SwPRSfxLagkEYQucWCXVx3fwGml1MitZB9qO"
       },
       {
-        "name": "AcquaB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75d11xgeQHPs2FRjySlnmwEXMTJcuNQp1D8Kq",
-        "key": "047OTbUFRaz75d11xgeQHPs2FRjySlnmwEXMTJcuNQp1D8Kq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75nhsSeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
       },
       {
-        "name": "AcquaC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pywJFIexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7pywJFIexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71Dc48KddMwjLVHNxPflFCZrvQyRu2XJETBe6"
       },
       {
-        "name": "AcquaD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GvCc7Hf6E7jguTdaA8N54cKypx1XYCVoR93l",
-        "key": "047OTbUFRaz7GvCc7Hf6E7jguTdaA8N54cKypx1XYCVoR93l"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ipScRi7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
       },
       {
-        "name": "AcquaE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7v1zsApknUgH4xqT9Sjck6t1pKRso7aeWhJfi",
-        "key": "047OTbUFRaz7v1zsApknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oGerqMt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
       }
     ]
   },
   {
-    "projectId": "akio",
-    "images": [
+    "slug": "oko",
+    "title": "Cadeira, poltrona e banco Oko",
+    "title_en": "Oko Chair, Armchair and Bench",
+    "desc_pt": "A palavra “OKO” pode ter vários significados, mas um dos mais fascinantes é sua associação com a ideia de prosperidade. Em algumas tradições e interpretações culturais, “OKO” pode ser visto como um símbolo de abundância, crescimento e sucesso.\n\nProsperidade, em seu sentido mais amplo, vai além do mero acúmulo de riqueza material. Envolve o florescimento em várias áreas da vida, incluindo saúde, relacionamentos e bem-estar espiritual. Assim, quando “OKO” é associado à prosperidade, simboliza essa visão holística de crescimento e realização.\n\nEm alguns contextos, “OKO” pode ser interpretado como o “olho que tudo vê”, um símbolo de vigilância e sabedoria que guia as pessoas em direção a oportunidades de crescimento e sucesso. Em outras interpretações, pode estar relacionado à natureza cíclica da vida, onde o que é semeado é colhido. Um conceito intrinsecamente ligado à ideia de prosperidade.",
+    "desc_en": "The word “OKO” can carry a variety of meanings, but one of the most fascinating is its association with the idea of prosperity. In some traditions and cultural interpretations, “OKO” can be seen as a symbol of abundance, growth, and success.\n\nProsperity, in its broadest sense, goes beyond the mere accumulation of material wealth. It involves flourishing in various areas of life, including health, relationships, and spiritual well-being. Thus, when “OKO” is associated with prosperity, it symbolizes this holistic vision of growth and fulfillment.\n\nIn some contexts, “OKO” can be interpreted as the “all-seeing eye,” a symbol of vigilance and wisdom that guides people toward opportunities for growth and success. In other interpretations, it may be related to the cyclical nature of life, where what is sown is reaped. A concept intrinsically linked to the idea of prosperity.",
+    "client": "saccaro",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Sc279AsxLagkEYQucWCXVx3fwGml1MitZB9q",
+    "gallery": [
       {
-        "name": "AkioA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pknY48exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7pknY48exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Sc279AsxLagkEYQucWCXVx3fwGml1MitZB9q"
       },
       {
-        "name": "AkioB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qGJL3VpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        "key": "047OTbUFRaz7qGJL3VpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ELov4WTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
       },
       {
-        "name": "AkioC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7FloInTz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz",
-        "key": "047OTbUFRaz7FloInTz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7FINbZvz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz"
       },
       {
-        "name": "AkioD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScUbU41xLagkEYQucWCXVx3fwGml1MitZB9q",
-        "key": "047OTbUFRaz7ScUbU41xLagkEYQucWCXVx3fwGml1MitZB9q"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LQFxerDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5"
       },
       {
-        "name": "AkioE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gy4nKU0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
-        "key": "047OTbUFRaz7gy4nKU0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79fbH1q6XMQDN0kvost7AlPaejC9rI28b6Kh3"
       },
       {
-        "name": "AkioF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Mw8r3B0ZFZf0VqWm8jut9gQBr5nkscDIzP4N",
-        "key": "047OTbUFRaz7Mw8r3B0ZFZf0VqWm8jut9gQBr5nkscDIzP4N"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70Fg5O2UFRaz7ojmHIOPSXUkt8QMrec156su3"
       },
       {
-        "name": "AkioG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eo8aZc5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7eo8aZc5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R8hxuYOGFgOZuP5fARs492Nj8WtL1XCc7MkH"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70J9RktUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7UOkb8soxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gwlpxz0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7RNnc1vGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PsbaQ6jjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KHmB5Yqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
       }
     ]
   },
   {
-    "projectId": "atol",
-    "images": [
+    "slug": "nuage",
+    "title": "Sofá e poltrona Nuage",
+    "title_en": "Nuage Sofa and Armchair",
+    "desc_pt": "As nuvens desafiam a gravidade, assim como o nosso estado de repouso. Flutuamos, sem peso, desapegados das preocupações terrenas. As preocupações se dissolvem como névoa, deixando apenas a serenidade. Aqui, vagamos pela vastidão dos sonhos, livres do mundano.\n\nNuvens são visivelmente fofas e volumosas, o que alimenta a imaginação de que seriam como um travesseiro gigante ou uma cama macia, perfeita para descansar. Elas evocam uma sensação de tranquilidade e serenidade, flutuando no céu em um ambiente de paz e liberdade.\n\nEssa fantasia, ligada à nossa busca por conforto e um desejo de nos sentirmos protegidos, aconselha e inspira nossa coleção Nuage, envolta pelo aconchego das formas onduladas, que abraçam corpos e sensações.",
+    "desc_en": "Clouds defy gravity, just like our state of rest. We float, weightless, detached from earthly worries. Worries dissolve like mist, leaving only serenity. Here, we wander through the vastness of dreams, free from the mundane.\n\nClouds are visibly fluffy and voluminous, fueling the imagination that they would be like a giant pillow or a soft bed, perfect for resting. They evoke a sense of tranquility and serenity, floating in the sky in an environment of peace and freedom.\n\nThis fantasy, linked to our search for comfort and a desire to feel protected, advises and inspires our Nuage collection, wrapped in the coziness of wavy shapes that embrace bodies and sensations.",
+    "client": "saccaro",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KRFaaXqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
+    "gallery": [
       {
-        "name": "AtolA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eELDjD5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7eELDjD5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KRFaaXqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
       },
       {
-        "name": "AtolB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xdhurcJlf3e05zRUFVknwH92JabiDYWxT8Zu",
-        "key": "047OTbUFRaz7xdhurcJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7k5zGJlsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
       },
       {
-        "name": "AtolC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KAlkf8qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KAlkf8qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75NB3FUQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77R6zmTHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KTI6UMqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71mGDEbddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GjdXK3f6E7jguTdaA8N54cKypx1XYCVoR93l"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wosrErRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79kwXJPU6XMQDN0kvost7AlPaejC9rI28b6Kh"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zCj1WyKdXREJNpA3WjVnluH1LtImegYTq8hG"
       }
     ]
   },
   {
-    "projectId": "base",
-    "images": [
+    "slug": "jam",
+    "title": "Jam",
+    "title_en": "Jam",
+    "desc_pt": "Contexto: Uma parceria estratégica multidiciplinar entre um fabricante de móveis e uma grande marca de varejo.\n\nO Briefing e a Pesquisa: O processo começou com uma pesquisa sobre o varejo e o posicionamento de uma importante marca brasileira de óculos. Ao analisar suas campanhas publicitárias, estilo de vida e a atmosfera dos pontos de venda, capturamos uma identidade urbana, descontraída e sofisticada.\n\nA Solução de Design: Um pufe minimalista, revestido em tecido, projetado como uma peça de destaque para espaços de estar modernos. O produto une o estofamento tátil e a marcenaria tradicional com tecnologia criativa por meio de duas características principais:\n• Utilidade de Dupla Função: Uma superfície de mesa de madeira integrada e embutida que permite que a peça funcione tanto como um assento confortável quanto como uma superfície de apoio para objetos.\n• Tecnologia Integrada: Um sistema de som de alta fidelidade embutido na estrutura do móvel, conectando-se sem fio a dispositivos móveis.\n\nConecte-se ao seu ritmo, relaxe ao som da sua playlist, praticando seu instrumento ou animando uma jam session com os amigos. O JAM oferece o equilíbrio entre conforto e funcionalidade, amplificando o seu estilo.",
+    "desc_en": "Context: Cross-industry strategic partnership between a premium furniture manufacturer and a major retail brand.\n\nThe Brief & Research: The process began with deep retail ethnography and an audit of a prominent Brazilian eyewear brand’s lifestyle positioning. By analyzing their advertising campaigns, curated background music, and overall store atmosphere, the design captured a relaxed yet sophisticated urban identity.\n\nThe Design Solution: A minimalist, fabric-wrapped pouf designed as an architectural accent piece for modern living spaces. The product successfully bridges tactile upholstery and traditional woodworking with creative technology through two core features:\n• Dual-Function Utility: An integrated, built-in wooden tabletop surface that allows the piece to function seamlessly as both comfortable seating and a functional surface to place objects.\n• Embedded Technology: A high-fidelity sound system built directly into the furniture structure, connecting wirelessly and seamlessly with mobile devices.\n\nConnect to your rhythm , whether you're relaxing to your playlist, practicing your instrument, or livening up a jam session with friends, the JAM is the balance between comfort and functionality, amplifying your style.",
+    "client": "Chillibeans",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto",
+      "identidade-visual"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qYGAA8pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
+    "gallery": [
       {
-        "name": "BaseA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ev4uNL5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7ev4uNL5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qYGAA8pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
-        "name": "Baseb.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iKHlOMb7pDgjAfRIF0JvmZqXteduGo2Kyh81",
-        "key": "047OTbUFRaz7iKHlOMb7pDgjAfRIF0JvmZqXteduGo2Kyh81"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qAP0iSpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
-        "name": "BaseC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SdcbUTxLagkEYQucWCXVx3fwGml1MitZB9qO",
-        "key": "047OTbUFRaz7SdcbUTxLagkEYQucWCXVx3fwGml1MitZB9qO"
-      },
-      {
-        "name": "BaseD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7q5cMqFcpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5",
-        "key": "047OTbUFRaz7q5cMqFcpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5"
-      },
-      {
-        "name": "BaseE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Q84Zrh1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7Q84Zrh1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
-      },
-      {
-        "name": "BaseF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73Hno8VFiCc7ykYGxUR6KMEBg0odwbe5zNIj8",
-        "key": "047OTbUFRaz73Hno8VFiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
-      },
-      {
-        "name": "BaseG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D0Li843a9mVHGFRd76bOLIoyZgtWQxJMfzeq",
-        "key": "047OTbUFRaz7D0Li843a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZR3LsKeu0W5PBHYFcEzubtUCfS18V76QjDAp"
       }
     ]
   },
   {
-    "projectId": "cadeira",
-    "images": [
+    "slug": "mandarim",
+    "title": "Poltrona Mandarim",
+    "title_en": "Mandarim Armchair",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Independente",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qqulNoHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6",
+    "gallery": [
       {
-        "name": "CadeiraA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7EW2FwYTYdhvLqiRcn4ostubf2jQwJKOSr7AC",
-        "key": "047OTbUFRaz7EW2FwYTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qqulNoHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
       },
       {
-        "name": "CadeiraB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vSZFdsknUgH4xqT9Sjck6t1pKRso7aeWhJfi",
-        "key": "047OTbUFRaz7vSZFdsknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7goNf3GU0RIf9yMJhTVPzX86FevaE7UrlA1oq"
       },
       {
-        "name": "CadeiraC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz750LGIRQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz750LGIRQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7p3XU2RexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
       },
       {
-        "name": "CadeiraD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wf8JfxtRf3QFA4WlxqVMDU7pCN9ctPZTR0Ko",
-        "key": "047OTbUFRaz7wf8JfxtRf3QFA4WlxqVMDU7pCN9ctPZTR0Ko"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7prDDVAexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
       },
       {
-        "name": "CadeiraE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iK20AHX7pDgjAfRIF0JvmZqXteduGo2Kyh81",
-        "key": "047OTbUFRaz7iK20AHX7pDgjAfRIF0JvmZqXteduGo2Kyh81"
-      },
-      {
-        "name": "CadeiraF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7RxbHOBGFgOZuP5fARs492Nj8WtL1XCc7MkHY",
-        "key": "047OTbUFRaz7RxbHOBGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vUCxC2knUgH4xqT9Sjck6t1pKRso7aeWhJfi"
       }
     ]
   },
   {
-    "projectId": "carpedien",
-    "images": [
+    "slug": "zazen",
+    "title": "Zazen",
+    "title_en": "Zazen",
+    "desc_pt": "“Zazen” é a prática central do budismo zen — uma meditação sentada que busca clareza mental, presença e iluminação. Za = Sentar | Zen = Meditar.",
+    "desc_en": "“Zazen” is the central practice of Zen Buddhism —a seated meditation that seeks mental clarity, presence, and enlightenment. Za = Sit | Zen = Meditate.",
+    "client": "saccaro",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fXjRw58YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
+    "gallery": [
       {
-        "name": "CarpeA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7o3YS18t93OViWZf5SLMoQRUKDaGXEHzAqwyI",
-        "key": "047OTbUFRaz7o3YS18t93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fXjRw58YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
       },
       {
-        "name": "CarpeB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PTv4lPPjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
-        "key": "047OTbUFRaz7PTv4lPPjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eBUxn75bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       },
       {
-        "name": "CarpeC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz791pVsP6XMQDN0kvost7AlPaejC9rI28b6Kh3",
-        "key": "047OTbUFRaz791pVsP6XMQDN0kvost7AlPaejC9rI28b6Kh3"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71jLwCwddMwjLVHNxPflFCZrvQyRu2XJETBe6"
       },
       {
-        "name": "CarpeD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Sc2qIcwxLagkEYQucWCXVx3fwGml1MitZB9q",
-        "key": "047OTbUFRaz7Sc2qIcwxLagkEYQucWCXVx3fwGml1MitZB9q"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QgIuD91c6gedqP1zGVAfm5p4aShYIjUxZb7O"
       },
       {
-        "name": "CarpeE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74lpagm2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x",
-        "key": "047OTbUFRaz74lpagm2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HMQW8XKVloQp02I6KTBYUJxEknvdFibcR4ta"
       },
       {
-        "name": "CarpeF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qqgYbkpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        "key": "047OTbUFRaz7qqgYbkpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QU9nVb1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
       },
       {
-        "name": "CarpeG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75Kr48oQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75Kr48oQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KDG5wmqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
       },
       {
-        "name": "CarpeH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Rx79A7GFgOZuP5fARs492Nj8WtL1XCc7MkHY",
-        "key": "047OTbUFRaz7Rx79A7GFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cbxRuxnWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
       },
       {
-        "name": "CarpeI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Wz7YR7IBGVeIToJiAt53FCzgjmQnybO0UqRH",
-        "key": "047OTbUFRaz7Wz7YR7IBGVeIToJiAt53FCzgjmQnybO0UqRH"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qL4xwtpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
-        "name": "CarpeJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71q17YGddMwjLVHNxPflFCZrvQyRu2XJETBe6",
-        "key": "047OTbUFRaz71q17YGddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Tnw7w19dtnLquOkbmvAj8x05U1VPwZrK6lBy"
       },
       {
-        "name": "CarpeK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7x3VXtKJlf3e05zRUFVknwH92JabiDYWxT8Zu",
-        "key": "047OTbUFRaz7x3VXtKJlf3e05zRUFVknwH92JabiDYWxT8Zu"
-      },
-      {
-        "name": "CarpeL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fmYmjrq8YCHlcTWUoy1v0ghdpkMVqetXRO2m",
-        "key": "047OTbUFRaz7fmYmjrq8YCHlcTWUoy1v0ghdpkMVqetXRO2m"
-      },
-      {
-        "name": "CarpeM.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dxxmQEtCVDmHaL07yhbZKojBuAC2Gce59kTp",
-        "key": "047OTbUFRaz7dxxmQEtCVDmHaL07yhbZKojBuAC2Gce59kTp"
-      },
-      {
-        "name": "CarpeN.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCcZLAx1c6gedqP1zGVAfm5p4aShYIjUxZb7",
-        "key": "047OTbUFRaz7QCcZLAx1c6gedqP1zGVAfm5p4aShYIjUxZb7"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75dSfmy2QHPs2FRjySlnmwEXMTJcuNQp1D8Kq"
       }
     ]
   },
   {
-    "projectId": "egoiste",
-    "images": [
+    "slug": "kraft",
+    "title": "Poltrona Kraft",
+    "title_en": "Kraft Armchair",
+    "desc_pt": "A KRAFT encontra seu lugar no ambiente. Inspirada no potencial criativo do papel kraft dobrado antes de sua forma final, esta poltrona é o resultado de um estudo sobre dobras e as possibilidades que elas oferecem.\n\nCom linhas ajustadas em proporções que realçam a estética limpa e a marcenaria minimalista, a KRAFT convida ao uso. Seu design simples proporciona conforto, feito para se moldar ao corpo e com detalhes projetados para criar uma poltrona que equilibra minimalismo visual e ergonomia.",
+    "desc_en": "KRAFT finds its place in the environment. Inspired by the creative potential of kraft paper folded before its final form, this armchair is the result of a study on folds and the possibilities they hold.\n\nWith lines adjusted in proportions that enhance clean aesthetics and minimalist joinery, KRAFT invites use. Its simple design provides comfort, made to mold to the body and with details designed to create an armchair that balances visual minimalism and ergonomics.",
+    "client": "Independente",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SWOqvZxLagkEYQucWCXVx3fwGml1MitZB9qO",
+    "gallery": [
       {
-        "name": "EgoisteA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75dxj5JnQHPs2FRjySlnmwEXMTJcuNQp1D8Kq",
-        "key": "047OTbUFRaz75dxj5JnQHPs2FRjySlnmwEXMTJcuNQp1D8Kq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SWOqvZxLagkEYQucWCXVx3fwGml1MitZB9qO"
       },
       {
-        "name": "EgoisteB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gojjgWw0RIf9yMJhTVPzX86FevaE7UrlA1oq",
-        "key": "047OTbUFRaz7gojjgWw0RIf9yMJhTVPzX86FevaE7UrlA1oq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JTW1Rqc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
       },
       {
-        "name": "EgoisteC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76q6eMAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
-        "key": "047OTbUFRaz76q6eMAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7m4incfkWcr2FUXsKCg4Aux1IBzo3d0mVwpE5"
       },
       {
-        "name": "EgoisteD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77I2ULVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77I2ULVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
-      },
-      {
-        "name": "EgoisteE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oTSQzlt93OViWZf5SLMoQRUKDaGXEHzAqwyI",
-        "key": "047OTbUFRaz7oTSQzlt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
-      },
-      {
-        "name": "EgoisteF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7M0qNymZFZf0VqWm8jut9gQBr5nkscDIzP4NY",
-        "key": "047OTbUFRaz7M0qNymZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
-      },
-      {
-        "name": "EgoisteG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oLEksEt93OViWZf5SLMoQRUKDaGXEHzAqwyI",
-        "key": "047OTbUFRaz7oLEksEt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
-      },
-      {
-        "name": "EgoisteH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72AXBxZgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2",
-        "key": "047OTbUFRaz72AXBxZgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
-      },
-      {
-        "name": "EgoisteI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79hXLd16XMQDN0kvost7AlPaejC9rI28b6Kh3",
-        "key": "047OTbUFRaz79hXLd16XMQDN0kvost7AlPaejC9rI28b6Kh3"
-      },
-      {
-        "name": "EgoisteJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TcEmvq9dtnLquOkbmvAj8x05U1VPwZrK6lBy",
-        "key": "047OTbUFRaz7TcEmvq9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
-      },
-      {
-        "name": "EgoisteK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76ew3nwv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
-        "key": "047OTbUFRaz76ew3nwv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
-      },
-      {
-        "name": "EgoisteL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79nGEtr6XMQDN0kvost7AlPaejC9rI28b6Kh3",
-        "key": "047OTbUFRaz79nGEtr6XMQDN0kvost7AlPaejC9rI28b6Kh3"
-      },
-      {
-        "name": "EgoisteM.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vVREOMknUgH4xqT9Sjck6t1pKRso7aeWhJfi",
-        "key": "047OTbUFRaz7vVREOMknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
-      },
-      {
-        "name": "EgoisteN.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WPJqP8IBGVeIToJiAt53FCzgjmQnybO0UqRH",
-        "key": "047OTbUFRaz7WPJqP8IBGVeIToJiAt53FCzgjmQnybO0UqRH"
-      },
-      {
-        "name": "EgoisteO.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7w8d6H2Rf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
-        "key": "047OTbUFRaz7w8d6H2Rf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
-      },
-      {
-        "name": "EgoisteP.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yEwSDV7PSdrLogis8aAHvYnZDPQcqThXIeER",
-        "key": "047OTbUFRaz7yEwSDV7PSdrLogis8aAHvYnZDPQcqThXIeER"
-      },
-      {
-        "name": "EgoisteQ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kDNdXRsJHhATSZ3pqtc6PFENXw5mzef9sBaU",
-        "key": "047OTbUFRaz7kDNdXRsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
-      },
-      {
-        "name": "EgoisteR.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7K5p7gaqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7K5p7gaqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
-      },
-      {
-        "name": "EgoisteS.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SdCsAxLagkEYQucWCXVx3fwGml1MitZB9qO6",
-        "key": "047OTbUFRaz7SdCsAxLagkEYQucWCXVx3fwGml1MitZB9qO6"
-      },
-      {
-        "name": "EgoisteT.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fDTjhI8YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
-        "key": "047OTbUFRaz7fDTjhI8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TLPHwJ9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
       }
     ]
   },
   {
-    "projectId": "farfale",
-    "images": [
+    "slug": "iconic",
+    "title": "Iconic",
+    "title_en": "Iconic",
+    "desc_pt": "Contexto: Pesquisa orientada por materiais (MDD) e fabricação digital distribuída e aberta.\n\nO Resumo e a Pesquisa: Esta iniciativa de pesquisa focou na exploração de alternativas de fabricação sustentáveis, investigando as propriedades mecânicas de um ecocompósito de PETG reciclado, derivado de fontes vegetais. Este biopolímero é significativamente mais leve que madeira ou metal e permite a execução de formas geométricas altamente complexas por meio da manufatura aditiva.\n\nA Solução de Design: Para superar as limitações de volume de construção das impressoras 3D comerciais, o projeto utiliza uma abordagem modular e escalável, orientada pelos princípios da manufatura enxuta, expandindo-se para uma coleção de móveis coesa:\n• Sistema de Prateleiras Modulares: Um sistema de unidades flexível onde um único módulo impresso funciona independentemente como uma mesa lateral compacta ou um nicho de parede suspenso. Várias unidades podem ser impressas sob demanda e montadas perfeitamente para formar uma estrutura de prateleiras abrangente.\n• Poltrona Companion: Expandindo a mesma linguagem de design unificada, os braços estruturais da poltrona Companion foram projetados para otimizar a área geométrica. Essa otimização específica reduziu drasticamente os tempos de impressão e eliminou o desperdício de material, mantendo a integridade estrutural robusta para suportar o peso humano com segurança.",
+    "desc_en": "Context: Material-driven research (MDD) and open distributed digital fabrication.\n\nThe Brief & Research: This research initiative focused on exploring sustainable manufacturing alternatives by investigating the mechanical properties of a recycled PETG eco-composite derived from plant-based sources. This biopolymer is significantly lighter than wood or metal and allows for the execution of highly complex geometric forms via additive manufacturing.\n\nThe Design Solution: To overcome the physical build-volume limitations of commercial 3D printers, the project utilizes a scalable, modular approach driven by lean manufacturing principles, expanding into a cohesive furniture collection:\n• Modular Shelving System: A flexible unit system where a single printed module functions independently as a compact side table or a hanging wall niche. Multiple units can be printed on demand and seamlessly assembled together to scale into a comprehensive shelving structure.\n• Companion Armchair: Expanding on the same unified design language, the structural arms of the companion chair were engineered to optimize the geometric footprint. This specific optimization dramatically reduced print times and eliminated material waste while maintaining robust structural integrity to support human weight safely.",
+    "client": "Conceito",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7I3oYIu4YpNL4JA5UKuWlkS2rsiy61njEM0bt",
+    "gallery": [
       {
-        "name": "FarfaleA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gxk8rO0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
-        "key": "047OTbUFRaz7gxk8rO0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7I3oYIu4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
       },
       {
-        "name": "FarfaleB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Jogozgc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2",
-        "key": "047OTbUFRaz7Jogozgc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gozzQ3H0RIf9yMJhTVPzX86FevaE7UrlA1oq"
       },
       {
-        "name": "FarfaleC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xCpxKXJlf3e05zRUFVknwH92JabiDYWxT8Zu",
-        "key": "047OTbUFRaz7xCpxKXJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Udplq5oxL96kWlPOEZnVivRFpuo4mhNGcTYb"
       },
       {
-        "name": "FarfaleD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R83TJ4eGFgOZuP5fARs492Nj8WtL1XCc7MkH",
-        "key": "047OTbUFRaz7R83TJ4eGFgOZuP5fARs492Nj8WtL1XCc7MkH"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77wA4wBHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
       },
       {
-        "name": "FarfaleE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tNBQesMbmIavPzqHtrsRbjonNd24xXTh5CA9",
-        "key": "047OTbUFRaz7tNBQesMbmIavPzqHtrsRbjonNd24xXTh5CA9"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7r26PmIMsISKEpcja2DCQOu7gTn16z50XNdMh"
       },
       {
-        "name": "FarfaleF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz78l8i7ChEIviel1sxuONM9wmg5tJAShW0HKdZ",
-        "key": "047OTbUFRaz78l8i7ChEIviel1sxuONM9wmg5tJAShW0HKdZ"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tbZLkQUFRaz7ojmHIOPSXUkt8QMrec156su"
       },
       {
-        "name": "FarfaleG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1JHrMW5bSlRH2oJsrVNA31q5kjEYMZe0BXh",
-        "key": "047OTbUFRaz7e1JHrMW5bSlRH2oJsrVNA31q5kjEYMZe0BXh"
-      },
-      {
-        "name": "FarfaleH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JaoX6Wc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2",
-        "key": "047OTbUFRaz7JaoX6Wc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
-      },
-      {
-        "name": "FarfaleI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7CJOUmJPSvMrayNJYT9CV7UzBnWgt0RkFZp1P",
-        "key": "047OTbUFRaz7CJOUmJPSvMrayNJYT9CV7UzBnWgt0RkFZp1P"
-      },
-      {
-        "name": "FarfaleJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KJtTXvqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KJtTXvqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
-      },
-      {
-        "name": "FarfaleK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xwtnbXJlf3e05zRUFVknwH92JabiDYWxT8Zu",
-        "key": "047OTbUFRaz7xwtnbXJlf3e05zRUFVknwH92JabiDYWxT8Zu"
-      },
-      {
-        "name": "FarfaleL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wV8PYxRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
-        "key": "047OTbUFRaz7wV8PYxRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7E3UdOmTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
       }
     ]
   },
   {
-    "projectId": "iconic",
-    "images": [
+    "slug": "sonora",
+    "title": "Sonora",
+    "title_en": "Sonora",
+    "desc_pt": "A Linha Sonora, com suas formas monolíticas inspiradas nas dunas mexicanas, recebe o toque sedoso da laca, refletindo a sutileza da luz natural. O rigor da marcenaria encontra a leveza cromática do outdoor, criando um oásis contemporâneo de puro design e conforto.",
+    "desc_en": "The Sonora Line, with its monolithic shapes inspired by Mexican dunes, receives the silky touch of lacquer, reflecting the subtlety of natural light. The rigor of woodworking meets the chromatic lightness of the outdoors, creating a contemporary oasis of pure design and comfort.",
+    "client": "Saccaro",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iKdJyxH7pDgjAfRIF0JvmZqXteduGo2Kyh81",
+    "gallery": [
       {
-        "name": "IconicA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7I3oYIu4YpNL4JA5UKuWlkS2rsiy61njEM0bt",
-        "key": "047OTbUFRaz7I3oYIu4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iKdJyxH7pDgjAfRIF0JvmZqXteduGo2Kyh81"
       },
       {
-        "name": "IconicB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gozzQ3H0RIf9yMJhTVPzX86FevaE7UrlA1oq",
-        "key": "047OTbUFRaz7gozzQ3H0RIf9yMJhTVPzX86FevaE7UrlA1oq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz78rtF0mhEIviel1sxuONM9wmg5tJAShW0HKdZ"
       },
       {
-        "name": "IconicC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Udplq5oxL96kWlPOEZnVivRFpuo4mhNGcTYb",
-        "key": "047OTbUFRaz7Udplq5oxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ty4KDubmIavPzqHtrsRbjonNd24xXTh5CA9O"
       },
       {
-        "name": "IconicD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77wA4wBHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77wA4wBHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74ANgS2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
       },
       {
-        "name": "IconicE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7r26PmIMsISKEpcja2DCQOu7gTn16z50XNdMh",
-        "key": "047OTbUFRaz7r26PmIMsISKEpcja2DCQOu7gTn16z50XNdMh"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77iozxnHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
       },
       {
-        "name": "IconicF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tbZLkQUFRaz7ojmHIOPSXUkt8QMrec156su",
-        "key": "047OTbUFRaz70tbZLkQUFRaz7ojmHIOPSXUkt8QMrec156su"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dmMN9oCVDmHaL07yhbZKojBuAC2Gce59kTpt"
       },
       {
-        "name": "IconicG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7E3UdOmTYdhvLqiRcn4ostubf2jQwJKOSr7AC",
-        "key": "047OTbUFRaz7E3UdOmTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70DcOusUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ujhTxEwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nID7rZ2EsfXp4APkDSxeUbni7ajqIHY92cCm"
       }
     ]
   },
   {
-    "projectId": "ito",
-    "images": [
+    "slug": "moon",
+    "title": "Moon",
+    "title_en": "Moon",
+    "desc_pt": "A curva e o vão, O espaço atrai a forma, Órbita no chão.\n\nAssim como a Lua orbita e transforma o cenário ao seu redor, o conjunto Moon redefine o fluxo do ambiente e baseia-se na interação espacial das formas. O contorno da mesa baixa possui um recorte que abriga o pufe circular ou encaixa-se a novas mesas, criando um sistema de expansão contínua. Projetado para resistir ao tempo em ambientes externos, o mobiliário permite que rigidez e acolhimento atuem juntos ou isolados. O arranjo orbita em torno da sua necessidade, permitindo configurações infinitas.",
+    "desc_en": "The curve and the gap, Space attracts form, Orbit on the ground.\n\nJust as the Moon orbits and transforms the scenery around it, the Moon set redefines the flow of the environment and is based on the spatial interaction of shapes. The contour of the low table features a cutout that houses the circular pouf or fits into new tables, creating a continuous expansion system. Designed to withstand time in outdoor environments, the furniture allows rigidity and warmth to act together or in isolation. The arrangement orbits around your needs, allowing infinite configurations.",
+    "client": "Saccaro",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZjxLpPu0W5PBHYFcEzubtUCfS18V76QjDAp9",
+    "gallery": [
       {
-        "name": "ItoA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l",
-        "key": "047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZjxLpPu0W5PBHYFcEzubtUCfS18V76QjDAp9"
       },
       {
-        "name": "ItoB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73HCvxPyiCc7ykYGxUR6KMEBg0odwbe5zNIj8",
-        "key": "047OTbUFRaz73HCvxPyiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JLOjNTc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
       },
       {
-        "name": "ItoC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eFtpuP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7eFtpuP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TvwzO8p9dtnLquOkbmvAj8x05U1VPwZrK6lB"
       },
       {
-        "name": "ItoD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
-        "key": "047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7q5SykWOpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5"
       },
       {
-        "name": "ItoE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ekVJXH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7ekVJXH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eM78MJ5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       },
       {
-        "name": "ItoF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZRIyxDQu0W5PBHYFcEzubtUCfS18V76QjDAp",
-        "key": "047OTbUFRaz7ZRIyxDQu0W5PBHYFcEzubtUCfS18V76QjDAp"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DBXqDg3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
       },
       {
-        "name": "ItoG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KeSDSJzqeiax41Jgf9kWy5wsLXTcmG7zvF8B",
-        "key": "047OTbUFRaz7KeSDSJzqeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pCRv8QexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KKr0Imqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cmRYrenWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pJ2KtjexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7G6SbFXf6E7jguTdaA8N54cKypx1XYCVoR93l"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IduoGt4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
       }
     ]
   },
   {
-    "projectId": "jam",
-    "images": [
+    "slug": "space",
+    "title": "Space",
+    "title_en": "Space",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScgoQiFxLagkEYQucWCXVx3fwGml1MitZB9q",
+    "gallery": [
       {
-        "name": "JamA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qYGAA8pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        "key": "047OTbUFRaz7qYGAA8pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScgoQiFxLagkEYQucWCXVx3fwGml1MitZB9q"
       },
       {
-        "name": "JamB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qAP0iSpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        "key": "047OTbUFRaz7qAP0iSpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dPNEKZCVDmHaL07yhbZKojBuAC2Gce59kTpt"
       },
       {
-        "name": "JamC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZR3LsKeu0W5PBHYFcEzubtUCfS18V76QjDAp",
-        "key": "047OTbUFRaz7ZR3LsKeu0W5PBHYFcEzubtUCfS18V76QjDAp"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zerFCWyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yWFyq2PSdrLogis8aAHvYnZDPQcqThXIeERK"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qgVTsVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75itOBoQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QPVd0h1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7g67Hes0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uLIR4rwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75mXwOeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gT4HPL0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75GfOYOQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oaS16Mt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Kfc78aqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz708daCGUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7MkOeY9ZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ftWW7s8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ctGgt4nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76SeoEAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iubUpr7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70N6EuFUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ysBTjWPSdrLogis8aAHvYnZDPQcqThXIeERK"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yEkYa4UPSdrLogis8aAHvYnZDPQcqThXIeER"
       }
     ]
   },
   {
-    "projectId": "kaicai",
-    "images": [
+    "slug": "cine",
+    "title": "Cine",
+    "title_en": "Cine",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
+    "gallery": [
       {
-        "name": "HaicaiA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wCY0sPRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
-        "key": "047OTbUFRaz7wCY0sPRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
       },
       {
-        "name": "HaicaiB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QHyymR1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QHyymR1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fWftND8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
       }
     ]
   },
   {
-    "projectId": "kraft",
-    "images": [
+    "slug": "avantime",
+    "title": "Avantime",
+    "title_en": "Avantime",
+    "desc_pt": "Com um design contemporâneo e um visual descontraído, a Coleção Avantime adapta-se aos mais diversos ambientes graças aos seus módulos modulares, que se unem para formar composições criativas e confortáveis.",
+    "desc_en": "With a contemporary design and a casual look, the Avantime Collection adapts to the most diverse environments thanks to its modular modules, which come together to form creative and comfortable compositions.",
+    "client": "Conceito",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
+    "gallery": [
       {
-        "name": "kraftA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SWOqvZxLagkEYQucWCXVx3fwGml1MitZB9qO",
-        "key": "047OTbUFRaz7SWOqvZxLagkEYQucWCXVx3fwGml1MitZB9qO"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7hM7qcRmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
       },
       {
-        "name": "kraftB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JTW1Rqc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2",
-        "key": "047OTbUFRaz7JTW1Rqc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7nh8tGU2EsfXp4APkDSxeUbni7ajqIHY92cCm"
       },
       {
-        "name": "kraftC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7m4incfkWcr2FUXsKCg4Aux1IBzo3d0mVwpE5",
-        "key": "047OTbUFRaz7m4incfkWcr2FUXsKCg4Aux1IBzo3d0mVwpE5"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71St63DKddMwjLVHNxPflFCZrvQyRu2XJETBe"
       },
       {
-        "name": "kraftD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TLPHwJ9dtnLquOkbmvAj8x05U1VPwZrK6lBy",
-        "key": "047OTbUFRaz7TLPHwJ9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ph637iexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fsR5028YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HpeUscQKVloQp02I6KTBYUJxEknvdFibcR4t"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pV4EipexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7JXZZC3c8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Q9XfSC1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz707EMyFUFRaz7ojmHIOPSXUkt8QMrec156su3"
       }
     ]
   },
   {
-    "projectId": "kube",
-    "images": [
+    "slug": "acqua",
+    "title": "Acqua",
+    "title_en": "Acqua",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76L0edcv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
+    "gallery": [
       {
-        "name": "KubeA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ezeeoI5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7ezeeoI5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76L0edcv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
       },
       {
-        "name": "KubeB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dYELxJCVDmHaL07yhbZKojBuAC2Gce59kTpt",
-        "key": "047OTbUFRaz7dYELxJCVDmHaL07yhbZKojBuAC2Gce59kTpt"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75d11xgeQHPs2FRjySlnmwEXMTJcuNQp1D8Kq"
       },
       {
-        "name": "KubeC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScbEpzQxLagkEYQucWCXVx3fwGml1MitZB9q",
-        "key": "047OTbUFRaz7ScbEpzQxLagkEYQucWCXVx3fwGml1MitZB9q"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pywJFIexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
       },
       {
-        "name": "KubeD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nzRlcP2EsfXp4APkDSxeUbni7ajqIHY92cCm",
-        "key": "047OTbUFRaz7nzRlcP2EsfXp4APkDSxeUbni7ajqIHY92cCm"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GvCc7Hf6E7jguTdaA8N54cKypx1XYCVoR93l"
       },
       {
-        "name": "KubeE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QFj2AM1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QFj2AM1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
-      },
-      {
-        "name": "KubeF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uUiGpkwjF7GOsuvIRypc2TdB3EY5M0PAf8gz",
-        "key": "047OTbUFRaz7uUiGpkwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
-      },
-      {
-        "name": "KubeG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dhjeWfCVDmHaL07yhbZKojBuAC2Gce59kTpt",
-        "key": "047OTbUFRaz7dhjeWfCVDmHaL07yhbZKojBuAC2Gce59kTpt"
-      },
-      {
-        "name": "KubeH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZRhLsvWu0W5PBHYFcEzubtUCfS18V76QjDAp",
-        "key": "047OTbUFRaz7ZRhLsvWu0W5PBHYFcEzubtUCfS18V76QjDAp"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7v1zsApknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
       }
     ]
   },
   {
-    "projectId": "mandarin",
-    "images": [
+    "slug": "mandala",
+    "title": "Mandala",
+    "title_en": "Mandala",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm",
+    "gallery": [
       {
-        "name": "MandarinA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qqulNoHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6",
-        "key": "047OTbUFRaz77qqulNoHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7rNlqVeMsISKEpcja2DCQOu7gTn16z50XNdMh"
       },
       {
-        "name": "MandarinB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7goNf3GU0RIf9yMJhTVPzX86FevaE7UrlA1oq",
-        "key": "047OTbUFRaz7goNf3GU0RIf9yMJhTVPzX86FevaE7UrlA1oq"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz73HxwSOjiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
       },
       {
-        "name": "MandarinC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7p3XU2RexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7p3XU2RexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ndIrLl2EsfXp4APkDSxeUbni7ajqIHY92cCm"
       },
       {
-        "name": "MandarinD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7prDDVAexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7prDDVAexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
-      },
-      {
-        "name": "MandarinE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vUCxC2knUgH4xqT9Sjck6t1pKRso7aeWhJfi",
-        "key": "047OTbUFRaz7vUCxC2knUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7dpm9Q6CVDmHaL07yhbZKojBuAC2Gce59kTpt"
       }
     ]
   },
   {
-    "projectId": "mandarina",
-    "images": [
+    "slug": "olimpikus",
+    "title": "Olympikus",
+    "title_en": "Olympikus",
+    "desc_pt": "Contexto: Infraestrutura e marca Alinhamento para ambientes de alto tráfego.\n\nO Briefing e a Pesquisa: Uma análise da presença de uma grande marca de calçados e artigos esportivos em eventos de corrida, revelou uma lacuna de mercado distinta: embora os equipamentos de alta performance do cliente fossem premium, o mobiliário temporário para eventos no local carecia de integridade de design e qualidade estrutural.\n\nA Solução de Design: Um sistema de mobiliário modular altamente versátil, composto por bancos circulares projetados para suportar uso público intenso, incentivando a interação coletiva. A principal inovação reside em sua adaptabilidade a múltiplos ambientes:\n• Engenharia de Materiais: Para solucionar o desafio de transição entre pistas de corrida externas acidentadas e lojas de varejo internas sofisticadas, o sistema apresenta uma estrutura interna feita de alumínio leve e resistente às intempéries para facilitar o transporte.\n• Eficiência Operacional: O núcleo é revestido por uma capa de tecido externo durável e de alto desempenho, utilizando um sistema de zíper integrado. Isso permite que o estofamento seja facilmente instalado, removido, mantido ou trocado, dependendo do local da loja.",
+    "desc_en": "Context: Infrastructure and brand alignment for high-traffic environments.\n\nThe Brief & Research: An analysis of a major athletic footwear and sports brand's presence at marathons and running events revealed a distinct market gap: while the client's performance gear was premium, the temporary on-site event furniture lacked design integrity and structural quality.\n\nThe Design Solution: A highly versatile modular furniture system composed of circular benches designed to handle heavy public use while encouraging collective interaction. The primary innovation lies in its multi-environment adaptability:\n• Material Engineering: To solve the challenge of transitioning between rugged outdoor race tracks and refined indoor retail stores, the system features an internal structural frame made of lightweight, weather-resistant aluminum for easy transport.\n• Operational Efficiency: The core is wrapped in a durable, high-performance outdoor fabric cover utilizing an integrated zipper system. This allows the upholstery to be easily attached, detached, maintained, or swapped depending on the retail venue.",
+    "client": "Olympikus",
+    "year": "2025",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7Ked01Xmqeiax41Jgf9kWy5wsLXTcmG7zvF8B",
+    "gallery": [
       {
-        "name": "MandarinaA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75EfLebQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75EfLebQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7wlpcowRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
       },
       {
-        "name": "MandarinaB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7elwAHa5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7elwAHa5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fml0nLp8YCHlcTWUoy1v0ghdpkMVqetXRO2m"
       },
       {
-        "name": "MandarinaC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PTvPihbjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
-        "key": "047OTbUFRaz7PTvPihbjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3"
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7hIAVslimkoEjxnf3Q0rWCs2wKOdvh9HUM8P6"
       },
       {
-        "name": "MandarinaD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wi2LeYRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
-        "key": "047OTbUFRaz7wi2LeYRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eJZ3kS5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7EzAl7RTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7LYPG0vDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7efoFXT5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7iKJJ4Jv7pDgjAfRIF0JvmZqXteduGo2Kyh81"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7xnzBet4Jlf3e05zRUFVknwH92JabiDYWxT8Z"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7WylN4PIBGVeIToJiAt53FCzgjmQnybO0UqRH"
       }
     ]
   },
   {
-    "projectId": "moon",
-    "images": [
+    "slug": "akio",
+    "title": "Akio",
+    "title_en": "Akio",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pknY48exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
+    "gallery": [
       {
-        "name": "MoonA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZjxLpPu0W5PBHYFcEzubtUCfS18V76QjDAp9",
-        "key": "047OTbUFRaz7ZjxLpPu0W5PBHYFcEzubtUCfS18V76QjDAp9"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qGJL3VpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
-        "name": "MoonB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JLOjNTc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2",
-        "key": "047OTbUFRaz7JLOjNTc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7FloInTz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz"
       },
       {
-        "name": "MoonC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TvwzO8p9dtnLquOkbmvAj8x05U1VPwZrK6lB",
-        "key": "047OTbUFRaz7TvwzO8p9dtnLquOkbmvAj8x05U1VPwZrK6lB"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScUbU41xLagkEYQucWCXVx3fwGml1MitZB9q"
       },
       {
-        "name": "MoonD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7q5SykWOpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5",
-        "key": "047OTbUFRaz7q5SykWOpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gy4nKU0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
       },
       {
-        "name": "MoonE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eM78MJ5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7eM78MJ5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Mw8r3B0ZFZf0VqWm8jut9gQBr5nkscDIzP4N"
       },
       {
-        "name": "MoonF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DBXqDg3a9mVHGFRd76bOLIoyZgtWQxJMfzeq",
-        "key": "047OTbUFRaz7DBXqDg3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
-      },
-      {
-        "name": "MoonG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pCRv8QexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7pCRv8QexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
-      },
-      {
-        "name": "MoonH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KKr0Imqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KKr0Imqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
-      },
-      {
-        "name": "MoonI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cmRYrenWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
-        "key": "047OTbUFRaz7cmRYrenWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
-      },
-      {
-        "name": "MoonJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pJ2KtjexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
-        "key": "047OTbUFRaz7pJ2KtjexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
-      },
-      {
-        "name": "MoonK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7G6SbFXf6E7jguTdaA8N54cKypx1XYCVoR93l",
-        "key": "047OTbUFRaz7G6SbFXf6E7jguTdaA8N54cKypx1XYCVoR93l"
-      },
-      {
-        "name": "MoonL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IduoGt4YpNL4JA5UKuWlkS2rsiy61njEM0bt",
-        "key": "047OTbUFRaz7IduoGt4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eo8aZc5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       }
     ]
   },
   {
-    "projectId": "movie",
-    "images": [
+    "slug": "atol",
+    "title": "Atol",
+    "title_en": "Atol",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eELDjD5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
+    "gallery": [
       {
-        "name": "MovieA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HBrbqxKVloQp02I6KTBYUJxEknvdFibcR4ta",
-        "key": "047OTbUFRaz7HBrbqxKVloQp02I6KTBYUJxEknvdFibcR4ta"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xdhurcJlf3e05zRUFVknwH92JabiDYWxT8Zu"
       },
       {
-        "name": "MovieB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCUoeTO1c6gedqP1zGVAfm5p4aShYIjUxZb7",
-        "key": "047OTbUFRaz7QCUoeTO1c6gedqP1zGVAfm5p4aShYIjUxZb7"
-      },
-      {
-        "name": "MovieC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76sFWGTv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
-        "key": "047OTbUFRaz76sFWGTv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
-      },
-      {
-        "name": "MovieD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QV680O1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QV680O1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
-      },
-      {
-        "name": "MovieE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WmnaJIBGVeIToJiAt53FCzgjmQnybO0UqRHD",
-        "key": "047OTbUFRaz7WmnaJIBGVeIToJiAt53FCzgjmQnybO0UqRHD"
-      },
-      {
-        "name": "MovieF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZBkd8ju0W5PBHYFcEzubtUCfS18V76QjDAp9",
-        "key": "047OTbUFRaz7ZBkd8ju0W5PBHYFcEzubtUCfS18V76QjDAp9"
-      },
-      {
-        "name": "MovieG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7hugQyCmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
-        "key": "047OTbUFRaz7hugQyCmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
-      },
-      {
-        "name": "MovieH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kIjktzsJHhATSZ3pqtc6PFENXw5mzef9sBaU",
-        "key": "047OTbUFRaz7kIjktzsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
-      },
-      {
-        "name": "MovieI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mFkSaZWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M",
-        "key": "047OTbUFRaz7mFkSaZWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
-      },
-      {
-        "name": "MovieJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pQoNNvFexRPd3X9qjgWuUm4tBsCDa0kJ7ylM",
-        "key": "047OTbUFRaz7pQoNNvFexRPd3X9qjgWuUm4tBsCDa0kJ7ylM"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KAlkf8qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
       }
     ]
   },
   {
-    "projectId": "nuage",
-    "images": [
+    "slug": "base",
+    "title": "Base",
+    "title_en": "Base",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ev4uNL5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
+    "gallery": [
       {
-        "name": "NuageA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KRFaaXqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KRFaaXqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iKHlOMb7pDgjAfRIF0JvmZqXteduGo2Kyh81"
       },
       {
-        "name": "NuageB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7k5zGJlsJHhATSZ3pqtc6PFENXw5mzef9sBaU",
-        "key": "047OTbUFRaz7k5zGJlsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SdcbUTxLagkEYQucWCXVx3fwGml1MitZB9qO"
       },
       {
-        "name": "NuageC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75NB3FUQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75NB3FUQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7q5cMqFcpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5"
       },
       {
-        "name": "NuageD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77R6zmTHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77R6zmTHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Q84Zrh1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
       },
       {
-        "name": "NuageE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KTI6UMqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KTI6UMqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73Hno8VFiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
       },
       {
-        "name": "NuageF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71mGDEbddMwjLVHNxPflFCZrvQyRu2XJETBe6",
-        "key": "047OTbUFRaz71mGDEbddMwjLVHNxPflFCZrvQyRu2XJETBe6"
-      },
-      {
-        "name": "NuageG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GjdXK3f6E7jguTdaA8N54cKypx1XYCVoR93l",
-        "key": "047OTbUFRaz7GjdXK3f6E7jguTdaA8N54cKypx1XYCVoR93l"
-      },
-      {
-        "name": "NuageH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wosrErRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
-        "key": "047OTbUFRaz7wosrErRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
-      },
-      {
-        "name": "NuageI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79kwXJPU6XMQDN0kvost7AlPaejC9rI28b6Kh",
-        "key": "047OTbUFRaz79kwXJPU6XMQDN0kvost7AlPaejC9rI28b6Kh"
-      },
-      {
-        "name": "NuageJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zCj1WyKdXREJNpA3WjVnluH1LtImegYTq8hG",
-        "key": "047OTbUFRaz7zCj1WyKdXREJNpA3WjVnluH1LtImegYTq8hG"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D0Li843a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
       }
     ]
   },
   {
-    "projectId": "oko",
-    "images": [
+    "slug": "cadeira",
+    "title": "Cadeira",
+    "title_en": "Cadeira",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7EW2FwYTYdhvLqiRcn4ostubf2jQwJKOSr7AC",
+    "gallery": [
       {
-        "name": "OkoA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Sc279AsxLagkEYQucWCXVx3fwGml1MitZB9q",
-        "key": "047OTbUFRaz7Sc279AsxLagkEYQucWCXVx3fwGml1MitZB9q"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vSZFdsknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
       },
       {
-        "name": "OkoB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ELov4WTYdhvLqiRcn4ostubf2jQwJKOSr7AC",
-        "key": "047OTbUFRaz7ELov4WTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz750LGIRQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
       },
       {
-        "name": "OkoC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7FINbZvz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz",
-        "key": "047OTbUFRaz7FINbZvz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wf8JfxtRf3QFA4WlxqVMDU7pCN9ctPZTR0Ko"
       },
       {
-        "name": "OkoD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LQFxerDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5",
-        "key": "047OTbUFRaz7LQFxerDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iK20AHX7pDgjAfRIF0JvmZqXteduGo2Kyh81"
       },
       {
-        "name": "OkoE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79fbH1q6XMQDN0kvost7AlPaejC9rI28b6Kh3",
-        "key": "047OTbUFRaz79fbH1q6XMQDN0kvost7AlPaejC9rI28b6Kh3"
-      },
-      {
-        "name": "OkoF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70Fg5O2UFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz70Fg5O2UFRaz7ojmHIOPSXUkt8QMrec156su3"
-      },
-      {
-        "name": "OkoG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R8hxuYOGFgOZuP5fARs492Nj8WtL1XCc7MkH",
-        "key": "047OTbUFRaz7R8hxuYOGFgOZuP5fARs492Nj8WtL1XCc7MkH"
-      },
-      {
-        "name": "OkoH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70J9RktUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz70J9RktUFRaz7ojmHIOPSXUkt8QMrec156su3"
-      },
-      {
-        "name": "OkoI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7UOkb8soxL96kWlPOEZnVivRFpuo4mhNGcTYb",
-        "key": "047OTbUFRaz7UOkb8soxL96kWlPOEZnVivRFpuo4mhNGcTYb"
-      },
-      {
-        "name": "OkoJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gwlpxz0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
-        "key": "047OTbUFRaz7gwlpxz0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
-      },
-      {
-        "name": "OkoK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7RNnc1vGFgOZuP5fARs492Nj8WtL1XCc7MkHY",
-        "key": "047OTbUFRaz7RNnc1vGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
-      },
-      {
-        "name": "OkoL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PsbaQ6jjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N",
-        "key": "047OTbUFRaz7PsbaQ6jjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
-      },
-      {
-        "name": "OkoM.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KHmB5Yqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KHmB5Yqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7RxbHOBGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
       }
     ]
   },
   {
-    "projectId": "pulp",
-    "images": [
+    "slug": "carpe-diem",
+    "title": "Carpe diem",
+    "title_en": "Carpe diem",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7o3YS18t93OViWZf5SLMoQRUKDaGXEHzAqwyI",
+    "gallery": [
       {
-        "name": "PulpA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ftZlBW8YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
-        "key": "047OTbUFRaz7ftZlBW8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PTv4lPPjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3"
       },
       {
-        "name": "PulpB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tpMzNAbmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        "key": "047OTbUFRaz7tpMzNAbmIavPzqHtrsRbjonNd24xXTh5CA9O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz791pVsP6XMQDN0kvost7AlPaejC9rI28b6Kh3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Sc2qIcwxLagkEYQucWCXVx3fwGml1MitZB9q"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74lpagm2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qqgYbkpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75Kr48oQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Rx79A7GFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Wz7YR7IBGVeIToJiAt53FCzgjmQnybO0UqRH"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71q17YGddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7x3VXtKJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fmYmjrq8YCHlcTWUoy1v0ghdpkMVqetXRO2m"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dxxmQEtCVDmHaL07yhbZKojBuAC2Gce59kTp"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCcZLAx1c6gedqP1zGVAfm5p4aShYIjUxZb7"
       }
     ]
   },
   {
-    "projectId": "sereno",
-    "images": [
+    "slug": "egoiste",
+    "title": "Egoiste",
+    "title_en": "Egoiste",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75dxj5JnQHPs2FRjySlnmwEXMTJcuNQp1D8Kq",
+    "gallery": [
       {
-        "name": "SerenoA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SwPRSfxLagkEYQucWCXVx3fwGml1MitZB9qO",
-        "key": "047OTbUFRaz7SwPRSfxLagkEYQucWCXVx3fwGml1MitZB9qO"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gojjgWw0RIf9yMJhTVPzX86FevaE7UrlA1oq"
       },
       {
-        "name": "SerenoB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75nhsSeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75nhsSeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76q6eMAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
       },
       {
-        "name": "SerenoC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71Dc48KddMwjLVHNxPflFCZrvQyRu2XJETBe6",
-        "key": "047OTbUFRaz71Dc48KddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77I2ULVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
       },
       {
-        "name": "SerenoD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ipScRi7pDgjAfRIF0JvmZqXteduGo2Kyh81P",
-        "key": "047OTbUFRaz7ipScRi7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oTSQzlt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
       },
       {
-        "name": "SerenoE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oGerqMt93OViWZf5SLMoQRUKDaGXEHzAqwyI",
-        "key": "047OTbUFRaz7oGerqMt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7M0qNymZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oLEksEt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72AXBxZgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79hXLd16XMQDN0kvost7AlPaejC9rI28b6Kh3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TcEmvq9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76ew3nwv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz79nGEtr6XMQDN0kvost7AlPaejC9rI28b6Kh3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vVREOMknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WPJqP8IBGVeIToJiAt53FCzgjmQnybO0UqRH"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7w8d6H2Rf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yEwSDV7PSdrLogis8aAHvYnZDPQcqThXIeER"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kDNdXRsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7K5p7gaqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SdCsAxLagkEYQucWCXVx3fwGml1MitZB9qO6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fDTjhI8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
       }
     ]
   },
   {
-    "projectId": "sonora",
-    "images": [
+    "slug": "farfale",
+    "title": "Farfale",
+    "title_en": "Farfale",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gxk8rO0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
+    "gallery": [
       {
-        "name": "SonoraA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iKdJyxH7pDgjAfRIF0JvmZqXteduGo2Kyh81",
-        "key": "047OTbUFRaz7iKdJyxH7pDgjAfRIF0JvmZqXteduGo2Kyh81"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Jogozgc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
       },
       {
-        "name": "SonoraB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz78rtF0mhEIviel1sxuONM9wmg5tJAShW0HKdZ",
-        "key": "047OTbUFRaz78rtF0mhEIviel1sxuONM9wmg5tJAShW0HKdZ"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xCpxKXJlf3e05zRUFVknwH92JabiDYWxT8Zu"
       },
       {
-        "name": "SonoraC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ty4KDubmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        "key": "047OTbUFRaz7ty4KDubmIavPzqHtrsRbjonNd24xXTh5CA9O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R83TJ4eGFgOZuP5fARs492Nj8WtL1XCc7MkH"
       },
       {
-        "name": "SonoraD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74ANgS2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x0",
-        "key": "047OTbUFRaz74ANgS2Yd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tNBQesMbmIavPzqHtrsRbjonNd24xXTh5CA9"
       },
       {
-        "name": "SonoraE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77iozxnHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77iozxnHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz78l8i7ChEIviel1sxuONM9wmg5tJAShW0HKdZ"
       },
       {
-        "name": "SonoraF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dmMN9oCVDmHaL07yhbZKojBuAC2Gce59kTpt",
-        "key": "047OTbUFRaz7dmMN9oCVDmHaL07yhbZKojBuAC2Gce59kTpt"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1JHrMW5bSlRH2oJsrVNA31q5kjEYMZe0BXh"
       },
       {
-        "name": "SonoraG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70DcOusUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz70DcOusUFRaz7ojmHIOPSXUkt8QMrec156su3"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JaoX6Wc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
       },
       {
-        "name": "SonoraH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ujhTxEwjF7GOsuvIRypc2TdB3EY5M0PAf8gz",
-        "key": "047OTbUFRaz7ujhTxEwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7CJOUmJPSvMrayNJYT9CV7UzBnWgt0RkFZp1P"
       },
       {
-        "name": "SonoraI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nID7rZ2EsfXp4APkDSxeUbni7ajqIHY92cCm",
-        "key": "047OTbUFRaz7nID7rZ2EsfXp4APkDSxeUbni7ajqIHY92cCm"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KJtTXvqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xwtnbXJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wV8PYxRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
       }
     ]
   },
   {
-    "projectId": "space",
-    "images": [
+    "slug": "ito",
+    "title": "Ito",
+    "title_en": "Ito",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l",
+    "gallery": [
       {
-        "name": "SpaceA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScgoQiFxLagkEYQucWCXVx3fwGml1MitZB9q",
-        "key": "047OTbUFRaz7ScgoQiFxLagkEYQucWCXVx3fwGml1MitZB9q"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73HCvxPyiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
       },
       {
-        "name": "SpaceB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dPNEKZCVDmHaL07yhbZKojBuAC2Gce59kTpt",
-        "key": "047OTbUFRaz7dPNEKZCVDmHaL07yhbZKojBuAC2Gce59kTpt"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eFtpuP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       },
       {
-        "name": "SpaceC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zerFCWyKdXREJNpA3WjVnluH1LtImegYTq8h",
-        "key": "047OTbUFRaz7zerFCWyKdXREJNpA3WjVnluH1LtImegYTq8h"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
       },
       {
-        "name": "SpaceD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yWFyq2PSdrLogis8aAHvYnZDPQcqThXIeERK",
-        "key": "047OTbUFRaz7yWFyq2PSdrLogis8aAHvYnZDPQcqThXIeERK"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ekVJXH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       },
       {
-        "name": "SpaceE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qgVTsVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6",
-        "key": "047OTbUFRaz77qgVTsVHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZRIyxDQu0W5PBHYFcEzubtUCfS18V76QjDAp"
       },
       {
-        "name": "SpaceF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75itOBoQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75itOBoQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
-      },
-      {
-        "name": "SpaceG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QPVd0h1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QPVd0h1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
-      },
-      {
-        "name": "SpaceH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7g67Hes0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
-        "key": "047OTbUFRaz7g67Hes0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
-      },
-      {
-        "name": "SpaceI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uLIR4rwjF7GOsuvIRypc2TdB3EY5M0PAf8gz",
-        "key": "047OTbUFRaz7uLIR4rwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
-      },
-      {
-        "name": "SpaceJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75mXwOeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75mXwOeQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
-      },
-      {
-        "name": "SpaceK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gT4HPL0RIf9yMJhTVPzX86FevaE7UrlA1oqd",
-        "key": "047OTbUFRaz7gT4HPL0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
-      },
-      {
-        "name": "SpaceL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75GfOYOQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz75GfOYOQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
-      },
-      {
-        "name": "SpaceM.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7oaS16Mt93OViWZf5SLMoQRUKDaGXEHzAqwyI",
-        "key": "047OTbUFRaz7oaS16Mt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
-      },
-      {
-        "name": "SpaceN.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Kfc78aqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7Kfc78aqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
-      },
-      {
-        "name": "SpaceO.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz708daCGUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz708daCGUFRaz7ojmHIOPSXUkt8QMrec156su3"
-      },
-      {
-        "name": "SpaceP.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7MkOeY9ZFZf0VqWm8jut9gQBr5nkscDIzP4NY",
-        "key": "047OTbUFRaz7MkOeY9ZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
-      },
-      {
-        "name": "SpaceQ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ftWW7s8YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
-        "key": "047OTbUFRaz7ftWW7s8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
-      },
-      {
-        "name": "SpaceR.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ctGgt4nWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
-        "key": "047OTbUFRaz7ctGgt4nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
-      },
-      {
-        "name": "SpaceS.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76SeoEAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ",
-        "key": "047OTbUFRaz76SeoEAv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
-      },
-      {
-        "name": "SpaceT.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7iubUpr7pDgjAfRIF0JvmZqXteduGo2Kyh81P",
-        "key": "047OTbUFRaz7iubUpr7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
-      },
-      {
-        "name": "SpaceU.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70N6EuFUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz70N6EuFUFRaz7ojmHIOPSXUkt8QMrec156su3"
-      },
-      {
-        "name": "SpaceV.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ysBTjWPSdrLogis8aAHvYnZDPQcqThXIeERK",
-        "key": "047OTbUFRaz7ysBTjWPSdrLogis8aAHvYnZDPQcqThXIeERK"
-      },
-      {
-        "name": "SpaceX.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yEkYa4UPSdrLogis8aAHvYnZDPQcqThXIeER",
-        "key": "047OTbUFRaz7yEkYa4UPSdrLogis8aAHvYnZDPQcqThXIeER"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KeSDSJzqeiax41Jgf9kWy5wsLXTcmG7zvF8B"
       }
     ]
   },
   {
-    "projectId": "tera",
-    "images": [
+    "slug": "haicai",
+    "title": "Haicai",
+    "title_en": "Haicai",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wCY0sPRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok",
+    "gallery": [
       {
-        "name": "TeraA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ub2xlcwjF7GOsuvIRypc2TdB3EY5M0PAf8gz",
-        "key": "047OTbUFRaz7ub2xlcwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
-      },
-      {
-        "name": "TeraB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SNnSRAxLagkEYQucWCXVx3fwGml1MitZB9qO",
-        "key": "047OTbUFRaz7SNnSRAxLagkEYQucWCXVx3fwGml1MitZB9qO"
-      },
-      {
-        "name": "TeraC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77fWDeXHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77fWDeXHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
-      },
-      {
-        "name": "TeraD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jARVmgEkoUPXq74KDfxlYy23B0TVeW5ciJ8S",
-        "key": "047OTbUFRaz7jARVmgEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
-      },
-      {
-        "name": "TeraE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TzSbwH9dtnLquOkbmvAj8x05U1VPwZrK6lBy",
-        "key": "047OTbUFRaz7TzSbwH9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
-      },
-      {
-        "name": "TeraF.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yQzAWoPSdrLogis8aAHvYnZDPQcqThXIeERK",
-        "key": "047OTbUFRaz7yQzAWoPSdrLogis8aAHvYnZDPQcqThXIeERK"
-      },
-      {
-        "name": "TeraG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7j9keUOZEkoUPXq74KDfxlYy23B0TVeW5ciJ8",
-        "key": "047OTbUFRaz7j9keUOZEkoUPXq74KDfxlYy23B0TVeW5ciJ8"
-      },
-      {
-        "name": "TeraH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz706R0NtUFRaz7ojmHIOPSXUkt8QMrec156su3",
-        "key": "047OTbUFRaz706R0NtUFRaz7ojmHIOPSXUkt8QMrec156su3"
-      },
-      {
-        "name": "TeraI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mwbf7uWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M",
-        "key": "047OTbUFRaz7mwbf7uWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
-      },
-      {
-        "name": "TeraJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KeeA5u5qeiax41Jgf9kWy5wsLXTcmG7zvF8B",
-        "key": "047OTbUFRaz7KeeA5u5qeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QHyymR1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
       }
     ]
   },
   {
-    "projectId": "timeless",
-    "images": [
+    "slug": "kube",
+    "title": "Kube",
+    "title_en": "Kube",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ezeeoI5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
+    "gallery": [
       {
-        "name": "timelessA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7teXN8ebmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        "key": "047OTbUFRaz7teXN8ebmIavPzqHtrsRbjonNd24xXTh5CA9O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dYELxJCVDmHaL07yhbZKojBuAC2Gce59kTpt"
       },
       {
-        "name": "timelessB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz752hl7BQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
-        "key": "047OTbUFRaz752hl7BQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ScbEpzQxLagkEYQucWCXVx3fwGml1MitZB9q"
       },
       {
-        "name": "timelessC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7CDeBe7SvMrayNJYT9CV7UzBnWgt0RkFZp1P4",
-        "key": "047OTbUFRaz7CDeBe7SvMrayNJYT9CV7UzBnWgt0RkFZp1P4"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nzRlcP2EsfXp4APkDSxeUbni7ajqIHY92cCm"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QFj2AM1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uUiGpkwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dhjeWfCVDmHaL07yhbZKojBuAC2Gce59kTpt"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZRhLsvWu0W5PBHYFcEzubtUCfS18V76QjDAp"
       }
     ]
   },
   {
-    "projectId": "toko",
-    "images": [
+    "slug": "mandarina",
+    "title": "Mandarina",
+    "title_en": "Mandarina",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75EfLebQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb",
+    "gallery": [
       {
-        "name": "TokoA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7t48u5RbmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        "key": "047OTbUFRaz7t48u5RbmIavPzqHtrsRbjonNd24xXTh5CA9O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7elwAHa5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
       },
       {
-        "name": "TokoB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71wjhFUddMwjLVHNxPflFCZrvQyRu2XJETBe6",
-        "key": "047OTbUFRaz71wjhFUddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PTvPihbjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3"
       },
       {
-        "name": "TokoC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rsg3e3MsISKEpcja2DCQOu7gTn16z50XNdMh",
-        "key": "047OTbUFRaz7rsg3e3MsISKEpcja2DCQOu7gTn16z50XNdMh"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wi2LeYRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
       }
     ]
   },
   {
-    "projectId": "triskel",
-    "images": [
+    "slug": "movie",
+    "title": "Movie",
+    "title_en": "Movie",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HBrbqxKVloQp02I6KTBYUJxEknvdFibcR4ta",
+    "gallery": [
       {
-        "name": "TriskelA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KWDe5Tqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KWDe5Tqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCUoeTO1c6gedqP1zGVAfm5p4aShYIjUxZb7"
       },
       {
-        "name": "TriskelB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kWpHHUsJHhATSZ3pqtc6PFENXw5mzef9sBaU",
-        "key": "047OTbUFRaz7kWpHHUsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76sFWGTv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
       },
       {
-        "name": "TriskelC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7sq94QArt68MwRc5lNvYTkem1GV0hDSbsdAFE",
-        "key": "047OTbUFRaz7sq94QArt68MwRc5lNvYTkem1GV0hDSbsdAFE"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QV680O1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
       },
       {
-        "name": "TriskelD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D7HNmss3a9mVHGFRd76bOLIoyZgtWQxJMfze",
-        "key": "047OTbUFRaz7D7HNmss3a9mVHGFRd76bOLIoyZgtWQxJMfze"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WmnaJIBGVeIToJiAt53FCzgjmQnybO0UqRHD"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZBkd8ju0W5PBHYFcEzubtUCfS18V76QjDAp9"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7hugQyCmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kIjktzsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mFkSaZWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pQoNNvFexRPd3X9qjgWuUm4tBsCDa0kJ7ylM"
       }
     ]
   },
   {
-    "projectId": "yo",
-    "images": [
+    "slug": "pulp",
+    "title": "Pulp",
+    "title_en": "Pulp",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ftZlBW8YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
+    "gallery": [
       {
-        "name": "yoA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74O2k1cYd1AGYfEpSq3P5VBUlFwemoWuvL2x0",
-        "key": "047OTbUFRaz74O2k1cYd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
-      },
-      {
-        "name": "yoB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D2pHPw3a9mVHGFRd76bOLIoyZgtWQxJMfzeq",
-        "key": "047OTbUFRaz7D2pHPw3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
-      },
-      {
-        "name": "yoC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1SRZTP5bSlRH2oJsrVNA31q5kjEYMZe0BXh",
-        "key": "047OTbUFRaz7e1SRZTP5bSlRH2oJsrVNA31q5kjEYMZe0BXh"
-      },
-      {
-        "name": "yoD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tzFNBBbmIavPzqHtrsRbjonNd24xXTh5CA9O",
-        "key": "047OTbUFRaz7tzFNBBbmIavPzqHtrsRbjonNd24xXTh5CA9O"
-      },
-      {
-        "name": "yoE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77EJ737HwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-        "key": "047OTbUFRaz77EJ737HwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tpMzNAbmIavPzqHtrsRbjonNd24xXTh5CA9O"
       }
     ]
   },
   {
-    "projectId": "zazen",
-    "images": [
+    "slug": "tera",
+    "title": "Tera",
+    "title_en": "Tera",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ub2xlcwjF7GOsuvIRypc2TdB3EY5M0PAf8gz",
+    "gallery": [
       {
-        "name": "ZazenA.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7fXjRw58YCHlcTWUoy1v0ghdpkMVqetXRO2mr",
-        "key": "047OTbUFRaz7fXjRw58YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SNnSRAxLagkEYQucWCXVx3fwGml1MitZB9qO"
       },
       {
-        "name": "ZazenB.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eBUxn75bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
-        "key": "047OTbUFRaz7eBUxn75bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77fWDeXHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
       },
       {
-        "name": "ZazenC.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71jLwCwddMwjLVHNxPflFCZrvQyRu2XJETBe6",
-        "key": "047OTbUFRaz71jLwCwddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jARVmgEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
       },
       {
-        "name": "ZazenD.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QgIuD91c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QgIuD91c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7TzSbwH9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
       },
       {
-        "name": "ZazenE.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HMQW8XKVloQp02I6KTBYUJxEknvdFibcR4ta",
-        "key": "047OTbUFRaz7HMQW8XKVloQp02I6KTBYUJxEknvdFibcR4ta"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yQzAWoPSdrLogis8aAHvYnZDPQcqThXIeERK"
       },
       {
-        "name": "ZazenG.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QU9nVb1c6gedqP1zGVAfm5p4aShYIjUxZb7O",
-        "key": "047OTbUFRaz7QU9nVb1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7j9keUOZEkoUPXq74KDfxlYy23B0TVeW5ciJ8"
       },
       {
-        "name": "ZazenH.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KDG5wmqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
-        "key": "047OTbUFRaz7KDG5wmqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz706R0NtUFRaz7ojmHIOPSXUkt8QMrec156su3"
       },
       {
-        "name": "ZazenI.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cbxRuxnWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
-        "key": "047OTbUFRaz7cbxRuxnWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mwbf7uWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
       },
       {
-        "name": "ZazenJ.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qL4xwtpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
-        "key": "047OTbUFRaz7qL4xwtpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KeeA5u5qeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+      }
+    ]
+  },
+  {
+    "slug": "timeless",
+    "title": "Timeless",
+    "title_en": "Timeless",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7teXN8ebmIavPzqHtrsRbjonNd24xXTh5CA9O",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz752hl7BQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
       },
       {
-        "name": "ZazenK.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Tnw7w19dtnLquOkbmvAj8x05U1VPwZrK6lBy",
-        "key": "047OTbUFRaz7Tnw7w19dtnLquOkbmvAj8x05U1VPwZrK6lBy"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7CDeBe7SvMrayNJYT9CV7UzBnWgt0RkFZp1P4"
+      }
+    ]
+  },
+  {
+    "slug": "toko",
+    "title": "Toko",
+    "title_en": "Toko",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7t48u5RbmIavPzqHtrsRbjonNd24xXTh5CA9O",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71wjhFUddMwjLVHNxPflFCZrvQyRu2XJETBe6"
       },
       {
-        "name": "ZazenL.jpg",
-        "url": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75dSfmy2QHPs2FRjySlnmwEXMTJcuNQp1D8Kq",
-        "key": "047OTbUFRaz75dSfmy2QHPs2FRjySlnmwEXMTJcuNQp1D8Kq"
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rsg3e3MsISKEpcja2DCQOu7gTn16z50XNdMh"
+      }
+    ]
+  },
+  {
+    "slug": "triskel",
+    "title": "Triskel",
+    "title_en": "Triskel",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KWDe5Tqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kWpHHUsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7sq94QArt68MwRc5lNvYTkem1GV0hDSbsdAFE"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D7HNmss3a9mVHGFRd76bOLIoyZgtWQxJMfze"
+      }
+    ]
+  },
+  {
+    "slug": "yo",
+    "title": "Yo",
+    "title_en": "Yo",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Conceito",
+    "year": "2026",
+    "category": "produto",
+    "tags": [
+      "produto"
+    ],
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74O2k1cYd1AGYfEpSq3P5VBUlFwemoWuvL2x0",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7D2pHPw3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1SRZTP5bSlRH2oJsrVNA31q5kjEYMZe0BXh"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tzFNBBbmIavPzqHtrsRbjonNd24xXTh5CA9O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77EJ737HwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      }
+    ]
+  },
+  {
+    "slug": "pat-tropas",
+    "title": "Identidade visual do Plano de Ação Territorial Caminho das Tropas -\nParaná - São Paulo",
+    "title_en": "Visual Identity for the Caminho das Tropas Territorial Action Plan\n-\nParaná - São Paulo",
+    "desc_pt": "Conceito A identidade captura a essência do território ao sintetizar sua paisagem natural e significância histórica em uma composição gráfica coesa.\n\nO Símbolo Desenhado como um mosaico, o ícone ilustra as características cênicas e a geobiodiversidade da região, representando a diversidade do ambiente.\n\nCor e Tipografia\n\nPaleta Derivada diretamente dos tons da paisagem natural.\n\nTipografia Selecionada para evocar a herança cultural da região, referenciando a estética da cartografia histórica e documentos de arquivo.",
+    "desc_en": "Concept The identity captures the territory's essence by synthesizing its natural landscape and historical significance into a cohesive graphic composition.\n\nThe Symbol Designed as a mosaic, the icon illustrates the region's scenic characteristics and geobiodiversity, representing the environment's diversity.\n\nColor and Typography\n\nPalette Derived directly from the natural landscape's tones.\n\nTypography Selected to evoke the region's cultural heritage, referencing the aesthetic of historical cartography and archival documents.",
+    "client": "WWF - Secretaria do Meio Ambiente do Paraná e de São Paulo",
+    "year": "2023",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "editorial"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7PTRPZzJjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nQEoZu2EsfXp4APkDSxeUbni7ajqIHY92cCm"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ruhgNRqMsISKEpcja2DCQOu7gTn16z50XNdM"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7sa1ydqrt68MwRc5lNvYTkem1GV0hDSbsdAFE"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7d8Z8nMCVDmHaL07yhbZKojBuAC2Gce59kTpt"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7CJxQ3Q0SvMrayNJYT9CV7UzBnWgt0RkFZp1P"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz77bfiTdHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ihxMlY7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73jHuWbiCc7ykYGxUR6KMEBg0odwbe5zNIj8p"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7RmdFxGFgOZuP5fARs492Nj8WtL1XCc7MkHYo"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72F8RMwgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
+      }
+    ]
+  },
+  {
+    "slug": "pan",
+    "title": "Identidade Visual do Plano de Ação Nacional para conservação de\nespécies ameaçadas de extinção, PAN e SISPAN.",
+    "title_en": "Visual Identity for the National Action Plan for the Conservation\nof Endangered Species, PAN and SISPAN.",
+    "desc_pt": "Contexto: Os Planos de Ação Nacional (PAN) são instrumentos de políticas públicas desenhados para conservar espécies ameaçadas. Eles identificam ameaças à fauna, flora e ambientes naturais, estabelecendo ações estratégicas de conservação para espécies e habitats.\n\nConceito: Um sistema de marca dinâmico foi desenvolvido para fornecer uma identidade única para cada Plano de Ação, mantendo, ao mesmo tempo, um senso de unidade e colaboração institucional.\n\nSolução de Design: O design explora o espaço negativo dentro da tipografia. As formas de encaixe preenchem as contraformas, criando a sigla \"PAN\" através da união entre cheio e vazio. A estrutura do sistema combina o logotipo PAN com ilustrações temáticas que representam espécies ameaçadas específicas e seus habitats.\n\nProcesso e Expansão: O projeto envolveu extensa colaboração com pesquisadores do ICMBio para definir temas e espécies representativas. O sistema se estende ao SISPAN (a ferramenta de gestão de dados), reforçando a consistência desta iniciativa de conservação.",
+    "desc_en": "Context: The National Action Plans (PAN) are public policy instruments designed to conserve endangered species. They identify threats to fauna, flora, and natural environments, establishing strategic conservation actions for species and habitats.\n\nConcept: A dynamic brand system was developed to provide a unique identity for each Action Plan, maintaining, at the same time, a sense of unity and institutional collaboration.\n\nDesign Solution: The design explores negative space within the typography. Interlocking shapes fill the counters, creating the acronym \"PAN\" through the union of solid and void. The system structure combines the PAN logo with thematic illustrations representing specific endangered species and their habitats.\n\nProcess and Expansion: The project involved extensive collaboration with ICMBio researchers to define themes and representative species. The system extends to SISPAN (the data management tool), reinforcing the consistency of this conservation initiative.",
+    "client": "WWF - ICMBio",
+    "year": "2024",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7qFRzkhpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7uUvFnuwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70tyBH9vUFRaz7ojmHIOPSXUkt8QMrec156su"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7m1tm0PWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7UTGL1BoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74ckFtCYd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7QK0Ajh1c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7sVHBxErt68MwRc5lNvYTkem1GV0hDSbsdAFE"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pQ1M3d5exRPd3X9qjgWuUm4tBsCDa0kJ7ylM"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7P8yr4TjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7SHsuspxLagkEYQucWCXVx3fwGml1MitZB9qO"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ifBTcw7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7oN07RTt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7T4JerY9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7keuw3LsJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7P1VzcMjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pwaDX3exRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pKIGmKexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7o4raZPt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+      }
+    ]
+  },
+  {
+    "slug": "matriz",
+    "title": "Identidade visual e Projeto Editorial de Relatório Executivo Matriz\nda\nBiodiversidade",
+    "title_en": "Visual Identity and Editorial Design for the Executive Report of\nMatriz da Biodiversidade",
+    "desc_pt": "Visão Geral Identidade visual e design editorial para uma iniciativa inovadora impulsionada por ciência de dados e alinhada com os Objetivos de Desenvolvimento Sustentável da ONU (13, 14 e 15).\n\nEstratégia de Design O sistema visual foi projetado para traduzir dados complexos em ativos visuais claros. Os gráficos ilustram a capacidade do projeto de otimizar processos e gerenciar impactos na biodiversidade no entorno de usinas de energia.\n\nEntregáveis\n\nIdentidade Visual Um sistema de marca refletindo otimização e sustentabilidade.\n\nDesign Editorial Relatórios executivos estruturados para clareza e impacto.\n\nVisualização de Dados Infográficos para comunicar resultados de estudos e estratégias de conservação.\n\nAnimação Apresentações em vídeo para engajamento dos stakeholders.",
+    "desc_en": "Overview Visual identity and editorial design for an innovative initiative driven by data science and aligned with UN Sustainable Development Goals 13, 14, and 15.\n\nDesign Strategy The visual system was designed to translate complex data into clear visual assets. The graphics illustrate the project's capacity to streamline processes and manage biodiversity impacts around power plants.\n\nDeliverables\n\nVisual Identity: A brand system reflecting optimization and sustainability.\n\nEditorial Design: Executive reports structured for clarity and impact.\n\nData Visualization: Infographics to communicate study results and conservation strategies.\n\nMotion: Video presentations for stakeholder engagement.",
+    "client": "Engie",
+    "year": "2025",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "editorial"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7COwze5SvMrayNJYT9CV7UzBnWgt0RkFZp1P4",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Lii15MdDgh0JcvT2ZsNp1b36lCDWRe8fMwGH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7quoeT7pQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7IalIMbH4YpNL4JA5UKuWlkS2rsiy61njEM0b"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fgDIdD8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz72UE3UCfgM4dpfw5cuxBLqQtEyP7zkFv0GgHa"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7CJB4H6SvMrayNJYT9CV7UzBnWgt0RkFZp1P4"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7kya1gksJHhATSZ3pqtc6PFENXw5mzef9sBaU"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7xBzMUoJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz78SYTw1hEIviel1sxuONM9wmg5tJAShW0HKdZ"
+      }
+    ]
+  },
+  {
+    "slug": "pat-planalto-sul",
+    "title": "Identidade visual do Plano de Ação Territorial Planalto Sul",
+    "title_en": "Visual Identity for the Planalto Sul Territorial Action Plan",
+    "desc_pt": "Contexto: Uma iniciativa de conservação cobrindo os estados de Santa Catarina e Rio Grande do Sul.\n\nConceito: A identidade visual é ancorada em uma composição tipográfica que sintetiza a essência do território. As próprias letras integram símbolos das características cênicas e da geobiodiversidade da região.\n\nPaleta de Cores: O sistema cromático foi derivado diretamente da paisagem natural da região do \"Planalto Sul\", capturando a atmosfera única do sul do Brasil.",
+    "desc_en": "Context: A conservation initiative covering the states of Santa Catarina and Rio Grande do Sul.\n\nConcept: The visual identity is anchored in a typographic composition that synthesizes the territory's essence. The letters themselves integrate symbols of the region's scenic characteristics and geobiodiversity.\n\nColor Palette: The chromatic system was derived directly from the natural landscape of the \"Planalto Sul\" region, capturing the unique atmosphere of southern Brazil.",
+    "client": "WWF, SEMA",
+    "year": "2023",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7uGYK1mzwjF7GOsuvIRypc2TdB3EY5M0PAf8g",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7m4qoI2jWcr2FUXsKCg4Aux1IBzo3d0mVwpE5"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zHQIGTyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7zjwCCGyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz79G4O1d6XMQDN0kvost7AlPaejC9rI28b6Kh3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz72UX6ufGgM4dpfw5cuxBLqQtEyP7zkFv0GgHa"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz78W4qkybhEIviel1sxuONM9wmg5tJAShW0HKd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7qILNDKpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7UbzdVL2oxL96kWlPOEZnVivRFpuo4mhNGcTY"
+      }
+    ]
+  },
+  {
+    "slug": "rizzon",
+    "title": "Identidade visual Rizzon",
+    "title_en": "Rizzon Visual Identity",
+    "desc_pt": "O Desafio Reposicionar a Rizzon de uma fabricante tradicional para uma provedora de soluções guiadas pelo design, unindo o artesanato industrial à inovação criativa.\n\nIdentidade Visual O novo logo apresenta tipografia minimalista e formas geométricas puras, refletindo clareza e modernidade.\n\nDireção de Arte A paleta de cores e a fotografia de produtos foram completamente reformuladas. A nova narrativa visual transmite sofisticação, sinalizando a reinvenção bem-sucedida da marca",
+    "desc_en": "The Challenge To reposition Rizzon from a traditional manufacturer to a design-led solution provider, bridging industrial craftsmanship with creative innovation.\n\nVisual Identity The new logo features minimalist typography and pure geometric shapes, reflecting clarity and modernity.\n\nArt Direction The color palette and product photography were completely overhauled. The new visual narrative conveys sophistication, signaling the brand's successful reinvention.",
+    "client": "Casa Rizzon",
+    "year": "2025",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "digital"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7WPYUfOIBGVeIToJiAt53FCzgjmQnybO0UqRH",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7yzon3rPSdrLogis8aAHvYnZDPQcqThXIeERK"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7sqWi6jrt68MwRc5lNvYTkem1GV0hDSbsdAFE"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jYoUxVEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7jS4TyZEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7JgDp5ac8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Gh413yyf6E7jguTdaA8N54cKypx1XYCVoR93"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tXyLEWUFRaz7ojmHIOPSXUkt8QMrec156su"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PyMmoojjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72UNeMUmgM4dpfw5cuxBLqQtEyP7zkFv0GgHa"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7q55MBwnpQYVuvH9R2MEta3qoSm8Bzg1xbFJ5"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71mLFJRddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e7vUxz5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      }
+    ]
+  },
+  {
+    "slug": "rendase",
+    "title": "Renda-se",
+    "title_en": "Renda-se (Surrender oneself / Lace yourself)",
+    "desc_pt": "Prêmios Selecionado para a Bienal Brasileira de Design (2014) e Bienal de Design Gráfico (2015).\n\nO Conceito \"Renda-se\" é um diálogo multidisciplinar entre tipografia, poesia visual e artesanato tradicional. O projeto une o design contemporâneo e o patrimônio cultural, envolvendo pesquisa, ilustração e arte têxtil.\n\nOrigem e Evolução O projeto começou inicialmente como um briefing para uma coleção de camisetas celebrando a cultura de Florianópolis (\"Ilha da Magia\"). O que começou como uma estampa escrevendo \"Amorzinho\" em letras de renda evoluiu para um profundo estudo tipográfico. Desenvolvi um alfabeto completo baseado nos padrões complexos da Renda de Bilro.\n\nMaterialização O resultado ganhou vida através de dois meios distintos\n\nImpresso Cartazes em serigrafia apresentando a fonte.\n\nArte Têxtil As letras foram fisicamente confeccionadas pelas artesãs do Casarão das Rendeiras, preservando o saber-fazer local.",
+    "desc_en": "Awards Selected for the Brazilian Design Biennial (2014) and the Graphic Design Biennial (2015).\n\nThe Concept \"Renda-se\" is a multidisciplinary dialogue between typography, visual poetry, and traditional craftsmanship. The project bridges contemporary design and cultural heritage, involving research, illustration, and textile art.\n\nOrigin and Evolution The project initially started as a brief for a t-shirt collection celebrating the culture of Florianópolis (\"Magic Island\"). What began as a print spelling \"Amorzinho\" (Little Love) in lace letters evolved into a deep typographic study. I developed a complete alphabet based on the complex patterns of Bobbin Lace (Renda de Bilro).\n\nMaterialization The result came to life through two distinct mediums\n\nPrint Silkscreen posters featuring the font.\n\nTextile Art The letters were physically crafted by the artisans of Casarão das Rendeiras, preserving local know-how.",
+    "client": "Independente",
+    "year": "2015",
+    "category": "grafico",
+    "tags": [
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz72UVYvNRgM4dpfw5cuxBLqQtEyP7zkFv0GgHa",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71SgziQSddMwjLVHNxPflFCZrvQyRu2XJETBe"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz74Fkon3Yd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7xpjWj8Jlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7dx2p66QCVDmHaL07yhbZKojBuAC2Gce59kTp"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rXBHldMsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R88BmfFGFgOZuP5fARs492Nj8WtL1XCc7MkH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70VBDrmUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7GhaemtBf6E7jguTdaA8N54cKypx1XYCVoR93"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7g43qb90RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fwQZ7u8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tqz4hfbmIavPzqHtrsRbjonNd24xXTh5CA9O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HgRwqfKVloQp02I6KTBYUJxEknvdFibcR4ta"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7eLE4td5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73us9NyiCc7ykYGxUR6KMEBg0odwbe5zNIj8p"
+      }
+    ]
+  },
+  {
+    "slug": "ilc",
+    "title": "Identidade Visual Il Campanario Jurerê Internacional",
+    "title_en": "Il Campanario Jurerê Internacional Visual Identity",
+    "desc_pt": "Contexto e Estratégia A identidade visual foi desenvolvida através de uma análise imersiva do distrito de Jurerê Internacional. O design explora a relação entre os espaços arquitetônicos e o ambiente ao redor, posicionando o resort como um destino de excelência tanto para turismo quanto para moradia.\n\nDireção de Arte O projeto incluiu Direção de Arte abrangente para fotografia e materiais de comunicação. A linguagem visual foi adaptada para atender às necessidades sazonais do hotel e eventos especiais, capturando perfeitamente a essência de sua hospitalidade exclusiva e atmosfera acolhedora.",
+    "desc_en": "Context and Strategy The visual identity was developed through an immersive analysis of the Jurerê Internacional district. The design explores the relationship between architectural spaces and the surrounding environment, positioning the resort as an excellent destination for both tourism and living.\n\nArt Direction The project included comprehensive Art Direction for photography and communication materials. The visual language was adapted to meet the hotel's seasonal needs and special events, perfectly capturing the essence of its exclusive hospitality and welcoming atmosphere.",
+    "client": "Jurerê Internacional",
+    "year": "2014",
+    "category": "grafico",
+    "tags": [
+      "grafico",
+      "digital"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7S7RUs9xLagkEYQucWCXVx3fwGml1MitZB9qO",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz76cuZIOv1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rWetpxMsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7FPvU2iSz9pxOXcuV7PoIw2tiUWMHCykTmh5S"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Hpp0efKVloQp02I6KTBYUJxEknvdFibcR4ta"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7MDtDVhZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vw9QtjknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz736HtsiCc7ykYGxUR6KMEBg0odwbe5zNIj8pZ"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7r8Lc0OMsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7sZAZhJtrt68MwRc5lNvYTkem1GV0hDSbsdAF"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71QYfnKddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7PH7CFljjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      }
+    ]
+  },
+  {
+    "slug": "outrora",
+    "title": "Outrora Formosa e Restaurante Doutrora",
+    "title_en": "Outrora Formosa and Doutrora Restaurant",
+    "desc_pt": "Contexto Um edifício tombado pelo patrimônio histórico (estilo Neocolonial Espanhol) da década de 1940, antiga residência do historiador Dr. Oswaldo Cabral.\n\nO Desafio Criar uma identidade visual que unisse passado e presente, transformando um marco histórico em um centro cultural contemporâneo.\n\nConceito O branding busca restaurar o vínculo entre a sociedade e sua história. Ele honra o rico legado cultural da propriedade enquanto a estabelece como um espaço dinâmico para arte e eventos.\n\nIntegração do Restaurante O projeto inclui a identidade para o Restaurante Doutrora, localizado no complexo. O branding do restaurante foi desenhado para ser visualmente harmônico com o espaço principal, refletindo sua excelência gastronômica e vocação cultural.",
+    "desc_en": "Context A heritage-listed building (Spanish Colonial Revival style) from the 1940s, former residence of historian Dr. Oswaldo Cabral.\n\nThe Challenge To create a visual identity that bridges past and present, transforming a historical landmark into a contemporary cultural center.\n\nConcept The branding seeks to restore the bond between society and its history. It honors the property's rich cultural legacy while establishing it as a dynamic space for art and events.\n\nRestaurant Integration The project includes the identity for Doutrora Restaurant, located within the complex. The restaurant's branding was designed to be visually harmonious with the main space, reflecting its gastronomic excellence and cultural vocation.",
+    "client": "Projetos Selecionados",
+    "year": "2015",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "sinalizacao"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz72F3ceWgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ZjE9Xju0W5PBHYFcEzubtUCfS18V76QjDAp9"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7U3nShAoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cXU0XVnWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7QQiuG41c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uiqfdpwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wcXIKhRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vLs464knUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70xa9VsUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7hbdQ9FmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71geAHuddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7IaeHqZD4YpNL4JA5UKuWlkS2rsiy61njEM0b"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7JKy2Wxc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7RWka3wGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7z0BLwFyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      }
+    ]
+  },
+  {
+    "slug": "inga",
+    "title": "Inga",
+    "title_en": "Inga",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Inga",
+    "year": "2022",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "digital"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7EV1NgTYdhvLqiRcn4ostubf2jQwJKOSr7ACF",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7w4WSJFRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71p1v5VddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mJUCRzWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7PRDfsjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3NL"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7g6bbQZ0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7nHVajL2EsfXp4APkDSxeUbni7ajqIHY92cCm"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7TvGOcSk9dtnLquOkbmvAj8x05U1VPwZrK6lB"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7FUgKPCz9pxOXcuV7PoIw2tiUWMHCykTmh5Sz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ijrZCi7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7jxxMoREkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7QsX7o71c6gedqP1zGVAfm5p4aShYIjUxZb7O"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7eF8toX5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      }
+    ]
+  },
+  {
+    "slug": "jovem-cidadao",
+    "title": "Identidade Visual e Projeto editorial Jovem Cidadão",
+    "title_en": "Visual Identity and Editorial Design for Jovem Cidadão",
+    "desc_pt": "Contexto Um programa social em Marcelino Ramos, sul do Brasil, dedicado à educação e qualificação profissional de jovens.\n\nA Missão Fomentar o empoderamento juvenil e a participação comunitária através de campanhas educativas e atividades de treinamento.\n\nEstratégia e Design O projeto foi construído sobre uma base sólida de pesquisa demográfica. Analizamos o perfil do jovem local para garantir que a identidade visual e os materiais de comunicação fossem altamente direcionados e eficazes, entregando valor real à comunidade.\n\nEntregáveis Sistema de Identidade Visual e Design Editorial para materiais educativos e de pesquisa.",
+    "desc_en": "Context A social program in Marcelino Ramos, southern Brazil, dedicated to the education and professional qualification of youth.\n\nThe Mission To foster youth empowerment and community participation through educational campaigns and training activities.\n\nStrategy and Design The project was built on a solid foundation of demographic research. We analyzed the local youth profile to ensure that the visual identity and communication materials were highly targeted and effective, delivering real value to the community.\n\nDeliverables Visual Identity System and Editorial Design for educational and research materials.",
+    "client": "Engie",
+    "year": "2017",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "editorial"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7sZw7SFRrt68MwRc5lNvYTkem1GV0hDSbsdAF",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7UmasCroxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ImmLVI4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7D7qo9d03a9mVHGFRd76bOLIoyZgtWQxJMfze"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pQS6cUYexRPd3X9qjgWuUm4tBsCDa0kJ7ylM"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7LA1NCVDgh0JcvT2ZsNp1b36lCDWRe8fMwGH5"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7U5eJgeoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ME3gVjZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71KeEAgddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      }
+    ]
+  },
+  {
+    "slug": "mexilhao",
+    "title": "Identidade Visual e Projeto editorial Mexilhão Dourado",
+    "title_en": "Visual Identity and Editorial Design for Golden Mussel",
+    "desc_pt": "Contexto: Identidade visual desenvolvida para um projeto de monitoramento do Mexilhão Dourado (Limnoperna fortunei), uma espécie invasora que impõe desafios significativos ao setor de geração de energia.\n\nConceito de Design: O símbolo captura a essência do comportamento da espécie. Ele apresenta uma abstração orgânica da forma do mexilhão, composta por linhas que evocam a fluidez da água e a hidrodinâmica — elementos essenciais para a sobrevivência da espécie.\n\nCor e Aplicação: A paleta cromática espelha os tons naturais do mexilhão e seu habitat aquático. A identidade foi aplicada em diversos entregáveis corporativos, incluindo relatórios executivos, ativos de comunicação e apresentações de conteúdo.",
+    "desc_en": "Context: Visual identity developed for a monitoring project of the Golden Mussel (Limnoperna fortunei), an invasive species that poses significant challenges to the power generation sector.\n\nDesign Concept: The symbol captures the essence of the species' behavior. It features an organic abstraction of the mussel's form, composed of lines that evoke the fluidity of water and hydrodynamics — essential elements for the species' survival.\n\nColor & Application: The chromatic palette mirrors the natural tones of the mussel and its aquatic habitat. The identity was applied across various corporate deliverables, including executive reports, communication assets, and content presentations.",
+    "client": "Engie",
+    "year": "2018",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "editorial",
+      "grafico",
+      "digital"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7K7nGJbqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7R87EsZOGFgOZuP5fARs492Nj8WtL1XCc7MkH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ySTWmBPSdrLogis8aAHvYnZDPQcqThXIeERK"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz77axrG6HwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7rC2T9oMsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7qGHjMopQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7rKpzo5MsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ZMts27u0W5PBHYFcEzubtUCfS18V76QjDAp9"
+      }
+    ]
+  },
+  {
+    "slug": "abeevita",
+    "title": "Identidade Visual e Projeto de Embalagens",
+    "title_en": "Visual Identity and Packaging Design",
+    "desc_pt": "Conceito e Filosofia A marca está enraizada na filosofia do Bonsai, incorporando equilíbrio, disciplina e atenção plena (mindfulness). A identidade visual visa projetar prosperidade e autoconhecimento.\n\nConstrução do Logo O símbolo foi criado através de manipulação tipográfica. Espelhando os caracteres \"e\" duplo do nome da marca, criei uma forma customizada de uma silhueta de Bonsai, integrando a tipografia diretamente ao ícone.\n\nEmbalagem e Sistema Projetada para máximo impacto na prateleira, a embalagem combina uma paleta de cores vibrante com gráficos limpos que sinalizam a pureza dos ingredientes. Essa linguagem visual foi estendida com sucesso para todos os materiais de comunicação da marca.",
+    "desc_en": "Concept and Philosophy The brand is rooted in the Bonsai philosophy, embodying balance, discipline, and mindfulness. The visual identity aims to project prosperity and self-knowledge.\n\nLogo Construction The symbol was created through typographic manipulation. Mirroring the double \"e\" characters of the brand name, I created a custom shape of a Bonsai silhouette, integrating the typography directly into the icon.\n\nPackaging and System Designed for maximum shelf impact, the packaging combines a vibrant palette of colors with clean graphics that signal the purity of the ingredients. This visual language was successfully extended to all brand communication materials.",
+    "client": "Abeevita",
+    "year": "2025",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "embalagem"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7e11T6zN5bSlRH2oJsrVNA31q5kjEYMZe0BXh",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KcgrVFqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IeARtW4YpNL4JA5UKuWlkS2rsiy61njEM0bt"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7K740Nbqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz74iHJyxYd1AGYfEpSq3P5VBUlFwemoWuvL2x0"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7CJJQqa3SvMrayNJYT9CV7UzBnWgt0RkFZp1P"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7uLB0OnwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
+      }
+    ]
+  },
+  {
+    "slug": "pat-campanha",
+    "title": "Identidade visual Plano de Ação Territorial Campanha Sul e Serra do\nSudeste",
+    "title_en": "Visual Identity for Campanha Sul and Serra do Sudeste Territorial\nAction Plan",
+    "desc_pt": "O Processo A identidade visual é o resultado de um processo de design participativo. Pesquisadores locais e conservacionistas estiveram ativamente envolvidos na definição da direção estratégica através de workshops.\n\nConceito e Símbolo Guiado pelos insights da comunidade, o símbolo da marca sintetiza a geobiodiversidade e as características cênicas distintivas do território. Ele reflete os elementos da paisagem mais valorizados por aqueles que trabalham para preservar a região.\n\nSistema Visual A tipografia e a paleta de cores foram extraídas diretamente do ambiente natural dos biomas \"Campanha Sul\" e \"Serra do Sudeste\", garantindo uma conexão genuína com o território.",
+    "desc_en": "The Process The visual identity is the result of a participatory design process. Local researchers and conservationists were actively involved in defining the strategic direction through workshops.\n\nConcept and Symbol Guided by community insights, the brand symbol synthesizes the geobiodiversity and distinctive scenic characteristics of the territory. It reflects the landscape elements most valued by those working to preserve the region.\n\nVisual System The typography and color palette were drawn directly from the natural environment of the \"Campanha Sul\" and \"Serra do Sudeste\" biomes, ensuring a genuine connection with the territory.",
+    "client": "WWF, SEMA",
+    "year": "2023",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7pNBKPYexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7eSpSnH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71TbiYyddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WBv5O1IBGVeIToJiAt53FCzgjmQnybO0UqRH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7UK0JOjoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7gsFga60RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7cVWa9ynWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz72mJ2UlgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7e0eKZP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7DwBoih3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jMTLVBEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7zj94Wp5yKdXREJNpA3WjVnluH1LtImegYTq8"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz72FNLkpgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7R8AjBIYGFgOZuP5fARs492Nj8WtL1XCc7MkH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pQ7OlRexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      }
+    ]
+  },
+  {
+    "slug": "rewire",
+    "title": "Identidade visual Rewire",
+    "title_en": "Rewire Visual Identity",
+    "desc_pt": "Filosofia da Marca A identidade reflete equilíbrio e consciência sobre saúde mental, promovendo bem-estar e relacionamentos saudáveis em todos os ambientes. O conceito convida as pessoas a mudarem suas perspectivas.\n\nO Símbolo Uma composição orgânica forma a inicial da marca (\"R\"), construída com formas equilibradas para simbolizar estabilidade e fluidez.\n\nSistema Dinâmico A linguagem gráfica se desdobra em uma identidade visual dinâmica. Usando múltiplas combinações de cores e elementos gráficos flexíveis, o sistema se adapta para refletir a essência da marca: cuidar da mente tanto em contextos pessoais quanto corporativos.",
+    "desc_en": "Brand Philosophy The identity reflects balance and awareness of mental health, promoting well-being and healthy relationships in all spaces. The concept invites people to shift their perspectives.\n\nThe Symbol An organic composition forms the brand initial (\"R\"), built with balanced shapes to symbolize stability and fluidity.\n\nDynamic System The graphic language unfolds into a dynamic visual identity. Using multiple color combinations and flexible graphic elements, the system adapts to reflect the brand's essence: caring for the mind in both personal and corporate contexts.",
+    "client": "La Lima",
+    "year": "2022",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7t6DIEzbmIavPzqHtrsRbjonNd24xXTh5CA9O",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70fNXReUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KbxgX6qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HRVnEnKVloQp02I6KTBYUJxEknvdFibcR4ta"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ftJcaP8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Tc6DzW9dtnLquOkbmvAj8x05U1VPwZrK6lBy"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7WLcbrxIBGVeIToJiAt53FCzgjmQnybO0UqRH"
+      }
+    ]
+  },
+  {
+    "slug": "simple",
+    "title": "Identidade Visual Simple",
+    "title_en": "Simple Visual Identity",
+    "desc_pt": "Conceito e Integração Desenvolvido de forma integrada ao projeto arquitetônico, esta identidade visual do Simple tem os elemento da marca integrados perfeitamente ao espaço físico e à experiência de serviço.\n\nA Atmosfera O design reflete o clima de luxo descontraído do clube — sofisticado à beira da praia.\n\nEstratégia Visual\n\nTipografia A seleção tipográfica imita a refração da luz através das ondas do oceano, criando um efeito de distorção.\n\nPaleta e Imagens Uma paleta suave e costeira, combinada com ilustrações orgânicas, evoca a experiência sensorial de estar à beira-mar, criando uma experiência de marca coesa para os visitantes.",
+    "desc_en": "Concept and Integration Developed integrated with the architectural project, this visual identity for Simple has brand elements perfectly integrated into the physical space and service experience.\n\nThe Atmosphere The design reflects the club's relaxed luxury mood — sophisticated on the beach.\n\nVisual Strategy\n\nTypography The typographic selection mimics light refraction through ocean waves, creating a distortion effect.\n\nPalette and Images A soft coastal palette, combined with organic illustrations, evokes the sensory experience of being by the sea, creating a cohesive brand experience for visitors.",
+    "client": "Taty Iriê",
+    "year": "2012",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "sinalizacao"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7DII7mc3a9mVHGFRd76bOLIoyZgtWQxJMfzeq",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7SLBqs6xLagkEYQucWCXVx3fwGml1MitZB9qO"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7MfQYltZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7S1R8mdxLagkEYQucWCXVx3fwGml1MitZB9qO"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tNOw6mAbmIavPzqHtrsRbjonNd24xXTh5CA9"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7PTEg4ucjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7z7isPVyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7gaWuk70RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qCUsnDHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xgZdEBJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7P3vqVkjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DYikhw3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tR9oS5bmIavPzqHtrsRbjonNd24xXTh5CA9O"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7pJjyWmexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7vggcpgknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+      }
+    ]
+  },
+  {
+    "slug": "praia",
+    "title": "Marca e Coleção de estampas PRAIA",
+    "title_en": "PRAIA Brand and Print Collection",
+    "desc_pt": "Conceito Uma marca e coleção de estampas inspirada no estilo de vida costeiro de Florianópolis (\"Ilha da Magia\"). Através de imersão cultural, desenvolvi uma linguagem gráfica jovem e descontraída que captura a beleza natural e a rica história local da ilha.\n\nDesenvolvimento de Produto O projeto foi além do gráfico, envolvendo uma rigorosa fase de produção:\n\nSourcing Pesquisa de tecidos e definição de técnicas de estamparia para qualidade ideal.\n\nPrototipagem Testes de padrões, modelagem e gradação de cores para finalizar a construção das peças.\n\nDireção de Arte Liderança na Direção de Arte para a campanha de lançamento, gerenciando a pesquisa de locações e styling para garantir que a fotografia refletisse a atmosfera do processo de design.",
+    "desc_en": "Concept A brand and print collection inspired by the coastal lifestyle of Florianópolis (\"Magic Island\"). Through cultural immersion, I developed a young and relaxed graphic language that captures the island's natural beauty and rich local history.\n\nProduct Development The project went beyond graphics, involving a rigorous production phase:\n\nSourcing Fabric research and definition of printing techniques for optimal quality.\n\nPrototyping Pattern testing, modeling, and color grading to finalize garment construction.\n\nArt Direction Led the Art Direction for the launch campaign, managing location scouting and styling to ensure the photography reflected the design process atmosphere.",
+    "client": "Praia",
+    "year": "2015",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7reYo62MsISKEpcja2DCQOu7gTn16z50XNdMh",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pCjN3UexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7o7ohhnt93OViWZf5SLMoQRUKDaGXEHzAqwyI"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz71lE7h2ddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DnW1Fo3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7kMZVbRSsJHhATSZ3pqtc6PFENXw5mzef9sBa"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7v8SWpeknUgH4xqT9Sjck6t1pKRso7aeWhJfi"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7e1ohQ9A5bSlRH2oJsrVNA31q5kjEYMZe0BXh"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fUbreF8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz78DuaNjhEIviel1sxuONM9wmg5tJAShW0HKdZ"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7tzk15jbmIavPzqHtrsRbjonNd24xXTh5CA9O"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7eDItRt5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KexMHAhqeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7RXZDFrGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7EVXIz8TYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+      }
+    ]
+  },
+  {
+    "slug": "guapi",
+    "title": "Projeto de Sinalização de trilha ecológica APA Guapimirim",
+    "title_en": "Ecological Trail Signage Project APA Guapimirim",
+    "desc_pt": "**Normas e Conformidade** O sistema foi projetado em estrita conformidade com o Manual de Sinalização de Unidades de Conservação Federais (ICMBio), garantindo adequação regulatória enquanto se adapta às necessidades específicas da trilha.\n\n**Arquitetura do Sistema de Navegação** Ancorada por um mapa diretório central, que definiu a distribuição estratégica dos nós de orientação e categorias ao longo da rota.\n\n**Detalhamento** Desenvolvi um manual técnico abrangente detalhando especificações construtivas, dimensões, materiais e protocolos de instalação para garantir durabilidade.\n\n**Design de Experiência** Além da navegação, o projeto apresenta sinalização interpretativa que educa os visitantes sobre a história e cultura local. As estruturas foram customizadas para garantir integração com a paisagem, minimizando o impacto visual no ambiente natural.",
+    "desc_en": "**Standards and Compliance** The system was designed in strict compliance with the Federal Conservation Units Signage Manual (ICMBio), ensuring regulatory adequacy while adapting to the specific needs of the trail.\n\n**System Architecture and Navigation** Anchored by a central directory map, which defined the strategic distribution of orientation nodes and categories along the route.\n\n**Detailing** I developed a comprehensive technical manual detailing constructive specifications, dimensions, materials, and installation protocols to ensure durability.\n\n**Experience Design** Beyond navigation, the project features interpretive signage that educates visitors about local history and culture. Structures were customized to ensure integration with the landscape, minimizing visual impact on the natural environment.",
+    "client": "ICMBio",
+    "year": "2020",
+    "category": "grafico",
+    "tags": [
+      "sinalizacao",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7pyUTPLexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7J8G2Wwc8Fsb0nrqLpUX79lda4Hwf1cuZyzG2"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7j9skPSGEkoUPXq74KDfxlYy23B0TVeW5ciJ8"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70VoWOsUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCNSHn31c6gedqP1zGVAfm5p4aShYIjUxZb7"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Pu5SWZjjzGXw7Do8lIs1Cr5m6fhJbFSBKk3N"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xnVvB67Jlf3e05zRUFVknwH92JabiDYWxT8Z"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7K9On1Cqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xU98VjJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ZRLM1rDu0W5PBHYFcEzubtUCfS18V76QjDAp"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7QC0wlVZ1c6gedqP1zGVAfm5p4aShYIjUxZb7"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Dc0FuR3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7LiqFfeCDgh0JcvT2ZsNp1b36lCDWRe8fMwGH"
+      }
+    ]
+  },
+  {
+    "slug": "sj",
+    "title": "Identidade Visual e embalagem São João doces e salgados",
+    "title_en": "São João Sweets and Savories Visual Identity and Packaging",
+    "desc_pt": "Conceito da Marca A identidade visual foi desenvolvida para celebrar a autenticidade da marca e o sabor genuíno de suas receitas artesanais.\n\nDesign de Embalagem O sistema de embalagens foi projetado para sinalizar qualidade e o cuidado colocado na preparação. Usamos pistas visuais que evocam a tradição e o aconchego da culinária caseira (comfort food), criando uma conexão emocional com o consumidor enquanto destaca o frescor do produto.",
+    "desc_en": "Brand Concept The visual identity was developed to celebrate the brand's authenticity and the genuine flavor of its artisanal recipes.\n\nPackaging Design The packaging system was designed to signal quality and the care put into preparation. We used visual cues that evoke tradition and the warmth of home cooking (comfort food), creating an emotional connection with the consumer while highlighting the product's freshness.",
+    "client": "São João Doces e Salgados",
+    "year": "2012 / 2024",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "embalagem",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz77q2LgayHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7HCyzr8KVloQp02I6KTBYUJxEknvdFibcR4ta"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7WXUA7sIBGVeIToJiAt53FCzgjmQnybO0UqRH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7LiqNogRDgh0JcvT2ZsNp1b36lCDWRe8fMwGH"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Eg8VJyTYdhvLqiRcn4ostubf2jQwJKOSr7AC"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7U5nQfWoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7UGNSJwoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7iKCwBgh7pDgjAfRIF0JvmZqXteduGo2Kyh81"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KP7o0Qqeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Hpe6IPFKVloQp02I6KTBYUJxEknvdFibcR4t"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7qUuO4SpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz78WmELswhEIviel1sxuONM9wmg5tJAShW0HKd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7rFb8D0MsISKEpcja2DCQOu7gTn16z50XNdMh"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7FPwyHHjz9pxOXcuV7PoIw2tiUWMHCykTmh5S"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7C0DoEeSvMrayNJYT9CV7UzBnWgt0RkFZp1P4"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7RI77rrGFgOZuP5fARs492Nj8WtL1XCc7MkHY"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7hBCv5FmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7zjEffgUyKdXREJNpA3WjVnluH1LtImegYTq8"
+      }
+    ]
+  },
+  {
+    "slug": "break",
+    "title": "Identidade Visual BTL Travel Lounge",
+    "title_en": "BTL Travel Lounge Visual Identity",
+    "desc_pt": "Visão Geral Uma identidade visual projetada para incorporar a essência do serviço de lounge VIP localizado no Aeroporto Internacional de Curitiba (CWB). O branding comunica os altos padrões e a confiabilidade que os viajantes esperam em um ambiente aeroportuário seguro.\n\nEstratégia de Design A linguagem gráfica prioriza clareza e objetividade, garantindo que a informação seja facilmente digerível para passageiros em trânsito.\n\nAtmosfera A identidade espelha a sofisticação do espaço físico, equilibrando a elegância de um lounge premium com a praticidade necessária para uma experiência de viagem fluida.",
+    "desc_en": "Overview A visual identity designed to embody the essence of the VIP lounge service located at Curitiba International Airport (CWB). The branding communicates the high standards and reliability travelers expect in a secure airport environment.\n\nDesign Strategy The graphic language prioritizes clarity and objectivity, ensuring information is easily digestible for passengers in transit.\n\nAtmosphere The identity mirrors the sophistication of the physical space, balancing the elegance of a premium lounge with the practicality needed for a fluid travel experience.",
+    "client": "Break Travel Lounge",
+    "year": "2018",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7ruwWjyUMsISKEpcja2DCQOu7gTn16z50XNdM",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jzzdxQEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73UI69niCc7ykYGxUR6KMEBg0odwbe5zNIj8p"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Ci5FrjSvMrayNJYT9CV7UzBnWgt0RkFZp1P4"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7uGR4FXZwjF7GOsuvIRypc2TdB3EY5M0PAf8g"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75De9bwQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7GCarVCf6E7jguTdaA8N54cKypx1XYCVoR93l"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz76C1998v1JwbRAfjau8DHoFCMlSz4dVnTLKUQ"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7iGbcuU7pDgjAfRIF0JvmZqXteduGo2Kyh81P"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7zXR2vnyKdXREJNpA3WjVnluH1LtImegYTq8h"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77qC5RsJHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6"
+      }
+    ]
+  },
+  {
+    "slug": "volvo",
+    "title": "Volvo",
+    "title_en": "Volvo",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Volvo",
+    "year": "2014",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "editorial",
+      "grafico"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz77Wx6ImHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70aOWVcUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7gsQtAJ0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz70qB8qGUFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7MWDmovZFZf0VqWm8jut9gQBr5nkscDIzP4NY"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7dxgU2hYCVDmHaL07yhbZKojBuAC2Gce59kTp"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KenM4T8qeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+      }
+    ]
+  },
+  {
+    "slug": "panthera",
+    "title": "Panthera",
+    "title_en": "Panthera",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Panthera",
+    "year": "2025",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7PTu1GO8jjzGXw7Do8lIs1Cr5m6fhJbFSBKk3",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73HJ8UMMiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KeeYVcKqeiax41Jgf9kWy5wsLXTcmG7zvF8B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Sc2IPmBxLagkEYQucWCXVx3fwGml1MitZB9q"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7ggomMq0RIf9yMJhTVPzX86FevaE7UrlA1oqd"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Gar8caf6E7jguTdaA8N54cKypx1XYCVoR93l"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz79kuvJKe6XMQDN0kvost7AlPaejC9rI28b6Kh"
+      }
+    ]
+  },
+  {
+    "slug": "alameda",
+    "title": "Alameda",
+    "title_en": "Alameda",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Alameda Casa Rosa",
+    "year": "2012",
+    "category": "grafico",
+    "tags": [
+      "identidade-visual",
+      "grafico",
+      "digital"
+    ],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz76sW2ynHv1JwbRAfjau8DHoFCMlSz4dVnTLKU",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7KCFz87qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7SAEWFfxLagkEYQucWCXVx3fwGml1MitZB9qO"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7jW0c4CEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7Ui8giEoxL96kWlPOEZnVivRFpuo4mhNGcTYb"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7exIkSx5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      }
+    ]
+  },
+  {
+    "slug": "aragua",
+    "title": "Aragua",
+    "title_en": "Aragua",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Mormai",
+    "year": "2017",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7vX7nsFknUgH4xqT9Sjck6t1pKRso7aeWhJfi",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7DDumZK3a9mVHGFRd76bOLIoyZgtWQxJMfzeq"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jbYA4jEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7mJqC1kWcr2FUXsKCg4Aux1IBzo3d0mVwpE5M"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Hvav0DKVloQp02I6KTBYUJxEknvdFibcR4ta"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Z7xRTwu0W5PBHYFcEzubtUCfS18V76QjDAp9"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7IJ29R64YpNL4JA5UKuWlkS2rsiy61njEM0bt"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eDQEY95bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz729tiuLgM4dpfw5cuxBLqQtEyP7zkFv0GgHa2"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz75YRHIMQHPs2FRjySlnmwEXMTJcuNQp1D8Kqb"
+      }
+    ]
+  },
+  {
+    "slug": "bosque",
+    "title": "Bosque",
+    "title_en": "Bosque",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Bosque das Flores",
+    "year": "2013",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7R8H4zmKGFgOZuP5fARs492Nj8WtL1XCc7MkH",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7wUdfYVRf3QFA4WlxqVMDU7pCN9ctPZTR0Kok"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7e1xIJF35bSlRH2oJsrVNA31q5kjEYMZe0BXh"
+      }
+    ]
+  },
+  {
+    "slug": "info",
+    "title": "Info",
+    "title_en": "Info",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Projeto MAArE",
+    "year": "2017",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz71SJQx2WddMwjLVHNxPflFCZrvQyRu2XJETBe",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "/detalheInfoA.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfoB.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo4.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo5.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo6.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo7.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheInfo8.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "dra-ana",
+    "title": "Dra-ana",
+    "title_en": "Dra-ana",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Dra. Ana Gelatti",
+    "year": "2024",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz74H0rCZYd1AGYfEpSq3P5VBUlFwemoWuvL2x0",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "/detalheDraAnaA.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAnaB.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAnaC.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAna1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAna2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAna3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheDraAna4.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "natoo",
+    "title": "Natoo",
+    "title_en": "Natoo",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "Natoo Care",
+    "year": "2018",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7gkABW40RIf9yMJhTVPzX86FevaE7UrlA1oqd",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "/detalheNatoo1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheNatoo2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheNatoo3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheNatoo4.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheNatoo5.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "pan-hb",
+    "title": "Pan-hb",
+    "title_en": "Pan-hb",
+    "desc_pt": "",
+    "desc_en": "",
+    "client": "WWF, Jardim Botânico do Rio de Janeiro",
+    "year": "2025",
+    "category": "grafico",
+    "tags": [],
+    "thumbnail": "https://utfs.io/f/047OTbUFRaz7yEfQQjIPSdrLogis8aAHvYnZDPQcqThXIeER",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "/detalheHileia11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia7.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia8.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia12.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia14.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/detalheHileia15.jpg"
       }
     ]
   }
