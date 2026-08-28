@@ -970,15 +970,15 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SctE2ZdxLagkEYQucWCXVx3fwGml1MitZB9q",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70fzAe3UFRaz7ojmHIOPSXUkt8QMrec156su3",
     "gallery": [
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qmPU0qpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SctE2ZdxLagkEYQucWCXVx3fwGml1MitZB9q"
       },
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70fzAe3UFRaz7ojmHIOPSXUkt8QMrec156su3"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qmPU0qpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
         "type": "image",
@@ -1294,8 +1294,12 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ekVJXH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
     "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
+      },
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l"
@@ -1307,14 +1311,6 @@
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eFtpuP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
-      },
-      {
-        "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ekVJXH5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
-      },
-      {
-        "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ZRIyxDQu0W5PBHYFcEzubtUCfS18V76QjDAp"
       },
       {
         "type": "image",
@@ -1586,11 +1582,11 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7h0WdxhmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tOgqmwUFRaz7ojmHIOPSXUkt8QMrec156su",
     "gallery": [
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tOgqmwUFRaz7ojmHIOPSXUkt8QMrec156su"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7h0WdxhmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z"
       },
       {
         "type": "image",
