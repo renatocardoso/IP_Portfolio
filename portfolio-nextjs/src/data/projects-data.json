@@ -741,34 +741,6 @@
     ]
   },
   {
-    "slug": "cine",
-    "title": "Cine",
-    "title_en": "Cine",
-    "desc_pt": "",
-    "desc_en": "",
-    "client": "Conceito",
-    "year": "2026",
-    "category": "produto",
-    "tags": [
-      "produto"
-    ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
-    "gallery": [
-      {
-        "type": "image",
-        "src": "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
-      },
-      {
-        "type": "image",
-        "src": "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
-      },
-      {
-        "type": "image",
-        "src": "https://utfs.io/f/047OTbUFRaz7fWftND8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
-      }
-    ]
-  },
-  {
     "slug": "avantime",
     "title": "Avantime",
     "title_en": "Avantime",
@@ -998,15 +970,19 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eELDjD5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7SctE2ZdxLagkEYQucWCXVx3fwGml1MitZB9q",
     "gallery": [
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7xdhurcJlf3e05zRUFVknwH92JabiDYWxT8Zu"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7qmPU0qpQYVuvH9R2MEta3qoSm8Bzg1xbFJ56"
       },
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7KAlkf8qeiax41Jgf9kWy5wsLXTcmG7zvF8Bl"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70fzAe3UFRaz7ojmHIOPSXUkt8QMrec156su3"
+      },
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7jFCBxTEkoUPXq74KDfxlYy23B0TVeW5ciJ8S"
       }
     ]
   },
@@ -1318,8 +1294,12 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL",
     "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7GEoPsvf6E7jguTdaA8N54cKypx1XYCVoR93l"
+      },
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz73HCvxPyiCc7ykYGxUR6KMEBg0odwbe5zNIj8"
@@ -1327,10 +1307,6 @@
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7eFtpuP5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
-      },
-      {
-        "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7cr1rl1nWJGwS0cYtZbunvaj3TUQ1srzDCMOL"
       },
       {
         "type": "image",
@@ -1378,8 +1354,12 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ezeeoI5bSlRH2oJsrVNA31q5kjEYMZe0BXhc",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dhjeWfCVDmHaL07yhbZKojBuAC2Gce59kTpt",
     "gallery": [
+      {
+        "type": "image",
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ezeeoI5bSlRH2oJsrVNA31q5kjEYMZe0BXhc"
+      },
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dYELxJCVDmHaL07yhbZKojBuAC2Gce59kTpt"
@@ -1399,10 +1379,6 @@
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7uUiGpkwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
-      },
-      {
-        "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7dhjeWfCVDmHaL07yhbZKojBuAC2Gce59kTpt"
       },
       {
         "type": "image",
@@ -1450,8 +1426,20 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7HBrbqxKVloQp02I6KTBYUJxEknvdFibcR4ta",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B",
     "gallery": [
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7pONLXTexRPd3X9qjgWuUm4tBsCDa0kJ7ylMz"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz77BEb1pHwYbWrOiN8yCn2gUS5Fc3q4VTjhu6B"
+      },
+      {
+        "type": "image",
+        "src": "https://utfs.io/f/047OTbUFRaz7fWftND8YCHlcTWUoy1v0ghdpkMVqetXRO2mr"
+      },
       {
         "type": "image",
         "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QCUoeTO1c6gedqP1zGVAfm5p4aShYIjUxZb7"
@@ -1598,15 +1586,15 @@
     "tags": [
       "produto"
     ],
-    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7t48u5RbmIavPzqHtrsRbjonNd24xXTh5CA9O",
+    "thumbnail": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7h0WdxhmkoEjxnf3Q0rWCs2wKOdvh9HUM8P6z",
     "gallery": [
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz71wjhFUddMwjLVHNxPflFCZrvQyRu2XJETBe6"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz70tOgqmwUFRaz7ojmHIOPSXUkt8QMrec156su"
       },
       {
         "type": "image",
-        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7rsg3e3MsISKEpcja2DCQOu7gTn16z50XNdMh"
+        "src": "https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7ugZkELwjF7GOsuvIRypc2TdB3EY5M0PAf8gz"
       }
     ]
   },
