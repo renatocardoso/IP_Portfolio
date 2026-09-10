@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ProjectCard({ title, img, href }) {
     return (
-        <Link href={href} className="group block relative aspect-video overflow-hidden bg-white cursor-pointer">
+        <Link href={href} className="group block relative aspect-video overflow-hidden bg-white cursor-pointer scale-[1.005]">
             <div className="absolute inset-0 z-10">
                 <Image
                     src={img}

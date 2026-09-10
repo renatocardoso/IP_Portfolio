@@ -46,8 +46,8 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
     useEffect(() => {
         if (!isStarted || isAnimationActive) return;
 
-        const typingSpeed = 65;    // ms per character typed
-        const deletingSpeed = 30;  // ms per character erased
+        const typingSpeed = 130;   // ms per character typed (double duration)
+        const deletingSpeed = 60;  // ms per character erased (double duration)
         const holdDuration = 5000; // 5 seconds holding full 3-line poem
 
         // 1. HOLDING PHASE (5 seconds)
@@ -137,7 +137,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
     return (
         <div
             id="hero-typewriter"
-            className={`inline-flex flex-col items-center justify-center text-center cursor-pointer font-sans font-normal text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
+            className={`inline-flex flex-col items-center justify-center text-center cursor-pointer font-sans font-normal text-base tracking-wide uppercase text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
                 !isAnimationActive ? "transition-opacity duration-1000 opacity-100" : "opacity-0 pointer-events-none"
             }`}
             onMouseEnter={onMouseEnter}
