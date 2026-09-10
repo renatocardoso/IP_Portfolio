@@ -137,7 +137,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
     return (
         <div
             id="hero-typewriter"
-            className={`inline-flex flex-col items-center justify-center text-center cursor-pointer font-sans font-normal text-base tracking-wide uppercase text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
+            className={`inline-flex flex-col items-center justify-center text-center cursor-pointer font-sans font-normal text-xl sm:text-2xl md:text-[30px] text-[#333] leading-tight selection:bg-[#FF4E50] selection:text-white ${
                 !isAnimationActive ? "transition-opacity duration-1000 opacity-100" : "opacity-0 pointer-events-none"
             }`}
             onMouseEnter={onMouseEnter}
