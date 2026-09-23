@@ -4,7 +4,17 @@ import Image from "next/image";
 import { useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { projetosData } from "../../../../data/produtoData";
+
+const ChairViewer3D = dynamic(() => import("../../../../components/ChairViewer3D"), {
+    ssr: false,
+    loading: () => (
+        <div className="w-full aspect-[9/16] md:aspect-video bg-[#F0ECE4] rounded-sm flex items-center justify-center border border-[#E2DDD5] mb-8">
+            <span className="text-xs uppercase tracking-widest text-[#777]">Carregando estúdio 3D...</span>
+        </div>
+    )
+});
 
 export default function ProjetoDetalheProduto() {
     const { lang, slug } = useParams();
@@ -62,6 +72,11 @@ export default function ProjetoDetalheProduto() {
 
             {/* GALERIA DE IMAGENS (DIREITA) */}
             <section className="flex flex-col w-full pb-12 order-1 md:order-2 md:pr-[10vw]">
+                {slug === "movie" && (
+                    <div className="w-full mb-6">
+                        <ChairViewer3D />
+                    </div>
+                )}
                 {projeto.gallery.map((media, idx) => {
                     if (media.type === "video") {
                         return (
