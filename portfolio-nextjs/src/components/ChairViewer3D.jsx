@@ -5,45 +5,6 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
-// --- Ícones SVG Inline Autônomos (Sem dependências externas) ---
-function IconRotateCcw({ className = "w-3.5 h-3.5" }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-      <path d="M3 3v5h5" />
-    </svg>
-  );
-}
-
-function IconPlay({ className = "w-3.5 h-3.5" }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <polygon points="6 3 20 12 6 21 6 3" />
-    </svg>
-  );
-}
-
-function IconPause({ className = "w-3.5 h-3.5" }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <rect x="6" y="4" width="4" height="16" />
-      <rect x="14" y="4" width="4" height="16" />
-    </svg>
-  );
-}
-
-function IconSparkles({ className = "w-3.5 h-3.5" }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
-      <path d="M5 3v4" />
-      <path d="M19 17v4" />
-      <path d="M3 5h4" />
-      <path d="M17 19h4" />
-    </svg>
-  );
-}
-
 // --- Paletas e Definições de Materiais ---
 export const FABRIC_OPTIONS = [
   {
@@ -231,7 +192,6 @@ export default function ChairViewer3D({
 
   const [selectedFabric, setSelectedFabric] = useState(initialFabric);
   const [selectedWood, setSelectedWood] = useState(initialWood);
-  const [autoRotate, setAutoRotate] = useState(true);
   const [loading, setLoading] = useState(true);
   const [loadProgress, setLoadProgress] = useState(0);
 
@@ -396,8 +356,7 @@ export default function ChairViewer3D({
     controls.minDistance = 1.2;
     controls.maxDistance = 5.0;
     controls.target.set(0, 0.38, 0);
-    controls.autoRotate = autoRotate;
-    controls.autoRotateSpeed = 0.8;
+    controls.autoRotate = false;
     controlsRef.current = controls;
 
     // 5. ILUMINAÇÃO ESTÚDIO EDITORIAL (Inspirada em reference.png)
@@ -577,237 +536,92 @@ export default function ChairViewer3D({
     };
   }, [modelUrl, applyMaterials]);
 
-  // Atualizar autoRotate nos controles
-  useEffect(() => {
-    if (controlsRef.current) {
-      controlsRef.current.autoRotate = autoRotate;
-    }
-  }, [autoRotate]);
-
-  // Resetar visualização da câmera
-  const handleResetCamera = () => {
-    if (!cameraRef.current || !controlsRef.current || !containerRef.current) return;
-    const aspect = containerRef.current.clientWidth / containerRef.current.clientHeight;
-    if (aspect < 1) {
-      const distanceMultiplier = Math.max(1.15, 0.65 / aspect);
-      cameraRef.current.position.set(2.4 * distanceMultiplier, 1.35 * distanceMultiplier, 2.8 * distanceMultiplier);
-    } else {
-      cameraRef.current.position.set(2.4, 1.4, 2.8);
-    }
-    controlsRef.current.target.set(0, 0.38, 0);
-    controlsRef.current.update();
-  };
-
-  const currentFabricObj = FABRIC_OPTIONS.find((f) => f.id === selectedFabric);
-  const currentWoodObj = WOOD_OPTIONS.find((w) => w.id === selectedWood);
-
   return (
     <div className={`w-full flex flex-col items-center select-none ${className}`}>
-      {/* 
-        CONTAINER RESPONSIVO PRINCIPAL:
-        - Mobile: Vertical 9:16 (aspect-[9/16]), max-w-sm
-        - Desktop: Horizontal 16:9 (aspect-video / md:aspect-video), max-w-5xl
-      */}
-      <div className="relative w-full aspect-[9/16] md:aspect-video bg-[#F0ECE4] rounded-sm overflow-hidden border border-[#E2DDD5] shadow-sm flex flex-col md:flex-row">
-        
-        {/* --- MENU MOBILE (TOP BAR / HEADER) --- */}
-        <div className="md:hidden flex flex-col p-4 bg-[#F0ECE4]/90 backdrop-blur-md border-b border-[#E2DDD5] z-10">
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2">
-              <span className="text-[0.7rem] uppercase tracking-widest font-bold text-[#666]">
-                Movie 3D Studio
-              </span>
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            </div>
-            <div className="flex items-center gap-1">
-              <button
-                onClick={() => setAutoRotate(!autoRotate)}
-                className="p-1.5 text-xs text-[#555] hover:text-black rounded bg-white/70"
-                title="Girar"
-              >
-                {autoRotate ? <IconPause className="w-3.5 h-3.5" /> : <IconPlay className="w-3.5 h-3.5" />}
-              </button>
-              <button
-                onClick={handleResetCamera}
-                className="p-1.5 text-xs text-[#555] hover:text-black rounded bg-white/70"
-                title="Resetar"
-              >
-                <IconRotateCcw className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </div>
-
-          {/* Seletores rápidos Mobile */}
-          <div className="flex items-center justify-between gap-3 text-xs">
-            <div className="flex items-center gap-1.5 overflow-x-auto py-1">
-              <span className="text-[0.65rem] text-[#888] uppercase font-bold mr-1">Tecido:</span>
-              {FABRIC_OPTIONS.map((fab) => (
-                <button
-                  key={fab.id}
-                  onClick={() => setSelectedFabric(fab.id)}
-                  style={{ backgroundColor: fab.preview }}
-                  className={`w-6 h-6 rounded-full border transition-transform ${
-                    selectedFabric === fab.id
-                      ? "ring-2 ring-black scale-110 border-white"
-                      : "border-black/20 opacity-80 hover:opacity-100"
-                  }`}
-                  aria-label={fab.name}
-                />
-              ))}
-            </div>
-
-            <div className="flex items-center gap-1.5 overflow-x-auto py-1">
-              <span className="text-[0.65rem] text-[#888] uppercase font-bold mr-1">Madeira:</span>
-              {WOOD_OPTIONS.map((wood) => (
-                <button
-                  key={wood.id}
-                  onClick={() => setSelectedWood(wood.id)}
-                  style={{ backgroundColor: wood.preview }}
-                  className={`w-6 h-6 rounded-full border transition-transform ${
-                    selectedWood === wood.id
-                      ? "ring-2 ring-black scale-110 border-white"
-                      : "border-black/20 opacity-80 hover:opacity-100"
-                  }`}
-                  aria-label={wood.name}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-
+      <div className="relative w-full bg-[#F0ECE4] rounded-sm overflow-hidden border border-[#E2DDD5] shadow-sm flex flex-col">
         {/* --- ÁREA DO CANVAS 3D --- */}
-        <div ref={containerRef} className="relative flex-1 w-full h-full min-h-0">
-          <canvas ref={canvasRef} className="w-full h-full block outline-none cursor-grab active:cursor-grabbing" />
+        <div ref={containerRef} className="relative w-full aspect-[4/3] md:aspect-video">
+          <canvas
+            ref={canvasRef}
+            className="w-full h-full block outline-none cursor-grab active:cursor-grabbing"
+          />
 
           {/* Indicador de Carregamento */}
           {loading && (
             <div className="absolute inset-0 bg-[#F0ECE4] flex flex-col items-center justify-center gap-3 z-20 transition-opacity duration-500">
               <div className="w-8 h-8 border-2 border-black/15 border-t-black rounded-full animate-spin" />
-              <p className="text-xs uppercase tracking-widest text-[#777]">
+              <p
+                className="font-sans text-xs uppercase tracking-widest text-[#777]"
+                style={{ fontFamily: "var(--font-fira), sans-serif" }}
+              >
                 Carregando modelo 3D {loadProgress > 0 ? `${loadProgress}%` : ""}
               </p>
             </div>
           )}
-
-          {/* Dica de Interação Floating (Desktop) */}
-          <div className="hidden md:flex absolute bottom-4 left-4 items-center gap-2 px-3 py-1.5 bg-white/70 backdrop-blur-sm rounded text-[0.7rem] text-[#666] border border-[#E2DDD5]">
-            <IconSparkles className="w-3.5 h-3.5 text-[#333]" />
-            <span>Arraste para girar em 360° • Scroll para zoom</span>
-          </div>
-
-          {/* Botões de Ação Flutuantes (Desktop) */}
-          <div className="hidden md:flex absolute top-4 left-4 items-center gap-1.5 z-10">
-            <button
-              onClick={() => setAutoRotate(!autoRotate)}
-              className={`flex items-center gap-1.5 px-2.5 py-1 rounded text-xs backdrop-blur-md transition-colors ${
-                autoRotate
-                  ? "bg-black text-white"
-                  : "bg-white/80 text-[#333] hover:bg-white border border-[#E2DDD5]"
-              }`}
-            >
-              {autoRotate ? <IconPause className="w-3 h-3" /> : <IconPlay className="w-3 h-3" />}
-              <span>{autoRotate ? "Pausar Giro" : "Giro Automático"}</span>
-            </button>
-            <button
-              onClick={handleResetCamera}
-              className="p-1.5 rounded text-xs bg-white/80 hover:bg-white text-[#333] border border-[#E2DDD5] backdrop-blur-md"
-              title="Restaurar Enquadramento Editorial"
-            >
-              <IconRotateCcw className="w-3.5 h-3.5" />
-            </button>
-          </div>
         </div>
 
-        {/* --- MENU DESKTOP (SIDEBAR DIREITA) --- */}
-        <aside className="hidden md:flex flex-col justify-between w-80 p-6 bg-[#F0ECE4]/95 border-l border-[#E2DDD5] z-10 overflow-y-auto">
-          <div>
-            <div className="flex items-center justify-between pb-4 mb-6 border-b border-[#E2DDD5]">
-              <div>
-                <span className="text-[0.65rem] tracking-widest uppercase font-bold text-[#888] block">
-                  Customizador 3D
-                </span>
-                <h3 className="text-base font-medium text-[#222]">Poltrona Movie</h3>
-              </div>
-              <span className="px-2 py-0.5 text-[0.6rem] bg-black text-white uppercase tracking-wider rounded">
-                Editorial
-              </span>
-            </div>
-
-            {/* SELEÇÃO DE TECIDO (BOUCLÉ) */}
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <label className="text-xs uppercase tracking-wider font-bold text-[#444]">
-                  Assento & Encosto
-                </label>
-                <span className="text-[0.7rem] text-[#666] font-medium">{currentFabricObj?.name}</span>
-              </div>
-              <p className="text-[0.7rem] text-[#777] mb-3 leading-relaxed">
-                Tecido bouclé tridimensional de toque suave.
-              </p>
-              <div className="grid grid-cols-4 gap-2">
-                {FABRIC_OPTIONS.map((fabric) => (
+        {/* --- MENU DE OPÇÕES (FUNDO #F0ECE4) --- */}
+        <div className="w-full bg-[#F0ECE4] border-t border-[#E2DDD5] px-4 py-3.5 sm:px-6 flex flex-wrap items-center gap-y-3 gap-x-6 sm:gap-x-10">
+          {/* Opções de Tecido */}
+          <div className="flex items-center gap-3">
+            <span
+              className="font-sans text-sm text-[#333] tracking-wide select-none"
+              style={{ fontFamily: "var(--font-fira), sans-serif" }}
+            >
+              Tecido
+            </span>
+            <div className="flex items-center gap-2">
+              {FABRIC_OPTIONS.map((fabric) => {
+                const isSelected = selectedFabric === fabric.id;
+                return (
                   <button
                     key={fabric.id}
+                    type="button"
                     onClick={() => setSelectedFabric(fabric.id)}
-                    className={`flex flex-col items-center gap-1.5 p-2 rounded border transition-all ${
-                      selectedFabric === fabric.id
-                        ? "bg-white border-black shadow-sm ring-1 ring-black"
-                        : "bg-white/50 border-[#DDD7CD] hover:bg-white hover:border-[#BBB]"
+                    title={fabric.name}
+                    aria-label={`Tecido ${fabric.name}`}
+                    style={{ backgroundColor: fabric.preview }}
+                    className={`w-6 h-6 rounded-none transition-all cursor-pointer ${
+                      isSelected
+                        ? "ring-2 ring-[#333] ring-offset-2 ring-offset-[#F0ECE4] scale-105"
+                        : "border border-black/20 hover:border-black/60 opacity-85 hover:opacity-100"
                     }`}
-                  >
-                    <span
-                      className="w-5 h-5 rounded-full border border-black/10 shadow-inner"
-                      style={{ backgroundColor: fabric.preview }}
-                    />
-                    <span className="text-[0.65rem] text-[#444] text-center leading-tight truncate w-full">
-                      {fabric.name.replace(" Bouclé", "")}
-                    </span>
-                  </button>
-                ))}
-              </div>
+                  />
+                );
+              })}
             </div>
+          </div>
 
-            {/* SELEÇÃO DE MADEIRA */}
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <label className="text-xs uppercase tracking-wider font-bold text-[#444]">
-                  Estrutura & Braços
-                </label>
-                <span className="text-[0.7rem] text-[#666] font-medium">{currentWoodObj?.name}</span>
-              </div>
-              <p className="text-[0.7rem] text-[#777] mb-3 leading-relaxed">
-                Madeira maciça natural com usinagem suave nos cantos.
-              </p>
-              <div className="grid grid-cols-3 gap-2">
-                {WOOD_OPTIONS.map((wood) => (
+          {/* Opções de Madeira */}
+          <div className="flex items-center gap-3">
+            <span
+              className="font-sans text-sm text-[#333] tracking-wide select-none"
+              style={{ fontFamily: "var(--font-fira), sans-serif" }}
+            >
+              Madeira
+            </span>
+            <div className="flex items-center gap-2">
+              {WOOD_OPTIONS.map((wood) => {
+                const isSelected = selectedWood === wood.id;
+                return (
                   <button
                     key={wood.id}
+                    type="button"
                     onClick={() => setSelectedWood(wood.id)}
-                    className={`flex flex-col items-center gap-1.5 p-2 rounded border transition-all ${
-                      selectedWood === wood.id
-                        ? "bg-white border-black shadow-sm ring-1 ring-black"
-                        : "bg-white/50 border-[#DDD7CD] hover:bg-white hover:border-[#BBB]"
+                    title={wood.name}
+                    aria-label={`Madeira ${wood.name}`}
+                    style={{ backgroundColor: wood.preview }}
+                    className={`w-6 h-6 rounded-none transition-all cursor-pointer ${
+                      isSelected
+                        ? "ring-2 ring-[#333] ring-offset-2 ring-offset-[#F0ECE4] scale-105"
+                        : "border border-black/20 hover:border-black/60 opacity-85 hover:opacity-100"
                     }`}
-                  >
-                    <span
-                      className="w-5 h-5 rounded-full border border-black/10 shadow-inner"
-                      style={{ backgroundColor: wood.preview }}
-                    />
-                    <span className="text-[0.65rem] text-[#444] text-center leading-tight truncate w-full">
-                      {wood.name}
-                    </span>
-                  </button>
-                ))}
-              </div>
+                  />
+                );
+              })}
             </div>
           </div>
-
-          {/* Rodapé do Menu Lateral */}
-          <div className="pt-4 border-t border-[#E2DDD5] text-[0.65rem] text-[#888] flex items-center justify-between">
-            <span>Render: ACES Filmic</span>
-            <span>Three.js PBR</span>
-          </div>
-        </aside>
+        </div>
       </div>
     </div>
   );
