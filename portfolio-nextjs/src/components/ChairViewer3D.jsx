@@ -55,6 +55,12 @@ export const FABRIC_OPTIONS = [
     roughness: 0.88,
     sheen: 0.35,
     preview: "#E0D9CD",
+    // Configuração de Mapas de Textura:
+    // - null: utiliza os mapas de alta resolução originais incorporados no próprio arquivo GLB.
+    // - string (ex: "/textures/meu_tecido.jpg" ou URL do UploadThing): carrega o mapa personalizado.
+    mapUrl: null,
+    normalMapUrl: null,
+    bumpMapUrl: null,
     description: "Tecido bouclé encorpado com textura tátil e fibra natural suave."
   },
   {
@@ -66,6 +72,9 @@ export const FABRIC_OPTIONS = [
     roughness: 0.88,
     sheen: 0.30,
     preview: "#52624D",
+    mapUrl: null,
+    normalMapUrl: null,
+    bumpMapUrl: null,
     description: "Bouclé oliva suave inspirado na luz filtrada por vegetação."
   },
   {
@@ -77,6 +86,9 @@ export const FABRIC_OPTIONS = [
     roughness: 0.88,
     sheen: 0.30,
     preview: "#9E5638",
+    mapUrl: null,
+    normalMapUrl: null,
+    bumpMapUrl: null,
     description: "Tonalidade terrosa acolhedora com acabamento mate aveludado."
   },
   {
@@ -88,6 +100,9 @@ export const FABRIC_OPTIONS = [
     roughness: 0.88,
     sheen: 0.25,
     preview: "#343436",
+    mapUrl: null,
+    normalMapUrl: null,
+    bumpMapUrl: null,
     description: "Trama mesclada escura elegante de alta profundidade visual."
   }
 ];
@@ -102,6 +117,9 @@ export const WOOD_OPTIONS = [
     clearcoat: 0.08,
     clearcoatRoughness: 0.25,
     preview: "#C49B6E",
+    // Configuração de Mapas de Textura para Madeira:
+    mapUrl: null,
+    bumpMapUrl: null,
     description: "Madeira nobre natural clara com veios discretos e toque acetinado."
   },
   {
@@ -113,6 +131,8 @@ export const WOOD_OPTIONS = [
     clearcoat: 0.12,
     clearcoatRoughness: 0.20,
     preview: "#543825",
+    mapUrl: null,
+    bumpMapUrl: null,
     description: "Madeira escura e rica com transições quentes de castanho profundo."
   },
   {
@@ -124,6 +144,8 @@ export const WOOD_OPTIONS = [
     clearcoat: 0.15,
     clearcoatRoughness: 0.18,
     preview: "#222224",
+    mapUrl: null,
+    bumpMapUrl: null,
     description: "Acabamento preto profundo com brilho acetinado arquitetural."
   }
 ];
@@ -223,37 +245,95 @@ export default function ChairViewer3D({
   const fabricMeshesRef = useRef([]);
   const animationFrameIdRef = useRef(null);
   const texturesRef = useRef({ boucle: null, wood: null });
+  const textureCacheRef = useRef({});
+
+  // Armazena os mapas originais incorporados no arquivo GLB
+  const originalTexturesRef = useRef({
+    woodMap: null,
+    woodNormalMap: null,
+    woodBumpMap: null,
+    fabricMap: null,
+    fabricNormalMap: null,
+    fabricBumpMap: null
+  });
+
+  // Helper para carregar texturas externas (locais /textures/ ou CDN UploadThing)
+  const getTexture = useCallback((url, isColor = true) => {
+    if (!url) return null;
+    if (!textureCacheRef.current[url]) {
+      const loader = new THREE.TextureLoader();
+      const tex = loader.load(url, () => {
+        if (rendererRef.current && sceneRef.current && cameraRef.current) {
+          rendererRef.current.render(sceneRef.current, cameraRef.current);
+        }
+      });
+      tex.wrapS = THREE.RepeatWrapping;
+      tex.wrapT = THREE.RepeatWrapping;
+      if (isColor) {
+        tex.colorSpace = THREE.SRGBColorSpace;
+      }
+      textureCacheRef.current[url] = tex;
+    }
+    return textureCacheRef.current[url];
+  }, []);
 
   // Atualizar materiais nos meshes da cadeira
   const applyMaterials = useCallback((fabricId, woodId) => {
     const fabricConfig = FABRIC_OPTIONS.find((f) => f.id === fabricId) || FABRIC_OPTIONS[0];
     const woodConfig = WOOD_OPTIONS.find((w) => w.id === woodId) || WOOD_OPTIONS[0];
 
-    const boucleBump = texturesRef.current.boucle;
-    const woodBump = texturesRef.current.wood;
+    // Resolver mapas de textura para o tecido
+    const fabricMap = fabricConfig.mapUrl
+      ? getTexture(fabricConfig.mapUrl, true)
+      : originalTexturesRef.current.fabricMap;
 
-    // Criar material PBR de Tecido Bouclé
+    const fabricNormal = fabricConfig.normalMapUrl
+      ? getTexture(fabricConfig.normalMapUrl, false)
+      : originalTexturesRef.current.fabricNormalMap;
+
+    const fabricBump = fabricConfig.bumpMapUrl
+      ? getTexture(fabricConfig.bumpMapUrl, false)
+      : (fabricNormal ? null : texturesRef.current.boucle);
+
+    // Resolver mapas de textura para a madeira
+    const woodMap = woodConfig.mapUrl
+      ? getTexture(woodConfig.mapUrl, true)
+      : originalTexturesRef.current.woodMap;
+
+    const woodBump = woodConfig.bumpMapUrl
+      ? getTexture(woodConfig.bumpMapUrl, false)
+      : texturesRef.current.wood;
+
+    // Criar material PBR de Tecido Bouclé com mapas reais
     const fabricMaterial = new THREE.MeshPhysicalMaterial({
-      color: new THREE.Color(fabricConfig.color),
+      map: fabricMap || null,
+      color: fabricMap
+        ? new THREE.Color(fabricConfig.color).multiplyScalar(1.1)
+        : new THREE.Color(fabricConfig.color),
+      normalMap: fabricNormal || null,
+      normalScale: fabricNormal ? new THREE.Vector2(1.5, 1.5) : undefined,
+      bumpMap: fabricBump || null,
+      bumpScale: 0.003,
       roughness: fabricConfig.roughness,
       metalness: 0.0,
       sheen: fabricConfig.sheen,
       sheenColor: new THREE.Color(fabricConfig.sheenColor),
       sheenRoughness: 0.5,
-      bumpMap: boucleBump,
-      bumpScale: 0.003,
       side: THREE.DoubleSide
     });
 
-    // Criar material PBR de Madeira
+    // Criar material PBR de Madeira com mapas reais
     const woodMaterial = new THREE.MeshPhysicalMaterial({
-      color: new THREE.Color(woodConfig.color),
+      map: woodMap || null,
+      color: woodMap
+        ? new THREE.Color(woodConfig.color).multiplyScalar(1.15)
+        : new THREE.Color(woodConfig.color),
+      bumpMap: woodBump || null,
+      bumpScale: 0.0015,
       roughness: woodConfig.roughness,
       metalness: 0.0,
       clearcoat: woodConfig.clearcoat,
       clearcoatRoughness: woodConfig.clearcoatRoughness,
-      bumpMap: woodBump,
-      bumpScale: 0.0015,
       side: THREE.FrontSide
     });
 
@@ -266,7 +346,7 @@ export default function ChairViewer3D({
       mesh.material = woodMaterial;
       mesh.material.needsUpdate = true;
     });
-  }, []);
+  }, [getTexture]);
 
   // Efeito para troca dinâmica de materiais
   useEffect(() => {
@@ -410,8 +490,20 @@ export default function ChairViewer3D({
 
             if (isFabric) {
               fabricMeshes.push(child);
+              if (!originalTexturesRef.current.fabricMap && child.material?.map) {
+                originalTexturesRef.current.fabricMap = child.material.map;
+              }
+              if (!originalTexturesRef.current.fabricNormalMap && child.material?.normalMap) {
+                originalTexturesRef.current.fabricNormalMap = child.material.normalMap;
+              }
             } else {
               woodMeshes.push(child);
+              if (!originalTexturesRef.current.woodMap && child.material?.map) {
+                originalTexturesRef.current.woodMap = child.material.map;
+              }
+              if (!originalTexturesRef.current.woodNormalMap && child.material?.normalMap) {
+                originalTexturesRef.current.woodNormalMap = child.material.normalMap;
+              }
             }
           }
         });
