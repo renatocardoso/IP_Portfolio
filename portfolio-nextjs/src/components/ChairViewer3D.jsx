@@ -182,7 +182,7 @@ function createProceduralWoodTexture() {
 }
 
 export default function ChairViewer3D({
-  modelUrl = "/models/movie10.glb",
+  modelUrl = "/models/movieRedesenho.glb?v=3",
   initialFabric = "natural_beige",
   initialWood = "light_oak",
   className = ""
@@ -431,18 +431,33 @@ export default function ChairViewer3D({
             child.castShadow = true;
             child.receiveShadow = true;
 
+            // Sincronização de canais de UV:
+            // No GLB, o material de madeira (Material__1158) foi exportado com texCoord: 1.
+            // Peças como os braços (ChamferBox3695 e 3696) possuem mapas UV apenas no canal 0 (uv).
+            // Copiar uv para uv1 garante que a textura de madeira apareça perfeitamente nos braços.
+            if (child.geometry) {
+              if (child.geometry.attributes.uv && !child.geometry.attributes.uv1) {
+                child.geometry.attributes.uv1 = child.geometry.attributes.uv;
+              } else if (child.geometry.attributes.uv1 && !child.geometry.attributes.uv) {
+                child.geometry.attributes.uv = child.geometry.attributes.uv1;
+              }
+            }
+
             const name = (child.name || "").toLowerCase();
             const matName = (child.material?.name || "").toLowerCase();
 
             // Identificação baseada na hierarquia inspecionada do GLB
-            // Mesh 11 (030) e ChamferBox3537-3540 são o sling de tecido
+            // movie10: Mesh 11 (030), ChamferBox3537-3540, Material__1152
+            // movieRedesenho: Mesh 13 (033), lateral014_2, lateral017, lateral018_2, lateral021, Material__1159
             const isFabric =
               name.includes("030") ||
+              name.includes("033") ||
               name.includes("chamferbox3537") ||
               name.includes("chamferbox3538") ||
               name.includes("chamferbox3539") ||
               name.includes("chamferbox3540") ||
               matName.includes("1152") ||
+              matName.includes("1159") ||
               name.includes("fabric") ||
               name.includes("seat") ||
               name.includes("backrest");
