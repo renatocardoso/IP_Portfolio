@@ -1,9 +1,6 @@
 "use client";
 
 // ── TUNING CONSTANTS — ajuste aqui para regular as velocidades ────────────────
-const DANDELION_DURATION_FRAMES = 300;   // duração da explosão em frames (300 frames = 5 segundos a 60fps)
-const DANDELION_FORCE_MIN       = 1.25; // força mínima de lançamento   (↑ = mais rápido)
-const DANDELION_FORCE_MAX       = 2.9;  // força máxima de lançamento   (↑ = mais rápido)
 const MENU_SEEK_SPEED           = 5.5;  // velocidade máx. dos asteriscos-menu (↑ = mais rápido)
 const MENU_SEEK_STEER           = 0.28; // responsividade de curva dos asteriscos-menu
 const MENU_TYPE_INTERVAL        = 5;    // frames por caractere digitado no menu (↑ = mais lento)
@@ -98,7 +95,7 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
             p5.width / 2,
             p5.height / 2
         );
-        vars.current.animationOrigin = p5.createVector(0, 0);
+        vars.current.animationOrigin = vars.current.dandelionCenter.copy();
         p5.textAlign(p5.CENTER, p5.CENTER);
 
         // Match Hero typography — weight 400 explicit to match HTML font-normal
@@ -121,6 +118,11 @@ export default function DandelionAnimation({ onAnimationStart, menuItems }) {
             const rect = asteriskEl.getBoundingClientRect();
             // Origin is the center of the asterisk
             vars.current.animationOrigin.set(rect.left + rect.width / 2, rect.top + rect.height / 2);
+        } else if (typewriterEl) {
+            const rect = typewriterEl.getBoundingClientRect();
+            vars.current.animationOrigin.set(rect.left + rect.width / 2, rect.top + rect.height / 2);
+        } else if (vars.current.dandelionCenter) {
+            vars.current.animationOrigin.set(vars.current.dandelionCenter.x, vars.current.dandelionCenter.y);
         }
 
         if (vars.current.animationState === "initial") {
@@ -428,71 +430,78 @@ class Letter {
     }
 
     applyForce(p5, force) {
-        this.acc.add(force);
+        const f = force || p5;
+        this.acc.add(f);
     }
 
+    // Libera a letra com um "sopro" inicial seguindo a física da referência
     release(p5) {
         if (this.isReleased) return;
         this.isReleased = true;
         let releaseAngle;
 
-        if (this.isMenuItem) {
-            // Movement is handled mathematically by lerp in update() to perfectly match physics
+        if (this.isMenuItem && this.targetPos) {
+            const angleToTarget = p5.atan2(
+                this.targetPos.y - this.center.y,
+                this.targetPos.x - this.center.x
+            );
+            releaseAngle = angleToTarget + p5.random(-0.3, 0.3);
         } else {
             releaseAngle = p5.atan2(
                 this.pos.y - this.center.y,
                 this.pos.x - this.center.x
             );
-            const force = window.p5.Vector.fromAngle(releaseAngle);
-            force.mult(p5.random(DANDELION_FORCE_MIN, DANDELION_FORCE_MAX));
-            this.applyForce(p5, force);
-            this.angularVelocity = p5.random(-0.05, 0.05);
         }
+
+        const force = window.p5.Vector.fromAngle(releaseAngle);
+        force.mult(p5.random(1, 3));
+        this.applyForce(p5, force);
+        this.angularVelocity = p5.random(-0.05, 0.05);
     }
 
+    // Movimento suave de aproximação dos itens de menu ao alvo com física orgânica
+    seek(p5) {
+        let desired = window.p5.Vector.sub(this.targetPos, this.pos);
+        let d = desired.mag();
+
+        // Reduz o tamanho do asterisco dinamicamente à medida que se aproxima do alvo
+        const startDist = p5.width / 1.5;
+        this.size = p5.map(d, startDist, 0, this.vars.current.mainFontSize, this.vars.current.menuFontSize, true);
+
+        if (d < 5) {
+            this.hasArrived = true;
+            this.vel.mult(0.1);
+            this.pos.set(this.targetPos);
+            this.angle = 0;
+            this.size = this.vars.current.menuFontSize;
+            return;
+        }
+        desired.setMag(p5.map(d, 0, 150, 0, MENU_SEEK_SPEED, true));
+        let steer = window.p5.Vector.sub(desired, this.vel);
+        steer.limit(MENU_SEEK_STEER);
+        this.applyForce(steer);
+    }
+
+    // Atualiza a posição e o estado da letra
     update(p5) {
         if (!this.isReleased) return;
-
-        let progressFrames = p5.frameCount - this.vars.current.puffStartTime;
-        let progress =
-            progressFrames /
-            this.vars.current.transitionDurationFrames;
-        let t = p5.constrain(progress, 0, 1);
-
-        let easeIn_t = t * t * t;
-        let easeOut_t = 1 - p5.pow(1 - t, 4);
-
-        this.alpha = p5.map(easeIn_t, 0, 1, 255, 0);
 
         if (this.isMenuItem) {
             this.alpha = 255;
             this.labelAlpha = 255;
 
-            // Wait to reach target before starting typing effects
+            // Aguarda alcançar o alvo antes de iniciar efeitos de digitação
             if (!this.hasArrived) {
-                let frameConstrained = p5.constrain(progressFrames, 0, this.vars.current.transitionDurationFrames);
-                let curve = (1 - p5.pow(0.98, frameConstrained)) / (1 - p5.pow(0.98, this.vars.current.transitionDurationFrames));
-                
-                this.pos.x = p5.lerp(this.initialPos.x, this.targetPos.x, curve);
-                this.pos.y = p5.lerp(this.initialPos.y, this.targetPos.y, curve);
-                this.size = p5.lerp(this.vars.current.mainFontSize, this.vars.current.menuFontSize, curve);
-                this.angle = p5.lerp(this.initialAngle, 0, curve);
-
-                if (progressFrames >= this.vars.current.transitionDurationFrames) {
-                    this.hasArrived = true;
-                    this.pos.set(this.targetPos);
-                    this.angle = 0;
-                    this.size = this.vars.current.menuFontSize;
-                }
+                this.seek(p5);
             } else {
-                // Ensure it's exactly 50% size
+                // Garante tamanho exato de menu
                 this.size = this.vars.current.menuFontSize;
                 this.vel.mult(0.9);
 
-                // Gate: don't start typing until REVEAL_MS has elapsed
+                // Portão: não inicia a digitação antes de transcorrer REVEAL_MS
                 if ((p5.millis() - this.vars.current.puffStartMs) < REVEAL_MS) return;
 
-                // Typewriter loop — typing/waiting at normal speed, deletion 2x faster
+                // Loop typewriter do menu
                 if (p5.frameCount % MENU_TYPE_INTERVAL === 0) {
                     if (this.typeState === 'typing') {
                         if (this.pauseTimer > 0) {
@@ -501,8 +510,6 @@ class Letter {
                             this.typewriterIndex++;
                         } else {
                             this.typeState = 'waiting';
-                            // Stagger always maintained: index 0 waits less than index 1
-                            // so they never delete at the same time across loops
                             this.pauseTimer = 480 + (this.menuIndex * 120);
                         }
                     } else if (this.typeState === 'waiting') {
@@ -528,12 +535,18 @@ class Letter {
                 }
             }
         } else {
-            this.vel.add(this.acc);
-            this.pos.add(this.vel);
-            this.angle += this.angularVelocity;
-            this.vel.mult(0.98);
-            this.acc.mult(0);
+            // Desvanecimento linear de 0.75 por frame conforme lógica exata fornecida
+            this.alpha -= 0.75;
         }
+
+        // Atualização da física de dispersão do dente-de-leão
+        this.vel.add(this.acc);
+        this.pos.add(this.vel);
+        if (!this.isMenuItem || !this.hasArrived) {
+            this.angle += this.angularVelocity;
+        }
+        this.vel.mult(0.98);
+        this.acc.mult(0);
     }
 
     display(p5) {
@@ -590,7 +603,7 @@ class Letter {
 
     isDead() {
         if (this.isMenuItem) return false;
-        return this.alpha <= 0;
+        return this.alpha < 0;
     }
 
     isMouseOver(p5) {
