@@ -70,6 +70,11 @@ export default function Home() {
                     width: auto;
                     display: block;
                 }
+                .presentation-svg-hygge {
+                    height: 138px;
+                    width: auto;
+                    display: block;
+                }
                 @media (min-width: 768px) {
                     .presentation-svg-menu {
                         flex-direction: row !important;
@@ -77,6 +82,9 @@ export default function Home() {
                     }
                     .presentation-svg-icon {
                         height: 165px;
+                    }
+                    .presentation-svg-hygge {
+                        height: 190px;
                     }
                 }
             `}</style>
@@ -115,7 +123,7 @@ export default function Home() {
                         className="group shrink-0 flex items-center justify-center text-[#333] hover:text-[#FF4E50] transition-all duration-300 hover:scale-105"
                         title="Hygge"
                     >
-                        <HyggeSvg className="presentation-svg-icon" />
+                        <HyggeSvg className="presentation-svg-hygge" />
                     </Link>
 
                     {/* Direita: Farfalle */}
