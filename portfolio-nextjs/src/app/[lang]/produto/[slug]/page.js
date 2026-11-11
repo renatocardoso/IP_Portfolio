@@ -71,16 +71,16 @@ export default function ProjetoDetalheProduto() {
             </aside>
 
             {/* GALERIA DE IMAGENS (DIREITA) */}
-            <section className="flex flex-col w-full pb-12 order-1 md:order-2 md:pr-[10vw]">
+            <section className="flex flex-col gap-[30px] w-full pb-12 order-1 md:order-2 md:pr-[10vw]">
                 {slug === "movie" && (
-                    <div className="w-full mb-6">
+                    <div className="w-full">
                         <ChairViewer3D />
                     </div>
                 )}
                 {projeto.gallery.map((media, idx) => {
                     if (media.type === "video") {
                         return (
-                            <video key={idx} controls className="w-full h-auto block mb-1">
+                            <video key={idx} controls className="w-full h-auto block">
                                 <source src={media.src} type="video/mp4" />
                             </video>
                         );
@@ -93,7 +93,7 @@ export default function ProjetoDetalheProduto() {
                             width={1600}
                             height={1200}
                             unoptimized
-                            className="w-full h-auto block mb-1"
+                            className="w-full h-auto block"
                         />
                     );
                 })}

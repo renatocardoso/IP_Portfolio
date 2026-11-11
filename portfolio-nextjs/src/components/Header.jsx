@@ -40,42 +40,29 @@ export default function Header() {
     const NavLinks = ({ onClick }) => (
         <>
             <Link
-                href={`/${lang}/sobre`}
+                href={`/${lang}/produto/farfalle`}
                 onClick={onClick}
                 className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
             >
                 <span
-                    style={{ color: isActive(`/${lang}/sobre`) ? 'var(--color-brand)' : undefined }}
-                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/sobre`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                    style={{ color: isActive(`/${lang}/produto/farfalle`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/produto/farfalle`) ? '' : 'text-text-dark group-hover:text-brand'}`}
                 >*</span>
                 <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
-                    {lang === "en" ? "ABOUT" : "SOBRE"}
+                    FARFALLE
                 </span>
             </Link>
             <Link
-                href={`/${lang}/grafico`}
+                href={`/${lang}/produto/hygge`}
                 onClick={onClick}
                 className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
             >
                 <span
-                    style={{ color: isActive(`/${lang}/grafico`) ? 'var(--color-brand)' : undefined }}
-                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/grafico`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                    style={{ color: isActive(`/${lang}/produto/hygge`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/produto/hygge`) ? '' : 'text-text-dark group-hover:text-brand'}`}
                 >*</span>
                 <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
-                    {lang === "en" ? "GRAPHIC" : "GRÁFICO"}
-                </span>
-            </Link>
-            <Link
-                href={`/${lang}/produto`}
-                onClick={onClick}
-                className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
-            >
-                <span
-                    style={{ color: isActive(`/${lang}/produto`) ? 'var(--color-brand)' : undefined }}
-                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/produto`) ? '' : 'text-text-dark group-hover:text-brand'}`}
-                >*</span>
-                <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
-                    {lang === "en" ? "PRODUCT" : "PRODUTO"}
+                    HYGGE
                 </span>
             </Link>
             <LanguageToggle />
