@@ -11,6 +11,8 @@ function FarfalleSvg({ className, style }) {
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             viewBox="0 0 291.5 228.6"
+            width="230"
+            height="180"
             className={className}
             style={style}
             aria-label="Farfalle"
@@ -29,6 +31,8 @@ function HyggeSvg({ className, style }) {
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             viewBox="0 0 463.1 228.6"
+            width="365"
+            height="180"
             className={className}
             style={style}
             aria-label="Hygge"
@@ -53,6 +57,30 @@ export default function Home() {
 
     return (
         <main className="relative flex-grow flex items-center justify-center overflow-hidden bg-white">
+            <style>{`
+                .presentation-svg-menu {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 48px;
+                }
+                .presentation-svg-icon {
+                    height: 120px;
+                    width: auto;
+                    display: block;
+                }
+                @media (min-width: 768px) {
+                    .presentation-svg-menu {
+                        flex-direction: row !important;
+                        gap: 96px;
+                    }
+                    .presentation-svg-icon {
+                        height: 165px;
+                    }
+                }
+            `}</style>
+
             {/* Initial "/*" trigger */}
             <div
                 className={`fixed inset-0 flex items-center justify-center z-10 w-full transition-opacity duration-300 ${
@@ -80,21 +108,23 @@ export default function Home() {
                         : "opacity-0 pointer-events-none"
                 }`}
             >
-                <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20 lg:gap-28 w-full max-w-5xl">
-                    <Link
-                        href={`/${locale}/produto/farfalle`}
-                        className="group shrink-0 flex items-center justify-center text-[#333] hover:text-[#FF4E50] transition-all duration-300 hover:scale-105"
-                        title="Farfalle"
-                    >
-                        <FarfalleSvg className="h-[110px] sm:h-[130px] md:h-[150px] lg:h-[180px] w-auto block" />
-                    </Link>
-
+                <div className="presentation-svg-menu">
+                    {/* Esquerda: Hygge */}
                     <Link
                         href={`/${locale}/produto/hygge`}
                         className="group shrink-0 flex items-center justify-center text-[#333] hover:text-[#FF4E50] transition-all duration-300 hover:scale-105"
                         title="Hygge"
                     >
-                        <HyggeSvg className="h-[110px] sm:h-[130px] md:h-[150px] lg:h-[180px] w-auto block" />
+                        <HyggeSvg className="presentation-svg-icon" />
+                    </Link>
+
+                    {/* Direita: Farfalle */}
+                    <Link
+                        href={`/${locale}/produto/farfalle`}
+                        className="group shrink-0 flex items-center justify-center text-[#333] hover:text-[#FF4E50] transition-all duration-300 hover:scale-105"
+                        title="Farfalle"
+                    >
+                        <FarfalleSvg className="presentation-svg-icon" />
                     </Link>
                 </div>
             </div>
