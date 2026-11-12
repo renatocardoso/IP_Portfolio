@@ -23,23 +23,27 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata = {
-  title: 'Infinita Poesia /*',
-  description: 'Criação de marcas e produtos',
+  metadataBase: new URL('https://presentation-j7hiar119-renatocardosos-projects.vercel.app'),
+  title: 'Apresentação 2027',
+  description: 'Ideias e projetos para lançamento em 2027.',
   icons: {
     icon: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7QE7OGw1c6gedqP1zGVAfm5p4aShYIjUxZb7O',
   },
   openGraph: {
-    title: 'Infinita Poesia',
-    description: 'Desenhos e ideias',
-    url: 'https://infinitapoesia.com.br',
-    type: 'website',
+    title: '2027 Presentation',
+    description: 'Ideas and projects to be lauched in 2027.',
+    url: '/en',
+    siteName: '/* Infinita Poesia',
     images: [
       {
-        url: 'https://41fyotqqdf.ufs.sh/f/047OTbUFRaz7Wn9vmdIBGVeIToJiAt53FCzgjmQnybO0UqRH',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
+        alt: 'Pré-visualização do projeto',
       },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
 };
 
