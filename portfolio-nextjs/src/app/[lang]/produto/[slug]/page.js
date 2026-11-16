@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useState } from "react";
 import { useParams } from "next/navigation";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 import { projetosData } from "../../../../data/produtoData";
 
@@ -16,6 +15,28 @@ const ChairViewer3D = dynamic(() => import("../../../../components/ChairViewer3D
     )
 });
 
+function renderMediaItem(media, idx, projectTitle) {
+    if (!media) return null;
+    if (media.type === "video") {
+        return (
+            <video key={idx} controls className="w-full h-auto block">
+                <source src={media.src} type="video/mp4" />
+            </video>
+        );
+    }
+    return (
+        <Image
+            key={idx}
+            src={media.src}
+            alt={`${projectTitle} - Imagem ${idx + 1}`}
+            width={1920}
+            height={1080}
+            unoptimized
+            className="w-full h-auto block"
+        />
+    );
+}
+
 export default function ProjetoDetalheProduto() {
     const { lang, slug } = useParams();
     const urlLang = lang || "pt";
@@ -27,15 +48,26 @@ export default function ProjetoDetalheProduto() {
         return <div className="text-center py-20">Projeto não encontrado.</div>;
     }
 
-    return (
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] items-start gap-0 md:gap-8 max-w-none w-full">
-            {/* PAINEL DE INFORMAÇÕES (ESQUERDA) */}
-            <aside className="relative md:sticky md:top-0 w-full md:h-auto flex flex-col p-16 md:p-20 bg-white z-10 order-2 md:order-1">
-                <Link href={`/${urlLang}`} className="font-bold text-[1.2rem] mb-12 hidden md:block">
-                    infinita poesia /
-                </Link>
+    const firstMedia = projeto.gallery?.[0];
+    const remainingMedia = projeto.gallery?.slice(1) || [];
+    const descriptionText =
+        contentLang === "pt" ? projeto.desc_pt : projeto.desc_en || projeto.desc_pt;
 
-                {/* Language Switcher */}
+    return (
+        <div className="flex flex-col w-full max-w-none">
+            {/* 1. PRIMEIRA IMAGEM (TELA INTEIRA) */}
+            <section className="w-full">
+                {slug === "movie" ? (
+                    <div className="w-full">
+                        <ChairViewer3D />
+                    </div>
+                ) : (
+                    renderMediaItem(firstMedia, 0, projeto.title)
+                )}
+            </section>
+
+            {/* 2. TÍTULO (1/3 ESQUERDA) E TEXTO (2/3 DIREITA) */}
+            <section className="w-full px-8 lg:px-30 py-14 md:py-20 bg-white text-[#333]">
                 {projeto.desc_en && (
                     <div className="flex gap-2 mb-8 text-base font-bold">
                         <button
@@ -54,49 +86,32 @@ export default function ProjetoDetalheProduto() {
                     </div>
                 )}
 
-                <div className="text-[#333]">
-                    <h2 className="text-[1.2rem] mt-0 mb-4 font-normal leading-tight">
-                        {contentLang === "pt" ? projeto.title : projeto.title_en || projeto.title}
-                    </h2>
-                    <div className="mb-4 text-base leading-relaxed whitespace-pre-wrap">
-                        {(contentLang === "pt" ? projeto.desc_pt : projeto.desc_en || projeto.desc_pt)
+                <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] items-start gap-8 md:gap-12 w-full">
+                    {/* Primeiro terço (esquerda): Título, Cliente e Ano */}
+                    <div className="flex flex-col">
+                        <h2 className="text-[1.4rem] md:text-[1.6rem] mt-0 mb-4 font-normal leading-tight">
+                            {contentLang === "pt" ? projeto.title : projeto.title_en || projeto.title}
+                        </h2>
+                        <p className="mt-2 font-bold">{projeto.client}</p>
+                        <p className="mt-1 font-bold">{projeto.year}</p>
+                    </div>
+
+                    {/* Dois terços (direita): Texto do projeto */}
+                    <div className="text-base leading-relaxed whitespace-pre-wrap">
+                        {descriptionText
                             ?.split("**")
                             .map((chunk, index) =>
                                 index % 2 === 1 ? <strong key={index}>{chunk}</strong> : chunk
                             )}
                     </div>
-                    <p className="mt-8 font-bold">{projeto.client}</p>
-                    <p className="mt-1 font-bold">{projeto.year}</p>
                 </div>
-            </aside>
+            </section>
 
-            {/* GALERIA DE IMAGENS (DIREITA) */}
-            <section className="flex flex-col gap-[30px] w-full pb-12 order-1 md:order-2 md:pr-[10vw]">
-                {slug === "movie" && (
-                    <div className="w-full">
-                        <ChairViewer3D />
-                    </div>
+            {/* 3. DEMAIS IMAGENS (TELA INTEIRA) */}
+            <section className="flex flex-col gap-[30px] w-full pb-12">
+                {(slug === "movie" ? projeto.gallery : remainingMedia).map((media, idx) =>
+                    renderMediaItem(media, idx + 1, projeto.title)
                 )}
-                {projeto.gallery.map((media, idx) => {
-                    if (media.type === "video") {
-                        return (
-                            <video key={idx} controls className="w-full h-auto block">
-                                <source src={media.src} type="video/mp4" />
-                            </video>
-                        );
-                    }
-                    return (
-                        <Image
-                            key={idx}
-                            src={media.src}
-                            alt={`${projeto.title} - Imagem ${idx + 1}`}
-                            width={1600}
-                            height={1200}
-                            unoptimized
-                            className="w-full h-auto block"
-                        />
-                    );
-                })}
             </section>
         </div>
     );
