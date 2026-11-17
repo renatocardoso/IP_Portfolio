@@ -54,17 +54,29 @@ export default function ProjetoDetalheProduto() {
         contentLang === "pt" ? projeto.desc_pt : projeto.desc_en || projeto.desc_pt;
 
     return (
-        <div className="flex flex-col w-full max-w-none">
+        <div className="flex flex-col w-full max-w-none bg-white">
             <style>{`
+                .project-media-first {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 40px 40px 0 40px;
+                    background-color: #ffffff;
+                }
+                .project-media-gallery {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 0 40px 40px 40px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    background-color: #ffffff;
+                }
                 .project-info-grid {
                     display: grid;
                     grid-template-columns: 1fr;
                     gap: 2rem;
                     width: 100%;
                     align-items: start;
-                }
-                .project-info-empty-col {
-                    display: none;
                 }
                 .project-info-title-col {
                     display: flex;
@@ -77,11 +89,8 @@ export default function ProjetoDetalheProduto() {
                 }
                 @media (min-width: 768px) {
                     .project-info-grid {
-                        grid-template-columns: repeat(3, minmax(0, 1fr));
+                        grid-template-columns: repeat(2, minmax(0, 1fr));
                         gap: 3rem;
-                    }
-                    .project-info-empty-col {
-                        display: block;
                     }
                     .project-info-title-col {
                         align-items: flex-end;
@@ -90,8 +99,8 @@ export default function ProjetoDetalheProduto() {
                 }
             `}</style>
 
-            {/* 1. PRIMEIRA IMAGEM (LARGURA INTEIRA) */}
-            <section className="w-full">
+            {/* 1. PRIMEIRA IMAGEM (COM MARGEM BRANCA DE 40PX) */}
+            <section className="project-media-first">
                 {slug === "movie" ? (
                     <div className="w-full">
                         <ChairViewer3D />
@@ -101,13 +110,10 @@ export default function ProjetoDetalheProduto() {
                 )}
             </section>
 
-            {/* 2. CONTEÚDO DE TEXTO: 3 COLUNAS NO DESKTOP (1ª LIVRE | 2ª TÍTULO À DIREITA | 3ª TEXTO À ESQUERDA) */}
+            {/* 2. CONTEÚDO DE TEXTO: 2 COLUNAS NO DESKTOP (1ª TÍTULO À DIREITA | 2ª TEXTO À ESQUERDA) */}
             <section className="w-full px-8 lg:px-30 py-14 md:py-20 bg-white text-[#333]">
                 <div className="project-info-grid">
-                    {/* Coluna 1 (Esquerda): Livre de conteúdo no desktop */}
-                    <div className="project-info-empty-col" aria-hidden="true" />
-
-                    {/* Coluna 2 (Central): Título, Cliente e Ano alinhados à direita no desktop e à esquerda no mobile */}
+                    {/* Coluna 1 (Esquerda): Título, Cliente e Ano alinhados à direita no desktop e à esquerda no mobile */}
                     <div className="project-info-title-col">
                         {projeto.desc_en && (
                             <div className="flex gap-2 mb-6 text-base font-bold">
@@ -133,7 +139,7 @@ export default function ProjetoDetalheProduto() {
                         <p className="mt-1 font-bold">{projeto.year}</p>
                     </div>
 
-                    {/* Coluna 3 (Direita): Texto descritivo alinhado à esquerda */}
+                    {/* Coluna 2 (Direita): Texto descritivo alinhado à esquerda */}
                     <div className="project-info-desc-col text-base leading-relaxed whitespace-pre-wrap">
                         {descriptionText
                             ?.split("**")
@@ -150,8 +156,8 @@ export default function ProjetoDetalheProduto() {
                 </div>
             </section>
 
-            {/* 3. DEMAIS IMAGENS (LARGURA INTEIRA) */}
-            <section className="flex flex-col gap-1 w-full pb-12">
+            {/* 3. DEMAIS IMAGENS (COM MARGEM BRANCA DE 40PX) */}
+            <section className="project-media-gallery">
                 {(slug === "movie" ? projeto.gallery : remainingMedia).map((media, idx) =>
                     renderMediaItem(media, idx + 1, projeto.title)
                 )}
