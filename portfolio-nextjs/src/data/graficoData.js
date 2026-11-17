@@ -3,24 +3,24 @@ export const projetosData = [
         slug: "pat-tropas",
         title: "Identidade visual do Plano de Ação Territorial Caminho das Tropas -\nParaná - São Paulo",
         title_en: "Visual Identity for the Caminho das Tropas Territorial Action Plan\n-\nParaná - São Paulo",
-        desc_pt: `Conceito A identidade captura a essência do território ao sintetizar sua paisagem natural e significância histórica em uma composição gráfica coesa.
+        desc_pt: `**Conceito** A identidade captura a essência do território ao sintetizar sua paisagem natural e significância histórica em uma composição gráfica coesa.
 
-O Símbolo Desenhado como um mosaico, o ícone ilustra as características cênicas e a geobiodiversidade da região, representando a diversidade do ambiente.
+**O Símbolo** Desenhado como um mosaico, o ícone ilustra as características cênicas e a geobiodiversidade da região, representando a diversidade do ambiente.
 
-Cor e Tipografia
+**Cor e Tipografia**
 
-Paleta Derivada diretamente dos tons da paisagem natural.
+**Paleta** Derivada diretamente dos tons da paisagem natural.
 
-Tipografia Selecionada para evocar a herança cultural da região, referenciando a estética da cartografia histórica e documentos de arquivo.`,
-        desc_en: `Concept The identity captures the territory's essence by synthesizing its natural landscape and historical significance into a cohesive graphic composition.
+**Tipografia** Selecionada para evocar a herança cultural da região, referenciando a estética da cartografia histórica e documentos de arquivo.`,
+        desc_en: `**Concept** The identity captures the territory's essence by synthesizing its natural landscape and historical significance into a cohesive graphic composition.
 
-The Symbol Designed as a mosaic, the icon illustrates the region's scenic characteristics and geobiodiversity, representing the environment's diversity.
+**The Symbol** Designed as a mosaic, the icon illustrates the region's scenic characteristics and geobiodiversity, representing the environment's diversity.
 
-Color and Typography
+**Color and Typography**
 
-Palette Derived directly from the natural landscape's tones.
+**Palette** Derived directly from the natural landscape's tones.
 
-Typography Selected to evoke the region's cultural heritage, referencing the aesthetic of historical cartography and archival documents.`,
+**Typography** Selected to evoke the region's cultural heritage, referencing the aesthetic of historical cartography and archival documents.`,
         client: "WWF - Secretaria do Meio Ambiente do Paraná e de São Paulo",
         year: "2023",
         category: "grafico",
@@ -43,20 +43,20 @@ Typography Selected to evoke the region's cultural heritage, referencing the aes
         slug: "pan",
         title: "Identidade Visual do Plano de Ação Nacional para conservação de\nespécies ameaçadas de extinção, PAN e SISPAN.",
         title_en: "Visual Identity for the National Action Plan for the Conservation\nof Endangered Species, PAN and SISPAN.",
-        desc_pt: `Contexto: Os Planos de Ação Nacional (PAN) são instrumentos de políticas públicas desenhados para conservar espécies ameaçadas. Eles identificam ameaças à fauna, flora e ambientes naturais, estabelecendo ações estratégicas de conservação para espécies e habitats.
+        desc_pt: `**Contexto:** Os Planos de Ação Nacional (PAN) são instrumentos de políticas públicas desenhados para conservar espécies ameaçadas. Eles identificam ameaças à fauna, flora e ambientes naturais, estabelecendo ações estratégicas de conservação para espécies e habitats.
 
-Conceito: Um sistema de marca dinâmico foi desenvolvido para fornecer uma identidade única para cada Plano de Ação, mantendo, ao mesmo tempo, um senso de unidade e colaboração institucional.
+**Conceito:** Um sistema de marca dinâmico foi desenvolvido para fornecer uma identidade única para cada Plano de Ação, mantendo, ao mesmo tempo, um senso de unidade e colaboração institucional.
 
-Solução de Design: O design explora o espaço negativo dentro da tipografia. As formas de encaixe preenchem as contraformas, criando a sigla "PAN" através da união entre cheio e vazio. A estrutura do sistema combina o logotipo PAN com ilustrações temáticas que representam espécies ameaçadas específicas e seus habitats.
+**Solução de Design:** O design explora o espaço negativo dentro da tipografia. As formas de encaixe preenchem as contraformas, criando a sigla "PAN" através da união entre cheio e vazio. A estrutura do sistema combina o logotipo PAN com ilustrações temáticas que representam espécies ameaçadas específicas e seus habitats.
 
-Processo e Expansão: O projeto envolveu extensa colaboração com pesquisadores do ICMBio para definir temas e espécies representativas. O sistema se estende ao SISPAN (a ferramenta de gestão de dados), reforçando a consistência desta iniciativa de conservação.`,
-        desc_en: `Context: The National Action Plans (PAN) are public policy instruments designed to conserve endangered species. They identify threats to fauna, flora, and natural environments, establishing strategic conservation actions for species and habitats.
+**Processo e Expansão:** O projeto envolveu extensa colaboração com pesquisadores do ICMBio para definir temas e espécies representativas. O sistema se estende ao SISPAN (a ferramenta de gestão de dados), reforçando a consistência desta iniciativa de conservação.`,
+        desc_en: `**Context:** The National Action Plans (PAN) are public policy instruments designed to conserve endangered species. They identify threats to fauna, flora, and natural environments, establishing strategic conservation actions for species and habitats.
 
-Concept: A dynamic brand system was developed to provide a unique identity for each Action Plan, maintaining, at the same time, a sense of unity and institutional collaboration.
+**Concept:** A dynamic brand system was developed to provide a unique identity for each Action Plan, maintaining, at the same time, a sense of unity and institutional collaboration.
 
-Design Solution: The design explores negative space within the typography. Interlocking shapes fill the counters, creating the acronym "PAN" through the union of solid and void. The system structure combines the PAN logo with thematic illustrations representing specific endangered species and their habitats.
+**Design Solution:** The design explores negative space within the typography. Interlocking shapes fill the counters, creating the acronym "PAN" through the union of solid and void. The system structure combines the PAN logo with thematic illustrations representing specific endangered species and their habitats.
 
-Process and Expansion: The project involved extensive collaboration with ICMBio researchers to define themes and representative species. The system extends to SISPAN (the data management tool), reinforcing the consistency of this conservation initiative.`,
+**Process and Expansion:** The project involved extensive collaboration with ICMBio researchers to define themes and representative species. The system extends to SISPAN (the data management tool), reinforcing the consistency of this conservation initiative.`,
         client: "WWF - ICMBio",
         year: "2024",
         category: "grafico",
@@ -87,32 +87,32 @@ Process and Expansion: The project involved extensive collaboration with ICMBio 
         slug: "matriz",
         title: "Identidade visual e Projeto Editorial de Relatório Executivo Matriz\nda\nBiodiversidade",
         title_en: "Visual Identity and Editorial Design for the Executive Report of\nMatriz da Biodiversidade",
-        desc_pt: `Visão Geral Identidade visual e design editorial para uma iniciativa inovadora impulsionada por ciência de dados e alinhada com os Objetivos de Desenvolvimento Sustentável da ONU (13, 14 e 15).
+        desc_pt: `**Visão Geral** Identidade visual e design editorial para uma iniciativa inovadora impulsionada por ciência de dados e alinhada com os Objetivos de Desenvolvimento Sustentável da ONU (13, 14 e 15).
 
-Estratégia de Design O sistema visual foi projetado para traduzir dados complexos em ativos visuais claros. Os gráficos ilustram a capacidade do projeto de otimizar processos e gerenciar impactos na biodiversidade no entorno de usinas de energia.
+**Estratégia de Design** O sistema visual foi projetado para traduzir dados complexos em ativos visuais claros. Os gráficos ilustram a capacidade do projeto de otimizar processos e gerenciar impactos na biodiversidade no entorno de usinas de energia.
 
-Entregáveis
+**Entregáveis**
 
-Identidade Visual Um sistema de marca refletindo otimização e sustentabilidade.
+**Identidade Visual** Um sistema de marca refletindo otimização e sustentabilidade.
 
-Design Editorial Relatórios executivos estruturados para clareza e impacto.
+**Design Editorial** Relatórios executivos estruturados para clareza e impacto.
 
-Visualização de Dados Infográficos para comunicar resultados de estudos e estratégias de conservação.
+**Visualização de Dados** Infográficos para comunicar resultados de estudos e estratégias de conservação.
 
-Animação Apresentações em vídeo para engajamento dos stakeholders.`,
-        desc_en: `Overview Visual identity and editorial design for an innovative initiative driven by data science and aligned with UN Sustainable Development Goals 13, 14, and 15.
+**Animação** Apresentações em vídeo para engajamento dos stakeholders.`,
+        desc_en: `**Overview** Visual identity and editorial design for an innovative initiative driven by data science and aligned with UN Sustainable Development Goals 13, 14, and 15.
 
-Design Strategy The visual system was designed to translate complex data into clear visual assets. The graphics illustrate the project's capacity to streamline processes and manage biodiversity impacts around power plants.
+**Design Strategy** The visual system was designed to translate complex data into clear visual assets. The graphics illustrate the project's capacity to streamline processes and manage biodiversity impacts around power plants.
 
-Deliverables
+**Deliverables**
 
-Visual Identity: A brand system reflecting optimization and sustainability.
+**Visual Identity:** A brand system reflecting optimization and sustainability.
 
-Editorial Design: Executive reports structured for clarity and impact.
+**Editorial Design:** Executive reports structured for clarity and impact.
 
-Data Visualization: Infographics to communicate study results and conservation strategies.
+**Data Visualization:** Infographics to communicate study results and conservation strategies.
 
-Motion: Video presentations for stakeholder engagement.`,
+**Motion:** Video presentations for stakeholder engagement.`,
         client: "Engie",
         year: "2025",
         category: "grafico",
@@ -134,16 +134,16 @@ Motion: Video presentations for stakeholder engagement.`,
         slug: "pat-planalto-sul",
         title: "Identidade visual do Plano de Ação Territorial Planalto Sul",
         title_en: "Visual Identity for the Planalto Sul Territorial Action Plan",
-        desc_pt: `Contexto: Uma iniciativa de conservação cobrindo os estados de Santa Catarina e Rio Grande do Sul.
+        desc_pt: `**Contexto:** Uma iniciativa de conservação cobrindo os estados de Santa Catarina e Rio Grande do Sul.
 
-Conceito: A identidade visual é ancorada em uma composição tipográfica que sintetiza a essência do território. As próprias letras integram símbolos das características cênicas e da geobiodiversidade da região.
+**Conceito:** A identidade visual é ancorada em uma composição tipográfica que sintetiza a essência do território. As próprias letras integram símbolos das características cênicas e da geobiodiversidade da região.
 
-Paleta de Cores: O sistema cromático foi derivado diretamente da paisagem natural da região do "Planalto Sul", capturando a atmosfera única do sul do Brasil.`,
-        desc_en: `Context: A conservation initiative covering the states of Santa Catarina and Rio Grande do Sul.
+**Paleta de Cores:** O sistema cromático foi derivado diretamente da paisagem natural da região do "Planalto Sul", capturando a atmosfera única do sul do Brasil.`,
+        desc_en: `**Context:** A conservation initiative covering the states of Santa Catarina and Rio Grande do Sul.
 
-Concept: The visual identity is anchored in a typographic composition that synthesizes the territory's essence. The letters themselves integrate symbols of the region's scenic characteristics and geobiodiversity.
+**Concept:** The visual identity is anchored in a typographic composition that synthesizes the territory's essence. The letters themselves integrate symbols of the region's scenic characteristics and geobiodiversity.
 
-Color Palette: The chromatic system was derived directly from the natural landscape of the "Planalto Sul" region, capturing the unique atmosphere of southern Brazil.`,
+**Color Palette:** The chromatic system was derived directly from the natural landscape of the "Planalto Sul" region, capturing the unique atmosphere of southern Brazil.`,
         client: "WWF, SEMA",
         year: "2023",
         category: "grafico",
@@ -164,16 +164,16 @@ Color Palette: The chromatic system was derived directly from the natural landsc
         slug: "rizzon",
         title: "Identidade visual Rizzon",
         title_en: "Rizzon Visual Identity",
-        desc_pt: `O Desafio Reposicionar a Rizzon de uma fabricante tradicional para uma provedora de soluções guiadas pelo design, unindo o artesanato industrial à inovação criativa.
+        desc_pt: `**O Desafio** Reposicionar a Rizzon de uma fabricante tradicional para uma provedora de soluções guiadas pelo design, unindo o artesanato industrial à inovação criativa.
 
-Identidade Visual O novo logo apresenta tipografia minimalista e formas geométricas puras, refletindo clareza e modernidade.
+**Identidade Visual** O novo logo apresenta tipografia minimalista e formas geométricas puras, refletindo clareza e modernidade.
 
-Direção de Arte A paleta de cores e a fotografia de produtos foram completamente reformuladas. A nova narrativa visual transmite sofisticação, sinalizando a reinvenção bem-sucedida da marca`,
-        desc_en: `The Challenge To reposition Rizzon from a traditional manufacturer to a design-led solution provider, bridging industrial craftsmanship with creative innovation.
+**Direção de Arte** A paleta de cores e a fotografia de produtos foram completamente reformuladas. A nova narrativa visual transmite sofisticação, sinalizando a reinvenção bem-sucedida da marca`,
+        desc_en: `**The Challenge** To reposition Rizzon from a traditional manufacturer to a design-led solution provider, bridging industrial craftsmanship with creative innovation.
 
-Visual Identity The new logo features minimalist typography and pure geometric shapes, reflecting clarity and modernity.
+**Visual Identity** The new logo features minimalist typography and pure geometric shapes, reflecting clarity and modernity.
 
-Art Direction The color palette and product photography were completely overhauled. The new visual narrative conveys sophistication, signaling the brand's successful reinvention.`,
+**Art Direction** The color palette and product photography were completely overhauled. The new visual narrative conveys sophistication, signaling the brand's successful reinvention.`,
         client: "Casa Rizzon",
         year: "2025",
         category: "grafico",
@@ -198,28 +198,28 @@ Art Direction The color palette and product photography were completely overhaul
         slug: "rendase",
         title: "Renda-se",
         title_en: "Renda-se (Surrender oneself / Lace yourself)",
-        desc_pt: `Prêmios Selecionado para a Bienal Brasileira de Design (2014) e Bienal de Design Gráfico (2015).
+        desc_pt: `**Prêmios** Selecionado para a Bienal Brasileira de Design (2014) e Bienal de Design Gráfico (2015).
 
-O Conceito "Renda-se" é um diálogo multidisciplinar entre tipografia, poesia visual e artesanato tradicional. O projeto une o design contemporâneo e o patrimônio cultural, envolvendo pesquisa, ilustração e arte têxtil.
+**O Conceito** "Renda-se" é um diálogo multidisciplinar entre tipografia, poesia visual e artesanato tradicional. O projeto une o design contemporâneo e o patrimônio cultural, envolvendo pesquisa, ilustração e arte têxtil.
 
-Origem e Evolução O projeto começou inicialmente como um briefing para uma coleção de camisetas celebrando a cultura de Florianópolis ("Ilha da Magia"). O que começou como uma estampa escrevendo "Amorzinho" em letras de renda evoluiu para um profundo estudo tipográfico. Desenvolvi um alfabeto completo baseado nos padrões complexos da Renda de Bilro.
+**Origem e Evolução** O projeto começou inicialmente como um briefing para uma coleção de camisetas celebrando a cultura de Florianópolis ("Ilha da Magia"). O que começou como uma estampa escrevendo "Amorzinho" em letras de renda evoluiu para um profundo estudo tipográfico. Desenvolvi um alfabeto completo baseado nos padrões complexos da Renda de Bilro.
 
-Materialização O resultado ganhou vida através de dois meios distintos
+**Materialização** O resultado ganhou vida através de dois meios distintos
 
-Impresso Cartazes em serigrafia apresentando a fonte.
+**Impresso** Cartazes em serigrafia apresentando a fonte.
 
-Arte Têxtil As letras foram fisicamente confeccionadas pelas artesãs do Casarão das Rendeiras, preservando o saber-fazer local.`,
-        desc_en: `Awards Selected for the Brazilian Design Biennial (2014) and the Graphic Design Biennial (2015).
+**Arte Têxtil** As letras foram fisicamente confeccionadas pelas artesãs do Casarão das Rendeiras, preservando o saber-fazer local.`,
+        desc_en: `**Awards** Selected for the Brazilian Design Biennial (2014) and the Graphic Design Biennial (2015).
 
-The Concept "Renda-se" is a multidisciplinary dialogue between typography, visual poetry, and traditional craftsmanship. The project bridges contemporary design and cultural heritage, involving research, illustration, and textile art.
+**The Concept** "Renda-se" is a multidisciplinary dialogue between typography, visual poetry, and traditional craftsmanship. The project bridges contemporary design and cultural heritage, involving research, illustration, and textile art.
 
-Origin and Evolution The project initially started as a brief for a t-shirt collection celebrating the culture of Florianópolis ("Magic Island"). What began as a print spelling "Amorzinho" (Little Love) in lace letters evolved into a deep typographic study. I developed a complete alphabet based on the complex patterns of Bobbin Lace (Renda de Bilro).
+**Origin and Evolution** The project initially started as a brief for a t-shirt collection celebrating the culture of Florianópolis ("Magic Island"). What began as a print spelling "Amorzinho" (Little Love) in lace letters evolved into a deep typographic study. I developed a complete alphabet based on the complex patterns of Bobbin Lace (Renda de Bilro).
 
-Materialization The result came to life through two distinct mediums
+**Materialization** The result came to life through two distinct mediums
 
-Print Silkscreen posters featuring the font.
+**Print** Silkscreen posters featuring the font.
 
-Textile Art The letters were physically crafted by the artisans of Casarão das Rendeiras, preserving local know-how.`,
+**Textile Art** The letters were physically crafted by the artisans of Casarão das Rendeiras, preserving local know-how.`,
         client: "Independente",
         year: "2015",
         category: "grafico",
@@ -246,12 +246,12 @@ Textile Art The letters were physically crafted by the artisans of Casarão das 
         slug: "ilc",
         title: "Identidade Visual Il Campanario Jurerê Internacional",
         title_en: "Il Campanario Jurerê Internacional Visual Identity",
-        desc_pt: `Contexto e Estratégia A identidade visual foi desenvolvida através de uma análise imersiva do distrito de Jurerê Internacional. O design explora a relação entre os espaços arquitetônicos e o ambiente ao redor, posicionando o resort como um destino de excelência tanto para turismo quanto para moradia.
+        desc_pt: `**Contexto e Estratégia** A identidade visual foi desenvolvida através de uma análise imersiva do distrito de Jurerê Internacional. O design explora a relação entre os espaços arquitetônicos e o ambiente ao redor, posicionando o resort como um destino de excelência tanto para turismo quanto para moradia.
 
-Direção de Arte O projeto incluiu Direção de Arte abrangente para fotografia e materiais de comunicação. A linguagem visual foi adaptada para atender às necessidades sazonais do hotel e eventos especiais, capturando perfeitamente a essência de sua hospitalidade exclusiva e atmosfera acolhedora.`,
-        desc_en: `Context and Strategy The visual identity was developed through an immersive analysis of the Jurerê Internacional district. The design explores the relationship between architectural spaces and the surrounding environment, positioning the resort as an excellent destination for both tourism and living.
+**Direção de Arte** O projeto incluiu Direção de Arte abrangente para fotografia e materiais de comunicação. A linguagem visual foi adaptada para atender às necessidades sazonais do hotel e eventos especiais, capturando perfeitamente a essência de sua hospitalidade exclusiva e atmosfera acolhedora.`,
+        desc_en: `**Context and Strategy** The visual identity was developed through an immersive analysis of the Jurerê Internacional district. The design explores the relationship between architectural spaces and the surrounding environment, positioning the resort as an excellent destination for both tourism and living.
 
-Art Direction The project included comprehensive Art Direction for photography and communication materials. The visual language was adapted to meet the hotel's seasonal needs and special events, perfectly capturing the essence of its exclusive hospitality and welcoming atmosphere.`,
+**Art Direction** The project included comprehensive Art Direction for photography and communication materials. The visual language was adapted to meet the hotel's seasonal needs and special events, perfectly capturing the essence of its exclusive hospitality and welcoming atmosphere.`,
         client: "Jurerê Internacional",
         year: "2014",
         category: "grafico",
@@ -275,20 +275,20 @@ Art Direction The project included comprehensive Art Direction for photography a
         slug: "outrora",
         title: "Outrora Formosa e Restaurante Doutrora",
         title_en: "Outrora Formosa and Doutrora Restaurant",
-        desc_pt: `Contexto Um edifício tombado pelo patrimônio histórico (estilo Neocolonial Espanhol) da década de 1940, antiga residência do historiador Dr. Oswaldo Cabral.
+        desc_pt: `**Contexto** Um edifício tombado pelo patrimônio histórico (estilo Neocolonial Espanhol) da década de 1940, antiga residência do historiador Dr. Oswaldo Cabral.
 
-O Desafio Criar uma identidade visual que unisse passado e presente, transformando um marco histórico em um centro cultural contemporâneo.
+**O Desafio** Criar uma identidade visual que unisse passado e presente, transformando um marco histórico em um centro cultural contemporâneo.
 
-Conceito O branding busca restaurar o vínculo entre a sociedade e sua história. Ele honra o rico legado cultural da propriedade enquanto a estabelece como um espaço dinâmico para arte e eventos.
+**Conceito** O branding busca restaurar o vínculo entre a sociedade e sua história. Ele honra o rico legado cultural da propriedade enquanto a estabelece como um espaço dinâmico para arte e eventos.
 
-Integração do Restaurante O projeto inclui a identidade para o Restaurante Doutrora, localizado no complexo. O branding do restaurante foi desenhado para ser visualmente harmônico com o espaço principal, refletindo sua excelência gastronômica e vocação cultural.`,
-        desc_en: `Context A heritage-listed building (Spanish Colonial Revival style) from the 1940s, former residence of historian Dr. Oswaldo Cabral.
+**Integração do Restaurante** O projeto inclui a identidade para o Restaurante Doutrora, localizado no complexo. O branding do restaurante foi desenhado para ser visualmente harmônico com o espaço principal, refletindo sua excelência gastronômica e vocação cultural.`,
+        desc_en: `**Context** A heritage-listed building (Spanish Colonial Revival style) from the 1940s, former residence of historian Dr. Oswaldo Cabral.
 
-The Challenge To create a visual identity that bridges past and present, transforming a historical landmark into a contemporary cultural center.
+**The Challenge** To create a visual identity that bridges past and present, transforming a historical landmark into a contemporary cultural center.
 
-Concept The branding seeks to restore the bond between society and its history. It honors the property's rich cultural legacy while establishing it as a dynamic space for art and events.
+**Concept** The branding seeks to restore the bond between society and its history. It honors the property's rich cultural legacy while establishing it as a dynamic space for art and events.
 
-Restaurant Integration The project includes the identity for Doutrora Restaurant, located within the complex. The restaurant's branding was designed to be visually harmonious with the main space, reflecting its gastronomic excellence and cultural vocation.`,
+**Restaurant Integration** The project includes the identity for Doutrora Restaurant, located within the complex. The restaurant's branding was designed to be visually harmonious with the main space, reflecting its gastronomic excellence and cultural vocation.`,
         client: "Projetos Selecionados",
         year: "2015",
         category: "grafico",
@@ -341,20 +341,20 @@ Restaurant Integration The project includes the identity for Doutrora Restaurant
         slug: "jovem-cidadao",
         title: "Identidade Visual e Projeto editorial Jovem Cidadão",
         title_en: "Visual Identity and Editorial Design for Jovem Cidadão",
-        desc_pt: `Contexto Um programa social em Marcelino Ramos, sul do Brasil, dedicado à educação e qualificação profissional de jovens.
+        desc_pt: `**Contexto** Um programa social em Marcelino Ramos, sul do Brasil, dedicado à educação e qualificação profissional de jovens.
 
-A Missão Fomentar o empoderamento juvenil e a participação comunitária através de campanhas educativas e atividades de treinamento.
+**A Missão** Fomentar o empoderamento juvenil e a participação comunitária através de campanhas educativas e atividades de treinamento.
 
-Estratégia e Design O projeto foi construído sobre uma base sólida de pesquisa demográfica. Analizamos o perfil do jovem local para garantir que a identidade visual e os materiais de comunicação fossem altamente direcionados e eficazes, entregando valor real à comunidade.
+**Estratégia e Design** O projeto foi construído sobre uma base sólida de pesquisa demográfica. Analizamos o perfil do jovem local para garantir que a identidade visual e os materiais de comunicação fossem altamente direcionados e eficazes, entregando valor real à comunidade.
 
-Entregáveis Sistema de Identidade Visual e Design Editorial para materiais educativos e de pesquisa.`,
-        desc_en: `Context A social program in Marcelino Ramos, southern Brazil, dedicated to the education and professional qualification of youth.
+**Entregáveis** Sistema de Identidade Visual e Design Editorial para materiais educativos e de pesquisa.`,
+        desc_en: `**Context** A social program in Marcelino Ramos, southern Brazil, dedicated to the education and professional qualification of youth.
 
-The Mission To foster youth empowerment and community participation through educational campaigns and training activities.
+**The Mission** To foster youth empowerment and community participation through educational campaigns and training activities.
 
-Strategy and Design The project was built on a solid foundation of demographic research. We analyzed the local youth profile to ensure that the visual identity and communication materials were highly targeted and effective, delivering real value to the community.
+**Strategy and Design** The project was built on a solid foundation of demographic research. We analyzed the local youth profile to ensure that the visual identity and communication materials were highly targeted and effective, delivering real value to the community.
 
-Deliverables Visual Identity System and Editorial Design for educational and research materials.`,
+**Deliverables** Visual Identity System and Editorial Design for educational and research materials.`,
         client: "Engie",
         year: "2017",
         category: "grafico",
@@ -375,16 +375,16 @@ Deliverables Visual Identity System and Editorial Design for educational and res
         slug: "mexilhao",
         title: "Identidade Visual e Projeto editorial Mexilhão Dourado",
         title_en: "Visual Identity and Editorial Design for Golden Mussel",
-        desc_pt: `Contexto: Identidade visual desenvolvida para um projeto de monitoramento do Mexilhão Dourado (Limnoperna fortunei), uma espécie invasora que impõe desafios significativos ao setor de geração de energia.
+        desc_pt: `**Contexto:** Identidade visual desenvolvida para um projeto de monitoramento do Mexilhão Dourado (Limnoperna fortunei), uma espécie invasora que impõe desafios significativos ao setor de geração de energia.
 
-Conceito de Design: O símbolo captura a essência do comportamento da espécie. Ele apresenta uma abstração orgânica da forma do mexilhão, composta por linhas que evocam a fluidez da água e a hidrodinâmica — elementos essenciais para a sobrevivência da espécie.
+**Conceito de Design:** O símbolo captura a essência do comportamento da espécie. Ele apresenta uma abstração orgânica da forma do mexilhão, composta por linhas que evocam a fluidez da água e a hidrodinâmica — elementos essenciais para a sobrevivência da espécie.
 
-Cor e Aplicação: A paleta cromática espelha os tons naturais do mexilhão e seu habitat aquático. A identidade foi aplicada em diversos entregáveis corporativos, incluindo relatórios executivos, ativos de comunicação e apresentações de conteúdo.`,
-        desc_en: `Context: Visual identity developed for a monitoring project of the Golden Mussel (Limnoperna fortunei), an invasive species that poses significant challenges to the power generation sector.
+**Cor e Aplicação:** A paleta cromática espelha os tons naturais do mexilhão e seu habitat aquático. A identidade foi aplicada em diversos entregáveis corporativos, incluindo relatórios executivos, ativos de comunicação e apresentações de conteúdo.`,
+        desc_en: `**Context:** Visual identity developed for a monitoring project of the Golden Mussel (Limnoperna fortunei), an invasive species that poses significant challenges to the power generation sector.
 
-Design Concept: The symbol captures the essence of the species' behavior. It features an organic abstraction of the mussel's form, composed of lines that evoke the fluidity of water and hydrodynamics — essential elements for the species' survival.
+**Design Concept:** The symbol captures the essence of the species' behavior. It features an organic abstraction of the mussel's form, composed of lines that evoke the fluidity of water and hydrodynamics — essential elements for the species' survival.
 
-Color & Application: The chromatic palette mirrors the natural tones of the mussel and its aquatic habitat. The identity was applied across various corporate deliverables, including executive reports, communication assets, and content presentations.`,
+**Color & Application:** The chromatic palette mirrors the natural tones of the mussel and its aquatic habitat. The identity was applied across various corporate deliverables, including executive reports, communication assets, and content presentations.`,
         client: "Engie",
         year: "2018",
         category: "grafico",
@@ -404,16 +404,16 @@ Color & Application: The chromatic palette mirrors the natural tones of the muss
         slug: "abeevita",
         title: "Identidade Visual e Projeto de Embalagens",
         title_en: "Visual Identity and Packaging Design",
-        desc_pt: `Conceito e Filosofia A marca está enraizada na filosofia do Bonsai, incorporando equilíbrio, disciplina e atenção plena (mindfulness). A identidade visual visa projetar prosperidade e autoconhecimento.
+        desc_pt: `**Conceito e Filosofia** A marca está enraizada na filosofia do Bonsai, incorporando equilíbrio, disciplina e atenção plena (mindfulness). A identidade visual visa projetar prosperidade e autoconhecimento.
 
-Construção do Logo O símbolo foi criado através de manipulação tipográfica. Espelhando os caracteres "e" duplo do nome da marca, criei uma forma customizada de uma silhueta de Bonsai, integrando a tipografia diretamente ao ícone.
+**Construção do Logo** O símbolo foi criado através de manipulação tipográfica. Espelhando os caracteres "e" duplo do nome da marca, criei uma forma customizada de uma silhueta de Bonsai, integrando a tipografia diretamente ao ícone.
 
-Embalagem e Sistema Projetada para máximo impacto na prateleira, a embalagem combina uma paleta de cores vibrante com gráficos limpos que sinalizam a pureza dos ingredientes. Essa linguagem visual foi estendida com sucesso para todos os materiais de comunicação da marca.`,
-        desc_en: `Concept and Philosophy The brand is rooted in the Bonsai philosophy, embodying balance, discipline, and mindfulness. The visual identity aims to project prosperity and self-knowledge.
+**Embalagem e Sistema** Projetada para máximo impacto na prateleira, a embalagem combina uma paleta de cores vibrante com gráficos limpos que sinalizam a pureza dos ingredientes. Essa linguagem visual foi estendida com sucesso para todos os materiais de comunicação da marca.`,
+        desc_en: `**Concept and Philosophy** The brand is rooted in the Bonsai philosophy, embodying balance, discipline, and mindfulness. The visual identity aims to project prosperity and self-knowledge.
 
-Logo Construction The symbol was created through typographic manipulation. Mirroring the double "e" characters of the brand name, I created a custom shape of a Bonsai silhouette, integrating the typography directly into the icon.
+**Logo Construction** The symbol was created through typographic manipulation. Mirroring the double "e" characters of the brand name, I created a custom shape of a Bonsai silhouette, integrating the typography directly into the icon.
 
-Packaging and System Designed for maximum shelf impact, the packaging combines a vibrant palette of colors with clean graphics that signal the purity of the ingredients. This visual language was successfully extended to all brand communication materials.`,
+**Packaging and System** Designed for maximum shelf impact, the packaging combines a vibrant palette of colors with clean graphics that signal the purity of the ingredients. This visual language was successfully extended to all brand communication materials.`,
         client: "Abeevita",
         year: "2025",
         category: "grafico",
@@ -432,16 +432,16 @@ Packaging and System Designed for maximum shelf impact, the packaging combines a
         slug: "pat-campanha",
         title: "Identidade visual Plano de Ação Territorial Campanha Sul e Serra do\nSudeste",
         title_en: "Visual Identity for Campanha Sul and Serra do Sudeste Territorial\nAction Plan",
-        desc_pt: `O Processo A identidade visual é o resultado de um processo de design participativo. Pesquisadores locais e conservacionistas estiveram ativamente envolvidos na definição da direção estratégica através de workshops.
+        desc_pt: `**O Processo** A identidade visual é o resultado de um processo de design participativo. Pesquisadores locais e conservacionistas estiveram ativamente envolvidos na definição da direção estratégica através de workshops.
 
-Conceito e Símbolo Guiado pelos insights da comunidade, o símbolo da marca sintetiza a geobiodiversidade e as características cênicas distintivas do território. Ele reflete os elementos da paisagem mais valorizados por aqueles que trabalham para preservar a região.
+**Conceito e Símbolo** Guiado pelos insights da comunidade, o símbolo da marca sintetiza a geobiodiversidade e as características cênicas distintivas do território. Ele reflete os elementos da paisagem mais valorizados por aqueles que trabalham para preservar a região.
 
-Sistema Visual A tipografia e a paleta de cores foram extraídas diretamente do ambiente natural dos biomas "Campanha Sul" e "Serra do Sudeste", garantindo uma conexão genuína com o território.`,
-        desc_en: `The Process The visual identity is the result of a participatory design process. Local researchers and conservationists were actively involved in defining the strategic direction through workshops.
+**Sistema Visual** A tipografia e a paleta de cores foram extraídas diretamente do ambiente natural dos biomas "Campanha Sul" e "Serra do Sudeste", garantindo uma conexão genuína com o território.`,
+        desc_en: `**The Process** The visual identity is the result of a participatory design process. Local researchers and conservationists were actively involved in defining the strategic direction through workshops.
 
-Concept and Symbol Guided by community insights, the brand symbol synthesizes the geobiodiversity and distinctive scenic characteristics of the territory. It reflects the landscape elements most valued by those working to preserve the region.
+**Concept and Symbol** Guided by community insights, the brand symbol synthesizes the geobiodiversity and distinctive scenic characteristics of the territory. It reflects the landscape elements most valued by those working to preserve the region.
 
-Visual System The typography and color palette were drawn directly from the natural environment of the "Campanha Sul" and "Serra do Sudeste" biomes, ensuring a genuine connection with the territory.`,
+**Visual System** The typography and color palette were drawn directly from the natural environment of the "Campanha Sul" and "Serra do Sudeste" biomes, ensuring a genuine connection with the territory.`,
         client: "WWF, SEMA",
         year: "2023",
         category: "grafico",
@@ -468,16 +468,16 @@ Visual System The typography and color palette were drawn directly from the natu
         slug: "rewire",
         title: "Identidade visual Rewire",
         title_en: "Rewire Visual Identity",
-        desc_pt: `Filosofia da Marca A identidade reflete equilíbrio e consciência sobre saúde mental, promovendo bem-estar e relacionamentos saudáveis em todos os ambientes. O conceito convida as pessoas a mudarem suas perspectivas.
+        desc_pt: `**Filosofia da Marca** A identidade reflete equilíbrio e consciência sobre saúde mental, promovendo bem-estar e relacionamentos saudáveis em todos os ambientes. O conceito convida as pessoas a mudarem suas perspectivas.
 
-O Símbolo Uma composição orgânica forma a inicial da marca ("R"), construída com formas equilibradas para simbolizar estabilidade e fluidez.
+**O Símbolo** Uma composição orgânica forma a inicial da marca ("R"), construída com formas equilibradas para simbolizar estabilidade e fluidez.
 
-Sistema Dinâmico A linguagem gráfica se desdobra em uma identidade visual dinâmica. Usando múltiplas combinações de cores e elementos gráficos flexíveis, o sistema se adapta para refletir a essência da marca: cuidar da mente tanto em contextos pessoais quanto corporativos.`,
-        desc_en: `Brand Philosophy The identity reflects balance and awareness of mental health, promoting well-being and healthy relationships in all spaces. The concept invites people to shift their perspectives.
+**Sistema Dinâmico** A linguagem gráfica se desdobra em uma identidade visual dinâmica. Usando múltiplas combinações de cores e elementos gráficos flexíveis, o sistema se adapta para refletir a essência da marca: cuidar da mente tanto em contextos pessoais quanto corporativos.`,
+        desc_en: `**Brand Philosophy** The identity reflects balance and awareness of mental health, promoting well-being and healthy relationships in all spaces. The concept invites people to shift their perspectives.
 
-The Symbol An organic composition forms the brand initial ("R"), built with balanced shapes to symbolize stability and fluidity.
+**The Symbol** An organic composition forms the brand initial ("R"), built with balanced shapes to symbolize stability and fluidity.
 
-Dynamic System The graphic language unfolds into a dynamic visual identity. Using multiple color combinations and flexible graphic elements, the system adapts to reflect the brand's essence: caring for the mind in both personal and corporate contexts.`,
+**Dynamic System** The graphic language unfolds into a dynamic visual identity. Using multiple color combinations and flexible graphic elements, the system adapts to reflect the brand's essence: caring for the mind in both personal and corporate contexts.`,
         client: "La Lima",
         year: "2022",
         category: "grafico",
@@ -496,24 +496,24 @@ Dynamic System The graphic language unfolds into a dynamic visual identity. Usin
         slug: "simple",
         title: "Identidade Visual Simple",
         title_en: "Simple Visual Identity",
-        desc_pt: `Conceito e Integração Desenvolvido de forma integrada ao projeto arquitetônico, esta identidade visual do Simple tem os elemento da marca integrados perfeitamente ao espaço físico e à experiência de serviço.
+        desc_pt: `**Conceito e Integração** Desenvolvido de forma integrada ao projeto arquitetônico, esta identidade visual do Simple tem os elemento da marca integrados perfeitamente ao espaço físico e à experiência de serviço.
 
-A Atmosfera O design reflete o clima de luxo descontraído do clube — sofisticado à beira da praia.
+**A Atmosfera** O design reflete o clima de luxo descontraído do clube — sofisticado à beira da praia.
 
-Estratégia Visual
+**Estratégia Visual**
 
-Tipografia A seleção tipográfica imita a refração da luz através das ondas do oceano, criando um efeito de distorção.
+**Tipografia** A seleção tipográfica imita a refração da luz através das ondas do oceano, criando um efeito de distorção.
 
-Paleta e Imagens Uma paleta suave e costeira, combinada com ilustrações orgânicas, evoca a experiência sensorial de estar à beira-mar, criando uma experiência de marca coesa para os visitantes.`,
-        desc_en: `Concept and Integration Developed integrated with the architectural project, this visual identity for Simple has brand elements perfectly integrated into the physical space and service experience.
+**Paleta e Imagens** Uma paleta suave e costeira, combinada com ilustrações orgânicas, evoca a experiência sensorial de estar à beira-mar, criando uma experiência de marca coesa para os visitantes.`,
+        desc_en: `**Concept and Integration** Developed integrated with the architectural project, this visual identity for Simple has brand elements perfectly integrated into the physical space and service experience.
 
-The Atmosphere The design reflects the club's relaxed luxury mood — sophisticated on the beach.
+**The Atmosphere** The design reflects the club's relaxed luxury mood — sophisticated on the beach.
 
-Visual Strategy
+**Visual Strategy**
 
-Typography The typographic selection mimics light refraction through ocean waves, creating a distortion effect.
+**Typography** The typographic selection mimics light refraction through ocean waves, creating a distortion effect.
 
-Palette and Images A soft coastal palette, combined with organic illustrations, evokes the sensory experience of being by the sea, creating a cohesive brand experience for visitors.`,
+**Palette and Images** A soft coastal palette, combined with organic illustrations, evokes the sensory experience of being by the sea, creating a cohesive brand experience for visitors.`,
         client: "Taty Iriê",
         year: "2012",
         category: "grafico",
@@ -540,24 +540,24 @@ Palette and Images A soft coastal palette, combined with organic illustrations, 
         slug: "praia",
         title: "Marca e Coleção de estampas PRAIA",
         title_en: "PRAIA Brand and Print Collection",
-        desc_pt: `Conceito Uma marca e coleção de estampas inspirada no estilo de vida costeiro de Florianópolis ("Ilha da Magia"). Através de imersão cultural, desenvolvi uma linguagem gráfica jovem e descontraída que captura a beleza natural e a rica história local da ilha.
+        desc_pt: `**Conceito** Uma marca e coleção de estampas inspirada no estilo de vida costeiro de Florianópolis ("Ilha da Magia"). Através de imersão cultural, desenvolvi uma linguagem gráfica jovem e descontraída que captura a beleza natural e a rica história local da ilha.
 
-Desenvolvimento de Produto O projeto foi além do gráfico, envolvendo uma rigorosa fase de produção:
+**Desenvolvimento de Produto** O projeto foi além do gráfico, envolvendo uma rigorosa fase de produção:
 
-Sourcing Pesquisa de tecidos e definição de técnicas de estamparia para qualidade ideal.
+**Sourcing** Pesquisa de tecidos e definição de técnicas de estamparia para qualidade ideal.
 
-Prototipagem Testes de padrões, modelagem e gradação de cores para finalizar a construção das peças.
+**Prototipagem** Testes de padrões, modelagem e gradação de cores para finalizar a construção das peças.
 
-Direção de Arte Liderança na Direção de Arte para a campanha de lançamento, gerenciando a pesquisa de locações e styling para garantir que a fotografia refletisse a atmosfera do processo de design.`,
-        desc_en: `Concept A brand and print collection inspired by the coastal lifestyle of Florianópolis ("Magic Island"). Through cultural immersion, I developed a young and relaxed graphic language that captures the island's natural beauty and rich local history.
+**Direção de Arte** Liderança na Direção de Arte para a campanha de lançamento, gerenciando a pesquisa de locações e styling para garantir que a fotografia refletisse a atmosfera do processo de design.`,
+        desc_en: `**Concept** A brand and print collection inspired by the coastal lifestyle of Florianópolis ("Magic Island"). Through cultural immersion, I developed a young and relaxed graphic language that captures the island's natural beauty and rich local history.
 
-Product Development The project went beyond graphics, involving a rigorous production phase:
+**Product Development** The project went beyond graphics, involving a rigorous production phase:
 
-Sourcing Fabric research and definition of printing techniques for optimal quality.
+**Sourcing** Fabric research and definition of printing techniques for optimal quality.
 
-Prototyping Pattern testing, modeling, and color grading to finalize garment construction.
+**Prototyping** Pattern testing, modeling, and color grading to finalize garment construction.
 
-Art Direction Led the Art Direction for the launch campaign, managing location scouting and styling to ensure the photography reflected the design process atmosphere.`,
+**Art Direction** Led the Art Direction for the launch campaign, managing location scouting and styling to ensure the photography reflected the design process atmosphere.`,
         client: "Praia",
         year: "2015",
         category: "grafico",
@@ -622,12 +622,12 @@ Art Direction Led the Art Direction for the launch campaign, managing location s
         slug: "sj",
         title: "Identidade Visual e embalagem São João doces e salgados",
         title_en: "São João Sweets and Savories Visual Identity and Packaging",
-        desc_pt: `Conceito da Marca A identidade visual foi desenvolvida para celebrar a autenticidade da marca e o sabor genuíno de suas receitas artesanais.
+        desc_pt: `**Conceito da Marca** A identidade visual foi desenvolvida para celebrar a autenticidade da marca e o sabor genuíno de suas receitas artesanais.
 
-Design de Embalagem O sistema de embalagens foi projetado para sinalizar qualidade e o cuidado colocado na preparação. Usamos pistas visuais que evocam a tradição e o aconchego da culinária caseira (comfort food), criando uma conexão emocional com o consumidor enquanto destaca o frescor do produto.`,
-        desc_en: `Brand Concept The visual identity was developed to celebrate the brand's authenticity and the genuine flavor of its artisanal recipes.
+**Design de Embalagem** O sistema de embalagens foi projetado para sinalizar qualidade e o cuidado colocado na preparação. Usamos pistas visuais que evocam a tradição e o aconchego da culinária caseira (comfort food), criando uma conexão emocional com o consumidor enquanto destaca o frescor do produto.`,
+        desc_en: `**Brand Concept** The visual identity was developed to celebrate the brand's authenticity and the genuine flavor of its artisanal recipes.
 
-Packaging Design The packaging system was designed to signal quality and the care put into preparation. We used visual cues that evoke tradition and the warmth of home cooking (comfort food), creating an emotional connection with the consumer while highlighting the product's freshness.`,
+**Packaging Design** The packaging system was designed to signal quality and the care put into preparation. We used visual cues that evoke tradition and the warmth of home cooking (comfort food), creating an emotional connection with the consumer while highlighting the product's freshness.`,
         client: "São João Doces e Salgados",
         year: "2012 / 2024",
         category: "grafico",
@@ -657,16 +657,16 @@ Packaging Design The packaging system was designed to signal quality and the car
         slug: "break",
         title: "Identidade Visual BTL Travel Lounge",
         title_en: "BTL Travel Lounge Visual Identity",
-        desc_pt: `Visão Geral Uma identidade visual projetada para incorporar a essência do serviço de lounge VIP localizado no Aeroporto Internacional de Curitiba (CWB). O branding comunica os altos padrões e a confiabilidade que os viajantes esperam em um ambiente aeroportuário seguro.
+        desc_pt: `**Visão Geral** Uma identidade visual projetada para incorporar a essência do serviço de lounge VIP localizado no Aeroporto Internacional de Curitiba (CWB). O branding comunica os altos padrões e a confiabilidade que os viajantes esperam em um ambiente aeroportuário seguro.
 
-Estratégia de Design A linguagem gráfica prioriza clareza e objetividade, garantindo que a informação seja facilmente digerível para passageiros em trânsito.
+**Estratégia de Design** A linguagem gráfica prioriza clareza e objetividade, garantindo que a informação seja facilmente digerível para passageiros em trânsito.
 
-Atmosfera A identidade espelha a sofisticação do espaço físico, equilibrando a elegância de um lounge premium com a praticidade necessária para uma experiência de viagem fluida.`,
-        desc_en: `Overview A visual identity designed to embody the essence of the VIP lounge service located at Curitiba International Airport (CWB). The branding communicates the high standards and reliability travelers expect in a secure airport environment.
+**Atmosfera** A identidade espelha a sofisticação do espaço físico, equilibrando a elegância de um lounge premium com a praticidade necessária para uma experiência de viagem fluida.`,
+        desc_en: `**Overview** A visual identity designed to embody the essence of the VIP lounge service located at Curitiba International Airport (CWB). The branding communicates the high standards and reliability travelers expect in a secure airport environment.
 
-Design Strategy The graphic language prioritizes clarity and objectivity, ensuring information is easily digestible for passengers in transit.
+**Design Strategy** The graphic language prioritizes clarity and objectivity, ensuring information is easily digestible for passengers in transit.
 
-Atmosphere The identity mirrors the sophistication of the physical space, balancing the elegance of a premium lounge with the practicality needed for a fluid travel experience.`,
+**Atmosphere** The identity mirrors the sophistication of the physical space, balancing the elegance of a premium lounge with the practicality needed for a fluid travel experience.`,
         client: "Break Travel Lounge",
         year: "2018",
         category: "grafico",

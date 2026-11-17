@@ -3,10 +3,10 @@ export const projetosData = [
         slug: "sereno",
         title: "Sereno",
         title_en: "Sereno",
-        desc_pt: `Silêncio Visual, o conceito da linha Sereno baseia-se na desaceleração e na busca pela paz essencial na vida contemporânea. A peça elimina os excessos para destacar a pureza da madeira natural exposta ao sol e o acolhimento dos tecidos de alta performance. Sua estrutura baixa e estendida evoca a linha do horizonte, enquanto a mesa de apoio convida ao ritual de pausa, um café pela manhã ou um drink ao entardecer. É uma homenagem à calmaria dos espaços abertos e ao design acolhedor.
+        desc_pt: `**Silêncio Visual**, o conceito da linha Sereno baseia-se na desaceleração e na busca pela paz essencial na vida contemporânea. A peça elimina os excessos para destacar a pureza da madeira natural exposta ao sol e o acolhimento dos tecidos de alta performance. Sua estrutura baixa e estendida evoca a linha do horizonte, enquanto a mesa de apoio convida ao ritual de pausa, um café pela manhã ou um drink ao entardecer. É uma homenagem à calmaria dos espaços abertos e ao design acolhedor.
 
 A Linha Sereno expande seu conceito para a liberdade de composição espacial, revelando um sistema arquitetônico modular para áreas externas. Os módulos de estofados, as poltronas individuais e as mesas ripadas de madeira compartilham a mesma base geométrica baixa, permitindo infinitas configurações, de layouts em "L" integrados a ilhas independentes. As superfícies ripadas atuam como mesas de centro, ou se transformam em extensões que conectam os sofás. A Linha Sereno celebra um design dinâmico, que se molda aos ambientes de socialização ao ar livre.`,
-        desc_en: `Visual Silence, the concept of the Sereno line is based on deceleration and the search for essential peace in contemporary life. The piece eliminates excesses to highlight the purity of natural wood exposed to the sun and the warmth of high-performance fabrics. Its low, extended structure evokes the horizon line, while the side table invites the pause ritual, a morning coffee or a drink at dusk. It is a tribute to the calm of open spaces and cozy design.
+        desc_en: `**Visual Silence**, the concept of the Sereno line is based on deceleration and the search for essential peace in contemporary life. The piece eliminates excesses to highlight the purity of natural wood exposed to the sun and the warmth of high-performance fabrics. Its low, extended structure evokes the horizon line, while the side table invites the pause ritual, a morning coffee or a drink at dusk. It is a tribute to the calm of open spaces and cozy design.
 
 The Sereno Line expands its concept to the freedom of spatial composition, revealing an architectural modular system for outdoor areas. The upholstery modules, individual armchairs, and slatted wooden tables share the same low geometric base, allowing infinite configurations, from integrated 'L' layouts to independent islands. The slatted surfaces act as coffee tables, or transform into extensions that connect the sofas. The Sereno Line celebrates a dynamic design, which shapes itself to outdoor socialization environments.`,
         client: "Saccaro",
@@ -77,22 +77,22 @@ This fantasy, linked to our search for comfort and a desire to feel protected, a
         slug: "jam",
         title: "Jam",
         title_en: "Jam",
-        desc_pt: `Contexto: Uma parceria estratégica multidiciplinar entre um fabricante de móveis e uma grande marca de varejo.
+        desc_pt: `**Contexto:** Uma parceria estratégica multidiciplinar entre um fabricante de móveis e uma grande marca de varejo.
 
-O Briefing e a Pesquisa: O processo começou com uma pesquisa sobre o varejo e o posicionamento de uma importante marca brasileira de óculos. Ao analisar suas campanhas publicitárias, estilo de vida e a atmosfera dos pontos de venda, capturamos uma identidade urbana, descontraída e sofisticada.
+**O Briefing e a Pesquisa:** O processo começou com uma pesquisa sobre o varejo e o posicionamento de uma importante marca brasileira de óculos. Ao analisar suas campanhas publicitárias, estilo de vida e a atmosfera dos pontos de venda, capturamos uma identidade urbana, descontraída e sofisticada.
 
-A Solução de Design: Um pufe minimalista, revestido em tecido, projetado como uma peça de destaque para espaços de estar modernos. O produto une o estofamento tátil e a marcenaria tradicional com tecnologia criativa por meio de duas características principais:
-• Utilidade de Dupla Função: Uma superfície de mesa de madeira integrada e embutida que permite que a peça funcione tanto como um assento confortável quanto como uma superfície de apoio para objetos.
-• Tecnologia Integrada: Um sistema de som de alta fidelidade embutido na estrutura do móvel, conectando-se sem fio a dispositivos móveis.
+**A Solução de Design:** Um pufe minimalista, revestido em tecido, projetado como uma peça de destaque para espaços de estar modernos. O produto une o estofamento tátil e a marcenaria tradicional com tecnologia criativa por meio de duas características principais:
+• **Utilidade de Dupla Função:** Uma superfície de mesa de madeira integrada e embutida que permite que a peça funcione tanto como um assento confortável quanto como uma superfície de apoio para objetos.
+• **Tecnologia Integrada:** Um sistema de som de alta fidelidade embutido na estrutura do móvel, conectando-se sem fio a dispositivos móveis.
 
 Conecte-se ao seu ritmo, relaxe ao som da sua playlist, praticando seu instrumento ou animando uma jam session com os amigos. O JAM oferece o equilíbrio entre conforto e funcionalidade, amplificando o seu estilo.`,
-        desc_en: `Context: Cross-industry strategic partnership between a premium furniture manufacturer and a major retail brand.
+        desc_en: `**Context:** Cross-industry strategic partnership between a premium furniture manufacturer and a major retail brand.
 
-The Brief & Research: The process began with deep retail ethnography and an audit of a prominent Brazilian eyewear brand’s lifestyle positioning. By analyzing their advertising campaigns, curated background music, and overall store atmosphere, the design captured a relaxed yet sophisticated urban identity.
+**The Brief & Research:** The process began with deep retail ethnography and an audit of a prominent Brazilian eyewear brand’s lifestyle positioning. By analyzing their advertising campaigns, curated background music, and overall store atmosphere, the design captured a relaxed yet sophisticated urban identity.
 
-The Design Solution: A minimalist, fabric-wrapped pouf designed as an architectural accent piece for modern living spaces. The product successfully bridges tactile upholstery and traditional woodworking with creative technology through two core features:
-• Dual-Function Utility: An integrated, built-in wooden tabletop surface that allows the piece to function seamlessly as both comfortable seating and a functional surface to place objects.
-• Embedded Technology: A high-fidelity sound system built directly into the furniture structure, connecting wirelessly and seamlessly with mobile devices.
+**The Design Solution:** A minimalist, fabric-wrapped pouf designed as an architectural accent piece for modern living spaces. The product successfully bridges tactile upholstery and traditional woodworking with creative technology through two core features:
+• **Dual-Function Utility:** An integrated, built-in wooden tabletop surface that allows the piece to function seamlessly as both comfortable seating and a functional surface to place objects.
+• **Embedded Technology:** A high-fidelity sound system built directly into the furniture structure, connecting wirelessly and seamlessly with mobile devices.
 
 Connect to your rhythm , whether you're relaxing to your playlist, practicing your instrument, or livening up a jam session with friends, the JAM is the balance between comfort and functionality, amplifying your style.`,
         client: "Chillibeans",
@@ -173,20 +173,20 @@ With lines adjusted in proportions that enhance clean aesthetics and minimalist 
         slug: "iconic",
         title: "Iconic",
         title_en: "Iconic",
-        desc_pt: `Contexto: Pesquisa orientada por materiais (MDD) e fabricação digital distribuída e aberta.
+        desc_pt: `**Contexto:** Pesquisa orientada por materiais (MDD) e fabricação digital distribuída e aberta.
 
-O Resumo e a Pesquisa: Esta iniciativa de pesquisa focou na exploração de alternativas de fabricação sustentáveis, investigando as propriedades mecânicas de um ecocompósito de PETG reciclado, derivado de fontes vegetais. Este biopolímero é significativamente mais leve que madeira ou metal e permite a execução de formas geométricas altamente complexas por meio da manufatura aditiva.
+**O Resumo e a Pesquisa:** Esta iniciativa de pesquisa focou na exploração de alternativas de fabricação sustentáveis, investigando as propriedades mecânicas de um ecocompósito de PETG reciclado, derivado de fontes vegetais. Este biopolímero é significativamente mais leve que madeira ou metal e permite a execução de formas geométricas altamente complexas por meio da manufatura aditiva.
 
-A Solução de Design: Para superar as limitações de volume de construção das impressoras 3D comerciais, o projeto utiliza uma abordagem modular e escalável, orientada pelos princípios da manufatura enxuta, expandindo-se para uma coleção de móveis coesa:
-• Sistema de Prateleiras Modulares: Um sistema de unidades flexível onde um único módulo impresso funciona independentemente como uma mesa lateral compacta ou um nicho de parede suspenso. Várias unidades podem ser impressas sob demanda e montadas perfeitamente para formar uma estrutura de prateleiras abrangente.
-• Poltrona Companion: Expandindo a mesma linguagem de design unificada, os braços estruturais da poltrona Companion foram projetados para otimizar a área geométrica. Essa otimização específica reduziu drasticamente os tempos de impressão e eliminou o desperdício de material, mantendo a integridade estrutural robusta para suportar o peso humano com segurança.`,
-        desc_en: `Context: Material-driven research (MDD) and open distributed digital fabrication.
+**A Solução de Design:** Para superar as limitações de volume de construção das impressoras 3D comerciais, o projeto utiliza uma abordagem modular e escalável, orientada pelos princípios da manufatura enxuta, expandindo-se para uma coleção de móveis coesa:
+• **Sistema de Prateleiras Modulares:** Um sistema de unidades flexível onde um único módulo impresso funciona independentemente como uma mesa lateral compacta ou um nicho de parede suspenso. Várias unidades podem ser impressas sob demanda e montadas perfeitamente para formar uma estrutura de prateleiras abrangente.
+• **Poltrona Companion:** Expandindo a mesma linguagem de design unificada, os braços estruturais da poltrona Companion foram projetados para otimizar a área geométrica. Essa otimização específica reduziu drasticamente os tempos de impressão e eliminou o desperdício de material, mantendo a integridade estrutural robusta para suportar o peso humano com segurança.`,
+        desc_en: `**Context:** Material-driven research (MDD) and open distributed digital fabrication.
 
-The Brief & Research: This research initiative focused on exploring sustainable manufacturing alternatives by investigating the mechanical properties of a recycled PETG eco-composite derived from plant-based sources. This biopolymer is significantly lighter than wood or metal and allows for the execution of highly complex geometric forms via additive manufacturing.
+**The Brief & Research:** This research initiative focused on exploring sustainable manufacturing alternatives by investigating the mechanical properties of a recycled PETG eco-composite derived from plant-based sources. This biopolymer is significantly lighter than wood or metal and allows for the execution of highly complex geometric forms via additive manufacturing.
 
-The Design Solution: To overcome the physical build-volume limitations of commercial 3D printers, the project utilizes a scalable, modular approach driven by lean manufacturing principles, expanding into a cohesive furniture collection:
-• Modular Shelving System: A flexible unit system where a single printed module functions independently as a compact side table or a hanging wall niche. Multiple units can be printed on demand and seamlessly assembled together to scale into a comprehensive shelving structure.
-• Companion Armchair: Expanding on the same unified design language, the structural arms of the companion chair were engineered to optimize the geometric footprint. This specific optimization dramatically reduced print times and eliminated material waste while maintaining robust structural integrity to support human weight safely.`,
+**The Design Solution:** To overcome the physical build-volume limitations of commercial 3D printers, the project utilizes a scalable, modular approach driven by lean manufacturing principles, expanding into a cohesive furniture collection:
+• **Modular Shelving System:** A flexible unit system where a single printed module functions independently as a compact side table or a hanging wall niche. Multiple units can be printed on demand and seamlessly assembled together to scale into a comprehensive shelving structure.
+• **Companion Armchair:** Expanding on the same unified design language, the structural arms of the companion chair were engineered to optimize the geometric footprint. This specific optimization dramatically reduced print times and eliminated material waste while maintaining robust structural integrity to support human weight safely.`,
         client: "Conceito",
         year: "2025",
         category: "produto",
@@ -335,20 +335,20 @@ Just as the Moon orbits and transforms the scenery around it, the Moon set redef
         slug: "olimpikus",
         title: "Olympikus",
         title_en: "Olympikus",
-        desc_pt: `Contexto: Infraestrutura e marca Alinhamento para ambientes de alto tráfego.
+        desc_pt: `**Contexto:** Infraestrutura e marca Alinhamento para ambientes de alto tráfego.
 
-O Briefing e a Pesquisa: Uma análise da presença de uma grande marca de calçados e artigos esportivos em eventos de corrida, revelou uma lacuna de mercado distinta: embora os equipamentos de alta performance do cliente fossem premium, o mobiliário temporário para eventos no local carecia de integridade de design e qualidade estrutural.
+**O Briefing e a Pesquisa:** Uma análise da presença de uma grande marca de calçados e artigos esportivos em eventos de corrida, revelou uma lacuna de mercado distinta: embora os equipamentos de alta performance do cliente fossem premium, o mobiliário temporário para eventos no local carecia de integridade de design e qualidade estrutural.
 
-A Solução de Design: Um sistema de mobiliário modular altamente versátil, composto por bancos circulares projetados para suportar uso público intenso, incentivando a interação coletiva. A principal inovação reside em sua adaptabilidade a múltiplos ambientes:
-• Engenharia de Materiais: Para solucionar o desafio de transição entre pistas de corrida externas acidentadas e lojas de varejo internas sofisticadas, o sistema apresenta uma estrutura interna feita de alumínio leve e resistente às intempéries para facilitar o transporte.
-• Eficiência Operacional: O núcleo é revestido por uma capa de tecido externo durável e de alto desempenho, utilizando um sistema de zíper integrado. Isso permite que o estofamento seja facilmente instalado, removido, mantido ou trocado, dependendo do local da loja.`,
-        desc_en: `Context: Infrastructure and brand alignment for high-traffic environments.
+**A Solução de Design:** Um sistema de mobiliário modular altamente versátil, composto por bancos circulares projetados para suportar uso público intenso, incentivando a interação coletiva. A principal inovação reside em sua adaptabilidade a múltiplos ambientes:
+• **Engenharia de Materiais:** Para solucionar o desafio de transição entre pistas de corrida externas acidentadas e lojas de varejo internas sofisticadas, o sistema apresenta uma estrutura interna feita de alumínio leve e resistente às intempéries para facilitar o transporte.
+• **Eficiência Operacional:** O núcleo é revestido por uma capa de tecido externo durável e de alto desempenho, utilizando um sistema de zíper integrado. Isso permite que o estofamento seja facilmente instalado, removido, mantido ou trocado, dependendo do local da loja.`,
+        desc_en: `**Context:** Infrastructure and brand alignment for high-traffic environments.
 
-The Brief & Research: An analysis of a major athletic footwear and sports brand's presence at marathons and running events revealed a distinct market gap: while the client's performance gear was premium, the temporary on-site event furniture lacked design integrity and structural quality.
+**The Brief & Research:** An analysis of a major athletic footwear and sports brand's presence at marathons and running events revealed a distinct market gap: while the client's performance gear was premium, the temporary on-site event furniture lacked design integrity and structural quality.
 
-The Design Solution: A highly versatile modular furniture system composed of circular benches designed to handle heavy public use while encouraging collective interaction. The primary innovation lies in its multi-environment adaptability:
-• Material Engineering: To solve the challenge of transitioning between rugged outdoor race tracks and refined indoor retail stores, the system features an internal structural frame made of lightweight, weather-resistant aluminum for easy transport.
-• Operational Efficiency: The core is wrapped in a durable, high-performance outdoor fabric cover utilizing an integrated zipper system. This allows the upholstery to be easily attached, detached, maintained, or swapped depending on the retail venue.`,
+**The Design Solution:** A highly versatile modular furniture system composed of circular benches designed to handle heavy public use while encouraging collective interaction. The primary innovation lies in its multi-environment adaptability:
+• **Material Engineering:** To solve the challenge of transitioning between rugged outdoor race tracks and refined indoor retail stores, the system features an internal structural frame made of lightweight, weather-resistant aluminum for easy transport.
+• **Operational Efficiency:** The core is wrapped in a durable, high-performance outdoor fabric cover utilizing an integrated zipper system. This allows the upholstery to be easily attached, detached, maintained, or swapped depending on the retail venue.`,
         client: "Olympikus",
         year: "2025",
         category: "produto",
