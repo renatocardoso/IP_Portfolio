@@ -45,34 +45,71 @@ export default function ProjetoDetalheGrafico() {
 
     return (
         <div className="flex flex-col w-full max-w-none">
+            <style>{`
+                .project-info-grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                    width: 100%;
+                    align-items: start;
+                }
+                .project-info-empty-col {
+                    display: none;
+                }
+                .project-info-title-col {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    text-align: left;
+                }
+                .project-info-desc-col {
+                    text-align: left;
+                }
+                @media (min-width: 768px) {
+                    .project-info-grid {
+                        grid-template-columns: repeat(3, minmax(0, 1fr));
+                        gap: 3rem;
+                    }
+                    .project-info-empty-col {
+                        display: block;
+                    }
+                    .project-info-title-col {
+                        align-items: flex-end;
+                        text-align: right;
+                    }
+                }
+            `}</style>
+
             {/* 1. PRIMEIRA IMAGEM (LARGURA INTEIRA) */}
             <section className="w-full">
                 {renderMediaItem(firstMedia, 0, projeto.title)}
             </section>
 
-            {/* 2. CONTEÚDO DE TEXTO: 1/3 TÍTULO (ESQUERDA) + 2/3 TEXTO DESCRITIVO (DIREITA) */}
+            {/* 2. CONTEÚDO DE TEXTO: 3 COLUNAS NO DESKTOP (1ª LIVRE | 2ª TÍTULO À DIREITA | 3ª TEXTO À ESQUERDA) */}
             <section className="w-full px-8 lg:px-30 py-14 md:py-20 bg-white text-[#333]">
-                {projeto.desc_en && (
-                    <div className="flex gap-2 mb-8 text-base font-bold">
-                        <button
-                            onClick={() => setContentLang("pt")}
-                            className={`transition-opacity duration-300 ${contentLang === "pt" ? "opacity-50" : "hover:opacity-50"}`}
-                        >
-                            PT
-                        </button>
-                        <span>/</span>
-                        <button
-                            onClick={() => setContentLang("en")}
-                            className={`transition-opacity duration-300 ${contentLang === "en" ? "opacity-50" : "hover:opacity-50"}`}
-                        >
-                            EN
-                        </button>
-                    </div>
-                )}
+                <div className="project-info-grid">
+                    {/* Coluna 1 (Esquerda): Livre de conteúdo no desktop */}
+                    <div className="project-info-empty-col" aria-hidden="true" />
 
-                <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] items-start gap-8 md:gap-12 w-full">
-                    {/* 1/3 Esquerda: Título do projeto, Cliente e Ano */}
-                    <div className="flex flex-col text-left">
+                    {/* Coluna 2 (Central): Título, Cliente e Ano alinhados à direita no desktop e à esquerda no mobile */}
+                    <div className="project-info-title-col">
+                        {projeto.desc_en && (
+                            <div className="flex gap-2 mb-6 text-base font-bold">
+                                <button
+                                    onClick={() => setContentLang("pt")}
+                                    className={`transition-opacity duration-300 ${contentLang === "pt" ? "opacity-50" : "hover:opacity-50"}`}
+                                >
+                                    PT
+                                </button>
+                                <span>/</span>
+                                <button
+                                    onClick={() => setContentLang("en")}
+                                    className={`transition-opacity duration-300 ${contentLang === "en" ? "opacity-50" : "hover:opacity-50"}`}
+                                >
+                                    EN
+                                </button>
+                            </div>
+                        )}
                         <h2 className="text-[1.4rem] md:text-[1.6rem] mt-0 mb-4 font-normal leading-tight whitespace-pre-line">
                             {contentLang === "pt" ? projeto.title : projeto.title_en || projeto.title}
                         </h2>
@@ -80,8 +117,8 @@ export default function ProjetoDetalheGrafico() {
                         <p className="mt-1 font-bold">{projeto.year}</p>
                     </div>
 
-                    {/* 2/3 Direita: Texto descritivo do projeto */}
-                    <div className="text-base leading-relaxed whitespace-pre-wrap">
+                    {/* Coluna 3 (Direita): Texto descritivo alinhado à esquerda */}
+                    <div className="project-info-desc-col text-base leading-relaxed whitespace-pre-wrap">
                         {descriptionText
                             ?.split("**")
                             .map((chunk, index) =>
