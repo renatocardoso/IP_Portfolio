@@ -39,6 +39,7 @@ In some contexts, “OKO” can be interpreted as the “all-seeing eye,” a sy
         thumbnail: "https://utfs.io/f/047OTbUFRaz700w6vEUFRaz7ojmHIOPSXUkt8QMrec156su3",
         tags: ["produto"],
         gallery: [
+            { type: "image", src: "https://utfs.io/f/047OTbUFRaz700w6vEUFRaz7ojmHIOPSXUkt8QMrec156su3" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7iox3i27pDgjAfRIF0JvmZqXteduGo2Kyh81P" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz7riRIF9MsISKEpcja2DCQOu7gTn16z50XNdMh" },
             { type: "image", src: "https://utfs.io/f/047OTbUFRaz74ifwfwYd1AGYfEpSq3P5VBUlFwemoWuvL2x0" },
