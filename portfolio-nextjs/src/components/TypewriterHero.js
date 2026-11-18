@@ -166,7 +166,10 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
             {/* Line 2 */}
             {(activeLineIndex >= 1 || line2Text.length > 0) && (
                 <div className="flex items-center justify-center whitespace-pre mt-1">
-                    <span className="text-[#333]">{line2Text}</span>
+                    <span className="text-[#333]">{line2Text.slice(0, 7)}</span>
+                    {line2Text.length > 7 && (
+                        <span className="text-[#FF4E50]">{line2Text.slice(7)}</span>
+                    )}
                     {!isAnimationActive && activeLineIndex === 1 && !isHolding && (
                         <span
                             className={`${
