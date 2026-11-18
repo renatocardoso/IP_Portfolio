@@ -15,12 +15,10 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
     const [isDeleting, setIsDeleting] = useState(false);
     const [isHolding, setIsHolding] = useState(false);
     const [blink, setBlink] = useState(true);
-    const [isStarted, setIsStarted] = useState(false);
 
     // Reset flow when dandelion animation is triggered or ends
     useEffect(() => {
         if (isAnimationActive) {
-            setIsStarted(false);
             setLine1Text("");
             setLine2Text("");
             setLine3Text("");
@@ -28,11 +26,6 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
             setActiveLineIndex(0);
             setIsDeleting(false);
             setIsHolding(false);
-        } else {
-            const startTimer = setTimeout(() => {
-                setIsStarted(true);
-            }, 300);
-            return () => clearTimeout(startTimer);
         }
     }, [isAnimationActive]);
 
@@ -44,11 +37,21 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
 
     // Main Typewriter State Machine Loop
     useEffect(() => {
-        if (!isStarted || isAnimationActive) return;
+        if (isAnimationActive) return;
 
-        const typingSpeed = 130;   // ms per character typed (double duration)
-        const deletingSpeed = 60;  // ms per character erased (double duration)
-        const holdDuration = 5000; // 5 seconds holding full 3-line poem
+        const typingSpeed = 130;        // ms per character typed
+        const deletingSpeed = 60;       // ms per character erased
+        const holdDuration = 5000;      // 5 seconds holding full 3-line poem
+        const asteriskHoldMs = 5000;    // 5 seconds holding /* before and between cycles
+
+        // 0. ASTERISK PHASE (5 seconds before first typing and between cycles)
+        if (showAsterisk && !isDeleting && !isHolding) {
+            const asteriskTimer = setTimeout(() => {
+                setShowAsterisk(false);
+                setActiveLineIndex(0);
+            }, asteriskHoldMs);
+            return () => clearTimeout(asteriskTimer);
+        }
 
         // 1. HOLDING PHASE (5 seconds)
         if (isHolding) {
@@ -90,12 +93,6 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
 
         // 3. TYPING PHASE
         const timer = setTimeout(() => {
-            if (showAsterisk) {
-                setShowAsterisk(false);
-                setActiveLineIndex(0);
-                return;
-            }
-
             if (activeLineIndex === 0) {
                 const target = wordList[0] || "apaguem as luzes";
                 if (line1Text.length < target.length) {
@@ -111,7 +108,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
                     setActiveLineIndex(2);
                 }
             } else if (activeLineIndex === 2) {
-                const target = wordList[2] || "estão acesas.";
+                const target = wordList[2] || "estão acesas";
                 if (line3Text.length < target.length) {
                     setLine3Text(target.substring(0, line3Text.length + 1));
                 } else {
@@ -122,7 +119,6 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
 
         return () => clearTimeout(timer);
     }, [
-        isStarted,
         isAnimationActive,
         showAsterisk,
         activeLineIndex,
@@ -152,7 +148,7 @@ export default function TypewriterHero({ onMouseEnter, isAnimationActive, words:
                 ) : (
                     <span className="text-[#333]"> {line1Text}</span>
                 )}
-                {!isAnimationActive && activeLineIndex === 0 && !isHolding && (
+                {!isAnimationActive && !showAsterisk && activeLineIndex === 0 && !isHolding && (
                     <span
                         className={`${
                             blink ? "opacity-100" : "opacity-0"
