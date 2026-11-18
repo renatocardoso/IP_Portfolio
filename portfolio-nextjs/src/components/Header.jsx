@@ -53,16 +53,29 @@ export default function Header() {
                 </span>
             </Link>
             <Link
-                href={`/${lang}/projetos`}
+                href={`/${lang}/grafico`}
                 onClick={onClick}
                 className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
             >
                 <span
-                    style={{ color: isActive(`/${lang}/projetos`) ? 'var(--color-brand)' : undefined }}
-                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/projetos`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                    style={{ color: isActive(`/${lang}/grafico`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/grafico`) ? '' : 'text-text-dark group-hover:text-brand'}`}
                 >*</span>
                 <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
-                    {lang === "en" ? "PROJECTS" : "PROJETOS"}
+                    VISUAL
+                </span>
+            </Link>
+            <Link
+                href={`/${lang}/produto`}
+                onClick={onClick}
+                className="group font-sans font-normal tracking-wide whitespace-nowrap flex items-center uppercase"
+            >
+                <span
+                    style={{ color: isActive(`/${lang}/produto`) ? 'var(--color-brand)' : undefined }}
+                    className={`mr-2 transition-colors duration-300 ${isActive(`/${lang}/produto`) ? '' : 'text-text-dark group-hover:text-brand'}`}
+                >*</span>
+                <span className="text-text-dark group-hover:text-brand transition-colors duration-300">
+                    INDUSTRIAL
                 </span>
             </Link>
             <LanguageToggle />

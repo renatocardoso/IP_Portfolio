@@ -13,7 +13,7 @@
   },
   "projetos": {
     "filter_all": "All",
-    "filter_grafico": "Graphic",
-    "filter_produto": "Product"
+    "filter_grafico": "Visual",
+    "filter_produto": "Industrial"
   }
 }

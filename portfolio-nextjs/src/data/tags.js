@@ -35,8 +35,8 @@ export const graphicFilterTags = {
 export const filterTags = {
     pt: [
         { label: "Todos", value: "todos" },
-        { label: "Gráfico", value: "grafico" },
-        { label: "Produto", value: "produto" },
+        { label: "Visual", value: "grafico" },
+        { label: "Industrial", value: "produto" },
         { label: "Identidade Visual", value: "identidade-visual" },
         { label: "Sinalização", value: "sinalizacao" },
         { label: "Digital", value: "digital" },
@@ -45,8 +45,8 @@ export const filterTags = {
     ],
     en: [
         { label: "All", value: "todos" },
-        { label: "Graphic", value: "grafico" },
-        { label: "Product", value: "produto" },
+        { label: "Visual", value: "grafico" },
+        { label: "Industrial", value: "produto" },
         { label: "Visual Identity", value: "identidade-visual" },
         { label: "Signage", value: "sinalizacao" },
         { label: "Digital", value: "digital" },
