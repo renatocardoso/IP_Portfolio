@@ -17,25 +17,25 @@ const ordemSlugs = [
     "rendase", "mandarim", "zimbros", "zazen", "kraft", "dra-char", "ilc", "iconic", "outrora",
 
     // --- RESTANTE DOS PROJETOS (ORDEM MISTURADA) ---
-    "sonora", "inga", "moon", "space", "jovem-cidadao", "cine", "avantime", "mexilhao", "acqua",
+    "sonora", "inga", "moon", "space", "jovem-cidadao", "movie", "cine", "avantime", "mexilhao", "acqua",
     "abeevita", "mandala", "pat-campanha", "olimpikus", "rewire", "simple", "praia", "guapi",
     "sj", "break", "volvo", "panthera", "alameda"
 ];
 
-const todosOsProjetos = ordemSlugs
-    .map((slug) => {
-        const p = todosOsProjetosData.find((proj) => proj.slug === slug);
-        if (!p) return null;
-        return {
-            slug: p.slug,
-            title: p.title,
-            img: p.thumbnail,
-            category: p.category,
-            tags: p.tags
-        };
-    })
+const projetosOrdenados = ordemSlugs
+    .map((slug) => todosOsProjetosData.find((proj) => proj.slug === slug))
     .filter(Boolean);
 
+const slugsNaOrdem = new Set(projetosOrdenados.map((p) => p.slug));
+const projetosAdicionais = todosOsProjetosData.filter((p) => !slugsNaOrdem.has(p.slug));
+
+const todosOsProjetos = [...projetosOrdenados, ...projetosAdicionais].map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    img: p.thumbnail,
+    category: p.category,
+    tags: p.tags
+}));
 
 export default function Projetos() {
     const params = useParams();

@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import DandelionAnimation from "@/components/DandelionAnimation";
 import TypewriterHero from "@/components/TypewriterHero";
@@ -10,26 +10,17 @@ const heroWords = {
     en: ["apaguem as luzes", "que as ideias", "estão acesas."],
 };
 
-const menuLabels = {
-    pt: { sobre: "* Sobre", grafico: "* Gráfico", produto: "* Produto" },
-    en: { sobre: "* About", grafico: "* Graphic", produto: "* Product" },
-};
-
 export default function Home() {
     const params = useParams();
+    const router = useRouter();
     const locale = params?.lang || "pt";
     const [isAnimationActive, setIsAnimationActive] = useState(false);
 
-    useEffect(() => {}, [isAnimationActive]);
+    useEffect(() => {
+        router.prefetch(`/${locale}/projetos`);
+    }, [locale, router]);
 
     const words = heroWords[locale] || heroWords.pt;
-    const labels = menuLabels[locale] || menuLabels.pt;
-
-    const menuItems = [
-        { label: labels.sobre, url: `/${locale}/sobre` },
-        { label: labels.grafico, url: `/${locale}/grafico` },
-        { label: labels.produto, url: `/${locale}/produto` },
-    ];
 
     return (
         <main className="relative flex-grow flex items-center justify-center overflow-hidden bg-white">
@@ -40,7 +31,7 @@ export default function Home() {
             </div>
             <DandelionAnimation
                 onAnimationStart={(active) => setIsAnimationActive(active)}
-                menuItems={menuItems}
+                onAnimationComplete={() => router.push(`/${locale}/projetos`)}
             />
         </main>
     );

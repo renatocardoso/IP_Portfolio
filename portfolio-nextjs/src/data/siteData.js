@@ -2,7 +2,7 @@
 // Central de dados editáveis do website Infinita Poesia
 // ─────────────────────────────────────────────────────────────────────────────
 
-import { productFilterTags, graphicFilterTags } from "./tags";
+import { productFilterTags, graphicFilterTags, filterTags } from "./tags";
 
 // Haiku que aparece na animação de digitação da página inicial.
 export const typewriterWords = [
@@ -11,6 +11,4 @@ export const typewriterWords = [
     "estão acesas"
 ];
 
-export { productFilterTags, graphicFilterTags };
-
-export const filterTags = graphicFilterTags;
+export { productFilterTags, graphicFilterTags, filterTags };
